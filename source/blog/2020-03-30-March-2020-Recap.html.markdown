@@ -1,0 +1,30 @@
+---
+title: March 2020 Recap
+date: 2020-03-30 UTC
+date_update:
+tags: Recap
+layout: blog
+author: Ch4mp
+disqus_identifier: /march-2020-recap
+disqus_title: March 2020 Recap
+disqus_url: https://rocketjump.zone/blog/march-2020-recap
+---
+
+<h1 class="w3-center">March 2020 Recap</h1>
+
+<hr>
+
+## Tournament Winners
+
+<img src="../../images/diabotical-icon.png" alt="Diabotical">&nbsp; Arena 1v1 Cup 1 - **Busdriverx**  
+<img src="../../images/diabotical-icon.png" alt="Diabotical">&nbsp; Arena 2v2 Cup 1 - **animals** (Busdriver + enesy)  
+<img src="../../images/diabotical-icon.png" alt="Diabotical">&nbsp; Duel Cup 1 - **Manguste Scucchi**  
+<img src="../../images/diabotical-icon.png" alt="Diabotical">&nbsp; Shaft Arena 1v1 Cup 1 - **fayefps**  
+<img src="../../images/diabotical-icon.png" alt="Diabotical">&nbsp; Arena 1v1 Cup 2 - **pulz**  
+<img src="../../images/qc-icon.png" alt="Quake Champions">&nbsp; 2v2 TDM Cup 11 - **Hilaries** (Xron + Av3k)  
+
+prize money in total: **€71,5**  
+
+
+
+<hr>

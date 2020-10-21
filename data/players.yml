@@ -1,0 +1,826 @@
+
+ch4mp:
+  name: Ch4mp
+  tourneys: 2
+  country: |
+    <img src="../../images/flags/1x1/sk.svg" width="20" height="20" alt="sk" /> Slovakia
+  clan: Big Biceps
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 2
+  url: |
+    <a href="/player/ch4mp" class="bronze">Ch4mp</a>
+
+dodger:
+  name: Dodger
+  tourneys: 2
+  country: |
+    <img src="../../images/flags/1x1/nl.svg" width="20" height="20" alt="nl" /> Netherlands
+  clan: "-"
+  money: "€15"
+  trophies:
+    gold: 2
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/dodger.png" class="w3-mobile w3-circle player-avatar" alt="Dodger" />
+  url: |
+    <a href="/player/dodger" class="gold">Dodger</a>
+
+tommy:
+  name: Tommy
+  tourneys: 2
+  country: |
+    <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
+  clan: "-"
+  money: "€5"
+  trophies:
+    gold: 1
+    silver: 1
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/tommy.png" class="w3-mobile w3-circle player-avatar" alt="Tommy" />
+  url: |
+    <a href="/player/tommy" class="gold">Tommy</a>
+
+
+desiro:
+  name: DesiRo
+  tourneys: 0
+  country: |
+    <img src="../../images/flags/1x1/si.svg" width="20" height="20" alt="si" /> Slovenia
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/desiro.jpg" class="w3-mobile w3-circle player-avatar" alt="DesiRo" />
+  url: |
+    <a href="/player/desiro">DesiRo</a>
+
+fookiz:
+  name: Fookiz
+  tourneys: 2
+  country: |
+    <img src="../../images/flags/1x1/il.svg" width="20" height="20" alt="il" /> Israel
+  clan: "-"
+  money: "€1,2"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 2
+  avatar: |
+    <img src="../../images/avatar/fookiz.jpg" class="w3-mobile w3-circle player-avatar" alt="Fookiz" />
+  url: |
+    <a href="/player/fookiz" class="bronze">Fookiz</a>
+
+
+digiteq:
+  name: Digiteq
+  tourneys: 0
+  country: |
+    <img src="../../images/flags/1x1/gb.svg" width="20" height="20" alt="gb" /> United Kingdom
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/digiteq.png" class="w3-mobile w3-circle player-avatar" alt="Digiteq" />
+  url: |
+    <a href="/player/digiteq">Digiteq</a>
+
+profan:
+  name: pRoFaN
+  tourneys: 0
+  country: |
+    <img src="../../images/flags/1x1/il.svg" width="20" height="20" alt="il" /> Israel
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/profan.png" class="w3-mobile w3-circle player-avatar" alt="pRoFaN" />
+  url: |
+    <a href="/player/profan">pRoFaN</a>
+
+headbang3r:
+  name: headbang3r
+  tourneys: 1
+  country: |
+    <img src="../../images/flags/1x1/ch.svg" width="20" height="20" alt="ch" /> Switzerland
+  clan: "-"
+  money: "€10"
+  trophies:
+    gold: 1
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/headbang3r.jpg" class="w3-mobile w3-circle player-avatar" alt="headbang3r" />
+  url: |
+    <a href="/player/headbang3r" class="gold">headbang3r</a>
+
+
+troolz:
+  name: Troolz
+  tourneys: 8
+  country: |
+    <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
+  clan: "-"
+  money: "€36,68"
+  trophies:
+    gold: 2
+    silver: 3
+    bronze: 3
+  avatar: |
+    <img src="../../images/avatar/troolz.jpg" class="w3-mobile w3-circle player-avatar" alt="Troolz" />
+  url: |
+    <a href="/player/troolz" class="gold">Troolz</a>
+
+snthss:
+  name: snthss
+  tourneys: 1
+  country: |
+    <img src="../../images/flags/1x1/de.svg" width="20" height="20" alt="de" /> Germany
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 1
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/snthss.png" class="w3-mobile w3-circle player-avatar" alt="snthss" />
+  url: |
+    <a class="silver" href="/player/snthss">snthss</a>
+
+bagelzend:
+  name: Bagelzend
+  tourneys: 0
+  country: |
+    <img src="../../images/flags/1x1/gb.svg" width="20" height="20" alt="gb" /> United Kingdom
+  clan: "TeqR esports"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/bagelzend.jpg" class="w3-mobile w3-circle player-avatar" alt="Bagelzend" />
+  url: |
+    <a href="/player/bagelzend">Bagelzend</a>
+
+lithz:
+  name: lithz
+  tourneys: 1
+  country: |
+    <img src="../../images/flags/1x1/gb.svg" width="20" height="20" alt="gb" /> United Kingdom
+  clan: "-"
+  money: "€5"
+  trophies:
+    gold: 1
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/lithz.png" class="w3-mobile w3-circle player-avatar" alt="lithz" />
+  url: |
+    <a href="/player/lithz" class="gold">lithz</a>
+
+bon3z666:
+  name: bon3z666
+  tourneys: 1
+  country: |
+    <img src="../../images/flags/1x1/ua.svg" width="20" height="20" alt="ua" /> Ukraine
+  clan: "-"
+  money: "€5,8"
+  trophies:
+    gold: 0
+    silver: 1
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/bon3z666.jpg" class="w3-mobile w3-circle player-avatar" alt="bon3z666" />
+  url: |
+    <a href="/player/bon3z666" class="silver">bon3z666</a>
+
+xron:
+  name: Xron
+  tourneys: 4
+  country: |
+    <img src="../../images/flags/1x1/ua.svg" width="20" height="20" alt="ua" /> Ukraine
+  clan: "-"
+  money: "€14"
+  trophies:
+    gold: 4
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/xron.png" class="w3-mobile w3-circle player-avatar" alt="Xron" />
+  url: |
+    <a href="/player/xron" class="gold">Xron</a>
+
+jurmeli:
+  name: Jurmeli
+  tourneys: 0
+  country: |
+    <img src="../../images/flags/1x1/fi.svg" width="20" height="20" alt="fi" /> Finland
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/jurmeli.jpg" class="w3-mobile w3-circle player-avatar" alt="Jurmeli" />
+  url: |
+    <a href="/player/jurmeli">Jurmeli</a>
+
+w1ndows:
+  name: W1ndows
+  tourneys: 0
+  country: |
+    <img src="../../images/flags/1x1/fi.svg" width="20" height="20" alt="fi" /> Finland
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/w1ndows.jpg" class="w3-mobile w3-circle player-avatar" alt="W1ndows" />
+  url: |
+    <a href="/player/w1ndows">W1ndows</a>
+
+ins:
+  name: ins
+  tourneys: 3
+  country: |
+    <img src="../../images/flags/1x1/pt.svg" width="20" height="20" alt="pt" /> Portugal
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 2
+    bronze: 1
+  avatar: |
+    <img src="../../images/avatar/ins.gif" class="w3-mobile w3-circle player-avatar" alt="ins" />
+  url: |
+    <a href="/player/ins" class="silver">ins</a>
+
+meknaan:
+  name: MekNaan
+  tourneys: 1
+  country: |
+    <img src="../../images/flags/1x1/nl.svg" width="20" height="20" alt="nl" /> Netherlands
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 1
+  avatar: |
+    <img src="../../images/avatar/meknaan.png" class="w3-mobile w3-circle player-avatar" alt="MekNaan" />
+  url: |
+    <a href="/player/meknaan" class="bronze">MekNaan</a>
+
+xanjya:
+  name: xanjya
+  tourneys: 1
+  country: |
+    <img src="../../images/flags/1x1/gb.svg" width="20" height="20" alt="gb" /> United Kingdom
+  clan: "-"
+  money: "€2,4"
+  trophies:
+    gold: 0
+    silver: 1
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/xanjya.jpg" class="w3-mobile w3-circle player-avatar" alt="xanjya" />
+  url: |
+    <a href="/player/xanjya" class="silver">xanjya</a>
+
+taka:
+  name: Taka
+  tourneys: 3
+  country: |
+    <img src="../../images/flags/1x1/de.svg" width="20" height="20" alt="de" /> Germany
+  clan: "Arctic esports"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 2
+    bronze: 1
+  avatar: |
+    <img src="../../images/avatar/taka.jpg" class="w3-mobile w3-circle player-avatar" alt="taka" />
+  url: |
+    <a href="/player/taka" class="silver">Taka</a>
+
+
+camotblk:
+  name: CAMOTblK
+  tourneys: 3
+  country: |
+    <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
+  clan: "-"
+  money: "€47,2"
+  trophies:
+    gold: 3
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/camotblk.jpg" class="w3-mobile w3-circle player-avatar" alt="CAMOTblK" />
+  url: |
+    <a href="/player/camotblk" class="gold">CAMOTblK</a>
+
+bigeyeguy:
+  name: BigEyeGuy
+  tourneys: 0
+  country: |
+    <img src="../../images/flags/1x1/il.svg" width="20" height="20" alt="il" /> Israel
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/bigeyeguy.png" class="w3-mobile w3-circle player-avatar" alt="BigEyeGuy" />
+  url: |
+    <a href="/player/bigeyeguy">BigEyeGuy</a>
+
+strngst:
+  name: strngst
+  tourneys: 3
+  country: |
+    <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
+  clan: "-"
+  money: "€6"
+  trophies:
+    gold: 2
+    silver: 0
+    bronze: 1
+  avatar: |
+    <img src="../../images/avatar/strngst.png" class="w3-mobile w3-circle player-avatar" alt="strngst" />
+  url: |
+    <a href="/player/strngst" class="gold">strngst</a>
+
+salconnn:
+  name: salconnn
+  tourneys: 3
+  country: |
+    <img src="../../images/flags/1x1/be.svg" width="20" height="20" alt="be" /> Belgium
+  clan: "-"
+  money: "€5"
+  trophies:
+    gold: 2
+    silver: 0
+    bronze: 1
+  avatar: |
+    <img src="../../images/avatar/salconnn.jpg" class="w3-mobile w3-circle player-avatar" alt="salconnn" />
+  url: |
+    <a href="/player/salconnn" class="gold">salconnn</a>
+
+pastel:
+  name: pastel
+  tourneys: 0
+  country: |
+    <img src="../../images/flags/1x1/uy.svg" width="20" height="20" alt="uy" /> Uruguay
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/pastel.png" class="w3-mobile w3-circle player-avatar" alt="pastel" />
+  url: |
+    <a href="/player/pastel">pastel</a>
+
+
+themaser:
+  name: The Maser
+  tourneys: 0
+  country: |
+    <img src="../../images/flags/1x1/us.svg" width="20" height="20" alt="us" /> USA
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/themaser.jpg" class="w3-mobile w3-circle player-avatar" alt="The Maser" />
+  url: |
+    <a href="/player/themaser">The Maser</a>
+
+
+criss9000:
+  name: criss9000
+  tourneys: 0
+  country: |
+    <img src="../../images/flags/1x1/il.svg" width="20" height="20" alt="il" /> Israel
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/criss9000.png" class="w3-mobile w3-circle player-avatar" alt="criss9000" />
+  url: |
+    <a href="/player/criss9000">criss9000</a>
+
+antowka:
+  name: ANTOWKA
+  tourneys: 5
+  country: |
+    <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
+  clan: "s e e r"
+  money: "€2"
+  trophies:
+    gold: 2
+    silver: 2
+    bronze: 1
+  avatar: |
+    <img src="../../images/avatar/antowka.jpg" class="w3-mobile w3-circle player-avatar" alt="ANTOWKA" />
+  url: |
+    <a href="/player/antowka" class="gold">ANTOWKA</a>
+
+lopl:
+  name: Lopl
+  tourneys: 0
+  country: |
+    <img src="../../images/flags/1x1/it.svg" width="20" height="20" alt="it" /> Italy
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/lopl.jpg" class="w3-mobile w3-circle player-avatar" alt="Lopl" />
+  url: |
+    <a href="/player/lopl">Lopl</a>
+
+ahri:
+  name: ahri
+  tourneys: 0
+  country: |
+    <img src="../../images/flags/1x1/hr.svg" width="20" height="20" alt="hr" /> Croatia
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/ahri.jpg" class="w3-mobile w3-circle player-avatar" alt="ahri" />
+  url: |
+    <a href="/player/ahri">ahri</a>
+
+jskey:
+  name: JSkey
+  tourneys: 0
+  country: |
+    <img src="../../images/flags/1x1/fr.svg" width="20" height="20" alt="fr" /> France
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/jskey.jpg" class="w3-mobile w3-circle player-avatar" alt="jskey" />
+  url: |
+    <a href="/player/jskey">JSkey</a>
+
+
+flowie71:
+  name: Flowie71
+  tourneys: 8
+  country: |
+    <img src="../../images/flags/1x1/pl.svg" width="20" height="20" alt="pl" /> Poland
+  clan: "s e e r"
+  money: "€22,35"
+  trophies:
+    gold: 2
+    silver: 2
+    bronze: 4
+  avatar: |
+    <img src="../../images/avatar/flowie71.jpg" class="w3-mobile w3-circle player-avatar" alt="Flowie71" />
+  url: |
+    <a href="/player/flowie71" class="gold">Flowie71</a>
+
+blaqarm:
+  name: blaQarm
+  tourneys: 8
+  country: |
+    <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
+  clan: "s e e r"
+  money: "-"
+  trophies:
+    gold: 4
+    silver: 1
+    bronze: 3
+  avatar: |
+    <img src="../../images/avatar/blaqarm.jpg" class="w3-mobile w3-circle player-avatar" alt="blaQarm" />
+  url: |
+    <a href="/player/blaqarm" class="gold">blaQarm</a>
+
+oabz:
+  name: oabz
+  tourneys: 0
+  country: |
+    <img src="../../images/flags/1x1/hr.svg" width="20" height="20" alt="hr" /> Croatia
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/oabz.png" class="w3-mobile w3-circle player-avatar" alt="oabz" />
+  url: |
+    <a href="/player/oabz">oabz</a>
+
+anixavich:
+  name: Anixavich
+  tourneys: 2
+  country: |
+    <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
+  clan: "-"
+  money: "€14"
+  trophies:
+    gold: 0
+    silver: 2
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/anixavich.jpg" class="w3-mobile w3-circle player-avatar" alt="Anixavich" />
+  url: |
+    <a href="/player/anixavich" class="silver">Anixavich</a>
+
+
+kabyrage:
+  name: kabyraGe
+  tourneys: 1
+  country: |
+    <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
+  clan: "Rage"
+  money: "€1,50"
+  trophies:
+    gold: 0
+    silver: 1
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/kabyrage.png" class="w3-mobile w3-circle player-avatar" alt="kabyraGe" />
+  url: |
+    <a href="/player/kabyrage" class="silver">kabyraGe</a>
+
+fl1nf:
+  name: FL1NF
+  tourneys: 5
+  country: |
+    <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
+  clan: "s e e r"
+  money: "-"
+  trophies:
+    gold: 2
+    silver: 0
+    bronze: 3
+  avatar: |
+    <img src="../../images/avatar/fl1nf.png" class="w3-mobile w3-circle player-avatar" alt="FL1NF" />
+  url: |
+    <a href="/player/fl1nf" class="gold">FL1NF</a>
+
+kw0w:
+  name: kw0w
+  tourneys: 2
+  country: |
+    <img src="../../images/flags/1x1/de.svg" width="20" height="20" alt="de" /> Germany
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 1
+    silver: 1
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/kw0w.png" class="w3-mobile w3-circle player-avatar" alt="kw0w" />
+  url: |
+    <a href="/player/kw0w" class="gold">kw0w</a>
+
+lunat1c:
+  name: Lunat1c
+  tourneys: 1
+  country: |
+    <img src="../../images/flags/1x1/us.svg" width="20" height="20" alt="us" /> USA
+  clan: |
+    <a href="https://www.prevailgaming.com/team" target="_blank">PREVAIL</a>
+  money: "-"
+  trophies:
+    gold: 1
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/lunat1c.png" class="w3-mobile w3-circle player-avatar" alt="Lunat1c" />
+  url: |
+    <a class="gold" href="/player/lunat1c">Lunat1c</a>
+
+killalot:
+  name: KillaloT
+  tourneys: 6
+  country: |
+    <img src="../../images/flags/1x1/dk.svg" width="20" height="20" alt="Denmark" /> Denmark
+  clan: "PORKSWORDS"
+  money: "€6"
+  trophies:
+    gold: 5
+    silver: 1
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/killalot.png" class="w3-mobile w3-circle player-avatar" alt="KillaloT" />
+  url: |
+    <a href="/player/killalot" class="gold">KillaloT</a>
+
+aromat:
+  name: aromat
+  tourneys: 0
+  country: |
+    <img src="../../images/flags/1x1/pl.svg" width="20" height="20" alt="pl" /> Poland
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/aromat.jpg" class="w3-mobile w3-circle player-avatar" alt="aromat" />
+  url: |
+    <a href="/player/aromat">aromat</a>
+
+loserhoss:
+  name: Loserhoss
+  tourneys: 0
+  country: |
+    <img src="../../images/flags/1x1/us.svg" width="20" height="20" alt="us" /> USA
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/loserhoss.gif" class="w3-mobile w3-circle player-avatar" alt="Loserhoss" />
+  url: |
+    <a href="/player/loserhoss">Loserhoss</a>
+
+klyb:
+  name: Klyb
+  tourneys: 14
+  country: |
+    <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
+  clan: "-"
+  money: "€110,96"
+  trophies:
+    gold: 6
+    silver: 5
+    bronze: 3
+  avatar: |
+    <img src="../../images/avatar/klyb.png" class="w3-mobile w3-circle player-avatar" alt="Klyb" />
+  url: |
+    <a href="/player/klyb" class="gold">Klyb</a>
+
+
+faye:
+  name: faye
+  tourneys: 3
+  country: |
+    <img src="../../images/flags/1x1/rs.svg" width="20" height="20" alt="rs" /> Serbia
+  clan: "-"
+  money: "€31"
+  trophies:
+    gold: 3
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/faye.jpg" class="w3-mobile w3-circle player-avatar" alt="faye" />
+  url: |
+    <a href="/player/faye" class="gold">faye</a>
+
+mrsbuklao:
+  name: MrsBuklao
+  tourneys: 0
+  country: |
+    <img src="../../images/flags/1x1/se.svg" width="20" height="20" alt="se" /> Sweden
+  clan: "-"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+  avatar: |
+    <img src="../../images/avatar/mrsbuklao.png" class="w3-mobile w3-circle player-avatar" alt="MrsBuklao" />
+  url: |
+    <a href="/player/mrsbuklao">MrsBuklao</a>
+
+
+demo:
+  tourneys: 0
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+
+
+vann:
+  tourneys: 0
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+
+honey_badger:
+  tourneys: 0
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+
+xhine:
+  tourneys: 0
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+
+ethaaaan:
+  tourneys: 0
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+
+riizihattu:
+  tourneys: 0
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+
+satan_inside:
+  tourneys: 0
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+
+slashik:
+  tourneys: 0
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+
+kejtos:
+  tourneys: 0
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+
+pcchild:
+  tourneys: 1
+  money: "€5"
+  trophies:
+    gold: 1
+    silver: 0
+    bronze: 0
+
+fifty:
+  tourneys: 4
+  money: "€3"
+  trophies:
+    gold: 0
+    silver: 1
+    bronze: 3
+
+feder34:
+  tourneys: 1
+  money: "€2"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 1

@@ -1,0 +1,45 @@
+<img src="../../images/qc-icon.png" alt="Quake Champions">
+<img src="../../images/diabotical-icon.png" alt="Diabotical">
+
+
+
+## sponsored event ##
+<div class="flex-item-tourney w3-animate-zoom w3-round w3-mobile">
+  <a href="https://forums.xonotic.org/showthread.php?tid=8425" class="w3-mobile">
+    <%= image_tag 'xon-cover.jpg', alt: 'Xonotic Cover', class: 'w3-image' %>
+    <h4>
+      ZenSports Xonotic Duel Cup</h4>
+    <hr>
+    <p>
+      <i class="far fa-calendar-alt"></i>&nbsp; Sat, Sep 26th &nbsp;&nbsp;<i class="far fa-clock"></i>&nbsp; 7:00 PM CEST
+    </p>
+    <p>
+      prize money:
+      <b>$3K</b>
+      &nbsp;&nbsp;
+      <span class="w3-tag w3-white w3-round">EUROPE</span>
+      <span class="w3-tag w3-white w3-round">SPONSORED</span></p>
+  </a>
+</div>
+
+
+<div class="w3-container w3-center w3-hide-small seo-desc">
+  <h1>Weekly
+    <strong>Quake</strong>
+    &
+    <strong>Diabotical Tournaments</strong>
+    for
+    <strong>Europe</strong>
+    and
+    <strong>North America</strong>. Become
+    <strong>Arena FPS Competitive Player</strong>
+    and
+    <strong>Win Prizes.</strong>
+  </h1>
+  <p>
+    Grab
+    <a href="/merch" target="_blank">cool shirts</a>
+    and join our
+    <a href="/patreon" target="_blank">&euro;1/mo patreon campaign</a>
+    to support weekly tournaments.</p>
+</div>

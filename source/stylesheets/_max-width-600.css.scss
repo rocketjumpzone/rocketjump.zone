@@ -1,0 +1,66 @@
+@media screen and (max-width: 600px) {
+  table {
+    table-layout: auto;
+  }
+
+  ul {
+    padding-left: 16px !important;
+  }
+
+  .w3-content h1,
+  h2,
+  h3,
+  h4 {
+    text-align: center;
+  }
+
+  a.w3-mobile:hover {
+    border: none;
+  }
+
+  .mobile-margin-20 {
+    display: block;
+    margin: 20px auto !important;
+  }
+
+  .mobile-margin-10 {
+    display: block;
+    margin: 10px auto !important;
+  }
+
+  .mobile-margin-5 {
+    display: block;
+    margin: 5px auto !important;
+    width: 100% !important;
+  }
+
+  .mobile-reset {
+    display: block !important;
+    margin: 0 auto !important;
+    padding:0 !important;
+  }
+
+  .flex-item-tourney {
+    transform: none !important;
+  }
+
+  .player-social i {
+    font-size: 40px;
+    margin: 10px 5px;
+  }
+
+  .mobile-tooltip i {
+    font-size: 20px;
+    margin: 10px 5px 5px;
+  }
+
+  .mobile-tooltip img {
+    font-size: 20px;
+    margin: 10px !important;
+  }
+  /* fix 10px margin on mobile */
+  .trophy-gold-mobile {
+    bottom: 0 !important;
+  }
+
+}

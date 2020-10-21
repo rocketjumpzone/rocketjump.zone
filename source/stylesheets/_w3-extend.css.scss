@@ -1,0 +1,133 @@
+.w3-red {
+  color: #DEDEDE !important;
+  background: $main-red-color !important;
+}
+
+.w3-tag {
+  color: #DEDEDE !important;
+}
+
+.w3-panel {
+  border-radius:3px !important;
+  width:95%;
+}
+
+
+/* allow white links in w3-bar */
+.w3-bar-block a {
+  color: #DEDEDE;
+  border-bottom: none;
+}
+
+.w3-content, .w3-auto {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.w3-darker-gray,
+.w3-darker-grey,
+.w3-hover-darker-gray:hover,
+.w3-hover-darker-grey:hover {
+  background-color: $main-darker-color !important;
+}
+
+.w3-hover-darker-blue:hover {
+  background: #18181B !important;
+}
+
+/* button border fix, don't show any borders under a button */
+a.w3-btn:hover {
+  border-bottom: none;
+  box-shadow: none !important;
+}
+
+#nav,
+.w3-container,
+.w3-content {
+  h2 {
+    font-size: 32px;
+  }
+}
+
+.w3-container a,
+.w3-content a,
+.w3-stretch a,
+.w3-auto a  {
+  font-weight: bold;
+}
+
+.w3-modal-content {
+  width: 960px !important;
+  background: none !important;
+}
+
+
+.w3-button {
+  border:none !important;
+  outline:none !important
+}
+
+.w3-button:hover,
+.w3-dropdown-hover a {
+  background: none !important;
+}
+
+.w3-dropdown-click:hover > .w3-button:first-child,
+.w3-dropdown-hover:hover > .w3-button:first-child {
+  background: none !important;
+  color: $main-red-color;
+}
+
+.w3-bottombar {
+  border-bottom: 6px solid #303036 !important;
+}
+
+.w3-border-red {
+  border-bottom-color: $main-red-color !important;
+}
+
+.w3-bar .w3-bottombar {
+  border-bottom: 3px solid #0E0E10 !important;
+
+  &:hover {}
+}
+
+.w3-bar .active-item {
+  color: $main-red-color !important;
+  border-bottom: 3px solid $main-red-color !important;
+}
+
+.w3-bar a:hover,
+.w3-button:hover {
+  color: $main-red-color !important;
+}
+
+.w3-dropdown-content {
+  background: $main-darker-color;
+
+  a {
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
+
+.w3-bar .w3-bar-item {
+  color: #DEDEDE;
+  font-size: 19px;
+  font-weight: 600;
+  padding: 22px 16px 15px 16px !important;
+}
+
+.w3-bar a.new-player:hover {
+  color: #000 !important;
+  background: inherid !important;
+}
+
+.w3-dropdown-content > .w3-bar-item {
+  font-weight: normal !important;
+  padding: 5px 16px !important;
+}
+
+.w3-animate-input:focus {
+  width: 40% !important;
+}

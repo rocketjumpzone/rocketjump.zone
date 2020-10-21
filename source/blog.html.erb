@@ -1,0 +1,58 @@
+---
+title: Blog
+pageable: true
+---
+
+<div class="w3-content w3-animate-opacity w3-container">
+
+    <div class="w3-row">
+      <div class="w3-twothird">
+
+        <% page_articles.each_with_index do |article, i| %>
+
+          <h2><%= link_to article.title, article %></h2>
+          <i style="color:#737373">by
+            <b><%= article.data.author %></b>&nbsp;&nbsp;
+            <%= article.date.strftime('%b %e, %Y ') %></i>&nbsp;
+          <% article.tags.each do |tag| %>
+            <%= link_to tag, tag_path(tag), class:'w3-tag w3-hover-white w3-red', style:'border:none;padding-bottom:2px;margin-left:5px' %>
+          <% end %>
+          <hr>
+        <% end %>
+      </div>
+
+      <div class="w3-third" style="padding-left:100px">
+        <h3 class="w3-center">Categories</h3>
+        <ul>
+          <% blog.tags.each do |tag, articles| %>
+            <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
+          <% end %>
+        </ul>
+
+        <h3  class="w3-center">By Year</h3>
+        <ul>
+          <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+            <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
+          <% end %>
+        </ul>
+      </div>
+
+    </div>
+    <!-- end of w3-row -->
+
+    <% if paginate && num_pages > 1 %>
+      <p>Page
+        <%= page_number %>
+        of
+        <%= num_pages %></p>
+    <% end %>
+
+    <% if paginate %>
+      <% if next_page %>
+        <p><%= link_to 'next page', next_page %></p>
+      <% end %>
+    <% end %>
+
+
+</div>
+<!-- end of w3-content-->

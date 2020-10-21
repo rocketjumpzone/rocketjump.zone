@@ -1,0 +1,98 @@
+ch4mp:
+  url: |
+    <a style="border:none !important" href="http://stats.xonotic.org/player/48571" target="_blank"><span style='color:rgb(255,0,0)'>Ch4mp<span style='color:rgb(255,255,255)'></span></span></a>
+  country: |
+    <img src="../../images/flags/1x1/sk.svg" width="20" height="20" alt="sk" /> SK
+  wins: 0
+  losses: 2
+  seed: 3
+
+tommy:
+  url: |
+    <a style="border:none" href="http://stats.xonotic.org/player/11163" target="_blank"><span style='color:rgb(255,255,255)'>Tom<span style='color:rgb(51,102,255)'>m<span style='color:rgb(255,255,255)'>y</span></span></span></a>
+  country: |
+    <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> RU
+  wins: 0
+  losses: 0
+  seed: 4
+
+dodger:
+  url: |
+    <a style="border:none" href="http://stats.xonotic.org/player/8848" target="_blank"><span style="color:rgb(0,255,0)">D<span style="color:rgb(127,127,127)">o<span style="color:rgb(0,255,0)">d<span style="color:rgb(127,127,127)">g<span style="color:rgb(0,255,0)">e<span style="color:rgb(127,127,127)">r<span style="color:rgb(0,255,0)">^<span style='color:rgb(255,255,255)'></span></span></span></span></span></span></span></span></a>
+  country: |
+    <img src="../../images/flags/1x1/nl.svg" width="20" height="20" alt="nl" /> NL
+  wins: 1
+  losses: 0
+  seed: 1
+
+cccam:
+  url: |
+    <a style="border:none" href="http://stats.xonotic.org/player/106662" target="_blank">      <span style='color:rgb(255,0,0)'>[<span style='color:rgb(51,255,0)'>Mag<span style='color:rgb(255,255,0)'>Noren<span style='color:rgb(255,0,0)'>]<span style='color:rgb(255,51,102)'>cc<span style='color:rgb(51,102,255)'>Cam<span style='color:rgb(255,255,255)'></span></span></span></span></span></span></span></a>
+  country: |
+    <img src="../../images/flags/1x1/gb.svg" width="20" height="20" alt="gb" /> GB
+  wins: 1
+  losses: 0
+  seed: 6
+
+skurvyhad:
+  url: |
+    <a style="border:none" href="http://stats.xonotic.org/player/115059" target="_blank"><span style="color:#fff"> ☢ Skurvyhad ☢</span></a>
+  country: |
+    <img src="../../images/flags/1x1/sk.svg" width="20" height="20" alt="sk" /> SK
+  wins: 0
+  losses: 0
+  seed: 7
+
+ptb:
+  url: |
+    <a style="border:none" href="http://stats.xonotic.org/player/61645" target="_blank"><span style="color:rgb(255,170,51)">[<span style="color:rgb(153,153,153)">BUTT<span style="color:rgb(255,170,51)">]<span style="color:rgb(136,136,136)">P<span style="color:rgb(187,187,187)">T<span style="color:rgb(238,238,238)">B<span style='color:rgb(255,255,255)'></span></span></span></span></span></span></span></a>
+  country: |
+    <img src="../../images/flags/1x1/de.svg" width="20" height="20" alt="de" /> DE
+  wins: 0
+  losses: 0
+  seed: 5
+
+venomvgc:
+    url: |
+      <a style="border:none" href="http://stats.xonotic.org/player/111068" target="_blank"><span style="color:rgb(0,255,18)">Ven<span style="color:rgb(238,255,255)">om<span style="color:rgb(255,17,17)">VGC<span style='color:rgb(255,255,255)'></span></span></span></span></a>
+    country: |
+      <img src="../../images/flags/1x1/it.svg" width="20" height="20" alt="it" /> IT
+    wins: 0
+    losses: 1
+    seed: 8
+
+dekry:
+    url: |
+      <a style="border:none" href="http://stats.xonotic.org/player/9830" target="_blank"><span style='color:rgb(51,255,0)'>Lover<span style="color:rgb(127,127,127)">Dekry<span style='color:rgb(255,255,255)'></span></span></span></a>
+    country: |
+      <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> RU
+    wins: 1
+    losses: 0
+    seed: 2
+
+steelwall:
+    url: |
+      <a style="border:none" href="http://stats.xonotic.org/player/127603" target="_blank"><span style="color:#fff">Steelwall</span></a>
+    country: |
+      <img src="../../images/flags/1x1/fi.svg" width="20" height="20" alt="fi" /> FI
+    wins: 0
+    losses: 0
+    seed: 9
+
+kevin:
+    url: |
+      <a style="border:none" href="http://stats.xonotic.org/player/50135" target="_blank"><span style="color:#fff">K?evin</span></a>
+    country: |
+      <img src="../../images/flags/1x1/fr.svg" width="20" height="20" alt="fr" /> FR
+    wins: 0
+    losses: 0
+    seed: 10
+
+special1:
+    url: |
+      <a style="border:none" href="http://stats.xonotic.org/player/26173" target="_blank"><span style="color:rgb(127,127,127)">.<span style="color:rgb(221,255,238)">specia<span style="color:rgb(187,255,255)">L1<span style="color:rgb(187,170,255)">`<span style='color:rgb(255,255,255)'></span></span></span></span></span></a>
+    country: |
+      <img src="../../images/flags/1x1/it.svg" width="20" height="20" alt="it" /> IT
+    wins: 0
+    losses: 0
+    seed: 11

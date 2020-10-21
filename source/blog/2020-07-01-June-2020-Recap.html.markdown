@@ -1,0 +1,42 @@
+---
+title: June 2020 Recap
+date: 2020-07-01 UTC
+date_update:
+tags: Recap
+layout: blog
+author: Ch4mp
+disqus_identifier: /june-2020-recap
+disqus_title: June 2020 Recap
+disqus_url: https://rocketjump.zone/blog/june-2020-recap
+---
+
+<h1 class="w3-center">June 2020 Recap</h1>
+
+<hr>
+
+## Tournament Winners
+
+<img src="../../images/qc-icon.png" alt="Quake Champions">&nbsp; FFA Cup 3 - **Klyb**  
+<img src="../../images/qc-icon.png" alt="Quake Champions">&nbsp; Sacrifice Cup 5 - **diarrheaslurp** (danchezzor, enesy, pulzz, killalot)  
+<img src="../../images/qc-icon.png" alt="Quake Champions">&nbsp; International 2v2 TDM Cup 2 - **diarrheaslurp** (danchezzor + enesy)
+
+prize money in total: **€155**  
+
+## Donations
+
+Prevail Gaming <a href="https://www.prevailgaming.com/" target="_blank">#WePrevail</a>  
+jbacc -   **€85**   
+PVL Lunat1c - **€50**  
+
+RobKorV2 -   **€20**  
+CorePuncher -   **€10**  
+RicoTheSecond - **€15**  
+<a href="https://rocketjump.zone/contribute" target="_blank">rocketjump.zone/contribute</a>
+
+
+## New Player Profiles
+
+<a href="https://rocketjump.zone/player/klyb/" target="_blank">rocketjump.zone/player/klyb/</a>
+
+
+<hr>

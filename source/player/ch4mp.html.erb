@@ -1,0 +1,251 @@
+---
+title: Ch4mp
+discord_id: Ch4mp#5151
+layout: player
+---
+
+<div class="w3-auto w3-container">
+    <div class="w3-row">
+      <div class="w3-col l2 m2">
+        <h1><%= data.players.ch4mp.name %></h1>
+        <%= image_tag 'avatar/ch4mp.jpg', class:'w3-mobile w3-circle player-avatar', alt: 'Ch4mp' %>
+        <div class="player-social">
+          <a href="https://rocketjump.zone/twitter" target="_blank">
+            <i class="fab fa-lg fa-twitter"></i>
+          </a>
+          <a href="https://www.youtube.com/channel/UCpJa6XGz2WPtAWM6nx0D30w?view_as=subscriber" target="_blank">
+            <i class="fab fa-lg fa-youtube"></i>
+          </a>
+          <a href="https://steamcommunity.com/id/ch1mpooya" target="_blank">
+            <i class="fab fa-lg fa-steam"></i>
+          </a>
+          <a href="https://www.instagram.com/peter_fitness_natural" target="_blank">
+            <i class="fab fa-lg fa-instagram"></i>
+          </a>
+          <div class="w3-tooltip mobile-tooltip w3-hide-small" style="display:inline;margin-left:2px">
+            <i class="fab fa-lg fa-discord"></i>
+            <span style="position:absolute;left:0;bottom:-50px" class="w3-text w3-tag w3-padding w3-animate-opacity w3-round"><%= current_page.data.discord_id %></span>
+          </div>
+        </div>
+        <div class="w3-tooltip mobile-tooltip" style="display:inline">
+          <i class="fas fa-2x fa-user-secret" style="color:#E91E63;margin-top:5px"></i>
+          <span style="position:absolute;left:0;bottom:-50px" class="w3-text w3-tag w3-padding w3-animate-opacity w3-round">admin</span>
+        </div>
+        <div class="w3-tooltip mobile-tooltip" style="display:inline">
+          <i class="fas fa-2x fa-microphone" style="color:#01FF70;margin-top:5px"></i>
+          <span style="position:absolute;left:0;bottom:-50px" class="w3-text w3-tag w3-padding w3-animate-opacity w3-round">caster</span>
+        </div>
+      </div>
+
+      <div class="w3-col l6 m6" style="margin-top:60px">
+        <p>Competitive player since 2015. Xonotic beast. Aerowalk lover. <br>I'm the clan leader of <b>Big Biceps</b></p>
+        <div class="w3-panel" style="background:#131316">
+          <p><b>Zowie FK2</b> &nbsp;&nbsp; <b>DPI:</b> 1600 &nbsp;&nbsp; <b>SENS:</b> 3.3 &nbsp;&nbsp; <b>ACCEL:</b> 0</p>
+        </div>
+      </div>
+
+      <div class="w3-col l4 m4">
+        <table class="w3-table">
+          <tr>
+            <td style="border-top:0 !important">
+              <b>
+                tourneys:</b>
+            </td>
+            <td style="border-top:0 !important">
+              <b><%= data.players.ch4mp.tourneys %></b>
+              succeed
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <b>
+                country:</b>
+            </td>
+            <td><%= data.players.ch4mp.country %></td>
+          </tr>
+
+          <tr>
+            <td>
+              <b>
+                profiles:</b>
+            </td>
+            <td>
+              <a style="border:none" href="https://stats.quake.com/profile/ch4mp" target="_blank"><%= image_tag '/images/qc-icon.png', alt: 'ch4mp profile quake champions', title: 'Quake Champions' %></a>
+              <a style="border:none" href="http://stats.xonotic.org/player/48571" target="_blank"><%= image_tag '/images/xon-icon.png', alt: 'ch4mp profile xonotic', title: 'Xonotic' %></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <b>
+                clan:</b>
+            </td>
+            <td><%= data.players.ch4mp.clan %></td>
+          </tr>
+
+          <tr>
+            <td>
+              <b>
+                money earned:</b>
+            </td>
+            <td><%= data.players.ch4mp.money %></td>
+          </tr>
+
+          <tr>
+            <td>
+              <b>
+                trophies:
+              </b>
+            </td>
+            <td>
+              <i class="fas fa-trophy trophy-gold"></i>
+              <b>
+                <sup><%= data.players.ch4mp.trophies.gold %></sup>
+              </b>
+              <i class="fas fa-trophy trophy-silver"></i>
+              <b>
+                <sup><%= data.players.ch4mp.trophies.silver %></sup>
+              </b>
+              <i class="fas fa-trophy trophy-bronze"></i>
+              <b>
+                <sup><%= data.players.ch4mp.trophies.bronze %></sup>
+              </b>
+            </td>
+          </tr>
+
+        </table>
+
+      </div>
+      <!-- end of w3-col l4-->
+    </div>
+    <!-- end of w3-row-->
+    <hr>
+
+    <div class="w3-row">
+      <a href="javascript:void(0)" onclick="openCity(event, 'London');">
+        <div class="w3-third tablink w3-bottombar w3-center w3-margin-bottom w3-border-red w3-padding">
+          <b>HIGHLIGHT</b>
+        </div>
+      </a>
+      <a href="javascript:void(0)" onclick="openCity(event, 'Paris');">
+        <div class="w3-third tablink w3-bottombar w3-center w3-margin-bottom w3-padding">
+          <b>TOURNEYS</b>
+        </div>
+      </a>
+      <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
+        <div class="w3-third tablink w3-bottombar w3-center w3-margin-bottom w3-padding">
+          <b>DETAILS</b>
+        </div>
+      </a>
+    </div>
+
+    <div id="London" class="city w3-animate-opacity" style="display:block">
+      <iframe src="https://www.youtube.com/embed/RzeSlw88s50" style="width:100%;height:640px" allowfullscreen></iframe>
+      <div class="sharethis-inline-reaction-buttons" style="margin-top:50px"></div>
+    </div>
+
+    <div id="Paris" class="city w3-animate-opacity" style="display:none">
+      <table class="w3-table w3-bordered tourneys">
+        <thead>
+          <tr>
+            <th>tourney</th>
+            <th>place</th>
+            <th>earned</th>
+            <th>media</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><%= image_tag 'qc-icon.png', alt: 'qc', title: 'Quake Champions' %>&nbsp;
+              <a class="item" href="https://rocketjump.zone/quake/2v2-tdm-cup-15/" target="_blank">2v2 TDM Cup 16</a>
+            </td>
+            <td>
+              <i class="fas fa-trophy trophy-bronze"></i>
+            </td>
+            <td>
+              -</td>
+              <td>
+                -
+              </td>
+          </tr>
+          <tr>
+            <td><%= image_tag 'qc-icon.png', alt: 'qc', title: 'Quake Champions' %>&nbsp;
+              <a class="item" href="https://challonge.com/wqle36x5" target="_blank">CTF Cup 1</a>
+            </td>
+            <td>
+              <i class="fas fa-trophy trophy-bronze"></i>
+            </td>
+            <td>
+              loyalty event</td>
+              <td>
+                <a href="https://www.youtube.com/watch?v=hgwcA3PU3ls" target="_blank">Grand Finals</a>
+              </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="Tokyo" class="city w3-animate-opacity" style="display:none">
+      <p>My achievements in other tournaments:</p>
+
+      <p><a href="https://www.esportsearnings.com/players/70259-ch4mp-peter/results-by-prize" target="_blank">esportsearnings.com profile</a>
+        <h2>Xonotic</h2>
+        <p>
+          <a href="https://www.esportsearnings.com/tournaments/43522-zensports-xdc-1" target="_blank">ZenSports Xonotic Duel Cup</a>
+          <br>
+          <b>place:</b>
+          <i class="fas fa-trophy trophy-bronze"></i><br>
+        </p>
+
+        <p>
+          <a href="https://www.esportsearnings.com/tournaments/43321-zensports-1" target="_blank">ZenSports Mock Duel Cup #1</a>
+          <br>
+          <b>place:</b>
+          <i class="fas fa-trophy trophy-bronze"></i><br>
+        </p>
+
+      <p>
+        <a href="https://challonge.com/2020_elix_2" target="_blank">2020-ELIX #2: TWO-STAGE DUEL</a>
+        <br>
+        <b>place:</b>
+        <i class="fas fa-trophy trophy-silver"></i>
+      </p>
+
+
+
+      <p>
+        <a href="https://challonge.com/2020_elix_5" target="_blank">2020-eLix #5: Duel</a>
+        <br>
+        <b>place:</b>
+        <i class="fas fa-trophy trophy-bronze"></i><br>
+      </p>
+
+      <p>
+        <a href="https://challonge.com/2020_elix_6" target="_blank">2020-eLix #6: Duel</a>
+        <br>
+        <b>place:</b>
+        <i class="fas fa-trophy trophy-bronze"></i><br>
+      </p>
+      <p>
+        <a href="https://challonge.com/xonqc83" target="_blank">XQC #83 (4V4 TDM/DRAFT)</a>
+        <br>
+        <b>place:</b>
+        <i class="fas fa-trophy trophy-gold"></i><br>
+        <b>teammates:</b>
+        Islinn, sleet, Ploplo
+      </p>
+
+      <p>
+        <a href="https://challonge.com/xonqc89" target="_blank">XQC #89 (4V4 TDM/DRAFT)</a>
+        <br>
+        <b>place:</b>
+        <i class="fas fa-trophy trophy-gold"></i><br>
+        <b>teammates:</b>
+        Dodger, Pio, Diomedes
+      </p>
+
+    </div>
+
+</div>
+<!-- end of w3-content-->

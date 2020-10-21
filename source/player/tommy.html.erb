@@ -1,0 +1,179 @@
+---
+title: Tommy
+layout: player
+discord_id: "Tommy#8216"
+---
+
+<div class="w3-auto w3-container">
+    <div class="w3-row">
+      <div class="w3-col l2 m2">
+        <h1><%= data.players.tommy.name %></h1>
+        <%= data.players.tommy.avatar %>
+        <div class="player-social">
+          <a href="https://www.twitch.tv/tommy_____" target="_blank">
+            <i class="fab fa-lg fa-twitch"></i>
+          </a>
+          <div class="w3-tooltip mobile-tooltip w3-hide-small" style="display:inline;margin-left:2px">
+            <i class="fab fa-lg fa-discord"></i>
+            <span style="position:absolute;left:0;bottom:-50px" class="w3-text w3-tag w3-padding w3-animate-opacity w3-round"><%= current_page.data.discord_id %></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-col l6 m6" style="margin-top:60px">
+            <p>My nex is small.</p>
+        <div class="w3-panel" style="background:#131316">
+          <p><b>Zowie za 13</b> &nbsp;&nbsp; <b>DPI:</b> 800 &nbsp;&nbsp; <b>SENS:</b> 2.1 &nbsp;&nbsp; <b>ACCEL:</b> 0</p>
+        </div>
+      </div>
+
+      <div class="w3-col l4 m4">
+        <table class="w3-table">
+          <tr>
+            <td style="border-top:0 !important">
+              <b>
+                tourneys:</b>
+            </td>
+            <td style="border-top:0 !important">
+              <b><%= data.players.tommy.tourneys %></b>
+              succeed
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <b>
+                country:</b>
+            </td>
+            <td><%= data.players.tommy.country %></td>
+          </tr>
+
+          <tr>
+            <td>
+              <b>
+                profiles:</b>
+            </td>
+            <td>
+              <a style="border:none" href="http://stats.xonotic.org/player/11163" target="_blank"><%= image_tag '/images/xon-icon.png', alt: 'tommy profile xonotic', title: 'Xonotic' %></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <b>
+                clan:</b>
+            </td>
+            <td><%= data.players.tommy.clan %></td>
+          </tr>
+
+          <tr>
+            <td>
+              <b>
+                money earned:</b>
+            </td>
+            <td><%= data.players.tommy.money %></td>
+          </tr>
+
+          <tr>
+            <td>
+              <b>
+                trophies:
+              </b>
+            </td>
+            <td>
+              <i class="fas fa-trophy trophy-gold"></i>
+              <b>
+                <sup><%= data.players.tommy.trophies.gold %></sup>
+              </b>
+              <i class="fas fa-trophy trophy-silver"></i>
+              <b>
+                <sup><%= data.players.tommy.trophies.silver %></sup>
+              </b>
+              <i class="fas fa-trophy trophy-bronze"></i>
+              <b>
+                <sup><%= data.players.tommy.trophies.bronze %></sup>
+              </b>
+            </td>
+          </tr>
+
+        </table>
+
+      </div>
+      <!-- end of w3-col l4-->
+    </div>
+    <!-- end of w3-row-->
+    <hr>
+
+    <div class="w3-row">
+      <a href="javascript:void(0)" onclick="openCity(event, 'London');">
+        <div class="w3-third tablink w3-bottombar w3-center w3-margin-bottom w3-border-red w3-padding">
+          <b>HIGHLIGHT</b>
+        </div>
+      </a>
+      <a href="javascript:void(0)" onclick="openCity(event, 'Paris');">
+        <div class="w3-third tablink w3-bottombar w3-center w3-margin-bottom w3-padding">
+          <b>TOURNEYS</b>
+        </div>
+      </a>
+      <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
+        <div class="w3-third tablink w3-bottombar w3-center w3-margin-bottom w3-padding">
+          <b>DETAILS</b>
+        </div>
+      </a>
+    </div>
+
+    <div id="London" class="city w3-animate-opacity" style="display:block">
+      <p>empty</p>
+      <div class="sharethis-inline-reaction-buttons" style="margin-top:50px"></div>
+    </div>
+
+    <div id="Paris" class="city w3-animate-opacity" style="display:none">
+      <table class="w3-table w3-bordered tourneys">
+        <thead>
+          <tr>
+            <th>tourney</th>
+            <th>place</th>
+            <th>earned</th>
+            <th>media</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><%= image_tag 'xon-icon.png', alt: 'xonotic', title: 'Xonotic' %>&nbsp;
+              <a href="https://www.toornament.com/tournaments/2175635035273814016/stages/2176418086664617984/" target="_blank">2v2 TDM Cup 1</a>
+            </td>
+            <td>
+              <i class="fas fa-trophy trophy-gold"></i>
+            </td>
+            <td>
+              €5</td>
+            <td>
+              <a href="https://www.youtube.com/watch?v=A0gRKGkl830" target="_blank">Grand Finals</a>
+            </td>
+          </tr>
+          <tr>
+            <td><%= image_tag 'xon-icon.png', alt: 'xonotic', title: 'Xonotic' %>&nbsp;
+              <a href="https://www.toornament.com/tournaments/1091445822962843648/stages/2127182086997803008/" target="_blank">Duel Cup 1</a>
+            </td>
+            <td>
+              <i class="fas fa-trophy trophy-silver"></i>
+            </td>
+            <td>
+              -</td>
+            <td>
+              <a href="https://youtu.be/ew-tgIBhYoM" target="_blank">Highlight (music)</a>
+              <a href="https://www.youtube.com/watch?v=mWWPho4Qzv4" target="_blank">Highlight (cast)</a>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <div id="Tokyo" class="city w3-animate-opacity" style="display:none">
+      <p>empty</p>
+
+    </div>
+
+</div>
+<!-- end of w3-content-->

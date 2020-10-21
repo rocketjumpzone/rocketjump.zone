@@ -1,0 +1,96 @@
+<i onclick="toogle('nav')" class="fas fa-2x fa-bars w3-hide-large" style="margin:24px;cursor:pointer"></i>
+
+<div class="w3-center w3-hide-small w3-hide-medium" style="background:#0E0E10;border-bottom:1px solid #0c0c0e">
+<div class="w3-bar">
+
+  <a href="/" class="w3-bar-item w3-button">
+    <span class="w3-bottombar w3-hover-border-red <%= active_nav_item("/") %>">TOURNAMENTS</span>
+  </a>
+  <a class="w3-bar-item w3-button" href="/calendar">
+    <span class="w3-bottombar w3-hover-border-red <%= active_nav_item("/calendar/") %>">CALENDAR</span>
+  </a>
+  <a class="w3-bar-item w3-button" href="/players">
+    <span class="w3-bottombar w3-hover-border-red <%= active_nav_item("/players/") %>">PLAYERS</span>
+  </a>
+  <a class="w3-bar-item w3-button" href="/hall-of-fame">
+    <span class="w3-bottombar w3-hover-border-red <%= active_nav_item("/hall-of-fame/") %>">HALL OF FAME</span>
+  </a>
+
+  <div class="w3-dropdown-hover">
+    <button class="w3-button" style="color:#DEDEDE;padding:26px 16px 15px 16px">
+      <i class="fas fa-bars" style="font-size:18px"></i>
+    </button>
+    <div class="w3-dropdown-content w3-bar-block">
+      <a href="/blog" class="w3-bar-item w3-button">Blog</a>
+      <a href="/merch" target="_blank" class="w3-bar-item w3-button">Merch</a>
+      <a href="/pickup" class="w3-bar-item w3-button">Pickup Games</a>
+      <a href="/contribute" class="w3-bar-item w3-button">Contribute</a>
+      <a href="/policy" class="w3-bar-item w3-button">Policy</a>
+      <a href="/about" class="w3-bar-item w3-button">About</a>
+      <hr style="margin:5px">
+      <div class="w3-hide-small w3-hide-medium social-icons">
+        <a style="text-decoration:none" href="https://twitter.com/rocketjumpzone" target="_blank">
+          <i class="fab fa-lg fa-twitter"></i>
+        </a>
+        <a style="text-decoration:none" href="https://www.youtube.com/channel/UCYZbIYOuM8S1wq85GoWE4qA" target="_blank">
+          <i class="fab fa-lg fa-youtube"></i>
+        </a>
+        <a style="text-decoration:none" href="https://rocketjump.zone/discord" target="_blank">
+          <i class="fab fa-lg fa-discord"></i>
+        </a>
+        <a style="text-decoration:none" href="https://www.twitch.tv/rocketjumpzone" target="_blank">
+          <i class="fab fa-lg fa-twitch"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- MOBILE NAVIGATION -->
+
+<div id="nav" class="w3-hide w3-hide-large w3-center w3-animate-bottom">
+
+  <div class="w3-bar-block w3-black">
+    <a href="/" class="w3-bar-item w3-button w3-mobile">
+      TOURNAMENTS
+    </a>
+    <a class="w3-bar-item w3-button w3-mobile" href="/calendar">
+      CALENDAR
+    </a>
+    <a class="w3-bar-item w3-button w3-mobile" href="/players">
+      PLAYERS
+    </a>
+    <a class="w3-bar-item w3-button w3-mobile" href="/hall-of-fame">
+      HALL OF FAME
+    </a>
+
+    <div class="w3-dropdown-hover w3-mobile">
+      <button class="w3-button w3-bar-item">
+        <i class="fas fa-ellipsis-h"></i>
+      </button>
+      <div class="w3-dropdown-content w3-bar-block">
+        <a href="/blog" class="w3-bar-item w3-button">Blog</a>
+        <a href="/merch" target="_blank" class="w3-bar-item w3-button">Merch</a>
+        <a href="/pickup" class="w3-bar-item w3-button">Pickup Games</a>
+        <a href="/contribute" class="w3-bar-item w3-button">Contribute</a>
+        <a href="/policy" class="w3-bar-item w3-button">Policy</a>
+        <a href="/about" class="w3-bar-item w3-button">About</a>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+
+<script>
+  function toogle(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+</script>

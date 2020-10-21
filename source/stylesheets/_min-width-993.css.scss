@@ -1,0 +1,18 @@
+@media screen and (min-width: 993px) {
+  img.player-avatar {
+    width: 120px;
+    height: 120px;
+    display: block;
+  }
+
+  .social-icons a {
+    color: #dedede !important;
+    padding: 8px;
+    display: inline-block;
+
+    &:hover {
+      color: $main-red-color !important;
+      border: none !important;
+    }
+  }
+}

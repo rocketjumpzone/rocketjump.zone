@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title><%= current_article.title %> | Rocket Jump Zone</title>
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+    <meta name="description" content="<%= current_page.data.description %>">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#18181b">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#18181b">
+    <meta name="msapplication-config" content="/images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <%= stylesheet_link_tag "w3" %>
+    <link href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" rel="stylesheet">
+    <%= stylesheet_link_tag "general" %>
+
+  </head>
+  <body>
+    <%= partial "partials/nav" %>
+    <div class="w3-content w3-container">
+        <%= yield %>
+
+        <i style="color:#737373">Posted by
+          <b><%= current_article.data.author %></b>&nbsp;&nbsp;&nbsp;
+          <%= current_article.date.strftime('%b %e, %Y ') %></i>&nbsp;
+        <% current_article.tags.each do |tag| %>
+          <%= link_to tag, tag_path(tag), class:'w3-tag w3-hover-white w3-red', style:'border:none;padding-bottom:2px;margin-left:5px' %>
+        <% end %>
+
+           <% unless current_article.data.date_update.to_s.empty? %>
+           <i class="w3-right" style="color:#737373">last update:
+           <%= current_article.data.date_update %>
+           </i>
+         <% end %>
+        <hr>
+
+        <div class="w3-row">
+          <div class="w3-col w3-mobile" style="width:45%">
+            <h3>Recent Articles</h3>
+            <ul style="padding-left:20px">
+              <% blog.articles[0...5].each do |article| %>
+                <li><%= link_to article.title, article %>
+                  <span style="padding-left:5px"><%= article.date.strftime('%b %e, %Y ') %></span></li>
+              <% end %>
+            </ul>
+          </div>
+
+          <div class="w3-col w3-mobile" style="width:20%">
+            <h3>Tags</h3>
+            <ul style="padding-left:20px">
+              <% blog.tags.each do |tag, articles| %>
+                <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
+              <% end %>
+            </ul>
+          </div>
+
+          <div class="w3-rest w3-mobile">
+            <h3>By Year</h3>
+            <ul style="padding-left:20px">
+              <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+                <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
+              <% end %>
+            </ul>
+          </div>
+
+        </div>
+
+        <% if build? %>
+          <br><br>
+          <%= disqus %>
+          <%= disqus_count %>
+        <% end %>
+
+    </div>
+    <!-- end of w3-content-->
+    <script>
+      <%= google_analytics_tag %>
+    </script>
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e3d44a0db353452"></script>
+  </body>
+</html>
