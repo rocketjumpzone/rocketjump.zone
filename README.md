@@ -1,5 +1,5 @@
 # rocketjump.zone
 
 - middleman static generator: https://middlemanapp.com/
-- w3.css and w3.js framework
+- w3.css, w3.js, jQuery frameworks
 - font awesome!
