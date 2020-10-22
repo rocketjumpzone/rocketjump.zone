@@ -8,6 +8,7 @@ author: Ch4mp
 disqus_identifier: /hitmania-notes
 disqus_title: HITMANIA Notes
 disqus_url: https://rocketjump.zone/blog/hitmania-notes
+published: false
 ---
 
 <h1 class="w3-center">HITMANIA Notes</h1>
