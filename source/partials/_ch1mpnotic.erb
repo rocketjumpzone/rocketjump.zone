@@ -1,0 +1,64 @@
+<i onclick="toogle('nav')" class="fas fa-2x fa-bars w3-hide-large" style="margin:24px;cursor:pointer"></i>
+
+<div class="w3-center w3-hide-small w3-hide-medium" style="background:#0E0E10;border-bottom:1px solid #0c0c0e">
+<div class="w3-bar">
+
+  <a href="https://rocketjump.zone" class="w3-bar-item w3-button">
+    <span class="w3-bottombar w3-hover-border-red">ROCKETJUMP.ZONE</span>
+  </a>
+  <a href="/ch1mpnotic/server-browser" class="w3-bar-item w3-button">
+    <span class="w3-bottombar w3-hover-border-red <%= active_nav_item("/ch1mpnotic/server-browser/") %>">SERVER BROWSER</span>
+  </a>
+  <a class="w3-bar-item w3-button" href="/ch1mpnotic/leaderboard">
+    <span class="w3-bottombar w3-hover-border-red <%= active_nav_item("/ch1mpnotic/leaderboard/") %>">LEADERBOARD</span>
+  </a>
+  <a class="w3-bar-item w3-button" href="/ch1mpnotic">
+    <span class="w3-bottombar w3-hover-border-red <%= active_nav_item("/ch1mpnotic/") %>">GAME</span>
+  </a>
+  <a class="w3-bar-item w3-button" href="/blog/tags/ch1mpnotic" target="_blank">
+    <span class="w3-bottombar w3-hover-border-red">BLOG</span>
+  </a>
+
+  </div>
+</div>
+
+<!-- MOBILE NAVIGATION -->
+
+<div id="nav" class="w3-hide w3-hide-large w3-center w3-animate-bottom">
+
+  <div class="w3-bar-block w3-black">
+    <a href="https://rocketjump.zone" class="w3-bar-item w3-button w3-mobile">
+      ROCKETJUMP.ZONE
+    </a>
+    <a class="w3-bar-item w3-button w3-mobile" href="/server-browser">
+      SERVER BROWSER
+    </a>
+    <a class="w3-bar-item w3-button w3-mobile" href="/ch1mpnotic/leaderboard">
+      LEADERBOARD
+    </a>
+    <a class="w3-bar-item w3-button w3-mobile" href="/ch1mpnotic">
+      GAME
+    </a>
+    <a class="w3-bar-item w3-button w3-mobile" href="/blog/tags/ch1mpnotic">
+      BLOG
+    </a>
+
+    <div class="w3-dropdown-hover w3-mobile">
+      <button class="w3-button w3-bar-item">
+        <i class="fas fa-ellipsis-h"></i>
+      </button>
+      <div class="w3-dropdown-content w3-bar-block">
+        <a href="/ch1mpnotic" class="w3-bar-item w3-button">Ch1mpnotic</a>
+        <a href="/blog" class="w3-bar-item w3-button">Blog</a>
+        <a href="/merch" target="_blank" class="w3-bar-item w3-button">Merch</a>
+        <a href="/pickup" class="w3-bar-item w3-button">Pickup Games</a>
+        <a href="/contribute" class="w3-bar-item w3-button">Contribute</a>
+        <a href="/policy" class="w3-bar-item w3-button">Policy</a>
+        <a href="/about" class="w3-bar-item w3-button">About</a>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
