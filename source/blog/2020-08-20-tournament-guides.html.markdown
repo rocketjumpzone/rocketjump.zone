@@ -15,7 +15,7 @@ disqus_url: https://rocketjump.zone/blog/tournament-guides
 <hr>
 
 <h2 class="w3-center">How to check tournament start in a diff timezone</h2>
-<a href="https://rocketjump.zone/new-player" target="_blank">worldtimebuddy.com</a> or <a href="https://timee.io/" target="_blank">timee.io/a>
+<a href="https://www.worldtimebuddy.com/" target="_blank">worldtimebuddy.com</a> or <a href="https://timee.io/" target="_blank">timee.io</a>
 <hr>
 
 <h2 class="w3-center" style="margin-top:50px">Registration for a tournament</h2>

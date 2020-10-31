@@ -8,18 +8,17 @@
 }
 
 .w3-panel {
-  border-radius:3px !important;
-  width:95%;
+  border-radius: 3px !important;
+  width: 95%;
 }
-
-
 /* allow white links in w3-bar */
 .w3-bar-block a {
   color: #DEDEDE;
   border-bottom: none;
 }
 
-.w3-content, .w3-auto {
+.w3-auto,
+.w3-content {
   margin-top: 70px;
   margin-bottom: 70px;
 }
@@ -34,7 +33,6 @@
 .w3-hover-darker-blue:hover {
   background: #18181B !important;
 }
-
 /* button border fix, don't show any borders under a button */
 a.w3-btn:hover {
   border-bottom: none;
@@ -49,10 +47,10 @@ a.w3-btn:hover {
   }
 }
 
+.w3-auto a,
 .w3-container a,
 .w3-content a,
-.w3-stretch a,
-.w3-auto a  {
+.w3-stretch a {
   font-weight: bold;
 }
 
@@ -61,10 +59,9 @@ a.w3-btn:hover {
   background: none !important;
 }
 
-
 .w3-button {
-  border:none !important;
-  outline:none !important
+  border: none !important;
+  outline: none !important;
 }
 
 .w3-button:hover,
@@ -130,4 +127,17 @@ a.w3-btn:hover {
 
 .w3-animate-input:focus {
   width: 40% !important;
+}
+
+.w3-animate-opacity-faster {
+  animation: opac 0.3s;
+}
+@keyframes opac {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
