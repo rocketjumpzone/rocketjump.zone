@@ -21,7 +21,7 @@ disqus_url: https://rocketjump.zone/blog/find-us-on-github
 <p>All player profiles you can find here:<br>
 <a href="https://github.com/rocketjumpzone/rocketjump.zone/tree/main/source/player" target="_blank">https://github.com/rocketjumpzone/rocketjump.zone/tree/main/source/player</a><br>
 
-To edit your player profile, simply navigate to your player profile name, edit the file and push the changes.
+Simply navigate to your player profile name, edit the file and push the changes.
 </p>
 
 
@@ -35,5 +35,5 @@ To add a new blog post, simply duplicate one, change the name, push the post.<br
 
 
 ## Ch1mpnotic - Arena Shooter
-Do you know Darkplaces engine, QuakeC or are you a Blender designer? Join our Dev team or contribute via GitHub.
+Do you know Darkplaces engine, QuakeC or are you a Blender designer? Then you might Join our Dev team!
 <hr>
