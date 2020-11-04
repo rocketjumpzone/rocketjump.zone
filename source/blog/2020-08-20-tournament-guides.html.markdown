@@ -15,19 +15,21 @@ disqus_url: https://rocketjump.zone/blog/tournament-guides
 <hr>
 
 <h2 class="w3-center">How to check tournament start in a diff timezone</h2>
-<a href="https://www.worldtimebuddy.com/" target="_blank">worldtimebuddy.com</a> or <a href="https://timee.io/" target="_blank">timee.io</a>
+<p class="w3-center">
+<a href="https://www.worldtimebuddy.com/" target="_blank">worldtimebuddy.com</a>&nbsp;&nbsp; <a href="https://timee.io/" target="_blank">timee.io</a>
+</p>
 <hr>
 
 <h2 class="w3-center" style="margin-top:50px">Registration for a tournament</h2>
-<p>Register for a <a href="https://rocketjump.zone/new-player" target="_blank">RJZ Player Profile</a> and <a href="https://rocketjump.zone/discord" target="_blank">Join Discord</a>. Once done, you will get a new Discord Role - Verified. <br>Then just register in the #registration channel.</p>
+<p>You can register via Challonge where you can self manage your little journey throughout the tournament (check in, match results etc..) or Register via <a href="https://rocketjump.zone/discord" target="_blank">Discord</a> in the #registration channel and keep us informed what's up.</p>
 <hr>
 
 <h2 class="w3-center">How to report match results?</h2>
-<p>In Discord #match-results</p>
+<p>You can do that on your own if you registered to a tournament via Challonge. If not, no action needed, we have a bot for that and will report the results for you.</p>
 <hr>
 
 <h2 class="w3-center">How to check-in?</h2>
-<p>In Discord #check-in</p>
+<p>You can do that on your own if you registered to a tournament via Challonge. If not, do so via Discord in #check-in channel</p>
 <hr>
 
 <h2 class="w3-center">Player names</h2>
