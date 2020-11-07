@@ -1,29 +1,51 @@
 ---
-title: salconnn
 layout: player
-discord_id: "salconnn#6167"
+name: &name "salconnn"
+desc: |
+  Casual FPS gamer, former CS:S player in late 00's
+title: *name
+discord_id: "salconn#6167"
+country_tag: be
+country_name: Belgium
+clan: "-"
+qc_name: "salconnn"
+dbt_name: "salconnn"
+mouse: "Logitech G Pro Wireless"
+dpi: "1600"
+sens: "0.759"
+accel: "0"
 ---
 
 <div class="w3-auto w3-container">
     <div class="w3-row">
       <div class="w3-col l2 m2">
-        <h1><%= data.players.salconnn.name %></h1>
-        <%= data.players.salconnn.avatar %>
+        <h1><%= current_page.data.name %></h1>
+        <img src="../../images/avatar/salconnn.jpg" class="w3-mobile w3-circle player-avatar" alt="salconnn" />
         <div class="player-social">
           <a href="https://twitter.com/salconnn" target="_blank">
             <i class="fab fa-lg fa-twitter"></i>
           </a>
           <div class="w3-tooltip mobile-tooltip w3-hide-small" style="display:inline;margin-left:2px">
             <i class="fab fa-lg fa-discord"></i>
-            <span style="position:absolute;left:0;bottom:-50px" class="w3-text w3-tag w3-padding w3-animate-opacity w3-round"><%= current_page.data.discord_id %></span>
+            <span style="position:absolute;left:-50px;bottom:0;width:200px" class="w3-text w3-tag w3-padding w3-animate-opacity w3-round"><%= current_page.data.discord_id %></span>
           </div>
         </div>
       </div>
 
       <div class="w3-col l6 m6" style="margin-top:60px">
-        <p>Casual FPS gamer, former CS:S player in late 00's</p>
+        <p><%= current_page.data.desc %></p>
         <div class="w3-panel" style="background:#131316">
-          <p><b>Logitech G Pro Wireless</b> &nbsp;&nbsp; <b>DPI:</b> 1600 &nbsp;&nbsp; <b>SENS:</b> 0.759 &nbsp;&nbsp; <b>ACCEL:</b> 0</p>
+          <p>
+            <b><%= current_page.data.mouse %></b>
+            &nbsp;&nbsp;
+            <b>DPI:</b>
+            <%= current_page.data.dpi %>
+            &nbsp;&nbsp;
+            <b>SENS:</b>
+            <%= current_page.data.sens %>
+            &nbsp;&nbsp;
+            <b>ACCEL:</b>
+            <%= current_page.data.accel %></p>
         </div>
       </div>
 
@@ -45,7 +67,8 @@ discord_id: "salconnn#6167"
               <b>
                 country:</b>
             </td>
-            <td><%= data.players.salconnn.country %></td>
+            <td><img src="../../images/flags/1x1/<%= current_page.data.country_tag %>.svg" width="20" height="20" alt="<%= current_page.data.country_tag %>">&nbsp;
+              <%= current_page.data.country_name %></td>
           </tr>
 
           <tr>
@@ -54,7 +77,7 @@ discord_id: "salconnn#6167"
                 profiles:</b>
             </td>
             <td>
-              <a style="border:none" href="https://stats.quake.com/profile/salconnn" target="_blank"><%= image_tag '/images/qc-icon.png', alt: 'salconnn profile quake champions', title: 'Quake Champions' %></a>
+              <a style="border:none" href="https://stats.quake.com/profile/<%= current_page.data.qc_name %>" target="_blank"><%= image_tag '/images/qc-icon.png', alt: 'QC' %></a>
             </td>
           </tr>
 
@@ -63,7 +86,7 @@ discord_id: "salconnn#6167"
               <b>
                 clan:</b>
             </td>
-            <td><%= data.players.salconnn.clan %></td>
+            <td><%= current_page.data.clan %></td>
           </tr>
 
           <tr>
@@ -183,8 +206,14 @@ discord_id: "salconnn#6167"
     </div>
 
     <div id="Tokyo" class="city w3-animate-opacity" style="display:none">
-      <p>empty</p>
+      <p>DISCORD ID -
+        <b><%= current_page.data.discord_id %></b><br><br>
+        QUAKE NAME -
+        <b><%= current_page.data.qc_name %></b><br>
+        DIABOTICAL NAME -
+        <b><%= current_page.data.dbt_name %></b>
+      </p>
+      <hr>
     </div>
-
 </div>
 <!-- end of w3-content-->

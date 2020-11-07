@@ -369,22 +369,6 @@ strngst:
   url: |
     <a href="/player/strngst" class="gold">strngst</a>
 
-salconnn:
-  name: salconnn
-  tourneys: 3
-  country: |
-    <img src="../../images/flags/1x1/be.svg" width="20" height="20" alt="be" /> Belgium
-  clan: "-"
-  money: "€5"
-  trophies:
-    gold: 2
-    silver: 0
-    bronze: 1
-  avatar: |
-    <img src="../../images/avatar/salconnn.jpg" class="w3-mobile w3-circle player-avatar" alt="salconnn" />
-  url: |
-    <a href="/player/salconnn" class="gold">salconnn</a>
-
 pastel:
   name: pastel
   tourneys: 0
@@ -822,5 +806,13 @@ feder34:
   money: "€2"
   trophies:
     gold: 0
+    silver: 0
+    bronze: 1
+
+salconnn:
+  tourneys: 3
+  money: "€5"
+  trophies:
+    gold: 2
     silver: 0
     bronze: 1

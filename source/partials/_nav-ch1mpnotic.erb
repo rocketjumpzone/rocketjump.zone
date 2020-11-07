@@ -30,7 +30,7 @@
     <a href="https://rocketjump.zone" class="w3-bar-item w3-button w3-mobile">
       ROCKETJUMP.ZONE
     </a>
-    <a class="w3-bar-item w3-button w3-mobile" href="/server-browser">
+    <a class="w3-bar-item w3-button w3-mobile" href="/ch1mpnotic/server-browser">
       SERVER BROWSER
     </a>
     <a class="w3-bar-item w3-button w3-mobile" href="/ch1mpnotic/leaderboard">
@@ -43,22 +43,19 @@
       BLOG
     </a>
 
-    <div class="w3-dropdown-hover w3-mobile">
-      <button class="w3-button w3-bar-item">
-        <i class="fas fa-ellipsis-h"></i>
-      </button>
-      <div class="w3-dropdown-content w3-bar-block">
-        <a href="/ch1mpnotic" class="w3-bar-item w3-button">Ch1mpnotic</a>
-        <a href="/blog" class="w3-bar-item w3-button">Blog</a>
-        <a href="/merch" target="_blank" class="w3-bar-item w3-button">Merch</a>
-        <a href="/pickup" class="w3-bar-item w3-button">Pickup Games</a>
-        <a href="/contribute" class="w3-bar-item w3-button">Contribute</a>
-        <a href="/policy" class="w3-bar-item w3-button">Policy</a>
-        <a href="/about" class="w3-bar-item w3-button">About</a>
-      </div>
-    </div>
-
   </div>
 
 
 </div>
+
+
+<script>
+  function toogle(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+</script>
