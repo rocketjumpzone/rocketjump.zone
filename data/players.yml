@@ -130,14 +130,14 @@ headbang3r:
 
 troolz:
   name: Troolz
-  tourneys: 8
+  tourneys: 9
   country: |
     <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
   clan: "-"
-  money: "€36,68"
+  money: "€38,18"
   trophies:
     gold: 2
-    silver: 3
+    silver: 4
     bronze: 3
   avatar: |
     <img src="../../images/avatar/troolz.jpg" class="w3-mobile w3-circle player-avatar" alt="Troolz" />
