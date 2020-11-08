@@ -29,12 +29,11 @@
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-
     <script>
       $(document).ready(function () {
         $("#bracket-button").click(function () {
           $("#bracket-details").show();
-          $("#bracket").load("/library/bracket01.txt");
+          $("#bracket-ajax").load("/library/bracket01.txt");
           $("#bracket-button").html("REFRESH BRACKET");
         });
 
@@ -50,6 +49,8 @@
         var target = window.location.hash.replace('#', '');
         if (target != "") {
           openCity(event, "Paris");
+          $("[tourney-menu]").find(".tablink").removeClass("w3-border-red")
+          $($("[tourney-menu]").find(".tablink")[1]).addClass("w3-border-red")
         }
       });
     </script>

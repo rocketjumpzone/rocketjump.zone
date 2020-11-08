@@ -24,6 +24,12 @@ disqus_url: https://rocketjump.zone/blog/find-us-on-github
 Simply navigate to your player profile name, edit the file and push the changes.
 </p>
 
+<p>
+We also have a demo player profile, if you want to create a new one:
+<a href="https://github.com/rocketjumpzone/rocketjump.zone/blob/main/source/library/demo.html.erb" target="_blank">
+https://github.com/rocketjumpzone/rocketjump.zone/blob/main/source/library/demo.html.erb</a>
+</p>
+
 
 ## New Blog Post
 <p>All blog postss you can find here:<br>

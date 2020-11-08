@@ -1,7 +1,7 @@
 ---
 title: Tournament Guides
 date: 2020-08-20 UTC
-date_update: Oct 19, 2020
+date_update: Nov 08, 2020
 tags: Guides
 layout: blog
 author: Ch4mp
@@ -21,15 +21,21 @@ disqus_url: https://rocketjump.zone/blog/tournament-guides
 <hr>
 
 <h2 class="w3-center" style="margin-top:50px">Registration for a tournament</h2>
-<p>You can register via Challonge where you can self manage your little journey throughout the tournament (check in, match results etc..) or Register via <a href="https://rocketjump.zone/discord" target="_blank">Discord</a> in the #registration channel and keep us informed what's up.</p>
+
+<p>There are two ways to register:</p>
+<p><b>Challonge -</b> self manage your participation (check in, match reports etc..)</p>
+
+<p>
+<b>Discord -</b> visit the #registration channel and coop with us. For this option you will need a <a href="https://rocketjump.zone/new-player" target="_blank">player profile</a> at Rocket Jump Zone.</p>
+
 <hr>
 
-<h2 class="w3-center">How to report match results?</h2>
-<p>You can do that on your own if you registered to a tournament via Challonge. If not, no action needed, we have a bot for that and will report the results for you.</p>
+<h2 class="w3-center">How to report match results? (Discord)</h2>
+<p>Tell us the results in the tournament channel, we will update the bracket for you.</p>
 <hr>
 
-<h2 class="w3-center">How to check-in?</h2>
-<p>You can do that on your own if you registered to a tournament via Challonge. If not, do so via Discord in #check-in channel</p>
+<h2 class="w3-center">How to check-in? (Discord)</h2>
+<p>In the #check-in channel. Please be aware that if you do not check in the tournament will start without you.</p>
 <hr>
 
 <h2 class="w3-center">Player names</h2>
