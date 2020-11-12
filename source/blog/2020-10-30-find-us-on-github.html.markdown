@@ -32,7 +32,7 @@ https://github.com/rocketjumpzone/rocketjump.zone/blob/main/source/library/demo.
 
 
 ## New Blog Post
-<p>All blog postss you can find here:<br>
+<p>All blog posts you can find here:<br>
 <a href="https://github.com/rocketjumpzone/rocketjump.zone/tree/main/source/blog" target="_blank">https://github.com/rocketjumpzone/rocketjump.zone/tree/main/source/blog</a><br>
 
 To add a new blog post, simply duplicate one, change the name, push the post.<br>We support <b>Markdown</b>, Disqus, Tags.

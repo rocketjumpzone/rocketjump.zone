@@ -83,6 +83,12 @@ a.w3-btn:hover {
   border-bottom-color: $main-red-color !important;
 }
 
+.w3-bar-container {
+  background: #0E0E10;
+  height: 63px;
+  box-shadow: 0px 4px 2px 0px #0c0c0e;
+}
+
 .w3-bar .w3-bottombar {
   border-bottom: 3px solid #0E0E10 !important;
 
@@ -112,7 +118,8 @@ a.w3-btn:hover {
   color: #DEDEDE;
   font-size: 19px;
   font-weight: 600;
-  padding: 22px 16px 15px 16px !important;
+  padding: 22px 0 12px 0 !important;
+  margin: 0 16px;
 }
 
 .w3-bar a.new-player:hover {

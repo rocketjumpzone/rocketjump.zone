@@ -41,8 +41,8 @@ layout: tourney
           <td>
             <b>Tournament Start:</b>
           </td>
-          <td style="font-weight:bold">
-            Nov 7, 7 PM CET -
+          <td>
+            <td style="font-weight:bold">
               <div class="w3-tooltip mobile-tooltip" style="display:inline">
                 <span style="border-bottom:1px groove">in diff timezones</span>
                 <span style="position:absolute;left:0;bottom:-50px;width:300px" class="w3-text w3-tag w3-padding w3-animate-opacity-faster w3-round">8 EET, 6 WET, 9 MSK, 1 EST
@@ -88,7 +88,8 @@ layout: tourney
                 Registration:</b>
             </td>
             <td>
-              <b>Tournament Finished</b>
+              <a href="https://rocketjumpzone.challonge.com/9eisjip1" target="_blank">Register via Challonge!</a><br>
+              <a href="https://rocketjump.zone/discord" target="_blank">Register via Discord in #registration</a>
             </td>
           </tr>
 
@@ -301,10 +302,25 @@ layout: tourney
     </div>
 
     <div class="w3-center" style="margin-top:50px">
-      <iframe src="https://rocketjumpzone.challonge.com/9eisjip1/module?theme=7847&scale_to_fit=1" width="100%" height="750" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
+      <span class="w3-tag w3-center mobile-margin-20 w3-hover-white w3-red" id="bracket-button" style="font-weight:bold;cursor:pointer;margin-right:2.5px">
+        SHOW BRACKET
+      </span>
+
+      <span class="w3-tag w3-center mobile-margin-20 w3-hover-white w3-red" id="participants-button" style="font-weight:bold;cursor:pointer;margin-left:2.5px">
+        HIDE PARTICIPANTS
+      </span>
+
     </div>
 
+    <small class="w3-right w3-animate-opacity" id="bracket-details" style="display:none">bracket is: &nbsp;
+      <span style="color:#ff1a1a">
+        <b>FINAL</b>
+        <span></small>
+
+      <div id="bracket-ajax"></div>
+
   </div>
+  <!-- end of paris -->
 
       <div id="Tokyo" class="city w3-animate-opacity" style="display:none">
 

@@ -27,7 +27,7 @@
         padding: 16px !important;
       }
     </style>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <%= javascript_include_tag "jquery.min" %>
 
     <script>
       $(document).ready(function () {
@@ -64,9 +64,12 @@
 
     </div>
     <!-- end of w3-stretch-->
+
+    <% if build? %>
     <script>
       <%= google_analytics_tag %>
     </script>
+    <% end %>
 
     <%= javascript_include_tag "general" %>
     <script src='https://platform-api.sharethis.com/js/sharethis.js#property=5e3d49fcc42462001276008a' async='async'></script>

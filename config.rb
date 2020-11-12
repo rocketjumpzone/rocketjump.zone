@@ -18,6 +18,15 @@ end
 
 Time.zone = 'Europe/Bratislava'
 
+# use alternative layout name
+config[:layout ] = 'general'
+
+# Per-page layout changes
+page '/*.xml', layout: false
+page '/*.json', layout: false
+page '/*.txt', layout: false
+page "/feed.xml", layout: false
+
 # remove .html suffix
 activate :directory_indexes
 
@@ -26,17 +35,23 @@ activate :asset_hash
 
 activate :relative_assets
 
-# serve also gziped html, css, js files
+# serve gziped html, css, js files
 activate :gzip
 
 # generate sitemap.xml
 set :url_root, 'https://rocketjump.zone'
 activate :search_engine_sitemap
 
-
 #activate :imageoptim
-
 #activate :protect_emails
+
+helpers do
+  def active_nav_item(page)
+    if current_page.url == page
+      "active-item"
+    end
+  end
+end
 
 configure :build do
   activate :disqus do |d|
@@ -47,36 +62,17 @@ configure :build do
     html.remove_quotes = false
   end
   activate :minify_css
-end
+  activate :minify_javascript
 
-activate :google_analytics do |ga|
-  ga.tracking_id = 'UA-131738676-1'
-  ga.output = :js
-end
-
-helpers do
-  def active_nav_item(page)
-    if current_page.url == page
-      "active-item"
-    end
+  activate :google_analytics do |ga|
+    ga.tracking_id = 'UA-131738676-1'
+    ga.output = :js
   end
 end
 
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
-
-# Per-page layout changes
-page '/*.xml', layout: false
-page '/*.json', layout: false
-page '/*.txt', layout: false
-page "/feed.xml", layout: false
-
-
-
-# use alternative layout name
-config[:layout ] = 'general'
-
-
 
 #activate :deploy do |deploy|
 #  deploy.method   = :sftp

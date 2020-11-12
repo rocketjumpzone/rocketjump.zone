@@ -28,8 +28,10 @@
 
     <%= javascript_include_tag "general" %>
 
+    <% if build? %>
     <script>
       <%= google_analytics_tag %>
     </script>
+    <% end %>
   </body>
 </html>

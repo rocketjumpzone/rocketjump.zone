@@ -1,36 +1,36 @@
 <i onclick="toogle('nav')" class="fas fa-2x fa-bars w3-hide-large" style="margin:24px;cursor:pointer"></i>
 
-<div class="w3-center w3-hide-small w3-hide-medium" style="background:#0E0E10;border-bottom:1px solid #0c0c0e">
-<div class="w3-bar">
+<div class="w3-bar-container w3-center w3-hide-small w3-hide-medium">
+  <div class="w3-bar">
 
-  <a href="/" class="w3-bar-item w3-button">
-    <span class="w3-bottombar w3-hover-border-red <%= active_nav_item("/") %>">TOURNAMENTS</span>
-  </a>
-  <a class="w3-bar-item w3-button" href="/calendar">
-    <span class="w3-bottombar w3-hover-border-red <%= active_nav_item("/calendar/") %>">CALENDAR</span>
-  </a>
-  <a class="w3-bar-item w3-button" href="/players">
-    <span class="w3-bottombar w3-hover-border-red <%= active_nav_item("/players/") %>">PLAYERS</span>
-  </a>
-  <a class="w3-bar-item w3-button" href="/hall-of-fame">
-    <span class="w3-bottombar w3-hover-border-red <%= active_nav_item("/hall-of-fame/") %>">HALL OF FAME</span>
-  </a>
+    <a href="/" class="w3-bar-item w3-button <%= active_nav_item("/") %>">
+      <span class="w3-bottombar w3-hover-border-red">TOURNAMENTS</span>
+    </a>
+    <a class="w3-bar-item w3-button <%= active_nav_item("/calendar/") %>" href="/calendar">
+      <span class="w3-bottombar w3-hover-border-red">CALENDAR</span>
+    </a>
+    <a class="w3-bar-item w3-button <%= active_nav_item("/players/") %>" href="/players">
+      <span class="w3-bottombar w3-hover-border-red">PLAYERS</span>
+    </a>
+    <a class="w3-bar-item w3-button <%= active_nav_item("/hall-of-fame/") %>" href="/hall-of-fame">
+      <span class="w3-bottombar w3-hover-border-red">HALL OF FAME</span>
+    </a>
 
-  <div class="w3-dropdown-hover">
-    <button class="w3-button" style="color:#DEDEDE;padding:26px 16px 15px 16px">
-      <i class="fas fa-bars" style="font-size:18px"></i>
-    </button>
-    <div class="w3-dropdown-content w3-bar-block">
-      <a href="/ch1mpnotic" class="w3-bar-item w3-button">Ch1mpnotic<br></a>
-      <hr style="margin:5px">
-      <a href="/blog" class="w3-bar-item w3-button">Blog</a>
-      <a href="/pickup" class="w3-bar-item w3-button">Pickup Games</a>
-      <hr style="margin:5px">
-      <a href="/contribute" class="w3-bar-item w3-button">Contribute</a>
-      <a href="/policy" class="w3-bar-item w3-button">Policy</a>
-      <a href="/about" class="w3-bar-item w3-button">About</a>
+    <div class="w3-dropdown-hover">
+      <button class="w3-button" style="color:#DEDEDE;padding:26px 16px 12px 16px">
+        <i class="fas fa-bars" style="font-size:18px"></i>
+      </button>
+      <div class="w3-dropdown-content w3-bar-block">
+        <a href="/ch1mpnotic" class="w3-bar-item w3-button">Ch1mpnotic<br></a>
+        <hr style="margin:5px">
+        <a href="/blog" class="w3-bar-item w3-button">Blog</a>
+        <a href="/pickup" class="w3-bar-item w3-button">Pickup Games</a>
+        <hr style="margin:5px">
+        <a href="/contribute" class="w3-bar-item w3-button">Contribute</a>
+        <a href="/policy" class="w3-bar-item w3-button">Policy</a>
+        <a href="/about" class="w3-bar-item w3-button">About</a>
+      </div>
     </div>
-  </div>
   </div>
 </div>
 
@@ -68,7 +68,6 @@
     </div>
 
   </div>
-
 
 </div>
 
