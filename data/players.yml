@@ -664,13 +664,13 @@ loserhoss:
 
 klyb:
   name: Klyb
-  tourneys: 14
+  tourneys: 15
   country: |
     <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
   clan: "-"
-  money: "€110,96"
+  money: "€130,96"
   trophies:
-    gold: 6
+    gold: 7
     silver: 5
     bronze: 3
   avatar: |

@@ -308,6 +308,17 @@ table {
   flex-wrap: wrap;
 }
 /* ############################ used in /players or tourney page ############################ */
+
+#participants .flex-item {
+  p {
+    margin: 2px 0 0;
+  }
+
+  hr {
+    margin: 10px 0 5px;
+  }
+}
+
 .flex-item {
   margin: 4px;
   background: #2f2f37;
