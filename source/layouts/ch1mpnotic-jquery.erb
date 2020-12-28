@@ -21,6 +21,7 @@
     <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
 
     <%= javascript_include_tag "jquery.min" %>
+    <%= javascript_include_tag "preview-image" %>
 
     <%= stylesheet_link_tag "general" %>
 
@@ -36,6 +37,17 @@
   <body>
     <%= partial "partials/nav-ch1mpnotic" %>
     <%= yield %>
+
+    <script>
+      $.previewImage({
+        xOffset: 0,
+        yOffset: 20,
+        css: {
+          'border': '2px solid black',
+          'background-color': '#dedede'
+        }
+      });
+    </script>
 
     <% if build? %>
     <script>

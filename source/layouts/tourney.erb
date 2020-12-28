@@ -28,6 +28,7 @@
       }
     </style>
     <%= javascript_include_tag "jquery.min" %>
+    <%= javascript_include_tag "preview-image" %>
 
     <script>
       $(document).ready(function () {
@@ -66,10 +67,21 @@
     <!-- end of w3-stretch-->
 
     <% if build? %>
-    <script>
-      <%= google_analytics_tag %>
-    </script>
+      <script>
+        <%= google_analytics_tag %>
+      </script>
     <% end %>
+
+    <script>
+      $.previewImage({
+        xOffset: 0,
+        yOffset: 20,
+        css: {
+          'border': '2px solid black',
+          'background-color': '#dedede'
+        }
+      });
+    </script>
 
     <%= javascript_include_tag "general" %>
     <script src='https://platform-api.sharethis.com/js/sharethis.js#property=5e3d49fcc42462001276008a' async='async'></script>
