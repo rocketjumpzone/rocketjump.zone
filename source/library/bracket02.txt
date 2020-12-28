@@ -1,6 +1,0 @@
-<h2>Europe</h2>
-<iframe src="https://rocketjumpzone.challonge.com/w5lqf9y1/module?theme=7847&multiplier=1.3" style="width:100%;height:750px" scrolling="auto"></iframe>
-
-
-<h2>North America</h2>
-<iframe src="https://rocketjumpzone.challonge.com/322ypavf/module?theme=7847&multiplier=1.3" style="width:100%;height:750px" scrolling="auto"></iframe>

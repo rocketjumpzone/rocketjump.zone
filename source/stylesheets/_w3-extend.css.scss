@@ -103,6 +103,20 @@ a.w3-btn:hover {
 .w3-bar a:hover,
 .w3-button:hover {
   color: $main-red-color !important;
+
+}
+
+
+.w3-bar .w3-bar-item {
+  color: #DEDEDE;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 0 14px 0 !important;
+  margin: 0 16px;
+
+  &:hover {
+    border-bottom: 3px solid $main-red-color !important;
+  }
 }
 
 .w3-dropdown-content {
@@ -110,26 +124,20 @@ a.w3-btn:hover {
 
   a {
     color: #fff;
-    text-transform: uppercase;
+
+    &:hover {
+      border-bottom:none !important;
+    }
   }
 }
 
-.w3-bar .w3-bar-item {
-  color: #DEDEDE;
-  font-size: 19px;
-  font-weight: 600;
-  padding: 22px 0 12px 0 !important;
-  margin: 0 16px;
-}
-
-.w3-bar a.new-player:hover {
-  color: #000 !important;
-  background: inherid !important;
-}
 
 .w3-dropdown-content > .w3-bar-item {
   font-weight: normal !important;
   padding: 5px 16px !important;
+  a, &:hover {
+    border-bottom:none !important;
+  }
 }
 
 .w3-animate-input:focus {

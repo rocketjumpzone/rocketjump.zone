@@ -1,0 +1,288 @@
+---
+title: Ranking Duel 1
+date: "Jan 30, 2020"
+prize_money: 100
+layout: tourney
+---
+
+<h1 class="w3-center">Ranking Duel 1</h1>
+
+<div class="w3-row" tourney-menu="">
+  <a href="javascript:void(0)" onclick="openCity(event, 'London');">
+    <div class="w3-third tablink w3-bottombar w3-center w3-border-red w3-padding">
+      <b>OVERVIEW</b>
+    </div>
+  </a>
+  <a href="javascript:void(0)" onclick="openCity(event, 'Paris');">
+    <div class="w3-third tablink w3-bottombar w3-center w3-padding">
+      <b>PARTICIPANTS &amp; BRACKETS</b>
+    </div>
+  </a>
+  <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
+    <div class="w3-third tablink w3-bottombar w3-center w3-padding">
+      <b>MEDIA</b>
+    </div>
+  </a>
+</div>
+
+<div id="London" class="city w3-animate-opacity" style="display:block">
+  <div class="w3-row" style="background:#0e0e10;padding:16px 0 16px 0">
+    <div class="w3-col l4">
+      <table class="w3-table">
+        <tr>
+          <td class="w3-border-0">
+            <b>
+              Game:</b>
+          </td>
+          <td class="w3-border-0"><img src="../../images/xon-icon.png" alt="Ch1mpnotic">
+            Ch1mpnotic</td>
+        </tr>
+        <tr>
+          <td>
+            <b>Tournament Start:</b>
+          </td>
+          <td style="font-weight:bold">
+            Jan 30, 7 PM CET
+            <div class="w3-tooltip mobile-tooltip" style="display:inline">
+              <span style="border-bottom:1px groove">diff timezones</span>
+              <span style="position:absolute;left:0;bottom:-50px;width:300px" class="w3-text w3-tag w3-padding w3-animate-opacity-faster w3-round">8 EET, 6 WET, 9 MSK, 1 EST
+                <br><hr style="margin:6px 0 2px 0">
+                <a href="https://www.worldtimebuddy.com/" target="_blank">worldtimebuddy.com</a>&nbsp;&nbsp;<a href="https://timee.io/" target="_blank">timee.io</a>
+              </span>
+            </div>
+
+            <br>
+            <small style="font-weight:normal">check in opens 30 mins before start</small>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <b>
+              Tournament End:</b>
+          </td>
+          <td>
+            3-4 hrs to finish tournament
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <b>
+              Location:</b>
+          </td>
+          <td>
+            EUROPE</td>
+        </tr>
+        <tr>
+          <td>
+            <b>
+              Registration:</b>
+          </td>
+          <td>
+            <b><a href="https://rocketjumpzone.challonge.com/beeykcsg" target="_blank">Register via Challonge!</a>&nbsp;&nbsp;
+              <br>
+              <a href="https://rocketjumpzone/discord" target="_blank">Register via Discord #registration</a>
+            </b>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+
+    <div class="w3-col l4">
+      <div class="flex-container w3-center">
+        <div class="flex-item-results">
+          <h2>Final Results</h2>
+
+          <div class="w3-mobile trophy-silver">
+            <%= image_tag '/images/silver.png', alt: 'trophy silver', title: 'TBD' %><br>
+            <abbr title="TBD">TBD</abbr>
+          </div>
+
+          <div class="w3-mobile trophy-gold trophy-gold-mobile" style="position:relative;bottom:10px">
+            <%= image_tag '/images/gold.png', alt: 'trophy gold', title: 'TBD' %><br>
+            <abbr title="TBD">TBD</abbr>
+          </div>
+
+          <div class="w3-mobile trophy-bronze">
+            <%= image_tag '/images/bronze.png', alt: 'trophy bronze', title: 'N/A' %><br>
+            <abbr title="N/A">N/A</abbr>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col l4">
+      <h3>Prize Money Tournament:
+        <b>&euro;
+          <%= current_page.data.prize_money %></b>
+      </h3>
+      <p class="w3-mobile">
+        <b>1st place:</b>
+        70% of the prize pool
+      </p>
+      <p class="w3-mobile">
+        <b>2nd place:</b>
+        30% of the prize pool
+      </p>
+
+      <a href="/contribute" target="_blank" class="w3-btn w3-round w3-centerw w3-margin-top w3-padding-large w3-hover-white w3-large mobile-margin-10 w3-red w3-mobile">
+        <b>
+          <i class="far fa-credit-card"></i>
+          <i class="fab fa-paypal"></i>
+          DONATE
+        </b>
+      </a>
+
+    </div>
+  </div>
+
+  <hr style="margin:0">
+
+  <div class="w3-row w3-auto">
+    <div class="w3-half">
+
+      <h2 class="w3-center" id="rules">Rules &amp; FAQ</h2>
+
+      <p>This tournament will determine <a href="/ch1mpnotic/ranks">ranks</a>, every player gets a rank based on tournament standings.</p>
+      <p>A player profile is required in order to play in this tournament - <a href="/new-player">create one</a></p>
+
+      <h3>
+        <u>GAME RULES:</u>
+      </h3>
+
+      <p>
+        <b>Mode:</b>
+        Duel<br>
+        <b>Time limit:</b>
+        10 minutes<br>
+        <b>Frag limit:</b>
+        none</p>
+
+      <h4>MAP POOL:</h4>
+      <p>
+        Aerowalk, Darkzone, Silent Siege, Final Rage, Stormkeep, Downer, Fuse
+      </p>
+
+      <h3>
+        <u>TOURNAMENT RULES:</u>
+      </h3>
+
+      <p>
+        <b>Structure:</b>
+        Single elimination<br>
+        <b>Max Slots:</b>
+        16<br>
+        <b>Forfeit:</b>
+        10 mins delay<br>
+        <b>Admins:</b>
+        Ch4mp
+      </p>
+
+      <p>
+        <b>All rounds are Best of 3</b><br>
+        do !cointoss in game to determine who bans first
+      </p>
+
+      <p>
+        <b>Best of 3:</b><br>
+        Ban, Ban, Pick, Pick, Ban, Ban, Tiebreaker
+      </p>
+
+      <hr>
+
+      <h3>How to play?</h3>
+      <p>Join a server, invite your opponent, report match results. If it's your first time in a tournament, you might want to check out our
+        <a href="https://rocketjump.zone/blog/tournament-guides/" target="_blank">tourmanet guides</a>
+      </p>
+
+      <h3>How to support tournaments?</h3>
+      <p>Best to join our
+        <a href="/patreon" target="_blank">&euro;1/mo patreon campaign</a>
+      </p>
+
+    </div>
+
+    <div class="w3-half w3-center">
+      <h2>Sponsors &amp; Donators</h2>
+      <p>&euro;100 - kanyeshrayz</p>
+
+      <h2>Contact</h2>
+      <a href="https://rocketjump.zone/discord" target="_blank">
+        <div class="join-us">
+          <i class="fab fa-3x fa-discord"></i>
+          <p>Join Discord</p>
+        </div>
+      </a>
+
+      <h2>Share Tournament</h2>
+      <div class="sharethis-inline-share-buttons"></div>
+    </div>
+  </div>
+
+  <!-- end of Overview-->
+</div>
+
+<div id="Paris" class="city w3-animate-opacity" style="display:none;padding-top:16px">
+
+
+
+    <div class="w3-center" style="margin-top:50px">
+      <span class="w3-tag w3-center mobile-margin-20 w3-hover-white w3-red" id="bracket-button" style="font-weight:bold;cursor:pointer;margin-right:2.5px">
+        SHOW BRACKET
+      </span>
+
+      <span class="w3-tag w3-center mobile-margin-20 w3-hover-white w3-red" id="participants-button" style="font-weight:bold;cursor:pointer;margin-left:2.5px">
+        HIDE PARTICIPANTS
+      </span>
+
+    </div>
+
+<div id="bracket-ajax"></div>
+
+</div>
+
+<div id="Tokyo" class="city w3-animate-opacity" style="display:none">
+
+  <div id="twitch-embed" style="background:#242429"></div>
+  <script src="https://embed.twitch.tv/embed/v1.js"></script>
+  <script>
+    new Twitch.Embed("twitch-embed", {
+      width: "100%",
+      height: 700,
+      channel: "rocketjumpzone",
+      theme: "dark",
+      autoplay: false
+    });
+  </script>
+
+  <h4 style="margin:50px 0 0 0">DONATION (PayPal / Cards)</h4>
+  <p style="margin-top:0">
+    <small>All donations show alerts during the stream</small>
+  </p>
+  <a href="https://rocketjump.zone/donate" target="_blank" class="w3-btn w3-round w3-center w3-padding-large w3-hover-white w3-large mobile-margin-10 w3-red w3-mobile">
+    <b>
+      <i class="far fa-credit-card"></i>
+      <i class="fab fa-paypal"></i>
+      DONATE VIA STREAMLABS
+    </b>
+  </a>
+
+  <p>
+    <a href="/patreon" target="_blank">Join &euro;1/mo patreon campaign</a>
+  </p>
+
+  <hr>
+
+  <div class="w3-row w3-hide-small">
+    <div class="w3-half">
+      <h2 class="w3-center">Full VOD</h2>
+      TBA
+    </div>
+
+    <div class="w3-half">
+      <h2 class="w3-center">Highlights & Others</h2>
+    </div>
+  </div>
+</div>

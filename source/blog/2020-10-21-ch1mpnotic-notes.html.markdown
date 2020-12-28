@@ -1,8 +1,8 @@
 ---
-title: &title "ch1mpnotic Notes"
+title: &title "Ch1mpnotic Notes"
 date: 2020-10-21 UTC
 date_update: Dec 12
-tags: ch1mpnotic
+tags: Ch1mpnotic
 layout: blog
 author: Ch4mp
 disqus_identifier: /ch1mpnotic-notes
@@ -10,12 +10,12 @@ disqus_title: *title
 disqus_url: https://rocketjump.zone/blog/ch1mpnotic-notes
 ---
 
-<h1 class="w3-center">ch1mpnotic Notes</h1>
+<h1 class="w3-center">Ch1mpnotic Notes</h1>
 
 <hr>
 
-## What is ch1mpnotic?
-ch1mpnotic is gonna be a new arena shooter, a fork of **Xonotic**. The game will be exclusively competitive duel and main arena shooter to run rocket jump zone tournaments.
+## What is Ch1mpnotic?
+Ch1mpnotic is gonna be a new arena shooter, a fork of **Xonotic**. The game will be exclusively competitive duel and main arena shooter to run rocket jump zone tournaments.
 
 We know that a high skill game doesn't attract many players, especially when it's an arena shooter. Our goal is not to get as many players as possible but rather a bigger audience.
 

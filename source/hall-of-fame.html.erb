@@ -1,12 +1,12 @@
 ---
-title: HALL OF FAME
+title: Hall of Fame
 priority: 1.0
 qc_money: 949.81
 dbt_money: 151.50
-xon_money: 20
+ch1mpnotic_money: 20
 qc_total: 51
 dbt_total: 12
-xon_total: 2
+ch1mpnotic_total: 2
 ---
 
 <div class="w3-stretch" style="margin:30px auto 30px auto">
@@ -15,8 +15,16 @@ xon_total: 2
     <input class="hof-search" placeholder="search for.." oninput="w3.filterHTML('#afps', '.flex-item-hof', this.value)">
     <p style="color:#787887;font-size:13px;margin-top:16px">
 
-      <a style="border:none" href="#qc-jump">
+
+      <a style="border:none" href="#ch1mpnotic-jump">
         <span class="w3-tag w3-hover-white w3-red">
+          <b><%= current_page.data.ch1mpnotic_total %></b>
+          Ch1mpnotic
+        </span>
+      </a>
+
+      <a style="border:none" href="#qc-jump">
+        <span class="w3-tag w3-hover-white w3-red" style="margin-left:5px">
           <b><%= current_page.data.qc_total %></b>
           Quake Champions
         </span>
@@ -29,19 +37,26 @@ xon_total: 2
         </span>
       </a>
 
-      <a style="border:none" href="#xonotic-jump">
-        <span class="w3-tag w3-hover-white w3-red" style="margin-left:5px">
-          <b><%= current_page.data.xon_total %></b>
-          Xonotic
-        </span>
-      </a>
-
-
       <span style="margin-left:10px" class="mobile-margin-10">prize money overall:&nbsp;
-        <b>&euro; <%= current_page.data.qc_money.round + current_page.data.dbt_money.round + current_page.data.xon_money.round %></b>
+        <b>&euro; <%= current_page.data.qc_money.round + current_page.data.dbt_money.round + current_page.data.ch1mpnotic_money.round %></b>
       </span>
     </p>
   </div>
+  <hr>
+
+  <p class="w3-margin-left" id="ch1mpnotic-jump"><%= image_tag '/images/xon-icon-crop.png', alt: 'Ch1mpnotic Icon', title: 'Ch1mpnotic' %>
+
+      Prize money in total:
+      <b>&euro; <%= current_page.data.ch1mpnotic_money %></b>
+
+  </p>
+  <div class="flex-container w3-animate-opacity w3-center" id="afps" style="justify-content:center">
+
+    <%= partial "partials/hof-ch1mpnotic" %>
+
+  </div>
+  <!-- end of afps-->
+
   <hr>
 
   <p class="w3-margin-left" id="qc-jump"><%= image_tag '/images/qc-icon-crop.png', alt: 'QC Icon', title: 'Quake Champions' %>
@@ -80,24 +95,9 @@ xon_total: 2
   </div>
   <!-- end of afps-->
 
-  <hr>
-
-  <p class="w3-margin-left" id="xonotic-jump"><%= image_tag '/images/xon-icon.png', alt: 'Xonotic Icon', title: 'Xonotic', id: 'xonotic'%>
-
-      Prize money in total:
-      <b>&euro; <%= current_page.data.xon_money %></b>
-
-  </p>
-  <div class="flex-container w3-animate-opacity w3-center" id="afps" style="justify-content:center">
-
-    <%= partial "partials/hof-xon" %>
-
-  </div>
-  <!-- end of afps-->
 
 </div>
 <!-- end of w3-container-->
-
 
 
 <%= javascript_include_tag "w3" %>
