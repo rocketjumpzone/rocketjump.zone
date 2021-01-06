@@ -25,22 +25,15 @@
 
     <%= stylesheet_link_tag "general" %>
 
-    <script>
-     $(document).ready(function(){
-      $("#server-browser").load("");
-     });
-    </script>
-
-
 
   </head>
   <body>
-    <%= partial "partials/nav-ch1mpnotic" %>
+    <%= partial "partials/nav" %>
     <%= yield %>
 
     <script>
       $.previewImage({
-        xOffset: 0,
+        xOffset: -100,
         yOffset: 20,
         css: {
           'border': '2px solid black',

@@ -3,10 +3,10 @@ title: Hall of Fame
 priority: 1.0
 qc_money: 949.81
 dbt_money: 151.50
-ch1mpnotic_money: 20
+xonotic_money: 20
 qc_total: 51
 dbt_total: 12
-ch1mpnotic_total: 2
+xonotic_total: 2
 ---
 
 <div class="w3-stretch" style="margin:30px auto 30px auto">
@@ -16,10 +16,10 @@ ch1mpnotic_total: 2
     <p style="color:#787887;font-size:13px;margin-top:16px">
 
 
-      <a style="border:none" href="#ch1mpnotic-jump">
+      <a style="border:none" href="#xonotic-jump">
         <span class="w3-tag w3-hover-white w3-red">
-          <b><%= current_page.data.ch1mpnotic_total %></b>
-          Ch1mpnotic
+          <b><%= current_page.data.xonotic_total %></b>
+          Xonotic
         </span>
       </a>
 
@@ -38,21 +38,21 @@ ch1mpnotic_total: 2
       </a>
 
       <span style="margin-left:10px" class="mobile-margin-10">prize money overall:&nbsp;
-        <b>&euro; <%= current_page.data.qc_money.round + current_page.data.dbt_money.round + current_page.data.ch1mpnotic_money.round %></b>
+        <b>&euro; <%= current_page.data.qc_money.round + current_page.data.dbt_money.round + current_page.data.xonotic_money.round %></b>
       </span>
     </p>
   </div>
   <hr>
 
-  <p class="w3-margin-left" id="ch1mpnotic-jump"><%= image_tag '/images/xon-icon-crop.png', alt: 'Ch1mpnotic Icon', title: 'Ch1mpnotic' %>
-
+  <p class="w3-margin-left" id="xonotic-jump"><%= image_tag '/images/xon-icon-crop.png', alt: 'Xonotic Icon', title: 'Xonotic' %>
+    &nbsp;
       Prize money in total:
-      <b>&euro; <%= current_page.data.ch1mpnotic_money %></b>
+      <b>&euro; <%= current_page.data.xonotic_money %></b>
 
   </p>
   <div class="flex-container w3-animate-opacity w3-center" id="afps" style="justify-content:center">
 
-    <%= partial "partials/hof-ch1mpnotic" %>
+    <%= partial "partials/hof-xonotic" %>
 
   </div>
   <!-- end of afps-->
@@ -60,6 +60,7 @@ ch1mpnotic_total: 2
   <hr>
 
   <p class="w3-margin-left" id="qc-jump"><%= image_tag '/images/qc-icon-crop.png', alt: 'QC Icon', title: 'Quake Champions' %>
+    &nbsp;
     Beast: 1825 +
     <span style="padding-left:15px">
       Rookie: 1824 –</span>
@@ -78,7 +79,8 @@ ch1mpnotic_total: 2
 
   <hr>
 
-  <p class="w3-margin-left" id="diabotical-jump"><%= image_tag '/images/diabotical-icon.png', alt: 'Diabotical Icon', title: 'Diabotical', id: 'diabotical'%>
+  <p class="w3-margin-left" id="diabotical-jump"><%= image_tag '/images/diabotical-icon.png', alt: 'Diabotical Icon', title: 'Diabotical'%>
+    &nbsp;
     Beast: 1810 +
     <span style="padding-left:15px">
       Rookie: 1809 –</span>
