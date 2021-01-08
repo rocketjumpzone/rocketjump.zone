@@ -16,9 +16,9 @@ disqus_url: https://rocketjump.zone/blog/october-2020-recap
 
 ## Tournament Winners
 
-<img src="../../images/qc-icon.png" alt="Quake Champions">&nbsp; 2v2 TDM Cup 16 - **Smells Like Team Spirit** (KASH + Opium)  
-<img src="../../images/diabotical-icon.png" alt="Diabotical">&nbsp; Rookie Aim Arena 1v1 Cup 1 - **salconnn**  
-<img src="../../images/diabotical-icon.png" alt="Diabotical">&nbsp; Rookie Duel Cup 1 - **pcchild**  
+<img src="../../images/qc-icon.png" alt="Quake Champions">  2v2 TDM Cup 16 - **Smells Like Team Spirit** (KASH + Opium)  
+<img src="../../images/diabotical-icon.png" alt="Diabotical">  Rookie Aim Arena 1v1 Cup 1 - **salconnn**  
+<img src="../../images/diabotical-icon.png" alt="Diabotical">  Rookie Duel Cup 1 - **pcchild**  
 
 prize money in total: **€20**  
 
@@ -28,8 +28,8 @@ prize money in total: **€20**
 
 Rocket Jump Zone €15, €2 - Fifty, €3 - Akilae
 
-
 ## Rocket Jump Zone Donations
+
 none  
 <a href="https://rocketjump.zone/contribute" target="_blank">rocketjump.zone/contribute</a>
 
@@ -51,7 +51,5 @@ MekNaan, Neo, oabz, Imants Felsbergs, E. Berke Karagöz (EBKey), Slashik
 <a href="https://rocketjump.zone/player/kejtos/" target="_blank">rocketjump.zone/player/kejtos/</a>  
 <a href="https://rocketjump.zone/player/pcchild/" target="_blank">rocketjump.zone/player/pcchild/</a>  
 <a href="https://rocketjump.zone/player/Feder34/" target="_blank">rocketjump.zone/player/Feder34/</a>
-
-
 
 <hr>

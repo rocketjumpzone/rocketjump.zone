@@ -16,8 +16,8 @@ disqus_url: https://rocketjump.zone/blog/september-2020-recap
 
 ## Tournament Winners
 
-<img src="../../images/diabotical-icon.png" alt="Diabotical">&nbsp; Shaft Arena 1v1 Cup 2 - **faye**  
-<img src="../../images/diabotical-icon.png" alt="Diabotical">&nbsp; Rocket Arena 1v1 Cup 1 - **Klyb**  
+<img src="../../images/diabotical-icon.png" alt="Diabotical">  Shaft Arena 1v1 Cup 2 - **faye**  
+<img src="../../images/diabotical-icon.png" alt="Diabotical">  Rocket Arena 1v1 Cup 1 - **Klyb**  
 
 prize money in total: **€20**  
 
@@ -25,14 +25,13 @@ prize money in total: **€20**
 
 none  
 
-
 ## Rocket Jump Zone Donations
+
 none  
 <a href="https://rocketjump.zone/contribute" target="_blank">rocketjump.zone/contribute</a>
 
 ## New Player Profiles
 
 <a href="https://rocketjump.zone/player/loserhoss/" target="_blank">rocketjump.zone/player/Ethaaaan/</a>  
-
 
 <hr>

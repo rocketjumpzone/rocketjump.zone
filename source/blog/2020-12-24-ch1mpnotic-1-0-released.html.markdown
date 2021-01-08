@@ -17,7 +17,6 @@ disqus_url: https://rocketjump.zone/blog/ch1mpnotic-1-0-released
 <p class="w3-center">Ch1mpnotic is a <a href="https://xonotic.org/">Xonotic</a> client made for Competitive Players.<br>
       This edition of Xonotic is the recommended version to participate in our tournaments.</p>
 
-
 <hr>
 
 ## What's new?
@@ -26,11 +25,9 @@ As for the very first version, a lot of polish and improvements overall have bee
 
 ### Weapon Changes - Rocket Jump Zone Servers
 
-
 <iframe class="w3-mobile" style="height:533px;width:100%" src="https://www.youtube.com/embed/hwTZpaba3tE" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr>
-
 
 ### Player and Caster Ready
 
@@ -54,13 +51,9 @@ There are 2 pre-made configs to simply switch between. Either you want to play o
 
 <img src="../../images/ch1mpnotic/6.jpg" class="w3-mobile w3-image" alt="main menu">
 
-
 <a href="/ch1mpnotic">Read more</a> about the game and further features of the game.
 
 <hr>
-
-
-
 
 ### Plans for version 2.0
 
@@ -88,10 +81,10 @@ Please <a href="/blog">follow our blog</a> for announcements.
     if (n > x.length) {
       slideIndex = 1
     }
-    if (n < 1) {
+    if (n &lt; 1) {
       slideIndex = x.length
     };
-    for (i = 0; i < x.length; i++) {
+    for (i = 0; i &lt; x.length; i++) {
       x[i].style.display = "none";
     }
     x[slideIndex - 1].style.display = "block";

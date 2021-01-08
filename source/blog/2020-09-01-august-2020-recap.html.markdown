@@ -16,19 +16,19 @@ disqus_url: https://rocketjump.zone/blog/august-2020-recap
 
 ## Tournament Winners
 
-<img src="../../images/diabotical-icon.png" alt="Diabotical">&nbsp; International Aim Arena 1v1 Cup 1 - **faye**  
-<img src="../../images/diabotical-icon.png" alt="Diabotical">&nbsp; International Aim Arena 2v2 Cup 1 - **fandamentals** (raul_is_ruthless + allmEntal)  
-<img src="../../images/qc-icon.png" alt="Quake Champions">&nbsp; 2v2 TDM Cup 15 - **StrngDram** (dramiS + strngst)
+<img src="../../images/diabotical-icon.png" alt="Diabotical">  International Aim Arena 1v1 Cup 1 - **faye**  
+<img src="../../images/diabotical-icon.png" alt="Diabotical">  International Aim Arena 2v2 Cup 1 - **fandamentals** (raul_is_ruthless + allmEntal)  
+<img src="../../images/qc-icon.png" alt="Quake Champions">  2v2 TDM Cup 15 - **StrngDram** (dramiS + strngst)
 
 prize money in total: **€30**  
 
 ## Tournament Donations
 
-Prevail Gaming <a href="https://www.prevailgaming.com/" target="_blank">#WePrevail</a>    
+Prevail Gaming <a href="https://www.prevailgaming.com/" target="_blank">#WePrevail</a>  
 PVL Lunat1c - **€30**  
 
-
 ## Rocket Jump Zone Donations
+
 none  
 <a href="https://rocketjump.zone/contribute" target="_blank">rocketjump.zone/contribute</a>
 
@@ -39,6 +39,5 @@ none
 <a href="https://rocketjump.zone/player/honey_badger/" target="_blank">rocketjump.zone/player/honey_badger/</a>  
 <a href="https://rocketjump.zone/player/vann/" target="_blank">rocketjump.zone/player/vann/</a>  
 <a href="https://rocketjump.zone/player/xhine/" target="_blank">rocketjump.zone/player/xhine/</a>
-
 
 <hr>

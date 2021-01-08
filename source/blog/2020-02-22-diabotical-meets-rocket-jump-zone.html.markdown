@@ -17,18 +17,14 @@ It's time to support yet another Arena Shooter, this time - <strong>Diabotical</
 </p>
 <hr>
 
-
 ## What to expect from Rocket Jump Zone?
 
-- tournaments - duel, team mode tournaments on weekly basis
-- pickup - play with the community custom games
-- server - we will have our own server for Europe and North America
+-   tournaments - duel, team mode tournaments on weekly basis
+-   pickup - play with the community custom games
+-   server - we will have our own server for Europe and North America
 
 ## Diabotical - Launch Trailer
 
 <iframe class="w3-mobile w3-animate-opacity" style="height:533px;width:100%" src="https://www.youtube.com/embed/oT4mhUit0Qc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
 
 <hr>

@@ -240,7 +240,7 @@ table {
 .flex-item-hof .trophy-gold,
 .flex-item-hof .trophy-silver {
   display: inline-block;
-  color: #000;
+  color: #fff;
   width: 120px;
   margin-top: 10px;
   white-space: nowrap;
@@ -376,21 +376,31 @@ table {
 .flex-item-hof {
   margin: 2px;
   padding: 4px 0 10px;
-  background: radial-gradient(ellipse, rgba(255,255,255,1) 20%, rgba(17,21,28,1) 150%);
-  color: #000 !important;
+  //background: radial-gradient(ellipse, rgba(255,255,255,1) 20%, rgba(17,21,28,1) 150%);
+  background: #2f2f37;
+  color: #fff !important;
   font-size: 17px;
   width: 465px;
   border-radius: 4px;
 
+  &:hover {
+    background: #3c3c44;
+  }
+
+  hr {
+    border-top: 1px solid #525260 !important;
+  }
+
   h3 {
+    color:#fff;
     padding-bottom: 5px;
   }
 
-  a {
-    color: #000;
+  a, abbr {
+    color: #fff;
 
     &:hover {
-      border-bottom: 1px solid #000;
+      border-bottom: 1px solid #fff;
     }
   }
 }

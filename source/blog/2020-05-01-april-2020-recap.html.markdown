@@ -16,21 +16,19 @@ disqus_url: https://rocketjump.zone/blog/april-2020-recap
 
 ## Tournament Winners
 
-<img src="../../images/qc-icon.png" alt="Quake Champions">&nbsp; 2v2 TDM Cup 12 - **MMMKAY** (PASITA + St0n3)  
-<img src="../../images/qc-icon.png" alt="Quake Champions">&nbsp; 2v2 TDM Cup 13 - **PORKSWORDS** (KillaloT + PULZ)  
-<img src="../../images/qc-icon.png" alt="Quake Champions">&nbsp; 2v2 TDM Cup 14 - **drobop** (DROBOVIK + opium)
+<img src="../../images/qc-icon.png" alt="Quake Champions">  2v2 TDM Cup 12 - **MMMKAY** (PASITA + St0n3)  
+<img src="../../images/qc-icon.png" alt="Quake Champions">  2v2 TDM Cup 13 - **PORKSWORDS** (KillaloT + PULZ)  
+<img src="../../images/qc-icon.png" alt="Quake Champions">  2v2 TDM Cup 14 - **drobop** (DROBOVIK + opium)
 
 prize money in total: **€0**  
 
-
 ## Rocket Jump Zone Donations
+
 none  
 <a href="https://rocketjump.zone/contribute" target="_blank">rocketjump.zone/contribute</a>
 
 ## New Player Profiles
 
 <a href="https://rocketjump.zone/player/killalot/" target="_blank">rocketjump.zone/player/killalot/</a>
-
-
 
 <hr>
