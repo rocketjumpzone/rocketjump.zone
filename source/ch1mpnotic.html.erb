@@ -1,6 +1,6 @@
 ---
 title: CH1MPNOTIC
-description: Ch1mpnotic is a Xonotic client made for Competitive Players. This edition of Xonotic is the recommended version to participate in our tournaments.
+description: Ch1mpnotic is a Xonotic edition made for Competitive Players and the recommended version to participate in our tournaments.
 layout: ch1mpnotic-jquery
 ---
 
@@ -23,15 +23,22 @@ layout: ch1mpnotic-jquery
     </button>
   </div>
 
-  <a class="w3-hide-small" style="border:none" href="https://drive.google.com/file/d/1Yc_4E7ZbMRhSRTB47KB99IYCxrHEt5yZ/view?usp=sharing" target="_blank">
+  <a class="w3-hide-small" style="border:none" href="https://drive.google.com/file/d/1OxdCosVDvvFJ6z4P4gBYGWZxJEBTbkV3/view?usp=sharing" target="_blank">
     <span class="w3-tag w3-hover-white w3-red" style="margin-left:2.5px">
-      GET THE GAME (3G Google Drive)
+      <i class="fas fa-download"></i>
+      CH1MPNOTIC 1.1 &nbsp;&nbsp;<i class="fab fa-google-drive"></i> 3.1 GB
     </span>
   </a>
 
-  <a class="w3-hide-small" style="border:none" href="#" target="_blank">
+  <a class="w3-hide-small" style="border:none" href="#faq">
     <span class="w3-tag w3-hover-white w3-red" style="margin-left:2.5px">
-      GAMEPLAY (TBA)
+      INSTALLATION
+    </span>
+  </a>
+
+  <a class="w3-hide-small" style="border:none" href="https://www.youtube.com/watch?v=hwTZpaba3tE" target="_blank">
+    <span class="w3-tag w3-hover-white w3-red" style="margin-left:2.5px">
+      WEAPON CHANGES VIDEO
     </span>
   </a>
 
@@ -40,8 +47,7 @@ layout: ch1mpnotic-jquery
   <ul>
     <li>Ch1mpnotic is a
       <a href="https://xonotic.org/">Xonotic</a>
-      client made for Competitive Players.<br>
-      This edition of Xonotic is the recommended version to participate in our tournaments.
+      edition made for Competitive Players and the recommended version to participate in our tournaments.
     </li>
     <li>
       <u>Movement</u>
@@ -87,17 +93,16 @@ layout: ch1mpnotic-jquery
   <hr>
 
   <h2 id="servers">Rocket Jump Zone Servers</h2>
-  <p>If you compete in our tournaments then it's recommended to practise on our servers as we use a different game balance.<br>
-    Name changing in our servers is forbidden. Don't play stalker.</p>
-  <h3>Main differences from XPM:</h3>
+  <p>Name changing in our servers is forbidden. Don't play stalker.</p>
+  <h3>Main balance differences from XPM:</h3>
   <ul>
-    <li>Crylink weapon is replaced with a modified Arc weapon</li>
+    <li>Crylink weapon is replaced with a modified Arc (LG) weapon</li>
     <li>MachineGun has no reload, only 1 magazine 60 bullets</li>
     <li>Blaster weapon has now a secondary (dmg: 1, force: 3, refire: 0.2)</li>
     <li>There's no spawn sound</li>
   </ul>
 
-  <h3>Issues</h3>
+  <h3 id="issues">Issues</h3>
 
   <p>It could happen that somebody left a non official balance config on the server, fix it with:&nbsp;&nbsp; <kbd>vcall balance-default</kbd></p>
 
@@ -117,26 +122,26 @@ layout: ch1mpnotic-jquery
       <kbd>exec player.cfg</kbd>&nbsp; (textures off, simple items (2D), HUD, reduced effects..)<br>
       <span style="border-bottom:1px groove" data-preview-image="../../images/ch1mpnotic/caster-preview.jpg">Caster</span>&nbsp;
       <kbd>exec caster.cfg</kbd>&nbsp; (texturees on, normal items (3D), HUD, eye candy..)</li>
+    <li>you can simply switch between hud caster and player on the fly:&nbsp; <kbd>hud-player</kbd> <kbd>hud-caster</kbd></li>
     <li>If you prefer male announcer: &nbsp;<kbd>cl_announcer male</kbd>
     </li>
 
-    <li>In game vote / call commands:
-      <b>vcall chmap map</b>
-      (vote for a diff map),
-      <b>vcall endmatch</b>
+    <li><u>In game vote / call commands:</u><br>
+      <b>vcall chmap map</b> or <b>vmap map</b>
+      (vote for a diff map)<br>
+      <b>vcall endmatch</b> or <b>vcall gg</b>
       (call a gg, end match)<br>
       <b>vcall restart</b>
-      (restart current map),
-      <b>vcall nextmap</b>
-      (vote for a next map)</li>
+      (restart current map)
+    </li>
     <li>
       <u>more useful commands:</u><br>
-      "vcall cointoss" - heads or tails?<br>
-      "vcall bots", "vcall nobots" - who needs bots? our playerbase is huge<br>
-      "lsmaps" - print names of all available maps<br>
-      "timeout", "timein" - pause and unpause the game<br>
+      <b>vcall cointoss</b> - heads or tails?<br>
+      <b>vcall bots, vcall nobots</b> - who needs bots? our playerbase is huge<br>
+      <b>lsmaps</b> - print names of all available maps on the server<br>
+      <b>timeout, timein</b> - pause and unpause the game<br>
       <u>shortcuts:</u><br>
-      "q" - quit, "d" - disconnect, "s" - spec, "r" - ready<br>
+      q / quit, d / disconnect, s / spec, r / ready<br>
     </li>
 
     <li>
@@ -190,16 +195,25 @@ layout: ch1mpnotic-jquery
 
   <hr>
 
-  <h2>FAQ</h2>
+  <h2 id="faq">FAQ</h2>
+
+  <h3>Installation</h3>
+  <p>There's no installation nor Steam support. Simply extract the package somewhere and run &nbsp;<kbd>xonotic.exe</kbd></p>
+
   <h3>Is the game free to play?</h3>
   <p>Yes, and under GPLv3+ license</p>
 
-  <h3>Is Ch1mpnotic Compatible with Xonotic?</h3>
-  <p>100% Compatible. It's just Xonotic with a bunch of tunning, configs and assets.<br>
-    Ch1mpnotic was created to make it easier for competitive players setting the game from scratch.</p>
+  <h3>What's the purpose of Ch1mpnotic?</h3>
+  <p>Ch1mpnotic was created for competitive players to ease the process of setting up the game from scratch.<br>
+  It's used to run our tournaments and leagues.</p>
+
+
+  <h3>Is Ch1mpnotic compatible with Xonotic?</h3>
+  <p>100% Compatible. All weapons and modes from Xonotic are available.<br>
+    We use default <b>.xonotic</b> as userdir but you can change it: &nbsp; <kbd>-userdir C:\.ch1mpnotic</kbd></p>
 
   <h3>Is weapon Crylink included?</h3>
-  <p>Yes, Crylink and Arc use the same weapon caregory - 6 bind. And all other weapons are included as well.</p>
+  <p>Yes, Crylink and Arc use the same weapon caregory - 6 bind.</p>
 
   <h3>Can I contribute?</h3>
   <p>Sure, check out

@@ -1,7 +1,7 @@
 ---
 title: &title "Ch1mpnotic 1.0 Released"
 date: 2020-12-24 UTC
-date_update:
+date_update: Jan 11
 tags: Xonotic
 layout: blog
 author: Ch4mp
@@ -14,8 +14,9 @@ disqus_url: https://rocketjump.zone/blog/ch1mpnotic-1-0-released
 
 <hr>
 
-<p class="w3-center">Ch1mpnotic is a <a href="https://xonotic.org/">Xonotic</a> client made for Competitive Players.<br>
-      This edition of Xonotic is the recommended version to participate in our tournaments.</p>
+<p class="w3-center">Ch1mpnotic is a
+  <a href="https://xonotic.org/">Xonotic</a>
+  edition made for Competitive Players and the recommended version to participate in our tournaments..</p>
 
 <hr>
 
@@ -81,10 +82,10 @@ Please <a href="/blog">follow our blog</a> for announcements.
     if (n > x.length) {
       slideIndex = 1
     }
-    if (n &lt; 1) {
+    if (n < 1) {
       slideIndex = x.length
     };
-    for (i = 0; i &lt; x.length; i++) {
+    for (i = 0; i < x.length; i++) {
       x[i].style.display = "none";
     }
     x[slideIndex - 1].style.display = "block";
