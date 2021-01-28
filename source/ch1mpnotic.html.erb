@@ -8,7 +8,7 @@ layout: ch1mpnotic-jquery
 
   <h1 class="w3-center">CH1MPNOTIC</h1>
   <hr>
-  <div class="w3-display-container w3-margin-top">
+  <div class="w3-display-container w3-margin-top w3-hide-small">
     <img src="../../images/ch1mpnotic/1.jpg" class="w3-mobile mySlides w3-image w3-animate-opacity" alt="stormkeep map">
     <img src="../../images/ch1mpnotic/3.jpg" class="w3-mobile mySlides w3-image w3-animate-opacity" alt="aerowalk map">
     <img src="../../images/ch1mpnotic/5.jpg" class="w3-mobile mySlides w3-image w3-animate-opacity" alt="bloodrun map">
@@ -23,28 +23,46 @@ layout: ch1mpnotic-jquery
     </button>
   </div>
 
-  <a class="w3-hide-small" style="border:none" href="https://drive.google.com/file/d/1OxdCosVDvvFJ6z4P4gBYGWZxJEBTbkV3/view?usp=sharing" target="_blank">
+  <a class="mobile-margin-10" style="border:none" href="https://drive.google.com/file/d/1OxdCosVDvvFJ6z4P4gBYGWZxJEBTbkV3/view?usp=sharing" target="_blank">
     <span class="w3-tag w3-hover-white w3-red" style="margin-left:2.5px">
       <i class="fas fa-download"></i>
       CH1MPNOTIC 1.1 &nbsp;&nbsp;<i class="fab fa-google-drive"></i> 3.1 GB
     </span>
   </a>
 
-  <a class="w3-hide-small" style="border:none" href="#faq">
+  <a class="mobile-margin-10" style="border:none" href="#faq">
     <span class="w3-tag w3-hover-white w3-red" style="margin-left:2.5px">
-      INSTALLATION
+      #INSTALLATION / FAQ
+    </span>
+  </a>&nbsp;
+
+  <a class="mobile-margin-10" style="border:none" href="/pickup" target="_blank">
+    <span class="w3-tag w3-hover-white w3-red" style="margin-left:2.5px">
+      PICKUP
     </span>
   </a>
 
-  <a class="w3-hide-small" style="border:none" href="/pickup" target="_blank">
-    <span class="w3-tag w3-hover-white w3-red" style="margin-left:2.5px">
-      PICKUP (RANKED)
-    </span>
-  </a>
-
-  <a class="w3-hide-small" style="border:none" href="https://arena.sh/xo/" target="_blank">
+  <a class="mobile-margin-10" style="border:none" href="https://arena.sh/xo/" target="_blank">
     <span class="w3-tag w3-hover-white w3-red" style="margin-left:2.5px">
       SERVER BROWSER
+    </span>
+  </a>
+
+  <a class="mobile-margin-10" style="border:none" href="#assets">
+    <span class="w3-tag w3-hover-white w3-red" style="margin-left:2.5px">
+      #ASSETS
+    </span>
+  </a>
+
+  <a class="mobile-margin-10" style="border:none" href="#servers">
+    <span class="w3-tag w3-hover-white w3-red" style="margin-left:2.5px">
+      #SERVERS
+    </span>
+  </a>
+
+  <a class="mobile-margin-10" style="border:none" href="#console">
+    <span class="w3-tag w3-hover-white w3-red" style="margin-left:2.5px">
+      #CONSOLE
     </span>
   </a>
 
@@ -93,13 +111,17 @@ layout: ch1mpnotic-jquery
     </li>
     <li>
       <u>FPS?</u>
-      250+ (play on any washing marchine)</li>
+      250+ (by default config), game launch - 2 secs, no lootboxes,  no annoyance</li>
   </ul>
 
   <hr>
 
   <h2 id="servers">Rocket Jump Zone Servers</h2>
-  <p>Name changing in our servers is forbidden. Don't play stalker.</p>
+  <h3 id="rules">Rules:</h3>
+    <ul>
+      <li>Faking / Changing your player name's forbidden, don't play stalker. Choose a player name once and keep it.<br> If you participate in our tournaments choose your competitive name from <a href="/players">rocketjump.zone/players</a></li>
+    </ul>
+
   <h3>Main <a href="https://www.youtube.com/watch?v=hwTZpaba3tE">balance differences</a> from XPM:</h3>
   <ul>
     <li>Crylink weapon is replaced with a modified Arc (LG) weapon</li>
@@ -108,19 +130,26 @@ layout: ch1mpnotic-jquery
     <li>There's no spawn sound</li>
   </ul>
 
+  <h3 id="ranked">Ranked</h3>
+  <p>We play ranked via Pubobot (a dicord bot). Visit the <a href="/pickup">pickup page</a> for more details.</p>
+
   <h3 id="issues">Issues</h3>
 
   <p>It could happen that somebody left a non official balance config on the server, fix it with:&nbsp;&nbsp; <kbd>vcall balance-default</kbd></p>
 
+  <p><b>Other balances to try out:</b><br>
+    <kbd>balance-kota</kbd>&nbsp; <kbd>balance-ql</kbd>&nbsp; <kbd>balance-bw</kbd>
+  </p>
+
   <p><b>Black map for non Ch1mpnotic users:</b><br>
-  Download these maps and put into your data folder - <a href="http://rocketjump.zone/files/xonotic/aerowalk.pk3">aerowalk</a>, <a href="http://rocketjump.zone/files/xonotic/downer.pk3">downer</a></p>
+  Download these maps and put into your data folder - <a href="https://rocketjump.zone/files/xonotic/aerowalk.pk3">aerowalk</a>, <a href="https://rocketjump.zone/files/xonotic/downer.pk3">downer</a></p>
   <h3>Servers</h3>
-  <p><a href="http://stats.xonotic.org/server/27992" target="_blank">Duel 1 - Frankfurt</a> -
+  <p><a href="https://stats.xonotic.org/server/27992" target="_blank">Duel 1 - Frankfurt</a> -
     <kbd>172.105.76.71</kbd>
   </p>
   <hr>
 
-  <h2>Config / Console</h2>
+  <h2 id="console">Config / Console</h2>
   <p>press "~" or "shift + esc" to open the console</p>
   <ul>
     <li>There are 2 pre-made configs:<br>
@@ -182,23 +211,23 @@ layout: ch1mpnotic-jquery
 
   <hr>
 
-  <h2>3rd Party Assets</h2>
+  <h2 id="assets">3rd Party Assets</h2>
 
   <ul>
     <li>
-      <a href="http://rocketjump.zone/files/xonotic/zzz-player-sounds-female.pk3">Player Sounds - Female</a>
+      <a href="https://rocketjump.zone/files/xonotic/zzz-player-sounds-female.pk3">Player Sounds - Female</a>
     </li>
 
     <li>
-      <a href="http://rocketjump.zone/files/xonotic/zzz-player-sounds-tommy.pk3">Player Sounds - Tommy</a>
+      <a href="https://rocketjump.zone/files/xonotic/zzz-player-sounds-tommy.pk3">Player Sounds - Tommy</a>
     </li>
 
     <li>
-      <a href="http://rocketjump.zone/files/xonotic/zzz-announcer-splat.pk3">Announcer - SPLAT</a>
+      <a href="https://rocketjump.zone/files/xonotic/zzz-announcer-splat.pk3">Announcer - SPLAT</a>
     </li>
 
     <li>
-      <a href="http://rocketjump.zone/files/xonotic/zzz-old-rl.pk3">
+      <a href="https://rocketjump.zone/files/xonotic/zzz-old-rl.pk3">
         <span style="border-bottom:1px groove" data-preview-image="../../images/ch1mpnotic/old-rl.jpg">Old Rocket Launcher Model</span></a>
     </li>
   </ul>
@@ -220,7 +249,7 @@ layout: ch1mpnotic-jquery
 
   <h3>Is Ch1mpnotic compatible with Xonotic?</h3>
   <p>100% Compatible. All weapons and modes from Xonotic are available.<br>
-    We use default <b>.xonotic</b> as userdir but you can change it: &nbsp; <kbd>-userdir C:\.ch1mpnotic</kbd></p>
+    We use the default <b>.xonotic</b> userdir, but you can change it: &nbsp; <kbd>-userdir C:\.ch1mpnotic</kbd></p>
 
   <h3>Is weapon Crylink included?</h3>
   <p>Yes, Crylink and Arc use the same weapon caregory - 6 bind.</p>

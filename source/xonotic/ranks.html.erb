@@ -10,32 +10,59 @@ title: Ranks - Xonotic
     <table class="w3-table w3-bordered leaderboard">
       <thead>
         <tr>
-          <th>Rank</th>
-          <th>Player</th>
-          <th>Clan / Org</th>
-          <th class="w3-right-align">Top Achievements</th>
+          <th>rank</th>
+          <th>player</th>
+          <th>clan / org</th>
+          <th class="w3-right-align">trophies / achievements</th>
+          <th class="w3-right-align">earnings</th>
         </tr>
       </thead>
       <tbody>
         <tr style="background:#131316">
           <td style="width:80px">1</td>
-          <td><img src="../../images/flags/1x1/sk.svg" class="w3-circle" width="30" height="30" alt="sk" title="Slovakia">
+          <td><img src="../../images/flags/1x1/sk.svg" class="w3-circle" width="25" height="25" alt="sk" title="Slovakia">
             <%= data.players.ch4mp.url %></td>
           <td>Big Biceps</td>
           <td class="w3-right-align">
-            CPL 2021
             <i class="fas fa-trophy trophy-gold"></i>
+            <b>
+              <sup><%= data.players.ch4mp.trophies.gold %></sup>
+            </b>
+            <i class="fas fa-trophy trophy-silver"></i>
+            <b>
+              <sup><%= data.players.ch4mp.trophies.silver %></sup>
+            </b>
+            <i class="fas fa-trophy trophy-bronze"></i>
+            <b>
+              <sup><%= data.players.ch4mp.trophies.bronze %></sup>
+            </b>
+          </td>
+          <td class="w3-right-align">
+            <b><%= data.players.ch4mp.money %></b>
           </td>
         </tr>
 
         <tr style="background:#131316">
           <td style="width:80px">2</td>
-          <td><img src="../../images/flags/1x1/nl.svg" class="w3-circle" width="30" height="30" alt="nl" title="Netherlands">
+          <td><img src="../../images/flags/1x1/nl.svg" class="w3-circle" width="25" height="25" alt="nl" title="Netherlands">
             <%= data.players.dodger.url %></td>
-          <td></td>
+          <td>THIS IS JUST A DEMO</td>
           <td class="w3-right-align">
-            World Cup 2021
             <i class="fas fa-trophy trophy-gold"></i>
+            <b>
+              <sup><%= data.players.dodger.trophies.gold %></sup>
+            </b>
+            <i class="fas fa-trophy trophy-silver"></i>
+            <b>
+              <sup><%= data.players.dodger.trophies.silver %></sup>
+            </b>
+            <i class="fas fa-trophy trophy-bronze"></i>
+            <b>
+              <sup><%= data.players.dodger.trophies.bronze %></sup>
+            </b>
+          </td>
+          <td class="w3-right-align">
+            <b><%= data.players.dodger.money %></b>
           </td>
         </tr>
 

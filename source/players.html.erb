@@ -5,25 +5,34 @@ title: Players
 <div class="w3-stretch w3-center w3-container" style="margin:30px auto 30px auto">
 
   <p class="w3-margin-bottom">
-    <a href="#" class="mobile-margin-10" style="border:none" onclick="w3.show('div.flex-item');return false;">
+    <a href="#" class="mobile-margin-10" style="border:none" onclick="w3.show('div.flex-item');w3.hide('#earnings');return false;">
       <span class="w3-tag w3-hover-white w3-red" style="margin-right:2.5px">
         <i class="fas fa-undo"></i>
         RESET LIST
       </span>
-    </a>
-    <a class="w3-hide-small" style="border:none" href="/xonotic/ranks">
+    </a>&nbsp;
+    <a style="border:none" href="/xonotic/ranks">
       <span class="w3-tag w3-hover-white w3-red" style="margin-left:2.5px">
         <i class="fas fa-medal"></i>
         RANKS
       </span>
     </a>
-    <a class="w3-hide-small" style="border:none" href="/new-player" target="_blank">
+    <a href="#" style="border:none" onclick="w3.show('#earnings');return false;">
+      <span class="w3-tag w3-hover-white w3-red" style="margin-left:2.5px">
+        <i class="fas fa-hand-holding-usd"></i>
+        EARNINGS
+      </span>
+    </a>
+
+    <a style="border:none" href="/new-player" target="_blank">
       <span class="w3-tag w3-hover-white w3-red" style="margin-left:2.5px">
         <i class="fas fa-user-ninja"></i>
         NEW PLAYER
       </span>
     </a>
   </p>
+
+
 
   <div class="w3-tooltip mobile-tooltip w3-opacity w3-hover-opacity-off" style="display:inline;cursor:pointer" onclick="w3.hide('div.flex-item');w3.show('div#Belgium');">
     <img src="../../images/flags/1x1/be.svg" width="40" height="40" alt="be">
@@ -145,6 +154,7 @@ title: Players
   <div class="flex-container w3-animate-opacity" style="justify-content:center">
 
     <div class="flex-item w3-mobile" id="Russia">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.klyb.money %></p>
       <h3 class="w3-center"><%= data.players.klyb.url %></h3>
 
       <div class="w3-center">
@@ -164,6 +174,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Denmark">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.killalot.money %></p>
       <h3 class="w3-center"><%= data.players.killalot.url %></h3>
 
       <div class="w3-center">
@@ -183,6 +194,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Russia">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.blaqarm.money %></p>
       <h3 class="w3-center"><%= data.players.blaqarm.url %></h3>
 
       <div class="w3-center">
@@ -202,6 +214,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Ukraine">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.xron.money %></p>
       <h3 class="w3-center"><%= data.players.xron.url %></h3>
 
       <div class="w3-center">
@@ -221,6 +234,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Russia">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.camotblk.money %></p>
       <h3 class="w3-center"><%= data.players.camotblk.url %></h3>
 
       <div class="w3-center">
@@ -244,6 +258,7 @@ title: Players
   <div class="flex-container w3-animate-opacity" style="justify-content:center;margin-top:30px">
 
     <div class="flex-item w3-mobile" id="Serbia">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.faye.money %></p>
       <h4 class="w3-center"><%= data.players.faye.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -262,6 +277,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Russia">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.troolz.money %></p>
       <h4 class="w3-center"><%= data.players.troolz.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -280,6 +296,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Poland">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.flowie71.money %></p>
       <h4 class="w3-center"><%= data.players.flowie71.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -298,6 +315,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Russia">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.antowka.money %></p>
       <h4 class="w3-center"><%= data.players.antowka.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -316,6 +334,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Russia">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.fl1nf.money %></p>
       <h4 class="w3-center"><%= data.players.fl1nf.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -334,6 +353,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Russia">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.strngst.money %></p>
       <h4 class="w3-center"><%= data.players.strngst.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -352,6 +372,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Netherlands">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.dodger.money %></p>
       <h4 class="w3-center"><%= data.players.dodger.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -370,6 +391,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Belgium">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.salconnn.money %></p>
       <h4 class="w3-center"><a href="/player/salconnn" class="gold">salconnn</a></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -388,6 +410,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Russia">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.tommy.money %></p>
       <h4 class="w3-center"><%= data.players.tommy.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -406,6 +429,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Germany">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.kw0w.money %></p>
       <h4 class="w3-center"><%= data.players.kw0w.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -424,6 +448,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Switzerland">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.headbang3r.money %></p>
       <h4 class="w3-center"><%= data.players.headbang3r.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -441,6 +466,7 @@ title: Players
       </div>
     </div>
     <div class="flex-item w3-mobile" id="UK">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.lithz.money %></p>
       <h4 class="w3-center"><%= data.players.lithz.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -459,6 +485,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="USA">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.lunat1c.money %></p>
       <h4 class="w3-center"><%= data.players.lunat1c.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -477,6 +504,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Hungary">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.pcchild.money %></p>
       <h4 class="w3-center"><a href="/player/pcchild" class="pcchild">pcchild</a></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -495,6 +523,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Germany">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.taka.money %></p>
       <h4 class="w3-center"><%= data.players.taka.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -513,6 +542,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Portugal">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.ins.money %></p>
       <h4 class="w3-center"><%= data.players.ins.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -531,6 +561,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Russia">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.anixavich.money %></p>
       <h4 class="w3-center"><%= data.players.anixavich.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -549,6 +580,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="UK">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.xanjya.money %></p>
       <h4 class="w3-center"><%= data.players.xanjya.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -567,6 +599,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Russia">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.kabyrage.money %></p>
       <h4 class="w3-center"><%= data.players.kabyrage.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -585,6 +618,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Ukraine">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.bon3z666.money %></p>
       <h4 class="w3-center"><%= data.players.bon3z666.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -603,6 +637,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Germany">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.snthss.money %></p>
       <h4 class="w3-center"><%= data.players.snthss.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -621,6 +656,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Spain">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.fifty.money %></p>
       <h4 class="w3-center"><a href="/player/fifty" class="fifty">Fifty</a></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -639,6 +675,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Israel">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.fookiz.money %></p>
       <h4 class="w3-center"><%= data.players.fookiz.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -657,6 +694,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Slovakia">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.ch4mp.money %></p>
       <h4 class="w3-center"><%= data.players.ch4mp.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -675,6 +713,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Netherlands">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.meknaan.money %></p>
       <h4 class="w3-center"><%= data.players.meknaan.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -693,6 +732,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Italy">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.feder34.money %></p>
       <h4 class="w3-center"><a href="/player/feder34" class="feder34">Feder34</a></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -711,6 +751,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Slovenia">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.desiro.money %></p>
       <h4 class="w3-center"><%= data.players.desiro.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -729,6 +770,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="UK">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.digiteq.money %></p>
       <h4 class="w3-center"><%= data.players.digiteq.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -747,6 +789,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Israel">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.profan.money %></p>
       <h4 class="w3-center"><%= data.players.profan.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -765,6 +808,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="UK">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.bagelzend.money %></p>
       <h4 class="w3-center"><%= data.players.bagelzend.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -783,6 +827,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Finland">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.jurmeli.money %></p>
       <h4 class="w3-center"><%= data.players.jurmeli.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -801,6 +846,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Finland">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.w1ndows.money %></p>
       <h4 class="w3-center"><%= data.players.w1ndows.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -819,6 +865,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Israel">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.bigeyeguy.money %></p>
       <h4 class="w3-center"><%= data.players.bigeyeguy.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -837,6 +884,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Uruguay">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.pastel.money %></p>
       <h4 class="w3-center"><%= data.players.pastel.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -855,6 +903,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Israel">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.criss9000.money %></p>
       <h4 class="w3-center"><%= data.players.criss9000.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -873,6 +922,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Croatia">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.ahri.money %></p>
       <h4 class="w3-center"><%= data.players.ahri.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -891,6 +941,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Italy">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.lopl.money %></p>
       <h4 class="w3-center"><%= data.players.lopl.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -909,6 +960,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="France">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.jskey.money %></p>
       <h4 class="w3-center"><%= data.players.jskey.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -927,6 +979,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Croatia">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.oabz.money %></p>
       <h4 class="w3-center"><%= data.players.oabz.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -945,6 +998,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Poland">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.aromat.money %></p>
       <h4 class="w3-center"><%= data.players.aromat.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -963,6 +1017,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="USA">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.loserhoss.money %></p>
       <h4 class="w3-center"><%= data.players.loserhoss.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -981,6 +1036,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Sweden">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.mrsbuklao.money %></p>
       <h4 class="w3-center"><%= data.players.mrsbuklao.url %></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -999,6 +1055,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Turkey">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.honey_badger.money %></p>
       <h4 class="w3-center"><a href="/player/honey_badger">Honey Badger</a></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -1017,6 +1074,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Germany">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.vann.money %></p>
       <h4 class="w3-center"><a href="/player/vann">Vann</a></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -1035,6 +1093,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Italy">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.xhine.money %></p>
       <h4 class="w3-center"><a href="/player/xhine">Xhine</a></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -1054,6 +1113,7 @@ title: Players
 
 
     <div class="flex-item w3-mobile" id="USA">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.ethaaaan.money %></p>
       <h4 class="w3-center"><a href="/player/ethaaaan">Ethaaaan</a></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -1072,6 +1132,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Finland">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.riizihattu.money %></p>
       <h4 class="w3-center"><a href="/player/riizihattu">riizihattu</a></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -1090,6 +1151,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Germany">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.satan_inside.money %></p>
       <h4 class="w3-center"><a href="/player/satan_inside">satan_inside</a></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -1108,6 +1170,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Russia">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.slashik.money %></p>
       <h4 class="w3-center"><a href="/player/slashik">Slashik</a></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -1126,6 +1189,7 @@ title: Players
     </div>
 
     <div class="flex-item w3-mobile" id="Czechia">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.kejtos.money %></p>
       <h4 class="w3-center"><a href="/player/kejtos">kejtos</a></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
