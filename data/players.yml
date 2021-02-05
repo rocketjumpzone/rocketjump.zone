@@ -2,6 +2,7 @@
 ch4mp:
   name: Ch4mp
   tourneys: 2
+  rank: "TBD"
   country: |
     <img src="../../images/flags/1x1/sk.svg" width="20" height="20" alt="sk" /> Slovakia
   clan: Big Biceps
@@ -16,6 +17,7 @@ ch4mp:
 dodger:
   name: Dodger
   tourneys: 2
+  rank: "TBD"
   country: |
     <img src="../../images/flags/1x1/nl.svg" width="20" height="20" alt="nl" /> Netherlands
   clan: "-"
@@ -816,3 +818,21 @@ salconnn:
     gold: 2
     silver: 0
     bronze: 1
+
+atn:
+  tourneys: 0
+  rank: "TBD"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+
+rukikryuki:
+  tourneys: 0
+  rank: "TBD"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0

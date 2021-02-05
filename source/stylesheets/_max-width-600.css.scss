@@ -23,6 +23,13 @@
     margin: 20px auto !important;
   }
 
+  .mobile-margin-20-full {
+    display: block;
+    margin: 20px auto !important;
+    width: 100% !important;
+    padding:10px !important;
+  }
+
   .mobile-margin-10 {
     display: block;
     margin: 10px auto !important;
@@ -50,12 +57,10 @@
   }
 
   .mobile-tooltip i {
-    font-size: 20px;
     margin: 10px 5px 5px;
   }
 
   .mobile-tooltip img {
-    font-size: 20px;
     margin: 10px !important;
   }
   /* fix 10px margin on mobile */
