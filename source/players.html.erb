@@ -1271,6 +1271,27 @@ title: Players
       <p id="rank" style="margin:0;display:none;font-weight:bold"><i class="fas fa-medal"></i> <%= data.players.dodger.rank %></p>
     </div>
 
+    <div class="flex-item w3-mobile xon" id="USA">
+      <p id="earnings" style="margin:0;display:none;font-weight:bold"><%= data.players.nyxia.money %></p>
+      <h4 class="w3-center"><a href="/player/nyxia">nyxia</a></h4>
+      <div class="w3-center">
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.nyxia.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.nyxia.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.nyxia.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr style="display:none" id="rank">
+      <p id="rank" style="margin:0;display:none;font-weight:bold"><i class="fas fa-medal"></i> <%= data.players.dodger.rank %></p>
+    </div>
+
   </div>
   <!-- end of flex-container-->
 

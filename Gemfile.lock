@@ -10,7 +10,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     autoprefixer-rails (9.8.6.5)
       execjs
-    backports (3.20.1)
+    backports (3.20.2)
     builder (3.2.4)
     coffee-script (2.4.1)
       coffee-script-source
@@ -22,7 +22,7 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     fast_blank (1.0.0)
-    fastimage (2.2.1)
+    fastimage (2.2.2)
     ffi (1.14.2)
     haml (5.2.1)
       temple (>= 0.8.0)
@@ -90,7 +90,11 @@ GEM
     middleman-search_engine_sitemap (1.4.0)
       builder
       middleman-core (~> 4.0)
+    mini_portile2 (2.5.0)
     minitest (5.14.3)
+    nokogiri (1.11.1)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     nokogiri (1.11.1-x86_64-linux)
       racc (~> 1.4)
     padrino-helpers (0.13.3.4)
@@ -137,4 +141,4 @@ DEPENDENCIES
   wdm (~> 0.1)
 
 BUNDLED WITH
-   2.2.2
+   2.2.11

@@ -1,7 +1,7 @@
 ---
 title: &title "Ch1mpnotic 1.0 Released"
 date: 2020-12-24 UTC
-date_update: Jan 11
+date_update: Feb 20
 tags: Xonotic
 layout: blog
 author: Ch4mp
@@ -24,7 +24,7 @@ disqus_url: https://rocketjump.zone/blog/ch1mpnotic-1-0-released
 
 As for the very first version, a lot of polish and improvements overall have been made - **CROSSHAIRS, HUDS, SOUNDS, GRAPHICS.**
 
-### Weapon Changes - Rocket Jump Zone Servers
+### Ch1mpnotic Balance - Changes to Weapons
 
 <iframe class="w3-mobile" style="height:533px;width:100%" src="https://www.youtube.com/embed/hwTZpaba3tE" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
