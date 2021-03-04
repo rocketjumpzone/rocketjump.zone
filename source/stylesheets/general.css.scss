@@ -412,6 +412,7 @@ table {
 /* ############################ used in /index ############################ */
 .flex-item-tourney {
   background: $main-darker-color;
+  min-width:344px;
   max-width: 344px;
   margin: 4px;
   padding: 1px 1px 15px;
@@ -526,6 +527,84 @@ img a {
     border-bottom: 4px solid #787887;
   }
 }
+
+
+.ranked-container {
+  background-image: url('/images/aerowalk.jpg');
+  background-size: 1920px 1080px;
+  width:100%;
+  height:1080px;
+  padding:16px;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  color:#fff;
+
+  h1, h2, p, a {
+    font-family: 'Montserrat';
+    font-weight: 900;
+  }
+
+  span {
+    color:$main-red-color;
+  }
+
+  a {
+    color:#fff;
+    text-decoration:none;
+
+    &:hover {
+      color:$main-red-color;
+    }
+  }
+
+}
+
+.blazing {
+  color: #fff;
+  text-shadow:
+    0 3px 20px red,
+    0 0 20px red,
+    0 0 10px orange,
+    4px -5px 6px yellow,
+    -4px -10px 10px yellow,
+    0 -10px 30px yellow;
+  animation: 2s blazing infinite alternate linear;
+}
+
+@keyframes blazing {
+  0%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+    0 0 10px orange,
+    0 0 0 yellow,
+    0 0 5px yellow,
+    -2px -5px 5px yellow,
+    4px -10px 10px yellow; }
+  25%   { text-shadow: 0 3px 20px red, 0 0 30px red,
+    0 0 20px orange,
+    0 0 5px yellow,
+    -2px -5px 5px yellow,
+    3px -10px 10px yellow,
+    -4px -15px 20px yellow; }
+  50%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+    0 -5px 10px orange,
+    -2px -5px 5px yellow,
+    3px -10px 10px yellow,
+    -4px -15px 20px yellow,
+    2px -20px 30px rgba(255,255,0,0.5); }
+  75%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+    0 -5px 10px orange,
+    3px -5px 5px yellow,
+    -4px -10px 10px yellow,
+    2px -20px 30px rgba(255,255,0,0.5),
+    0px -25px 40px rgba(255,255,0,0)}
+  100%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+    0 0 10px orange,
+    0 0 0 yellow,
+    0 0 5px yellow,
+    -2px -5px 5px yellow,
+    4px -10px 10px yellow; }
+}
+
+
 @import '_min-width-993.css.scss';
 @import '_max-width-600.css.scss';
 @import '_max-width-993.css.scss';

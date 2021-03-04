@@ -17,7 +17,7 @@ disqus_url: https://rocketjump.zone/how-to-start-playing-xonotic-ranked
 ## 1 - Download Ch1mpnotic
 
 Ch1mpnotic is a competitive edition of Xonotic created by Rocket Jump Zone.  
-It supports everything you need to participate in our tournaments or showmatches.  
+It supports everything you need to participate in our tournaments or ranked matches.  
 [rocketjump.zone/ch1mpnotic](https://rocketjump.zone/ch1mpnotic)
 
 
@@ -45,7 +45,7 @@ You can take a peek at all the commands which may be used by the pickup bot:
 
 
 ### Most used commands
-- <kbd>!leaderboard / !lb</kbd> - will show a table of all participants
+- <kbd>!leaderboard / !lb</kbd> - shows top players by rating
 - <kbd>!pickups</kbd> - will show you if there's any game up
 - <kbd>!add duel / +duel</kbd> - will create a game for you, whoever adds will be your opponent
 - <kbd>!reportlose / !rl</kbd> - the player who loses a game must report it
