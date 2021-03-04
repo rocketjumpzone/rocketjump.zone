@@ -74,10 +74,16 @@
 
   .ranked-container p, span {
     text-align:left;
+    margin:0 !important;
   }
 
   .ranked-container h1, h2 {
     text-align:center;
+    margin:0 !important;
+  }
+
+  img.ranked-avatar {
+    margin:0 !important;
   }
 
 }
