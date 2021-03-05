@@ -1,7 +1,7 @@
 ---
 title: &title "Ch1mpnotic 1.0 Released"
 date: 2020-12-24 UTC
-date_update: Feb 20
+date_update: Mar 5 2021
 tags: Xonotic
 layout: blog
 author: Ch4mp
@@ -16,19 +16,14 @@ disqus_url: https://rocketjump.zone/blog/ch1mpnotic-1-0-released
 
 <p class="w3-center">Ch1mpnotic is a
   <a href="https://xonotic.org/">Xonotic</a>
-  edition made for Competitive Players and the recommended version to participate in our tournaments..</p>
+  edition made for Competitive Players and the recommended version to participate in our tournaments.</p>
 
 <hr>
 
 ## What's new?
 
-As for the very first version, a lot of polish and improvements overall have been made - **CROSSHAIRS, HUDS, SOUNDS, GRAPHICS.**
+This version is a clean up, a lot of polish and improvements overall have been made - **CROSSHAIRS, HUDS, SOUNDS, CONFIGS.**
 
-### Ch1mpnotic Balance - Changes to Weapons
-
-<iframe class="w3-mobile" style="height:533px;width:100%" src="https://www.youtube.com/embed/hwTZpaba3tE" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<hr>
 
 ### Player and Caster Ready
 
@@ -52,8 +47,6 @@ There are 2 pre-made configs to simply switch between. Either you want to play o
 
 <img src="../../images/ch1mpnotic/6.jpg" class="w3-mobile w3-image" alt="main menu">
 
-<a href="/ch1mpnotic">Read more</a> about the game and further features of the game.
-
 <hr>
 
 ### Plans for version 2.0
@@ -62,9 +55,9 @@ We want new weapon models, better sounds, a proper player model.
 
 <hr>
 
-### 2021 Xonotic League
+### Download
 
-Please <a href="/blog">follow our blog</a> for announcements.
+<a href="/ch1mpnotic">Read more</a> about all the features and our servers.
 
 <hr>
 <script>

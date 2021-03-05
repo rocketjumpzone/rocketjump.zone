@@ -14,28 +14,21 @@ disqus_url: https://rocketjump.zone/blog/tournament-guides
 
 <hr>
 
-<h2 class="w3-center">How to check tournament start in a diff timezone</h2>
+<h2 class="w3-center">When does the tournament start in my timezone?</h2>
 <p class="w3-center">
 <a href="https://www.worldtimebuddy.com/" target="_blank">worldtimebuddy.com</a>&nbsp;&nbsp; <a href="https://timee.io/" target="_blank">timee.io</a>
 </p>
 <hr>
 
-<h2 class="w3-center" style="margin-top:50px">Registration for a tournament</h2>
+<h2 class="w3-center">A player profile</h2>
 
-<p>There are two ways to register:</p>
-<p><b>Challonge -</b> self manage your participation (check in, match reports etc..)</p>
-
-<p>
-<b>Discord -</b> visit the #registration channel and coop with us. For this option you will need a <a href="https://rocketjump.zone/new-player" target="_blank">player profile</a> at Rocket Jump Zone.</p>
+<p>Make sure to register for a <a href="https://rocketjump.zone/new-player" target="_blank">player profile</a>. It's to track your achievements and you will also get a new discord role - verified player.</p>
 
 <hr>
 
-<h2 class="w3-center">How to report match results? (Discord)</h2>
-<p>Tell us the results in the tournament channel, we will update the bracket for you.</p>
-<hr>
+<h2 class="w3-center">How to check in, report results?</h2>
+<p>We use challonge as our tournament platform. Usually check in 30 minutes before tournament start, so you can either use discord and tell us you're ready to play or check it via Challonge. The same applies for reporting match results.</p>
 
-<h2 class="w3-center">How to check-in? (Discord)</h2>
-<p>In the #check-in channel. Please be aware that if you do not check in the tournament will start without you.</p>
 <hr>
 
 <h2 class="w3-center">Player names</h2>

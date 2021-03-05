@@ -1,7 +1,7 @@
 ---
 title: Find us on GitHub
 date: 2020-10-30 UTC
-date_update:
+date_update: Mar 5 2021
 tags: Guides
 layout: blog
 author: Ch4mp
@@ -35,11 +35,11 @@ https://github.com/rocketjumpzone/rocketjump.zone/blob/main/source/library/demo.
 <p>All blog posts you can find here:<br>
 <a href="https://github.com/rocketjumpzone/rocketjump.zone/tree/main/source/blog" target="_blank">https://github.com/rocketjumpzone/rocketjump.zone/tree/main/source/blog</a><br>
 
-To add a new blog post, simply duplicate one, change the name, push the post.<br>We support <b>Markdown</b>, Disqus, Tags.
+To add a new blog post, simply duplicate one, change the name and details, add content and push the post.<br>We support <b>Markdown</b>, Disqus, Tags.
 
 </p>
 
-## Ch1mpnotic - Arena Shooter
+## Ch1mpnotic - A Xonotic Edition
 
 Do you know Darkplaces engine, QuakeC or are you a Blender designer? Then you might Join our Dev team!
 
