@@ -1,33 +1,28 @@
 ---
-title: &title "Ch1mpnotic 1.0 Released"
-date: 2020-12-24 UTC
-date_update: Mar 5 2021
+title: &title "Ch1mpnotic 1.2 Released"
+date: 2021-03-13 UTC
+date_update:
 tags: Xonotic
 layout: blog
 author: Ch4mp
-disqus_identifier: /ch1mpnotic-1-0-released
+disqus_identifier: /ch1mpnotic-1-2-released
 disqus_title: *title
-disqus_url: https://rocketjump.zone/blog/ch1mpnotic-1-0-released
+disqus_url: https://rocketjump.zone/blog/ch1mpnotic-1-2-released
 ---
 
-<h1 class="w3-center">Ch1mpnotic 1.0 Released</h1>
-
-<hr>
-
-<p class="w3-center">Ch1mpnotic is a Competitive
-  <a href="https://xonotic.org/">Xonotic</a>
-  Edition. Specially created for Rocket Jump Zone events..</p>
+<h1 class="w3-center">Ch1mpnotic 1.2 Released</h1>
 
 <hr>
 
 ## What's new?
 
-This version is a clean up, a lot of polish and improvements overall have been made - **CROSSHAIRS, HUDS, SOUNDS, CONFIGS.**
-
-
-### Player and Caster Ready
-
-There are 2 pre-made configs to simply switch between. Either you want to play or cast a game.  
+- Update to the latest xonotic git (March 13 2021), which brings many improvements overall
+- **New sound pack (player, weapons, ambient, menu, miscs)**  
+be aware: These sounds are copyrighted. You can use these sounds only within this project as is.  
+- LG fps drops fixed
+- Fixed a bug where player skin would not save config properly
+- Fixed random flame particles appearance
+- New HUD for player mode and new crosshair by default
 
 <div class="w3-display-container w3-margin-top">
   <img src="../../images/ch1mpnotic/1.jpg" class="w3-mobile mySlides w3-image w3-animate-opacity" alt="caster">
@@ -43,21 +38,13 @@ There are 2 pre-made configs to simply switch between. Either you want to play o
 
 <hr>
 
-### New Menu Theme
+## Download
+<a href="/ch1mpnotic">Get Ch1mpnotic 1.2</a>
 
-<img src="../../images/ch1mpnotic/3.jpg" class="w3-mobile w3-image" alt="main menu">
+## Installation
+Simply remove your old game folder and replace by new one
 
-<hr>
 
-### Plans for version 2.0
-
-We want new weapon models, better sounds, a proper player model.
-
-<hr>
-
-### Download
-
-<a href="/ch1mpnotic">Read more</a> about all the features and our servers.
 
 <hr>
 <script>

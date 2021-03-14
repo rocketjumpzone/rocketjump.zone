@@ -5,6 +5,10 @@
     display: block;
   }
 
+  .w3-responsive {
+    overflow:hidden !important;
+  }
+
   img.ranked-avatar {
     width: 400px;
     height: 400px;

@@ -16,7 +16,7 @@ disqus_url: https://rocketjump.zone/how-to-start-playing-xonotic-ranked
 
 ## 1 - Download Ch1mpnotic
 
-Ch1mpnotic is a competitive Xonotic edition created by Rocket Jump Zone.  
+Ch1mpnotic is a Competitive Xonotic Edition created by Rocket Jump Zone.  
 It supports everything you need to participate in our tournaments or ranked matches.  
 [rocketjump.zone/ch1mpnotic](https://rocketjump.zone/ch1mpnotic)
 
