@@ -20,7 +20,7 @@ layout: ch1mpnotic-jquery
     </button>
   </div>
 
-  <a class="w3-hide-small" style="border:none" href="https://drive.google.com/file/d/1dObEmwYZtGS55hPWXWnvLbAolWf8vxa0/view?usp=sharing" target="_blank">
+  <a class="w3-hide-small" style="border:none" href="https://drive.google.com/file/d/1zLwEzduaGOCcvADplpwSMVcTPh6Bxvh_/view?usp=sharing" target="_blank">
     <span class="w3-tag w3-hover-white w3-red" style="margin-left:2.5px">
       <i class="fas fa-download"></i>
       CH1MPNOTIC 1.2 &nbsp;&nbsp;<i class="fab fa-google-drive"></i> 3.1 GB
@@ -72,6 +72,8 @@ layout: ch1mpnotic-jquery
       <b>Windows, Linux, Mac</b>
     </li>
     <li>
+      Movement? <b>CPMA</b> like</li>
+    <li>
       FPS?
       250+ (default config), game launch - 2 secs, no lootboxes,  no annoyance</li>
   </ul>
@@ -87,10 +89,10 @@ layout: ch1mpnotic-jquery
 
 
     <h3 id="maps">Rules</h3>
-    <ol>
-      <li>Although it's possible to change your name in Xonotic, it's not tolerated on our servers. Choose a player name once and keep it.<br> If you participate in our events, choose your competitive name from <a href="/players">rocketjump.zone/players</a></li>
-      <li>You can play ranked only on our servers</li>
-    </ol>
+    <ul>
+      <li>It's not tolerated to fake / change your name on our servers. Choose a player name once and keep it.<br> If you participate in our events, choose your competitive name from <a href="/players">rocketjump.zone/players</a></li>
+      <li>Read the rest - <a href="/pickup">pickup rules</a></li>
+    </ul>
 
     <h3 class="w3-margin-top">Official Competitive Maps</h3>
     <b>
@@ -107,15 +109,15 @@ layout: ch1mpnotic-jquery
 
   <p>Main <a href="https://www.youtube.com/watch?v=hwTZpaba3tE">balance differences</a> from XPM:</p>
   <ul>
-    <li>Crylink weapon is replaced with an LG weapon</li>
-    <li>MachineGun's reload was removed</li>
-    <li>Blaster weapon has now a secondary (dmg: 1, force: 3, refire: 0.2)</li>
+    <li>Crylink replaced with an LG weapon</li>
+    <li>MachineGun has no reload anymore</li>
+    <li>Blaster weapon now has a secondary (dmg: 1, force: 3, refire: 0.2)</li>
   </ul>
 
   <p>It could happen that somebody left a non official balance config on the server, fix it with:&nbsp;&nbsp; <kbd>vcall balance-default</kbd></p>
 
   <p><b>Other balances to try out:</b><br>
-    <kbd>balance-testing</kbd>&nbsp; <kbd>balance-kota</kbd>&nbsp; <kbd>balance-ql</kbd>&nbsp; <kbd>balance-bw</kbd>&nbsp; <kbd>balance-jaska</kbd>&nbsp; <kbd>balance-doom</kbd>
+    <kbd>balance-testing</kbd>&nbsp; <kbd>balance-kota</kbd>&nbsp; <kbd>balance-ql</kbd>&nbsp; <kbd>balance-bw</kbd>&nbsp; <kbd>balance-jaska</kbd>
   </p>
 
   <h3 class="w3-margin-top">List of Servers</h3>
@@ -127,6 +129,10 @@ layout: ch1mpnotic-jquery
   <p><a href="http://stats.xonotic.org/server/28424" target="_blank">Duel 2 - London | Rocket Jump Zone</a> -&nbsp;
     <kbd>212.71.239.248</kbd>
   </p>
+
+  <p><a href="http://stats.xonotic.org/server/28624" target="_blank">Duel 3 - New York | Rocket Jump Zone</a> -&nbsp;
+    <kbd>45.79.161.168</kbd>
+  </p>
   </div>
   <hr>
 
@@ -134,10 +140,10 @@ layout: ch1mpnotic-jquery
   <p>press "~" or "shift + esc" to open the console</p>
   <ul>
     <li>There are 2 pre-made modes:<br>
-      <span style="border-bottom:1px groove" data-preview-image="../../images/ch1mpnotic/1-preview.jpg">Competitive (default)</span>&nbsp;
-      <kbd>player</kbd>&nbsp; (textures off, simple items (2D), HUD, reduced effects..)<br>
-      <span style="border-bottom:1px groove" data-preview-image="../../images/ch1mpnotic/2-preview.jpg">Audience</span>&nbsp;
-      <kbd>caster</kbd>&nbsp; (textures on, normal items (3D), HUD, eye candy..)</li>
+      <span style="border-bottom:1px groove" data-preview-image="../../images/ch1mpnotic/1-preview.jpg"><kbd>player</kbd></span>&nbsp;
+      (textures off, simple items (2D), HUD, reduced effects..)<br>
+      <span style="border-bottom:1px groove" data-preview-image="../../images/ch1mpnotic/2-preview.jpg"><kbd>caster</kbd></span>&nbsp;
+      (textures on, normal items (3D), HUD, eye candy..)</li>
     <li>you can simply switch between hud caster and player on the fly:&nbsp; <kbd>hud-player</kbd> <kbd>hud-caster</kbd></li>
     <li>If you prefer male announcer: &nbsp;<kbd>cl_announcer male</kbd>
     </li>
@@ -177,7 +183,7 @@ layout: ch1mpnotic-jquery
     </li>
   </ul>
 
-  <p>
+  <p style="margin-top:50px">
     Where is your config located (that's also the place to put 3rd party assets):</p>
   <i class="fab fa-2x fa-linux"></i>
   &nbsp;&nbsp; ~/.xonotic/data
@@ -215,6 +221,12 @@ layout: ch1mpnotic-jquery
     <li>
       <a href="https://rocketjump.zone/files/xonotic/zzz-old-rl.pk3">
         <span style="border-bottom:1px groove" data-preview-image="../../images/ch1mpnotic/old-rl.jpg">Old Rocket Launcher Model</span></a>
+    </li>
+    <li>
+      <a href="https://rocketjump.zone/files/xonotic/effectsinfo.txt" target="_blank"> effectsinfo.txt - (weapon effects by Dr.Jaska)</a>
+    </li>
+    <li>
+      <a href="https://rocketjump.zone/files/xonotic/q3-xonotic_compatpack_gpl.pk3" target="_blank">Q3 Compatpack Textures - (needed for Toxicity map)</a>
     </li>
   </ul>
 

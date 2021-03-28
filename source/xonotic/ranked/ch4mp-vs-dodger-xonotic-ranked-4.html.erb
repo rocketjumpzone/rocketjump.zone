@@ -11,7 +11,7 @@ layout: ranked
 
     <p class="w3-center w3-xxlarge">
       <a href="https://www.twitch.tv/rocketjumpzone" target="_blank">twitch.tv/rocketjumpzone</a><br>
-      Mar 7 - 2PM CET</p>
+      Mar 7 - 2PM CET (finished)</p>
   </div>
 
   <div class="w3-row-padding">
@@ -55,14 +55,20 @@ layout: ranked
     <h2>About This Match</h2>
     <p>The expected match is here! The drama queen (Ch4mp) will go against King Dodger.</p>
     <p>
-    There's been a lot of trash talk recently as Ch4mp mentioned Dodger in a video that he will take him finally down - <a href="https://www.youtube.com/watch?v=R3cIwnN23FM" target="_blank">"<b><i> I'm gonna difinitely crash him "</i></b></a>, but didn't take too long for mr. Dodger to respond:<br><br><i>" I'll make sure I'm rested enough and I'll fucking own you so hard. I'll abuse everything I've ever known in this game."
-    Just you wait ".</i></p>
-    <a href="https://www.youtube.com/watch?v=xxrmGe7qrfU" target="_blank" class="w3-btn w3-round w3-center w3-padding-large w3-hover-white w3-large mobile-margin-10 w3-red w3-mobile">
-        <b>
-          <i class="fab fa-youtube"></i>
-          VOD
+      There's been a lot of trash talk recently as Ch4mp mentioned Dodger in a video that he will take him finally down -
+      <a href="https://www.youtube.com/watch?v=R3cIwnN23FM" target="_blank">"<b>
+          <i>
+            I'm gonna difinitely crash him "</i>
         </b>
-      </a>
+      </a>, but didn't take too long for mr. Dodger to respond:<br><br>
+      <i>" I'll make sure I'm rested enough and I'll fucking own you so hard. I'll abuse everything I've ever known in this game." Just you wait ".</i>
+    </p>
+    <a href="https://www.youtube.com/watch?v=xxrmGe7qrfU" target="_blank" class="w3-btn w3-round w3-center w3-padding-large w3-hover-white w3-large mobile-margin-10 w3-red w3-mobile">
+      <b>
+        <i class="fab fa-youtube"></i>
+        VOD
+      </b>
+    </a>
   </div>
 
   <div class="w3-third">
@@ -72,8 +78,20 @@ layout: ranked
   <div class="w3-third">
     <h2 class="w3-center">Share it</h2>
     <div class="sharethis-inline-share-buttons"></div>
+    <h2 class="w3-center">Theme</h2>
+    <audio controls="controls" autoplay="autoplay" style="display:block;width:70%;margin:0 auto">
+      <source src="/images/audio/2.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
   </div>
 
 </div>
 
 <hr>
+
+<% if build? %>
+  <div class="w3-content w3-container">
+    <%= disqus %>
+    <%= disqus_count %>
+  </div>
+<% end %>

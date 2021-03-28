@@ -3,15 +3,16 @@ title: &title "Rainbow Shadow vs Dodger - Xonotic Ranked 5"
 layout: ranked
 ---
 
+
 <div class="w3-row ranked-container">
 
   <div class="w3-col w3-center">
 
-    <h1 class="w3-center blazing w3-jumbo">Rainbow Shadow  vs Dodger - Xonotic Ranked 5</h1>
+    <h1 class="w3-center blazing w3-jumbo">Rainbow Shadow vs Dodger - Xonotic Ranked 5</h1>
 
     <p class="w3-center w3-xxlarge">
       <a href="https://www.twitch.tv/rocketjumpzone" target="_blank">twitch.tv/rocketjumpzone</a><br>
-      Mar 13 - 7PM CET</p>
+      Mar 13 - 7PM CET (finished)</p>
   </div>
 
   <div class="w3-row-padding">
@@ -55,11 +56,12 @@ layout: ranked
     <h2>About This Match</h2>
     <p>The Orangutan will be unleased to meet King Dodger. Who knows what happens ?!?!?! It's gonna be a great fight of two top tier players.</p>
     <a href="https://youtu.be/wAVYberCXeo" target="_blank" class="w3-btn w3-round w3-center w3-padding-large w3-hover-white w3-large mobile-margin-10 w3-red w3-mobile">
-        <b>
-          <i class="fab fa-youtube"></i>
-          VOD
-        </b>
-      </a>
+      <b>
+        <i class="fab fa-youtube"></i>
+        VOD
+      </b>
+    </a>
+
   </div>
 
   <div class="w3-third">
@@ -69,8 +71,20 @@ layout: ranked
   <div class="w3-third">
     <h2 class="w3-center">Share it</h2>
     <div class="sharethis-inline-share-buttons"></div>
+    <h2 class="w3-center">Theme</h2>
+    <audio controls="controls" autoplay="autoplay" style="display:block;width:70%;margin:0 auto">
+      <source src="/images/audio/1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
   </div>
 
 </div>
 
 <hr>
+
+<% if build? %>
+  <div class="w3-content w3-container">
+    <%= disqus %>
+    <%= disqus_count %>
+  </div>
+<% end %>
