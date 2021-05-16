@@ -27,7 +27,7 @@ disqus_url: https://rocketjump.zone/blog/tournament-guides
 <hr>
 
 <h2 class="w3-center">How to check in, report results?</h2>
-<p>We use challonge as our tournament platform. Usually check in 30 minutes before tournament start, so you can either use discord and tell us you're ready to play or check it via Challonge. The same applies for reporting match results.</p>
+<p>We use challonge as our tournament platform. Usually check in opens 30 minutes before tournament start, so you can either use discord and tell us you're ready to play or check in via Challonge. The same applies for reporting match results.</p>
 
 <hr>
 

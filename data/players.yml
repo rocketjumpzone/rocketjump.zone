@@ -1,29 +1,29 @@
 
 ch4mp:
   name: Ch4mp
-  tourneys: 2
-  rank: "2"
+  tourneys: 3
+  rank: "3"
   country: |
     <img src="../../images/flags/1x1/sk.svg" width="20" height="20" alt="sk" /> Slovakia
   clan: Big Biceps
-  money: "-"
+  money: "€41,47"
   trophies:
     gold: 0
     silver: 0
-    bronze: 2
+    bronze: 3
   url: |
     <a href="/player/ch4mp" class="bronze">Ch4mp</a>
 
 dodger:
   name: Dodger
-  tourneys: 2
+  tourneys: 3
   rank: "1"
   country: |
     <img src="../../images/flags/1x1/nl.svg" width="20" height="20" alt="nl" /> Netherlands
   clan: "-"
-  money: "€15"
+  money: "€141"
   trophies:
-    gold: 2
+    gold: 3
     silver: 0
     bronze: 0
   avatar: |

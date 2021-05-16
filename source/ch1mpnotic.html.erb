@@ -11,6 +11,11 @@ layout: ch1mpnotic-jquery
   <div class="w3-display-container w3-margin-top w3-hide-small">
     <img src="../../images/ch1mpnotic/1.jpg" class="w3-mobile mySlides w3-image w3-animate-opacity" alt="player mode">
     <img src="../../images/ch1mpnotic/2.jpg" class="w3-mobile mySlides w3-image w3-animate-opacity" alt="caster mode">
+    <img src="../../images/ch1mpnotic/4.jpg" class="w3-mobile mySlides w3-image w3-animate-opacity" alt="caster mode">
+    <img src="../../images/ch1mpnotic/scoreboard.jpg" class="w3-mobile mySlides w3-image w3-animate-opacity" alt="scoreboard">
+    <img src="../../images/ch1mpnotic/3.jpg" class="w3-mobile mySlides w3-image w3-animate-opacity" alt="menu">
+    <img src="../../images/ch1mpnotic/5.jpg" class="w3-mobile mySlides w3-image w3-animate-opacity" alt="player mode">
+    <img src="../../images/ch1mpnotic/6.jpg" class="w3-mobile mySlides w3-image w3-animate-opacity" alt="player mode">
 
     <button class="w3-button w3-display-left w3-hide-small" onclick="plusDivs(-1)">
       <i class="fas fa-3x fa-arrow-left"></i>
@@ -20,10 +25,10 @@ layout: ch1mpnotic-jquery
     </button>
   </div>
 
-  <a class="w3-hide-small" style="border:none" href="https://drive.google.com/file/d/1zLwEzduaGOCcvADplpwSMVcTPh6Bxvh_/view?usp=sharing" target="_blank">
+  <a class="w3-hide-small" style="border:none" href="https://drive.google.com/file/d/15tIeBxdK4Wm4I1KZBEr81Spww578_qQ4/view?usp=sharing" target="_blank">
     <span class="w3-tag w3-hover-white w3-red" style="margin-left:2.5px">
       <i class="fas fa-download"></i>
-      CH1MPNOTIC 1.2 &nbsp;&nbsp;<i class="fab fa-google-drive"></i> 3.1 GB
+      CH1MPNOTIC 1.3.1 &nbsp;&nbsp;<i class="fab fa-google-drive"></i> 2.8G
     </span>
   </a>
 
@@ -66,7 +71,7 @@ layout: ch1mpnotic-jquery
       Edition. Specially created for Rocket Jump Zone events.
     </li>
     <li>
-      Based on Xonotic git (March 13 2021)
+      Based on Xonotic git (April 22 2021) and the <a href="https://omaera.org/~z411/xonotic/">BaI mod</a>
     </li>
     <li>Available for
       <b>Windows, Linux, Mac</b>
@@ -107,49 +112,59 @@ layout: ch1mpnotic-jquery
 
   <h3 class="w3-margin-top" id="balances">Duel Balance</h3>
 
-  <p>Main <a href="https://www.youtube.com/watch?v=hwTZpaba3tE">balance differences</a> from XPM:</p>
+  <p>Main balance differences from XPM:</p>
   <ul>
-    <li>Crylink replaced with an LG weapon</li>
-    <li>MachineGun has no reload anymore</li>
-    <li>Blaster weapon now has a secondary (dmg: 1, force: 3, refire: 0.2)</li>
+    <li>Crylink weapon replaced with an LG weapon (modified arc)</li>
+    <li>MachineGun weapon has no reload anymore</li>
+    <li>Blaster weapon now has a secondary</li>
+    <li>Ammo reduction for rockets and cells</li>
   </ul>
-
-  <p>It could happen that somebody left a non official balance config on the server, fix it with:&nbsp;&nbsp; <kbd>vcall balance-default</kbd></p>
-
-  <p><b>Other balances to try out:</b><br>
-    <kbd>balance-testing</kbd>&nbsp; <kbd>balance-kota</kbd>&nbsp; <kbd>balance-ql</kbd>&nbsp; <kbd>balance-bw</kbd>&nbsp; <kbd>balance-jaska</kbd>
-  </p>
 
   <h3 class="w3-margin-top">List of Servers</h3>
   <div class="w3-panel w3-round" style="background:#131316;width:100%">
-  <p><a href="https://stats.xonotic.org/server/27992" target="_blank">Duel 1 - Frankfurt | Rocket Jump Zone</a> -&nbsp;
+  <p><a href="https://stats.xonotic.org/server/27992" target="_blank">Duel 1 - Frankfurt | ZS x RJZ Tournament</a> -&nbsp;
     <kbd>172.105.76.71</kbd>
   </p>
 
-  <p><a href="http://stats.xonotic.org/server/28424" target="_blank">Duel 2 - London | Rocket Jump Zone</a> -&nbsp;
+  <p><a href="http://stats.xonotic.org/server/28424" target="_blank">Duel 2 - London | ZS x RJZ Tournament</a> -&nbsp;
     <kbd>212.71.239.248</kbd>
   </p>
 
-  <p><a href="http://stats.xonotic.org/server/28624" target="_blank">Duel 3 - New York | Rocket Jump Zone</a> -&nbsp;
+  <p><a href="http://stats.xonotic.org/server/28624" target="_blank">Duel 3 - New York | ZS x RJZ Tournament</a> -&nbsp;
     <kbd>45.79.161.168</kbd>
+  </p>
+
+  <p><a href="http://stats.xonotic.org/server/30014" target="_blank">Duel 4 - Frankfurt | ZS x RJZ Tournament</a> -&nbsp;
+    <kbd>192.46.234.64</kbd>
+  </p>
+
+  <p><a href="http://stats.xonotic.org/server/30019" target="_blank">Duel 5 - London | ZS x RJZ Tournament</a> -&nbsp;
+    <kbd>139.162.227.96</kbd>
+  </p>
+
+  <p><a href="http://stats.xonotic.org/server/30016" target="_blank">Duel 6 - Frankfurt | ZS x RJZ Tournament</a> -&nbsp;
+    <kbd>172.104.151.95</kbd>
+  </p>
+
+  <p><a href="http://stats.xonotic.org/server/30015" target="_blank">Duel 7 - Frankfurt | ZS x RJZ Tournament</a> -&nbsp;
+    <kbd>192.46.232.87</kbd>
   </p>
   </div>
   <hr>
 
   <h2 id="config">Config / Console</h2>
-  <p>press "~" or "shift + esc" to open the console</p>
+  <p>press "~" or "shift + esc" to open the console and simply enter a command</p>
   <ul>
-    <li>There are 2 pre-made modes:<br>
+    <li>there are 2 pre-made modes:<br>
       <span style="border-bottom:1px groove" data-preview-image="../../images/ch1mpnotic/1-preview.jpg"><kbd>player</kbd></span>&nbsp;
-      (textures off, simple items (2D), HUD, reduced effects..)<br>
+      default game config, simple items (2D), textures off, competitive HUD <br>
       <span style="border-bottom:1px groove" data-preview-image="../../images/ch1mpnotic/2-preview.jpg"><kbd>caster</kbd></span>&nbsp;
-      (textures on, normal items (3D), HUD, eye candy..)</li>
-    <li>you can simply switch between hud caster and player on the fly:&nbsp; <kbd>hud-player</kbd> <kbd>hud-caster</kbd></li>
-    <li>If you prefer male announcer: &nbsp;<kbd>cl_announcer male</kbd>
-    </li>
+      eye candy config, normal items (3D), textures on, spectator HUD</li>
+    <li>you can simply switch between hud caster, player and xonotic on the fly:&nbsp; <kbd>hud-player</kbd> <kbd>hud-caster</kbd> <kbd>hud-xonotic</kbd></li>
+    <li>announcers available: &nbsp;<kbd>cl_announcer xonotic</kbd> &nbsp;<kbd>cl_announcer splat</kbd> &nbsp;<kbd>cl_announcer shobon</kbd> &nbsp;<kbd>cl_announcer default</kbd>
 
     <li><u>In game vote / call commands:</u><br>
-      <b>vcall chmap map</b> or <b>vmap map</b>
+      <b>vcall chmap</b> "map" or <b>vmap</b> "map"
       (vote for a diff map)<br>
       <b>vcall gg</b> or <b>vcall endmatch</b>
       (call a gg, end match)<br>
@@ -162,9 +177,10 @@ layout: ch1mpnotic-jquery
       <b>vcall bots, vcall nobots</b> - who needs bots? our playerbase is huge<br>
       <b>allmaps</b> - print names of all available maps on the server<br>
       <b>votemaps</b> - print all available vote maps<br>
+      <b>autospec</b> - follow killer cam<br>
       <b>timeout, timein</b> - pause and unpause the game<br>
       <u>shortcuts:</u><br>
-      q / quit, d / disconnect, s / spec, r / ready, autospec (kill cam)<br>
+      q / quit, d / disconnect, s / spec, r / ready<br>
     </li>
 
     <li>
@@ -175,7 +191,6 @@ layout: ch1mpnotic-jquery
       <kbd>cl_particles_alpha 0.2</kbd><br>
       <kbd>cl_particles_sparks 0</kbd><br>
       <kbd>cl_particles_blood 0</kbd><br>
-      <kbd>cl_gentle_gibs 1</kbd><br>
       <kbd>r_coronas 0</kbd><br>
 
       if you have low FPS (probably in caster mode) then try:<br>
@@ -203,30 +218,15 @@ layout: ch1mpnotic-jquery
 
   <ul>
     <li>
-      <a href="https://rocketjump.zone/files/xonotic/zzz-player-sounds-female.pk3">Player Sounds - Female</a>
+      <a href="http://xonrepo.xyz/zzz-player-sounds-female.pk3">Player Sounds - Female</a>
     </li>
 
     <li>
-      <a href="https://rocketjump.zone/files/xonotic/zzz-player-sounds-tommy.pk3">Player Sounds - Tommy</a>
+      <a href="http://xonrepo.xyz/zzz-player-sounds-tommy.pk3">Player Sounds - Tommy</a>
     </li>
 
     <li>
-      <a href="https://drive.google.com/file/d/1JzzWYKH4im0O4vUhmP-eUg8CDjsfBBlK/view?usp=sharing" target="_blank">Sound Pack (weapons, miscs) - Kotangens</a>
-    </li>
-
-    <li>
-      <a href="https://drive.google.com/file/d/1-jRDyEe60OSo97XfQWieejPfWWRDgF0P/view?usp=sharing" target="_blank">Announcer - (Quake like sounds by SPLAT)</a>
-    </li>
-
-    <li>
-      <a href="https://rocketjump.zone/files/xonotic/zzz-old-rl.pk3">
-        <span style="border-bottom:1px groove" data-preview-image="../../images/ch1mpnotic/old-rl.jpg">Old Rocket Launcher Model</span></a>
-    </li>
-    <li>
-      <a href="https://rocketjump.zone/files/xonotic/effectsinfo.txt" target="_blank"> effectsinfo.txt - (weapon effects by Dr.Jaska)</a>
-    </li>
-    <li>
-      <a href="https://rocketjump.zone/files/xonotic/q3-xonotic_compatpack_gpl.pk3" target="_blank">Q3 Compatpack Textures - (needed for Toxicity map)</a>
+      <a href="http://xonrepo.xyz/zzzz-kota-sounds_v10.pk3" target="_blank">Sound Pack (weapons, miscs) - Kotangens</a>
     </li>
   </ul>
 

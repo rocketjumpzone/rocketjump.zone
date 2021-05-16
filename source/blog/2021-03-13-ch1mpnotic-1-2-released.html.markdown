@@ -19,10 +19,10 @@ disqus_url: https://rocketjump.zone/blog/ch1mpnotic-1-2-released
 - Update to the latest xonotic git (March 13 2021), which brings many improvements overall
 - **New sound pack (player, weapons, ambient, menu, miscs)**  
 be aware: These sounds are copyrighted. You can use these sounds only within this project as is.  
-- LG fps drops fixed
-- Fixed a bug where player skin would not save config properly
-- Fixed random flame particles appearance
-- New HUD for player mode and new crosshair by default
+- Fixed LG FPS drops issue
+- Fixed a bug where player skin would not save properly
+- Fixed a bug which caused random flame particles
+- New HUD for player / caster mode and new crosshair by default
 
 <div class="w3-display-container w3-margin-top">
   <img src="../../images/ch1mpnotic/1.jpg" class="w3-mobile mySlides w3-image w3-animate-opacity" alt="caster">
