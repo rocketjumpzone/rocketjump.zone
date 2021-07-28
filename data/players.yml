@@ -1,29 +1,29 @@
 
 ch4mp:
   name: Ch4mp
-  tourneys: 3
+  full_name: "Peter"
   rank: "3"
   country: |
     <img src="../../images/flags/1x1/sk.svg" width="20" height="20" alt="sk" /> Slovakia
   clan: Big Biceps
-  money: "€41,47"
+  money: "$350"
   trophies:
     gold: 0
-    silver: 0
+    silver: 2
     bronze: 3
   url: |
-    <a href="/player/ch4mp" class="bronze">Ch4mp</a>
+    <a href="/player/ch4mp" class="silver">Ch4mp</a>
 
 dodger:
   name: Dodger
-  tourneys: 3
+  full_name: "Jaad Alaka"
   rank: "1"
   country: |
     <img src="../../images/flags/1x1/nl.svg" width="20" height="20" alt="nl" /> Netherlands
   clan: "-"
-  money: "€141"
+  money: "€15, $1 385"
   trophies:
-    gold: 3
+    gold: 7
     silver: 0
     bronze: 0
   avatar: |
@@ -33,11 +33,11 @@ dodger:
 
 tommy:
   name: Tommy
-  tourneys: 2
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
   clan: "-"
-  money: "€5"
+  money: "€5, $50"
   trophies:
     gold: 1
     silver: 1
@@ -50,7 +50,7 @@ tommy:
 
 desiro:
   name: DesiRo
-  tourneys: 0
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/si.svg" width="20" height="20" alt="si" /> Slovenia
   clan: "-"
@@ -66,7 +66,7 @@ desiro:
 
 fookiz:
   name: Fookiz
-  tourneys: 2
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/il.svg" width="20" height="20" alt="il" /> Israel
   clan: "-"
@@ -83,7 +83,7 @@ fookiz:
 
 digiteq:
   name: Digiteq
-  tourneys: 0
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/gb.svg" width="20" height="20" alt="gb" /> United Kingdom
   clan: "-"
@@ -99,7 +99,7 @@ digiteq:
 
 profan:
   name: pRoFaN
-  tourneys: 0
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/il.svg" width="20" height="20" alt="il" /> Israel
   clan: "-"
@@ -115,7 +115,7 @@ profan:
 
 headbang3r:
   name: headbang3r
-  tourneys: 1
+  full_name: "Jonathan Christen"
   country: |
     <img src="../../images/flags/1x1/ch.svg" width="20" height="20" alt="ch" /> Switzerland
   clan: "-"
@@ -132,7 +132,7 @@ headbang3r:
 
 troolz:
   name: Troolz
-  tourneys: 9
+  full_name: "Artur Tataev"
   country: |
     <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
   clan: "-"
@@ -148,7 +148,7 @@ troolz:
 
 snthss:
   name: snthss
-  tourneys: 1
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/de.svg" width="20" height="20" alt="de" /> Germany
   clan: "-"
@@ -164,7 +164,7 @@ snthss:
 
 bagelzend:
   name: Bagelzend
-  tourneys: 0
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/gb.svg" width="20" height="20" alt="gb" /> United Kingdom
   clan: "TeqR esports"
@@ -180,7 +180,7 @@ bagelzend:
 
 lithz:
   name: lithz
-  tourneys: 1
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/gb.svg" width="20" height="20" alt="gb" /> United Kingdom
   clan: "-"
@@ -196,7 +196,7 @@ lithz:
 
 bon3z666:
   name: bon3z666
-  tourneys: 1
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/ua.svg" width="20" height="20" alt="ua" /> Ukraine
   clan: "-"
@@ -212,7 +212,7 @@ bon3z666:
 
 xron:
   name: Xron
-  tourneys: 4
+  full_name: "Dmytro Sakharuk"
   country: |
     <img src="../../images/flags/1x1/ua.svg" width="20" height="20" alt="ua" /> Ukraine
   clan: "-"
@@ -228,7 +228,7 @@ xron:
 
 jurmeli:
   name: Jurmeli
-  tourneys: 0
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/fi.svg" width="20" height="20" alt="fi" /> Finland
   clan: "-"
@@ -244,7 +244,7 @@ jurmeli:
 
 w1ndows:
   name: W1ndows
-  tourneys: 0
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/fi.svg" width="20" height="20" alt="fi" /> Finland
   clan: "-"
@@ -260,7 +260,7 @@ w1ndows:
 
 ins:
   name: ins
-  tourneys: 3
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/pt.svg" width="20" height="20" alt="pt" /> Portugal
   clan: "-"
@@ -276,7 +276,7 @@ ins:
 
 meknaan:
   name: MekNaan
-  tourneys: 1
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/nl.svg" width="20" height="20" alt="nl" /> Netherlands
   clan: "-"
@@ -292,7 +292,7 @@ meknaan:
 
 xanjya:
   name: xanjya
-  tourneys: 1
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/gb.svg" width="20" height="20" alt="gb" /> United Kingdom
   clan: "-"
@@ -308,7 +308,7 @@ xanjya:
 
 taka:
   name: Taka
-  tourneys: 3
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/de.svg" width="20" height="20" alt="de" /> Germany
   clan: "Arctic esports"
@@ -325,7 +325,7 @@ taka:
 
 camotblk:
   name: CAMOTblK
-  tourneys: 3
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
   clan: "-"
@@ -341,7 +341,7 @@ camotblk:
 
 bigeyeguy:
   name: BigEyeGuy
-  tourneys: 0
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/il.svg" width="20" height="20" alt="il" /> Israel
   clan: "-"
@@ -357,7 +357,7 @@ bigeyeguy:
 
 strngst:
   name: strngst
-  tourneys: 3
+  full_name: "Rinat Mamyshev"
   country: |
     <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
   clan: "-"
@@ -373,7 +373,7 @@ strngst:
 
 pastel:
   name: pastel
-  tourneys: 0
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/uy.svg" width="20" height="20" alt="uy" /> Uruguay
   clan: "-"
@@ -390,7 +390,7 @@ pastel:
 
 themaser:
   name: The Maser
-  tourneys: 0
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/us.svg" width="20" height="20" alt="us" /> USA
   clan: "-"
@@ -407,7 +407,7 @@ themaser:
 
 criss9000:
   name: criss9000
-  tourneys: 0
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/il.svg" width="20" height="20" alt="il" /> Israel
   clan: "-"
@@ -423,7 +423,7 @@ criss9000:
 
 antowka:
   name: ANTOWKA
-  tourneys: 5
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
   clan: "s e e r"
@@ -439,7 +439,7 @@ antowka:
 
 lopl:
   name: Lopl
-  tourneys: 0
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/it.svg" width="20" height="20" alt="it" /> Italy
   clan: "-"
@@ -455,7 +455,7 @@ lopl:
 
 ahri:
   name: ahri
-  tourneys: 0
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/hr.svg" width="20" height="20" alt="hr" /> Croatia
   clan: "-"
@@ -471,7 +471,7 @@ ahri:
 
 jskey:
   name: JSkey
-  tourneys: 0
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/fr.svg" width="20" height="20" alt="fr" /> France
   clan: "-"
@@ -488,7 +488,7 @@ jskey:
 
 flowie71:
   name: Flowie71
-  tourneys: 8
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/pl.svg" width="20" height="20" alt="pl" /> Poland
   clan: "s e e r"
@@ -504,7 +504,7 @@ flowie71:
 
 blaqarm:
   name: blaQarm
-  tourneys: 8
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
   clan: "s e e r"
@@ -520,7 +520,7 @@ blaqarm:
 
 oabz:
   name: oabz
-  tourneys: 0
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/hr.svg" width="20" height="20" alt="hr" /> Croatia
   clan: "-"
@@ -536,7 +536,7 @@ oabz:
 
 anixavich:
   name: Anixavich
-  tourneys: 2
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
   clan: "-"
@@ -553,7 +553,7 @@ anixavich:
 
 kabyrage:
   name: kabyraGe
-  tourneys: 1
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
   clan: "Rage"
@@ -569,7 +569,7 @@ kabyrage:
 
 fl1nf:
   name: FL1NF
-  tourneys: 5
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
   clan: "s e e r"
@@ -585,7 +585,7 @@ fl1nf:
 
 kw0w:
   name: kw0w
-  tourneys: 2
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/de.svg" width="20" height="20" alt="de" /> Germany
   clan: "-"
@@ -601,7 +601,7 @@ kw0w:
 
 lunat1c:
   name: Lunat1c
-  tourneys: 1
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/us.svg" width="20" height="20" alt="us" /> USA
   clan: |
@@ -618,7 +618,7 @@ lunat1c:
 
 killalot:
   name: KillaloT
-  tourneys: 6
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/dk.svg" width="20" height="20" alt="Denmark" /> Denmark
   clan: "PORKSWORDS"
@@ -634,7 +634,7 @@ killalot:
 
 aromat:
   name: aromat
-  tourneys: 0
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/pl.svg" width="20" height="20" alt="pl" /> Poland
   clan: "-"
@@ -650,7 +650,7 @@ aromat:
 
 loserhoss:
   name: Loserhoss
-  tourneys: 0
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/us.svg" width="20" height="20" alt="us" /> USA
   clan: "-"
@@ -666,11 +666,11 @@ loserhoss:
 
 klyb:
   name: Klyb
-  tourneys: 15
+  full_name: "Vladislav Garynin"
   country: |
     <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
-  clan: "-"
-  money: "€130,96"
+  clan: "TauCeti"
+  money: "?"
   trophies:
     gold: 7
     silver: 5
@@ -683,7 +683,7 @@ klyb:
 
 faye:
   name: faye
-  tourneys: 3
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/rs.svg" width="20" height="20" alt="rs" /> Serbia
   clan: "-"
@@ -699,7 +699,7 @@ faye:
 
 mrsbuklao:
   name: MrsBuklao
-  tourneys: 0
+  full_name: "Unknown"
   country: |
     <img src="../../images/flags/1x1/se.svg" width="20" height="20" alt="se" /> Sweden
   clan: "-"
@@ -715,7 +715,7 @@ mrsbuklao:
 
 
 demo:
-  tourneys: 0
+  full_name: "Unknown"
   money: "-"
   trophies:
     gold: 0
@@ -724,7 +724,7 @@ demo:
 
 
 vann:
-  tourneys: 0
+  full_name: "Unknown"
   money: "-"
   trophies:
     gold: 0
@@ -732,7 +732,7 @@ vann:
     bronze: 0
 
 honey_badger:
-  tourneys: 0
+  full_name: "Unknown"
   money: "-"
   trophies:
     gold: 0
@@ -740,7 +740,7 @@ honey_badger:
     bronze: 0
 
 xhine:
-  tourneys: 0
+  full_name: "Unknown"
   money: "-"
   trophies:
     gold: 0
@@ -748,7 +748,7 @@ xhine:
     bronze: 0
 
 ethaaaan:
-  tourneys: 0
+  full_name: "Unknown"
   money: "-"
   trophies:
     gold: 0
@@ -756,7 +756,7 @@ ethaaaan:
     bronze: 0
 
 riizihattu:
-  tourneys: 0
+  full_name: "Unknown"
   money: "-"
   trophies:
     gold: 0
@@ -764,7 +764,7 @@ riizihattu:
     bronze: 0
 
 satan_inside:
-  tourneys: 0
+  full_name: "Unknown"
   money: "-"
   trophies:
     gold: 0
@@ -772,7 +772,7 @@ satan_inside:
     bronze: 0
 
 slashik:
-  tourneys: 0
+  full_name: "Unknown"
   money: "-"
   trophies:
     gold: 0
@@ -780,7 +780,7 @@ slashik:
     bronze: 0
 
 kejtos:
-  tourneys: 0
+  full_name: "Unknown"
   money: "-"
   trophies:
     gold: 0
@@ -788,7 +788,7 @@ kejtos:
     bronze: 0
 
 pcchild:
-  tourneys: 1
+  full_name: "Unknown"
   money: "€5"
   trophies:
     gold: 1
@@ -796,7 +796,7 @@ pcchild:
     bronze: 0
 
 fifty:
-  tourneys: 4
+  full_name: "Unknown"
   money: "€3"
   trophies:
     gold: 0
@@ -804,7 +804,7 @@ fifty:
     bronze: 3
 
 feder34:
-  tourneys: 1
+  full_name: "Unknown"
   money: "€2"
   trophies:
     gold: 0
@@ -812,7 +812,7 @@ feder34:
     bronze: 1
 
 salconnn:
-  tourneys: 3
+  full_name: "Unknown"
   money: "€5"
   trophies:
     gold: 2
@@ -820,7 +820,7 @@ salconnn:
     bronze: 1
 
 atn:
-  tourneys: 0
+  full_name: "Unknown"
   rank: "10"
   money: "-"
   trophies:
@@ -829,7 +829,7 @@ atn:
     bronze: 0
 
 rukikryuki:
-  tourneys: 0
+  full_name: "Unknown"
   rank: "7"
   money: "-"
   trophies:
@@ -838,7 +838,7 @@ rukikryuki:
     bronze: 0
 
 nyxia:
-  tourneys: 0
+  full_name: "Unknown"
   rank: "TBD"
   money: "-"
   trophies:

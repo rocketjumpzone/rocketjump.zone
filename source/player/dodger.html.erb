@@ -1,5 +1,6 @@
 ---
 title: Dodger
+discord_id: Dodger^#7123
 layout: player
 ---
 
@@ -10,9 +11,16 @@ layout: player
         <h1><%= data.players.dodger.name %></h1>
         <%= data.players.dodger.avatar %>
         <div class="player-social">
+          <a href="https://twitter.com/DodgerRazor" target="_blank">
+            <i class="fab fa-lg fa-twitter"></i>
+          </a>
           <a href="https://steamcommunity.com/profiles/76561198116882022/" target="_blank">
             <i class="fab fa-lg fa-steam"></i>
           </a>
+          <div class="w3-tooltip mobile-tooltip w3-hide-small" style="display:inline;margin-left:2px">
+            <i class="fab fa-lg fa-discord"></i>
+            <span style="position:absolute;left:-50px;bottom:0;width:200px" class="w3-text w3-tag w3-padding w3-animate-opacity w3-round"><%= current_page.data.discord_id %></span>
+          </div>
         </div>
       </div>
 
@@ -28,11 +36,10 @@ layout: player
           <tr>
             <td style="border-top:0 !important">
               <b>
-                tourneys:</b>
+                full name:</b>
             </td>
             <td style="border-top:0 !important">
-              <b><%= data.players.dodger.tourneys %></b>
-              succeed
+              <b><%= data.players.dodger.full_name %></b>
             </td>
           </tr>
 
@@ -71,14 +78,6 @@ layout: player
                 clan:</b>
             </td>
             <td><%= data.players.dodger.clan %></td>
-          </tr>
-
-          <tr>
-            <td>
-              <b>
-                money earned:</b>
-            </td>
-            <td><%= data.players.dodger.money %></td>
           </tr>
 
           <tr>
@@ -147,13 +146,66 @@ layout: player
         <tbody>
           <tr>
             <td><%= image_tag 'xon-icon.png', alt: 'xonotic', title: 'Xonotic' %>&nbsp;
+              <a href="/xonotic/zs-x-rjz-xonotic-duel-cup-6" target="_blank">ZS x RJZ Xonotic Duel Cup 6</a>
+            </td>
+            <td>
+              <i class="fas fa-trophy trophy-gold"></i>
+            </td>
+            <td>
+              $133</td>
+            <td>
+              <a href="https://youtu.be/t3_mJnJG4-I" target="_blank">FULL VOD</a>
+            </td>
+          </tr>
+          <tr>
+            <td><%= image_tag 'xon-icon.png', alt: 'xonotic', title: 'Xonotic' %>&nbsp;
+              <a href="/xonotic/zs-x-rjz-xonotic-duel-cup-4" target="_blank">ZS x RJZ Xonotic Duel Cup 4</a>
+            </td>
+            <td>
+              <i class="fas fa-trophy trophy-gold"></i>
+            </td>
+            <td>
+              $205</td>
+            <td>
+              <a href="https://www.youtube.com/watch?v=AllTav4BAWc" target="_blank">FULL VOD</a>
+            </td>
+          </tr>
+          <tr>
+            <td><%= image_tag 'xon-icon.png', alt: 'xonotic', title: 'Xonotic' %>&nbsp;
+              <a href="/xonotic/zs-x-rjz-xonotic-duel-cup-3" target="_blank">ZS x RJZ Xonotic Duel Cup 3</a>
+            </td>
+            <td>
+              <i class="fas fa-trophy trophy-gold"></i>
+            </td>
+            <td>
+              $1 100</td>
+            <td>
+              <a href="https://www.youtube.com/watch?v=OleqXx3H348" target="_blank">VOD (part 1)</a>&nbsp;
+              <a href="https://www.youtube.com/watch?v=bJfiId79eTI" target="_blank">VOD (part 2)</a>
+            </td>
+          </tr>
+          <tr>
+            <td><%= image_tag 'xon-icon.png', alt: 'xonotic', title: 'Xonotic' %>&nbsp;
+              <a href="/xonotic/zs-x-rjz-xonotic-duel-cup-2" target="_blank">ZS x RJZ Xonotic Duel Cup 2</a>
+            </td>
+            <td>
+              <i class="fas fa-trophy trophy-gold"></i>
+            </td>
+            <td>
+              $133</td>
+            <td>
+              <a href="https://www.youtube.com/watch?v=LTJUX54mSLI" target="_blank">FULL VOD</a>
+            </td>
+          </tr>
+          <tr>
+            <td><%= image_tag 'xon-icon.png', alt: 'xonotic', title: 'Xonotic' %>&nbsp;
               <a href="/xonotic/zs-x-rjz-xonotic-duel-cup-1" target="_blank">ZS x RJZ Xonotic Duel Cup 1</a>
             </td>
             <td>
               <i class="fas fa-trophy trophy-gold"></i>
             </td>
             <td>
-              &euro;126</td>
+              $152</td>
             <td>
               <a href="https://www.youtube.com/watch?v=04-mN5DD4tY" target="_blank">Highlight</a>&nbsp;
               <a href="https://www.youtube.com/watch?v=-j0YFxNJ7-8" target="_blank">GF</a>
