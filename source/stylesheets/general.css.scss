@@ -25,7 +25,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+pre {
   font-family: "Open Sans";
 }
 
@@ -326,7 +327,7 @@ table {
 .flex-item {
   margin: 4px;
   background: #2f2f37;
-  padding: 10px 25px;
+  padding: 10px 10px;
   border-radius: 4px;
   min-width: 195px;
 
@@ -342,7 +343,7 @@ table {
   h3,
   h4 {
     font-weight: bold;
-    margin: 0;
+    margin: 5px 0 0 0;
 
     a {
       color: #000;
@@ -363,7 +364,7 @@ table {
     }
   }
 
-  a.fifty,
+  a.fifty, a.rainbowshadow, a.zeroql,
   h4 a.silver {
     color: #C0C0C0 !important;
 
@@ -372,7 +373,7 @@ table {
     }
   }
 
-  a.feder34,
+  a.feder34, a.wolf-snipe, a.klaspes,
   h4 a.bronze {
     color: #CD7F32 !important;
 

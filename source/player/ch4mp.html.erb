@@ -19,9 +19,6 @@ layout: player
           <a href="https://steamcommunity.com/id/ch1mpooya" target="_blank">
             <i class="fab fa-lg fa-steam"></i>
           </a>
-          <a href="https://www.instagram.com/big_biceps_time" target="_blank">
-            <i class="fab fa-lg fa-instagram"></i>
-          </a>
           <div class="w3-tooltip mobile-tooltip w3-hide-small" style="display:inline;margin-left:2px">
             <i class="fab fa-lg fa-discord"></i>
             <span style="position:absolute;left:-50px;bottom:0;width:200px" class="w3-text w3-tag w3-padding w3-animate-opacity w3-round"><%= current_page.data.discord_id %></span>
@@ -38,9 +35,9 @@ layout: player
       </div>
 
       <div class="w3-col l6 m6" style="margin-top:60px">
-        <p>Competitive player since 2015. Xonotic beast. Aerowalk lover. <br>I'm the clan leader of <b>Big Biceps</b></p>
+        <p>Competitive player since 2015. Xonotic beast. LawBreakers pro player <i class="far fa-grin-tears"></i></p>
         <div class="w3-panel" style="background:#131316">
-          <p><b>Zowie FK2</b> &nbsp;&nbsp; <b>DPI:</b> 1600 &nbsp;&nbsp; <b>SENS:</b> 3.4 &nbsp;&nbsp; <b>ACCEL:</b> 0</p>
+          <p><b>Zowie FK2</b> &nbsp;&nbsp; <b>DPI:</b> 1600 &nbsp;&nbsp; <b>SENS:</b> 3.36 &nbsp;&nbsp; <b>ACCEL:</b> 0</p>
         </div>
       </div>
 
@@ -49,13 +46,13 @@ layout: player
           <tr>
             <td style="border-top:0 !important">
               <b>
-                tourneys:</b>
+                full name:</b>
             </td>
             <td style="border-top:0 !important">
-              <b><%= data.players.ch4mp.tourneys %></b>
-              succeed
+              <b><%= data.players.ch4mp.full_name %></b>
             </td>
           </tr>
+
 
           <tr>
             <td>
@@ -81,7 +78,7 @@ layout: player
                 profiles:</b>
             </td>
             <td>
-              <a style="border:none" href="https://stats.quake.com/profile/ch4mp" target="_blank"><%= image_tag '/images/qc-icon.png', alt: 'ch4mp profile quake champions', title: 'Quake Champions' %></a>
+              <a style="border:none" href="https://quake-stats.bethesda.net/profile/Ch4mp" target="_blank"><%= image_tag '/images/qc-icon.png', alt: 'ch4mp profile quake champions', title: 'Quake Champions' %></a>
               <a style="border:none" href="http://stats.xonotic.org/player/48571" target="_blank"><%= image_tag '/images/xon-icon.png', alt: 'ch4mp profile xonotic', title: 'Xonotic' %></a>
             </td>
           </tr>
@@ -160,6 +157,32 @@ layout: player
         <tbody>
           <tr>
             <td><%= image_tag 'xon-icon.png', alt: 'xonotic', title: 'Xonotic' %>&nbsp;
+              <a href="/xonotic/zs-x-rjz-xonotic-duel-cup-8" target="_blank">ZS x RJZ Xonotic Duel Cup 8</a>
+            </td>
+            <td>
+              <i class="fas fa-trophy trophy-bronze"></i>
+            </td>
+            <td>
+              $50</td>
+            <td>
+              <a href="https://www.youtube.com/watch?v=E1CDXMGH2mU" target="_blank">VOD</a>
+            </td>
+          </tr>
+          <tr>
+            <td><%= image_tag 'xon-icon.png', alt: 'xonotic', title: 'Xonotic' %>&nbsp;
+              <a href="/xonotic/zs-x-rjz-xonotic-2v2-tdm-cup-1" target="_blank">ZS x RJZ Xonotic 2v2 TDM Cup 1</a>
+            </td>
+            <td>
+              <i class="fas fa-trophy trophy-bronze"></i>
+            </td>
+            <td>
+              $50</td>
+            <td>
+              <a href="https://www.youtube.com/watch?v=3SpP_gy3cZM" target="_blank">VOD</a>
+            </td>
+          </tr>
+          <tr>
+            <td><%= image_tag 'xon-icon.png', alt: 'xonotic', title: 'Xonotic' %>&nbsp;
               <a href="/xonotic/zs-x-rjz-xonotic-duel-cup-6" target="_blank">ZS x RJZ Xonotic Duel Cup 6</a>
             </td>
             <td>
@@ -168,7 +191,8 @@ layout: player
             <td>
               $75</td>
             <td>
-              <a href="https://youtu.be/t3_mJnJG4-I" target="_blank">VOD</a>
+              <a href="https://youtu.be/t3_mJnJG4-I" target="_blank">VOD</a>&nbsp;
+              <a href="https://www.youtube.com/watch?v=Cty2qlCKftk" target="_blank">Highlights</a>
             </td>
           </tr>
           <tr>
@@ -209,13 +233,13 @@ layout: player
               $50</td>
             <td>
               <a href="https://www.youtube.com/watch?v=04-mN5DD4tY" target="_blank">Highlight</a>&nbsp;
-              <a href="https://www.youtube.com/watch?v=-j0YFxNJ7-8" target="_blank">GF</a>
+              <a href="https://www.youtube.com/watch?v=-j0YFxNJ7-8" target="_blank">GF</a>&nbsp;
               <a href="https://www.youtube.com/watch?v=GD61XiHDBgI" target="_blank">Dodger Interview</a>
             </td>
           </tr>
           <tr>
             <td><%= image_tag 'qc-icon.png', alt: 'qc', title: 'Quake Champions' %>&nbsp;
-              <a class="item" href="https://rocketjump.zone/quake/2v2-tdm-cup-15/" target="_blank">2v2 TDM Cup 16</a>
+              <a class="item" href="https://rocketjump.zone/quake/2v2-tdm-cup-16/" target="_blank">2v2 TDM Cup 16</a>
             </td>
             <td>
               <i class="fas fa-trophy trophy-bronze"></i>

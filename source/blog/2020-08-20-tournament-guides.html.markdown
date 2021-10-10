@@ -22,12 +22,12 @@ disqus_url: https://rocketjump.zone/blog/tournament-guides
 
 <h2 class="w3-center">A player profile at rocketjump.zone</h2>
 
-<p class="w3-center">Make sure to register for a <a href="https://rocketjump.zone/new-player" target="_blank">player profile</a> before attending your first tournament. It's to track your achievements, winnings and you will also get a new discord role - player which stands for verified players. </p>
+<p class="w3-center">Make sure to register for a <a href="https://rocketjump.zone/new-player" target="_blank">player profile</a> before attending your first tournament.<br>It's to track your achievements, winnings and you will also get a new discord role - Verified.</p>
 
 <hr>
 
 <h2 class="w3-center">How to check in and report match results?</h2>
-<p class="w3-center">We use challonge as our tournament platform. Usually check in opens 30 minutes before tournament start, so you can either use discord and tell us you're ready to play or check in via Challonge. The same applies for reporting match results.</p>
+<p class="w3-center">We use challonge as our tournament platform. Usually check in opens 30 minutes before tournament start, so you can either use discord and tell us that you're ready to play or check in via Challonge. The same applies for reporting match results.</p>
 
 <hr>
 

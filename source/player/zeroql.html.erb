@@ -1,0 +1,290 @@
+---
+layout: player
+name: &name "ZeRoQL"
+desc: "I am an oldschool AFPS player which also edits videos for FACEIT/FLASHPOINT and FLUKKZ MEDIA."
+title: *name
+discord_id: "ZeRoQL#0438"
+country_tag: rs
+country_name: Serbia
+clan: "Metsu"
+xon_name: "metsu ZeRoQL"
+qc_name: "ZeRoQL"
+dbt_name: "flukkz"
+mouse: "Razer Viper Mini"
+dpi: "800"
+sens: "3.4"
+accel: "0"
+---
+
+<div class="w3-auto w3-container">
+  <div class="w3-row">
+    <div class="w3-col l2 m2">
+      <h1><%= current_page.data.name %></h1>
+      <%= image_tag 'avatar/zeroql.jpg', class:'w3-mobile w3-circle player-avatar', alt: 'ZeroQL' %>
+      <div class="player-social">
+        <a href="https://twitter.com/flukkzmedia" target="_blank">
+          <i class="fab fa-lg fa-twitter"></i>
+        </a>
+        <a href="https://www.twitch.tv/zeroql" target="_blank">
+          <i class="fab fa-lg fa-twitch"></i>
+        </a>
+        <a href="https://www.youtube.com/flukkzmedia" target="_blank">
+          <i class="fab fa-lg fa-youtube"></i>
+        </a>
+        <a href="https://steamcommunity.com/id/zeroql23/" target="_blank">
+          <i class="fab fa-lg fa-steam"></i>
+        </a>
+        <a href="https://www.instagram.com/omgitsdjoka/" target="_blank">
+          <i class="fab fa-lg fa-instagram"></i>
+        </a>
+        <div class="w3-tooltip mobile-tooltip w3-hide-small" style="display:inline;margin-left:2px">
+          <i class="fab fa-lg fa-discord"></i>
+          <span style="position:absolute;left:-50px;bottom:0;width:200px" class="w3-text w3-tag w3-padding w3-animate-opacity w3-round"><%= current_page.data.discord_id %></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col l6 m6" style="margin-top:60px">
+      <p><%= current_page.data.desc %></p>
+      <div class="w3-panel" style="background:#131316">
+        <p>
+          <b><%= current_page.data.mouse %></b>
+          &nbsp;&nbsp;
+          <b>DPI:</b>
+          <%= current_page.data.dpi %>&nbsp;&nbsp;
+          <b>SENS:</b>
+          <%= current_page.data.sens %>
+          &nbsp;&nbsp;
+          <b>ACCEL:</b>
+          <%= current_page.data.accel %></p>
+      </div>
+    </div>
+
+    <div class="w3-col l4 m4">
+      <table class="w3-table">
+        <tr>
+          <td style="border-top:0 !important">
+            <b>
+              full name:</b>
+          </td>
+          <td style="border-top:0 !important">
+            <b><%= data.players.zeroql.full_name %></b>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <b>
+              rank:</b>
+          </td>
+          <td>
+            <i class="fas fa-bolt"></i> <b><%= data.players.zeroql.rank %></b>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <b>
+              country:</b>
+          </td>
+          <td><img src="../../images/flags/1x1/<%= current_page.data.country_tag %>.svg" width="20" height="20" alt="<%= current_page.data.country_tag %>">&nbsp;
+            <%= current_page.data.country_name %></td>
+        </tr>
+
+        <tr>
+          <td>
+            <b>
+              profiles:</b>
+          </td>
+          <td>
+            <a style="border:none" href="https://quake-stats.bethesda.net/profile/ZeRoQL" target="_blank"><%= image_tag '/images/qc-icon.png', alt: 'zeroql profile quake champions', title: 'Quake Champions' %></a>
+            <a style="border:none" href="http://stats.xonotic.org/player/2242" target="_blank"><%= image_tag '/images/xon-icon.png', alt: 'zeroql profile xonotic', title: 'Xonotic' %></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <b>
+              clan:</b>
+          </td>
+          <td><%= current_page.data.clan %></td>
+        </tr>
+
+        <tr>
+          <td>
+            <b>
+              trophies:
+            </b>
+          </td>
+          <td>
+            <i class="fas fa-trophy trophy-gold"></i>
+            <b>
+              <sup><%= data.players.zeroql.trophies.gold %></sup>
+            </b>
+            <i class="fas fa-trophy trophy-silver"></i>
+            <b>
+              <sup><%= data.players.zeroql.trophies.silver %></sup>
+            </b>
+            <i class="fas fa-trophy trophy-bronze"></i>
+            <b>
+              <sup><%= data.players.zeroql.trophies.bronze %></sup>
+            </b>
+          </td>
+        </tr>
+
+      </table>
+
+    </div>
+    <!-- end of w3-col l4-->
+  </div>
+  <!-- end of w3-row-->
+  <hr>
+
+  <div class="w3-row">
+    <a href="javascript:void(0)" onclick="openCity(event, 'London');">
+      <div class="w3-third tablink w3-bottombar w3-center w3-margin-bottom w3-border-red w3-padding">
+        <b>HIGHLIGHT</b>
+      </div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Paris');">
+      <div class="w3-third tablink w3-bottombar w3-center w3-margin-bottom w3-padding">
+        <b>TOURNEYS</b>
+      </div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
+      <div class="w3-third tablink w3-bottombar w3-center w3-margin-bottom w3-padding">
+        <b>DETAILS</b>
+      </div>
+    </a>
+  </div>
+
+  <div id="London" class="city w3-animate-opacity" style="display:block">
+    <iframe src="https://www.youtube.com/embed/5_p1lQ8YSE4" style="width:100%;height:640px" allowfullscreen></iframe>
+    <div class="sharethis-inline-reaction-buttons" style="margin-top:50px"></div>
+  </div>
+
+  <div id="Paris" class="city w3-animate-opacity" style="display:none">
+    <table class="w3-table w3-bordered tourneys">
+      <thead>
+        <tr>
+          <th>tourney</th>
+          <th>place</th>
+          <th>earned</th>
+          <th>media</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><%= image_tag 'xon-icon.png', alt: 'xonotic', title: 'Xonotic' %>&nbsp;
+            <a href="/xonotic/zs-x-rjz-xonotic-duel-cup-8" target="_blank">ZS x RJZ Xonotic Duel Cup 9</a>
+          </td>
+          <td>
+            <i class="fas fa-trophy trophy-silver"></i>
+          </td>
+          <td>
+            $75</td>
+          <td>
+            <a href="https://www.youtube.com/watch?v=KDXob2dcImo" target="_blank">VOD</a>
+          </td>
+        </tr>
+        <tr>
+          <td><%= image_tag 'xon-icon.png', alt: 'xonotic', title: 'Xonotic' %>&nbsp;
+            <a href="/xonotic/zs-x-rjz-xonotic-2v2-tdm-cup-2" target="_blank">ZS x RJZ Xonotic 2v2 TDM Cup 2</a>
+          </td>
+          <td>
+            <i class="fas fa-trophy trophy-silver"></i>
+          </td>
+          <td>
+            $75</td>
+          <td>
+            <a href="https://www.youtube.com/watch?v=WM4pG7NgrxI" target="_blank">GF</a>
+          </td>
+        </tr>
+        <tr>
+          <td><%= image_tag 'xon-icon.png', alt: 'xonotic', title: 'Xonotic' %>&nbsp;
+            <a href="/xonotic/zs-x-rjz-xonotic-2v2-tdm-cup-1" target="_blank">ZS x RJZ Xonotic 2v2 TDM Cup 1</a>
+          </td>
+          <td>
+            <i class="fas fa-trophy trophy-silver"></i>
+          </td>
+          <td>
+            $75</td>
+          <td>
+            <a href="https://www.youtube.com/watch?v=3SpP_gy3cZM" target="_blank">VOD</a>
+          </td>
+        </tr>
+        <tr>
+          <td><%= image_tag 'xon-icon.png', alt: 'xonotic', title: 'Xonotic' %>&nbsp;
+            <a href="/xonotic/zs-x-rjz-xonotic-duel-cup-5" target="_blank">ZS x RJZ Xonotic Duel Cup 5</a>
+          </td>
+          <td>
+            <i class="fas fa-trophy trophy-bronze"></i>
+          </td>
+          <td>
+            $75</td>
+          <td>
+            <a href="https://www.youtube.com/watch?v=_QrBiJG2bDM" target="_blank">FULL VOD</a>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div id="Tokyo" class="city w3-animate-opacity" style="display:none">
+    <p>DISCORD ID -
+      <b><%= current_page.data.discord_id %></b><br><br>
+      QUAKE NAME -
+      <b><%= current_page.data.qc_name %></b><br>
+      DIABOTICAL NAME -
+      <b><%= current_page.data.dbt_name %></b><br>
+      XONOTIC NAME -
+      <b><%= current_page.data.xon_name %></b>
+    </p>
+    <hr>
+
+<pre>
+Hardware and Equipment
+CPU: Intel® Core™ i7-8700K
+CPU Cooler: NH D15 - Noctua
+Motherboard: Asus ROG STRIX Z370-F GAMING
+Memory: 32 GB DDR4 3200MHz
+DDR4 2x8GB 3200MHz Corsair Vengance
+DDR4 2x8GB 3200MHz CL14 G.Skill Trident Z
+Storage:
+Samsung SSD 840 PRO 240GB
+Samsung SSD 850 PRO 256GB
+Patriot Blast SSD SATA3 480GB
+Seagate Barracuda 1TB 7200RPM
+Seagate Hybrid Drive SATA3 7200 4TB+8GB
+WD Blue SATA3 4TB
+Video Card: ASUS GTX 1080 Ti Strix
+Case: Thermaltake Suppressor F31
+Power Supply: 700W ThermalTake TR2 S 80+
+Monitor 1: Benq EX2780Q 144 IPS
+Monitor 2: LG 23MP68VQ-P IPS 23"
+Monitor 3: BENQ XL2720Z 144Hz 27.0"
+Keyboard: DREVO BladeMaster (Brown Switch)
+Mouse: Razer Viper Mini
+Mousepad: BananaGaming Mousepad
+Webcam: Logitech C922 Pro
+Headphones: Cooler Master · MH752
+Microphone: Rode NT-USB USB Microphone
+Microphone stand: Rode PSA1
+
+CS:GO Settings:
+
+Resolution: 1920x1080; 16:9 144hz
+Launch options:+fps_max unlimited +fps_max_menu unlimited -high -novid -nosplash -refresh 144
+-threads 6 +sv_lan 1 -tickrate 128 +rate 128000 +cl_updaterate 128 +cl_cmdrate 128 +cl_interp 0 -nojoy
+-nod3d9ex +cl_interp_ratio 1 -language bananagaming
+
+Mouse Settings
+Sensitivity: 1.5 , noaccel
+DPI: 650dpi
+Polling Rate: 1000hz
+</pre>
+  </div>
+
+</div>
+<!-- end of w3-auto-->

@@ -2,15 +2,15 @@
 ch4mp:
   name: Ch4mp
   full_name: "Peter"
-  rank: "3"
+  rank: "5"
   country: |
     <img src="../../images/flags/1x1/sk.svg" width="20" height="20" alt="sk" /> Slovakia
-  clan: Big Biceps
+  clan: "Big Biceps"
   money: "$350"
   trophies:
     gold: 0
     silver: 2
-    bronze: 3
+    bronze: 5
   url: |
     <a href="/player/ch4mp" class="silver">Ch4mp</a>
 
@@ -23,17 +23,18 @@ dodger:
   clan: "-"
   money: "€15, $1 385"
   trophies:
-    gold: 7
+    gold: 12
     silver: 0
     bronze: 0
   avatar: |
-    <img src="../../images/avatar/dodger.png" class="w3-mobile w3-circle player-avatar" alt="Dodger" />
+    <img src="../../images/avatar/dodger.jpg" class="w3-mobile w3-circle player-avatar" alt="Dodger" />
   url: |
     <a href="/player/dodger" class="gold">Dodger</a>
 
 tommy:
   name: Tommy
   full_name: "Unknown"
+  rank: "N/A"
   country: |
     <img src="../../images/flags/1x1/ru.svg" width="20" height="20" alt="ru" /> Russia
   clan: "-"
@@ -100,6 +101,7 @@ digiteq:
 profan:
   name: pRoFaN
   full_name: "Unknown"
+  rank: "N/A"
   country: |
     <img src="../../images/flags/1x1/il.svg" width="20" height="20" alt="il" /> Israel
   clan: "-"
@@ -821,7 +823,7 @@ salconnn:
 
 atn:
   full_name: "Unknown"
-  rank: "10"
+  rank: "N/A"
   money: "-"
   trophies:
     gold: 0
@@ -830,7 +832,7 @@ atn:
 
 rukikryuki:
   full_name: "Unknown"
-  rank: "7"
+  rank: "N/A"
   money: "-"
   trophies:
     gold: 0
@@ -839,7 +841,80 @@ rukikryuki:
 
 nyxia:
   full_name: "Unknown"
-  rank: "TBD"
+  rank: "N/A"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+
+defense:
+  full_name: "Unknown"
+  rank: "N/A"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+
+wolfsnipe:
+  full_name: "Unknown"
+  rank: "7"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 1
+
+zeroql:
+  full_name: "Djordje Simonovic"
+  rank: "4"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 3
+    bronze: 1
+
+klaspes:
+  full_name: "Unknown"
+  rank: "6"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 3
+
+
+rainbowshadow:
+  full_name: "Branislav Stojadinovic"
+  rank: "3"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 5
+    bronze: 1
+
+kojak:
+  full_name: "Craig Clayton"
+  rank: "2"
+  money: "-"
+  trophies:
+    gold: 1
+    silver: 3
+    bronze: 1
+
+cupatru:
+  full_name: "Unknown"
+  rank: "N/A"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+
+draena:
+  full_name: "Unknown"
+  rank: "N/A"
   money: "-"
   trophies:
     gold: 0

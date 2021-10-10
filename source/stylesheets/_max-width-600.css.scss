@@ -82,8 +82,12 @@
     margin:0 !important;
   }
 
-  img.ranked-avatar {
+  img.ranked-avatar, img.blog-avatar  {
     margin:0 !important;
+  }
+
+  .flex-container {
+    justify-content: center !important;
   }
 
 }

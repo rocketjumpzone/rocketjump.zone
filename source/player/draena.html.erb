@@ -1,0 +1,170 @@
+---
+layout: player
+name: &name "Draena"
+desc: "Playing Xonotic since 2019 thanks to Dodger. I'm discovering a world of possibilities with arena fps: I'm currently playing Xonotic, OpenArena and cpma. Grinding to become a better caster and provide people with entertainment."
+title: *name
+discord_id: "Draena#1551"
+country_tag: es
+country_name: Spain
+clan: "XGame"
+xon_name: "[XGame] Draena"
+qc_name: ""
+dbt_name: ""
+mouse: "Razer Viper"
+dpi: "1600"
+sens: "1"
+accel: "0.03"
+---
+
+<div class="w3-auto w3-container">
+  <div class="w3-row">
+    <div class="w3-col l2 m2">
+      <h1><%= current_page.data.name %></h1>
+      <%= image_tag 'avatar/draena.png', class:'w3-mobile w3-circle player-avatar', alt: 'Draena' %>
+      <div class="player-social">
+        <a href="https://www.twitch.tv/sl4cer" target="_blank">
+          <i class="fab fa-lg fa-twitch"></i>
+        </a>
+        <div class="w3-tooltip mobile-tooltip w3-hide-small" style="display:inline;margin-left:2px">
+          <i class="fab fa-lg fa-discord"></i>
+          <span style="position:absolute;left:-50px;bottom:0;width:200px" class="w3-text w3-tag w3-padding w3-animate-opacity w3-round"><%= current_page.data.discord_id %></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col l6 m6" style="margin-top:60px">
+      <p><%= current_page.data.desc %></p>
+      <div class="w3-panel" style="background:#131316">
+        <p>
+          <b><%= current_page.data.mouse %></b>
+          &nbsp;&nbsp;
+          <b>DPI:</b>
+          <%= current_page.data.dpi %>&nbsp;&nbsp;
+          <b>SENS:</b>
+          <%= current_page.data.sens %>
+          &nbsp;&nbsp;
+          <b>ACCEL:</b>
+          <%= current_page.data.accel %></p>
+      </div>
+    </div>
+
+    <div class="w3-col l4 m4">
+      <table class="w3-table">
+        <tr>
+          <td style="border-top:0 !important">
+            <b>
+              full name:</b>
+          </td>
+          <td style="border-top:0 !important">
+            <b><%= data.players.draena.full_name %></b>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <b>
+              rank:</b>
+          </td>
+          <td>
+            <i class="fas fa-bolt"></i> <b><%= data.players.draena.rank %></b>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <b>
+              country:</b>
+          </td>
+          <td><img src="../../images/flags/1x1/<%= current_page.data.country_tag %>.svg" width="20" height="20" alt="<%= current_page.data.country_tag %>">&nbsp;
+            <%= current_page.data.country_name %></td>
+        </tr>
+
+        <tr>
+          <td>
+            <b>
+              profiles:</b>
+          </td>
+          <td>
+            <a style="border:none" href="http://stats.xonotic.org/player/2242" target="_blank"><%= image_tag '/images/xon-icon.png', alt: 'draena profile xonotic', title: 'Xonotic' %></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <b>
+              clan:</b>
+          </td>
+          <td><%= current_page.data.clan %></td>
+        </tr>
+
+        <tr>
+          <td>
+            <b>
+              trophies:
+            </b>
+          </td>
+          <td>
+            <i class="fas fa-trophy trophy-gold"></i>
+            <b>
+              <sup><%= data.players.draena.trophies.gold %></sup>
+            </b>
+            <i class="fas fa-trophy trophy-silver"></i>
+            <b>
+              <sup><%= data.players.draena.trophies.silver %></sup>
+            </b>
+            <i class="fas fa-trophy trophy-bronze"></i>
+            <b>
+              <sup><%= data.players.draena.trophies.bronze %></sup>
+            </b>
+          </td>
+        </tr>
+
+      </table>
+
+    </div>
+    <!-- end of w3-col l4-->
+  </div>
+  <!-- end of w3-row-->
+  <hr>
+
+  <div class="w3-row">
+    <a href="javascript:void(0)" onclick="openCity(event, 'London');">
+      <div class="w3-third tablink w3-bottombar w3-center w3-margin-bottom w3-border-red w3-padding">
+        <b>HIGHLIGHT</b>
+      </div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Paris');">
+      <div class="w3-third tablink w3-bottombar w3-center w3-margin-bottom w3-padding">
+        <b>TOURNEYS</b>
+      </div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
+      <div class="w3-third tablink w3-bottombar w3-center w3-margin-bottom w3-padding">
+        <b>DETAILS</b>
+      </div>
+    </a>
+  </div>
+
+  <div id="London" class="city w3-animate-opacity" style="display:block">
+    <div class="sharethis-inline-reaction-buttons" style="margin-top:50px"></div>
+  </div>
+
+  <div id="Paris" class="city w3-animate-opacity" style="display:none">
+  </div>
+
+  <div id="Tokyo" class="city w3-animate-opacity" style="display:none">
+    <p>DISCORD ID -
+      <b><%= current_page.data.discord_id %></b><br><br>
+      QUAKE NAME -
+      <b><%= current_page.data.qc_name %></b><br>
+      DIABOTICAL NAME -
+      <b><%= current_page.data.dbt_name %></b><br>
+      XONOTIC NAME -
+      <b><%= current_page.data.xon_name %></b>
+    </p>
+    <hr>
+
+  </div>
+
+</div>
+<!-- end of w3-auto-->

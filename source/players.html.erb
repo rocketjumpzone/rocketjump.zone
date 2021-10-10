@@ -38,7 +38,7 @@ title: Players
 
     <a style="border:none" href="/new-player" target="_blank">
       <span class="w3-tag mobile-margin-20-full w3-hover-white w3-red" style="margin-left:10px">
-        <i class="fas fa-user-ninja"></i>
+        <i class="fas fa-user"></i>
         NEW PLAYER
       </span>
     </a>
@@ -161,28 +161,14 @@ title: Players
     <span style="position:absolute;left:0;bottom:-50px" class="w3-text w3-tag w3-hide-small w3-padding w3-round">USA</span>
   </div>
 
+  <div class="w3-tooltip mobile-tooltip w3-opacity w3-hover-opacity-off" style="display:inline;cursor:pointer" onclick="w3.hide('div.flex-item');w3.show('div#GB');">
+    <img src="../../images/flags/1x1/gb.svg" width="40" height="40" alt="gb">
+    <span style="position:absolute;left:0;bottom:-50px" class="w3-text w3-tag w3-hide-small w3-padding w3-round">United Kingdom</span>
+  </div>
+
   <hr>
 
   <div class="flex-container w3-animate-opacity" style="justify-content:center">
-
-    <div class="flex-item w3-mobile xon qc" id="Russia">
-      <h3 class="w3-center"><%= data.players.klyb.url %></h3>
-
-      <div class="w3-center">
-        <i class="fas fa-trophy trophy-gold"></i>
-        <b>
-          <sup><%= data.players.klyb.trophies.gold %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-silver"></i>
-        <b>
-          <sup><%= data.players.klyb.trophies.silver %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-bronze"></i>
-        <b>
-          <sup><%= data.players.klyb.trophies.bronze %></sup>
-        </b>
-      </div>
-    </div>
 
     <div class="flex-item w3-mobile xon dbt" id="Netherlands">
       <h4 class="w3-center"><%= data.players.dodger.url %></h4>
@@ -202,6 +188,25 @@ title: Players
       </div>
       <hr style="display:none" id="rank">
       <p id="rank" style="margin:0;display:none;font-weight:bold"><i class="fas fa-bolt"></i> <%= data.players.dodger.rank %></p>
+    </div>
+
+    <div class="flex-item w3-mobile qc" id="Russia">
+      <h3 class="w3-center"><%= data.players.klyb.url %></h3>
+
+      <div class="w3-center">
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.klyb.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.klyb.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.klyb.trophies.bronze %></sup>
+        </b>
+      </div>
     </div>
 
     <div class="flex-item w3-mobile qc" id="Denmark">
@@ -410,6 +415,26 @@ title: Players
       </div>
     </div>
 
+    <div class="flex-item w3-mobile xon" id="GB">
+      <h4 class="w3-center"><a href="/player/kojak" class="gold">Kojak</a></h4>
+      <div class="w3-center">
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.kojak.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.kojak.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.kojak.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr style="display:none" id="rank">
+      <p id="rank" style="margin:0;display:none;font-weight:bold"><i class="fas fa-bolt"></i> <%= data.players.kojak.rank %></p>
+    </div>
+
     <div class="flex-item w3-mobile xon" id="Russia">
       <h4 class="w3-center"><%= data.players.tommy.url %></h4>
       <div class="w3-center">
@@ -426,6 +451,8 @@ title: Players
           <sup><%= data.players.tommy.trophies.bronze %></sup>
         </b>
       </div>
+      <hr style="display:none" id="rank">
+      <p id="rank" style="margin:0;display:none;font-weight:bold"><i class="fas fa-bolt"></i> <%= data.players.tommy.rank %></p>
     </div>
 
     <div class="flex-item w3-mobile qc" id="Germany">
@@ -517,6 +544,28 @@ title: Players
       </div>
     </div>
 
+    <div class="flex-item w3-mobile xon" id="Serbia">
+      <h4 class="w3-center"><a href="/player/rainbow-shadow" class="rainbowshadow">Rainbow Sha..</a></h4>
+      <div class="w3-center">
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.rainbowshadow.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.rainbowshadow.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.rainbowshadow.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr style="display:none" id="rank">
+      <p id="rank" style="margin:0;display:none;font-weight:bold"><i class="fas fa-bolt"></i> <%= data.players.rainbowshadow.rank %></p>
+    </div>
+
+
+
     <div class="flex-item w3-mobile qc dbt xon" id="Slovakia">
       <h4 class="w3-center"><%= data.players.ch4mp.url %></h4>
       <div class="w3-center">
@@ -591,6 +640,44 @@ title: Players
       </div>
     </div>
 
+    <div class="flex-item w3-mobile qc" id="Spain">
+      <h4 class="w3-center"><a href="/player/fifty" class="fifty">Fifty</a></h4>
+      <div class="w3-center">
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.fifty.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.fifty.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.fifty.trophies.bronze %></sup>
+        </b>
+      </div>
+    </div>
+
+    <div class="flex-item w3-mobile xon qc dbt" id="Serbia">
+      <h4 class="w3-center"><a href="/player/zeroql" class="zeroql">ZeRoQL</a></h4>
+      <div class="w3-center">
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.zeroql.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.zeroql.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.zeroql.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr style="display:none" id="rank">
+      <p id="rank" style="margin:0;display:none;font-weight:bold"><i class="fas fa-bolt"></i> <%= data.players.zeroql.rank %></p>
+    </div>
+
     <div class="flex-item w3-mobile qc" id="UK">
       <h4 class="w3-center"><%= data.players.xanjya.url %></h4>
       <div class="w3-center">
@@ -663,23 +750,6 @@ title: Players
       </div>
     </div>
 
-    <div class="flex-item w3-mobile qc" id="Spain">
-      <h4 class="w3-center"><a href="/player/fifty" class="fifty">Fifty</a></h4>
-      <div class="w3-center">
-        <i class="fas fa-trophy trophy-gold"></i>
-        <b>
-          <sup><%= data.players.fifty.trophies.gold %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-silver"></i>
-        <b>
-          <sup><%= data.players.fifty.trophies.silver %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-bronze"></i>
-        <b>
-          <sup><%= data.players.fifty.trophies.bronze %></sup>
-        </b>
-      </div>
-    </div>
 
     <div class="flex-item w3-mobile qc" id="Israel">
       <h4 class="w3-center"><%= data.players.fookiz.url %></h4>
@@ -697,6 +767,26 @@ title: Players
           <sup><%= data.players.fookiz.trophies.bronze %></sup>
         </b>
       </div>
+    </div>
+
+    <div class="flex-item w3-mobile xon" id="Germany">
+      <h4 class="w3-center"><a href="/player/klaspes" class="klaspes">Klaspes</a></h4>
+      <div class="w3-center">
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.klaspes.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.klaspes.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.klaspes.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr style="display:none" id="rank">
+      <p id="rank" style="margin:0;display:none;font-weight:bold"><i class="fas fa-bolt"></i> <%= data.players.klaspes.rank %></p>
     </div>
 
     <div class="flex-item w3-mobile qc" id="Netherlands">
@@ -734,6 +824,28 @@ title: Players
         </b>
       </div>
     </div>
+
+
+    <div class="flex-item w3-mobile xon qc dbt" id="Poland">
+      <h4 class="w3-center"><a href="/player/wolf-snipe" class="wolf-snipe"">Wolf-Snipe</a></h4>
+      <div class="w3-center">
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.wolfsnipe.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.wolfsnipe.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.wolfsnipe.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr style="display:none" id="rank">
+      <p id="rank" style="margin:0;display:none;font-weight:bold"><i class="fas fa-bolt"></i> <%= data.players.wolfsnipe.rank %></p>
+    </div>
+
 
     <div class="flex-item w3-mobile qc" id="Slovenia">
       <h4 class="w3-center"><%= data.players.desiro.url %></h4>
@@ -787,6 +899,8 @@ title: Players
           <sup><%= data.players.profan.trophies.bronze %></sup>
         </b>
       </div>
+      <hr style="display:none" id="rank">
+      <p id="rank" style="margin:0;display:none;font-weight:bold"><i class="fas fa-bolt"></i> <%= data.players.profan.rank %></p>
     </div>
 
     <div class="flex-item w3-mobile qc" id="UK">
@@ -1208,7 +1322,7 @@ title: Players
       <p id="rank" style="margin:0;display:none;font-weight:bold"><i class="fas fa-bolt"></i> <%= data.players.rukikryuki.rank %></p>
     </div>
 
-    <div class="flex-item w3-mobile xon" id="USA">
+    <div class="flex-item w3-mobile xon dbt" id="USA">
       <h4 class="w3-center"><a href="/player/nyxia">nyxia</a></h4>
       <div class="w3-center">
         <i class="fas fa-trophy trophy-gold"></i>
@@ -1226,6 +1340,66 @@ title: Players
       </div>
       <hr style="display:none" id="rank">
       <p id="rank" style="margin:0;display:none;font-weight:bold"><i class="fas fa-bolt"></i> <%= data.players.nyxia.rank %></p>
+    </div>
+
+    <div class="flex-item w3-mobile xon" id="Sweden">
+      <h4 class="w3-center"><a href="/player/defense">DEFENSE</a></h4>
+      <div class="w3-center">
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.defense.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.defense.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.defense.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr style="display:none" id="rank">
+      <p id="rank" style="margin:0;display:none;font-weight:bold"><i class="fas fa-bolt"></i> <%= data.players.defense.rank %></p>
+    </div>
+
+    <div class="flex-item w3-mobile xon" id="Slovakia">
+      <h4 class="w3-center"><a href="/player/cupatru">Cupatru</a></h4>
+      <div class="w3-center">
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.cupatru.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.cupatru.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.cupatru.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr style="display:none" id="rank">
+      <p id="rank" style="margin:0;display:none;font-weight:bold"><i class="fas fa-bolt"></i> <%= data.players.cupatru.rank %></p>
+    </div>
+
+    <div class="flex-item w3-mobile xon" id="Spain">
+      <h4 class="w3-center"><a href="/player/draena">Draena</a></h4>
+      <div class="w3-center">
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.draena.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.draena.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.draena.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr style="display:none" id="rank">
+      <p id="rank" style="margin:0;display:none;font-weight:bold"><i class="fas fa-bolt"></i> <%= data.players.draena.rank %></p>
     </div>
 
   </div>
