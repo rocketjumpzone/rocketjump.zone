@@ -20,7 +20,7 @@ In these series we ask the top players a question who participate in ZS x RJZ To
 <div class="w3-row">
   <div class="w3-quarter">
     <h1><%= data.players.dodger.name %></h1>
-    <%= data.players.dodger.avatar %>
+    <%= partial "partials/player/dodger/avatar" %>
     <p><b>Grand Master</b>&nbsp;&nbsp;<span style="font-weight:bold"><i class="fas fa-bolt"></i> <%= data.players.dodger.rank %></span>
     <br>Xonotic Since 2015</p>
     Profile:&nbsp;
@@ -130,7 +130,7 @@ In these series we ask the top players a question who participate in ZS x RJZ To
 <div class="w3-row">
   <div class="w3-quarter">
     <h1>Kojak</h1>
-    <i class="fas fa-8x fa-user"></i>
+    <%= partial "partials/player/kojak/avatar" %>
     <p><b>Grand Master</b>&nbsp;&nbsp;<span style="font-weight:bold"><i class="fas fa-bolt"></i> <%= data.players.kojak.rank %></span>
     <br>Xonotic Since 2011</p>
     Profile:&nbsp;
@@ -242,7 +242,7 @@ In these series we ask the top players a question who participate in ZS x RJZ To
 <div class="w3-row">
   <div class="w3-quarter">
     <h1>Rainbow Shadow</h1>
-    <%= image_tag 'avatar/rainbow-shadow.png', class:'w3-mobile w3-circle player-avatar', alt: 'Rainbow Shadow' %>
+    <%= partial "partials/player/rainbowshadow/avatar" %>
     <p><b>Grand Master</b>&nbsp;&nbsp;<span style="font-weight:bold"><i class="fas fa-bolt"></i> <%= data.players.rainbowshadow.rank %></span>
     <br>Xonotic Since 2018</p>
     Profile:&nbsp;
@@ -321,7 +321,7 @@ In these series we ask the top players a question who participate in ZS x RJZ To
 <div class="w3-row">
   <div class="w3-quarter">
     <h1>ZeRoQL</h1>
-    <%= image_tag 'avatar/zeroql.jpg', class:'w3-mobile w3-circle player-avatar', alt: 'ZeroQL' %>
+    <%= partial "partials/player/zeroql/avatar" %>
     <p><b>Grand Master</b>&nbsp;&nbsp;<span style="font-weight:bold"><i class="fas fa-bolt"></i> <%= data.players.zeroql.rank %></span>
     <br>Xonotic Since 2011</p>
     Profile:&nbsp;
@@ -463,7 +463,7 @@ In these series we ask the top players a question who participate in ZS x RJZ To
 <div class="w3-row">
   <div class="w3-quarter">
     <h1>Ch4mp</h1>
-    <%= image_tag 'avatar/ch4mp.png', class:'w3-mobile w3-circle player-avatar', alt: 'Ch4mp' %>
+    <%= partial "partials/player/ch4mp/avatar" %>
     <p><b>Grand Master</b>&nbsp;&nbsp;<span style="font-weight:bold"><i class="fas fa-bolt"></i> <%= data.players.ch4mp.rank %></span>
     <br>Xonotic Since 2015</p>
     Profile:&nbsp;
