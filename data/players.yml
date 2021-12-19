@@ -10,7 +10,7 @@ ch4mp:
   trophies:
     gold: 0
     silver: 2
-    bronze: 5
+    bronze: 6
   url: |
     <a href="/player/ch4mp" class="silver">Ch4mp</a>
 
@@ -23,7 +23,7 @@ dodger:
   clan: "-"
   money: "€15, $1 385"
   trophies:
-    gold: 12
+    gold: 16
     silver: 0
     bronze: 0
   avatar: |
@@ -474,9 +474,10 @@ ahri:
 jskey:
   name: JSkey
   full_name: "Unknown"
+  rank: "8"
   country: |
     <img src="../../images/flags/1x1/fr.svg" width="20" height="20" alt="fr" /> France
-  clan: "-"
+  clan: "Karma Clan"
   money: "-"
   trophies:
     gold: 0
@@ -872,40 +873,40 @@ zeroql:
   money: "-"
   trophies:
     gold: 0
-    silver: 3
-    bronze: 1
+    silver: 6
+    bronze: 2
 
 klaspes:
   full_name: "Unknown"
   rank: "6"
   money: "-"
   trophies:
-    gold: 0
+    gold: 1
     silver: 0
     bronze: 3
 
 
 rainbowshadow:
   full_name: "Branislav Stojadinovic"
-  rank: "3"
+  rank: "2"
   money: "-"
   trophies:
     gold: 0
     silver: 5
-    bronze: 1
+    bronze: 4
 
 kojak:
   full_name: "Craig Clayton"
-  rank: "2"
+  rank: "3"
   money: "-"
   trophies:
     gold: 1
-    silver: 3
+    silver: 5
     bronze: 1
 
 cupatru:
   full_name: "Unknown"
-  rank: "N/A"
+  rank: "9"
   money: "-"
   trophies:
     gold: 0
@@ -914,7 +915,7 @@ cupatru:
 
 draena:
   full_name: "Unknown"
-  rank: "N/A"
+  rank: "10"
   money: "-"
   trophies:
     gold: 0
