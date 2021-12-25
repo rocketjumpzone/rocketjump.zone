@@ -19,13 +19,13 @@ layout: ranked
     <div class="w3-third">
       <%= image_tag 'avatar/rainbow-shadow.jpg', class:'w3-mobile w3-circle ranked-avatar', style:'margin-left:20px', alt: 'Rainbow Shadow' %>
       <h2 class="w3-jumbo" style="margin-left:40px;white-space: nowrap;">
-        Rainbow Shadow
+        <a href="/player/rainbow-shadow">Rainbow Shadow</a>
       </h2>
       <p class="w3-xlarge" style="margin-left:40px">Xonotic since 2018</p>
 
       <p class="w3-xlarge" style="margin-left:40px">
         <span>challenger</span><br>
-        current rank: 3</p>
+        duel rank: <%= data.players.rainbowshadow.rank %></p>
 
       <p class="w3-xlarge" style="margin-left:40px">ZenSports Duel Cup 2020 - 5th place</p>
     </div>
@@ -43,7 +43,7 @@ layout: ranked
 
       <p class="w3-xlarge" style="margin-right:40px">
         <span>defender</span><br>
-        current rank: 1</p>
+        duel rank: <%= data.players.dodger.rank %></p>
 
       <p class="w3-xlarge" style="margin-right:40px">ZenSports Duel Cup 2020 - 1st place</p>
     </div>
