@@ -4,7 +4,7 @@ ch4mp:
   full_name: "Peter"
   rank: "5"
   rank_display: "GM"
-  xonstats_id: 255513
+  rank_id: "hlleqLOhWC1TN30Hj38WjwjhahIr29AoJLjP1tixpJo="
   country: |
     <img src="../../images/flags/1x1/sk.svg" width="20" height="20" alt="sk" /> Slovakia
   clan: "Big Biceps"
@@ -918,6 +918,18 @@ cupatru:
 draena:
   full_name: "Unknown"
   rank: "10"
+  money: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+
+
+z411:
+  full_name: "Unknown"
+  rank: "10"
+  rank_display: "CM"
+  rank_id: "jIfaHoYhaNlZFJMPy3GISsL/6cug6PYfhQZvO4D3kDQ="
   money: "-"
   trophies:
     gold: 0
