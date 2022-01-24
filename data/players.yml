@@ -3,6 +3,8 @@ ch4mp:
   name: Ch4mp
   full_name: "Peter"
   rank: "5"
+  rank_display: "GM"
+  xonstats_id: 255513
   country: |
     <img src="../../images/flags/1x1/sk.svg" width="20" height="20" alt="sk" /> Slovakia
   clan: "Big Biceps"

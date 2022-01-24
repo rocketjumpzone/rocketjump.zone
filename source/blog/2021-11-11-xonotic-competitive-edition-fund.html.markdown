@@ -76,14 +76,6 @@ this is a very early, work in progress devastator model
 
 <hr>
 
-## The Crew
-+ z411 (QuakeC coder)
-+ Ch4mp (web developer)
-+ pbateman (3D designer)
-+ ZeRoQL (2D designer)
-
-<hr>
-
 
 ## Q&A
 
