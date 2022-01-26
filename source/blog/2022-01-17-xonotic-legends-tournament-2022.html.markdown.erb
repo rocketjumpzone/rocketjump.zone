@@ -1,13 +1,13 @@
 ---
-title: &title "Xonotic Duel League 2022"
+title: &title "Xonotic Legends Tournament 2022"
 date: 2022-01-17 UTC
 date_update: Jan 17 2022
 tags: Xonotic
 layout: blog
 author: Ch4mp
-disqus_identifier: /xonotic-duel-league-2022
+disqus_identifier: /xonotic-legends-tournament-2022
 disqus_title: *title
-disqus_url: https://rocketjump.zone/blog/xonotic-duel-league-2022
+disqus_url: https://rocketjump.zone/blog/xonotic-legends-tournament-2022
 
 
 dodger_gold: 0
@@ -71,11 +71,11 @@ jskey_matches: "0/0"
 jskey_points: "0"
 ---
 
-<h1 class="w3-center">Xonotic Duel League 2022</h1>
+<h1 class="w3-center">Xonotic Legends Tournament 2022</h1>
 
 <hr>
 
-<p class="w3-center">Xonotic Legends, Newcomers, Rookies, do you have what it takes to become 2022 Xonotic Champion?</p>
+<p class="w3-center">Who is gonna be the king of 2022?</p>
 
 <hr>
 
@@ -85,12 +85,12 @@ jskey_points: "0"
     <thead>
       <tr>
         <th class="w3-center">rank</th>
+        <th class="w3-center">title</th>
         <th>player</th>
         <th>clan / org</th>
         <th class="w3-center">gold</th>
         <th class="w3-center">silver</th>
         <th class="w3-center">bronze</th>
-        <th class="w3-center">matches W / L</th>
         <th class="w3-center">points</th>
       </tr>
     </thead>
@@ -98,6 +98,10 @@ jskey_points: "0"
       <tr style="background:#0e0e10">
         <td class="w3-center" style="width:80px">
           <%= data.players.dodger.rank %></td>
+
+        <td class="w3-center" style="width:80px">
+          <%= data.players.dodger.rank_display %>
+          </td>
         <td>
           <img src="../../images/flags/1x1/nl.svg" class="w3-circle mobile-margin-10" width="25" height="25" alt="nl" title="Netherlands">
           <a style="border:none" href="/player/dodger" target="_blank">
@@ -105,7 +109,8 @@ jskey_points: "0"
 
         </td>
         <td class="mobile-margin-10">
-        .WA</td>
+          <%= data.players.dodger.clan %></td>
+
 
         <td class="w3-center">
           <i class="fas fa-trophy trophy-gold"></i>
@@ -128,9 +133,6 @@ jskey_points: "0"
           </b>
         </td>
 
-        <td class="w3-center" style="background:#2f2f37">
-          <b><%= current_page.data.dodger_matches %></b>
-        </td>
         <td class="w3-center" style="background:#ff1a1a">
           <b><%= current_page.data.dodger_points %></b>
         </td>
@@ -139,13 +141,18 @@ jskey_points: "0"
       <tr style="background:#0e0e10">
         <td class="w3-center" style="width:80px">
           <%= data.players.rainbowshadow.rank %></td>
+
+        <td class="w3-center" style="width:80px">
+          <%= data.players.rainbowshadow.rank_display %>
+          </td>
+
         <td>
           <a style="border:none" href="/player/rainbow-shadow" target="_blank">
             <img src="../../images/flags/1x1/rs.svg" class="w3-circle mobile-margin-10" width="25" height="25" alt="rs" title="Serbia">
             Rainbow Shadow</a>
         </td>
         <td class="mobile-margin-10">
-          -</td>
+            <%= data.players.rainbowshadow.clan %></td>
 
           <td class="w3-center">
             <i class="fas fa-trophy trophy-gold"></i>
@@ -168,9 +175,6 @@ jskey_points: "0"
             </b>
           </td>
 
-          <td class="w3-center" style="background:#2f2f37">
-            <b><%= current_page.data.rainbowshadow_matches %></b>
-          </td>
           <td class="w3-center" style="background:#ff1a1a">
             <b><%= current_page.data.rainbowshadow_points %></b>
           </td>
@@ -179,13 +183,18 @@ jskey_points: "0"
       <tr style="background:#0e0e10">
         <td class="w3-center" style="width:80px">
           <%= data.players.kojak.rank %></td>
+
+        <td class="w3-center" style="width:80px">
+          <%= data.players.kojak.rank_display %>
+          </td>
+
         <td>
           <img src="../../images/flags/1x1/gb.svg" class="w3-circle mobile-margin-10" width="25" height="25" alt="gb" title="United Kingdom">
           <a style="border:none" href="/player/kojak" target="_blank">
             Kojak</a>
         </td>
         <td class="mobile-margin-10">
-          Metsu</td>
+            <%= data.players.kojak.clan %></td>
 
           <td class="w3-center">
             <i class="fas fa-trophy trophy-gold"></i>
@@ -208,9 +217,6 @@ jskey_points: "0"
             </b>
           </td>
 
-          <td class="w3-center" style="background:#2f2f37">
-            <b><%= current_page.data.kojak_matches %></b>
-          </td>
           <td class="w3-center" style="background:#ff1a1a">
             <b><%= current_page.data.kojak_points %></b>
           </td>
@@ -219,13 +225,18 @@ jskey_points: "0"
       <tr style="background:#0e0e10">
         <td class="w3-center" style="width:80px">
           <%= data.players.zeroql.rank %></td>
+
+        <td class="w3-center" style="width:80px">
+          <%= data.players.zeroql.rank_display %>
+          </td>
+
         <td>
           <img src="../../images/flags/1x1/rs.svg" class="w3-circle mobile-margin-10" width="25" height="25" alt="rs" title="Serbia">
           <a style="border:none" href="/player/zeroql" target="_blank">
             ZeRoQL</a>
         </td>
         <td class="mobile-margin-10">
-          Metsu</td>
+            <%= data.players.zeroql.clan %></td>
 
           <td class="w3-center">
             <i class="fas fa-trophy trophy-gold"></i>
@@ -248,9 +259,6 @@ jskey_points: "0"
             </b>
           </td>
 
-          <td class="w3-center" style="background:#2f2f37">
-            <b><%= current_page.data.zeroql_matches %></b>
-          </td>
           <td class="w3-center" style="background:#ff1a1a">
             <b><%= current_page.data.zeroql_points %></b>
           </td>
@@ -259,13 +267,18 @@ jskey_points: "0"
       <tr style="background:#0e0e10">
         <td class="w3-center" style="width:80px">
           <%= data.players.ch4mp.rank %></td>
+
+        <td class="w3-center" style="width:80px">
+          <%= data.players.ch4mp.rank_display %>
+          </td>
+
         <td>
           <img src="../../images/flags/1x1/sk.svg" class="w3-circle mobile-margin-10" width="25" height="25" alt="sk" title="Slovakia">
           <a style="border:none" href="/player/ch4mp" target="_blank">
             Ch4mp</a>
         </td>
         <td class="mobile-margin-10">
-          Big Biceps</td>
+            <%= data.players.ch4mp.clan %></td>
 
           <td class="w3-center">
             <i class="fas fa-trophy trophy-gold"></i>
@@ -288,9 +301,6 @@ jskey_points: "0"
             </b>
           </td>
 
-          <td class="w3-center" style="background:#2f2f37">
-            <b><%= current_page.data.ch4mp_matches %></b>
-          </td>
           <td class="w3-center" style="background:#ff1a1a">
             <b><%= current_page.data.ch4mp_points %></b>
           </td>
@@ -301,13 +311,18 @@ jskey_points: "0"
       <tr style="background:#0e0e10">
         <td class="w3-center" style="width:80px">
           <%= data.players.klaspes.rank %></td>
+
+        <td class="w3-center" style="width:80px">
+          <%= data.players.klaspes.rank_display %>
+          </td>
+
         <td>
           <img src="../../images/flags/1x1/de.svg" class="w3-circle mobile-margin-10" width="25" height="25" alt="de" title="Germany">
           <a style="border:none" href="/player/klaspes" target="_blank">
             Klaspes</a>
         </td>
         <td class="mobile-margin-10">
-          [Bot]</td>
+            <%= data.players.klaspes.clan %></td>
 
           <td class="w3-center">
             <i class="fas fa-trophy trophy-gold"></i>
@@ -330,9 +345,6 @@ jskey_points: "0"
             </b>
           </td>
 
-          <td class="w3-center" style="background:#2f2f37">
-            <b><%= current_page.data.klaspes_matches %></b>
-          </td>
           <td class="w3-center" style="background:#ff1a1a">
             <b><%= current_page.data.klaspes_points %></b>
           </td>
@@ -341,13 +353,18 @@ jskey_points: "0"
       <tr style="background:#0e0e10">
         <td class="w3-center" style="width:80px">
           <%= data.players.wolfsnipe.rank %></td>
+
+        <td class="w3-center" style="width:80px">
+          <%= data.players.wolfsnipe.rank_display %>
+          </td>
+
         <td>
           <img src="../../images/flags/1x1/pl.svg" class="w3-circle mobile-margin-10" width="25" height="25" alt="pl" title="Poland">
           <a style="border:none" href="/player/wolf-snipe" target="_blank">
             Wolf-Snipe</a>
         </td>
         <td class="mobile-margin-10">
-          -</td>
+            <%= data.players.wolfsnipe.clan %></td>
 
           <td class="w3-center">
             <i class="fas fa-trophy trophy-gold"></i>
@@ -370,9 +387,6 @@ jskey_points: "0"
             </b>
           </td>
 
-          <td class="w3-center" style="background:#2f2f37">
-            <b><%= current_page.data.wolfsnipe_matches %></b>
-          </td>
           <td class="w3-center" style="background:#ff1a1a">
             <b><%= current_page.data.wolfsnipe_points %></b>
           </td>
@@ -381,13 +395,18 @@ jskey_points: "0"
       <tr style="background:#0e0e10">
         <td class="w3-center" style="width:80px">
           <%= data.players.jskey.rank %></td>
+
+        <td class="w3-center" style="width:80px">
+          <%= data.players.jskey.rank_display %>
+          </td>
+
         <td>
           <img src="../../images/flags/1x1/fr.svg" class="w3-circle mobile-margin-10" width="25" height="25" alt="Spain" title="France">
           <a style="border:none" href="/player/jskey" target="_blank">
             JSkey</a>
         </td>
         <td class="mobile-margin-10">
-          Karma Clan</td>
+            <%= data.players.jskey.clan %></td>
 
           <td class="w3-center">
             <i class="fas fa-trophy trophy-gold"></i>
@@ -410,9 +429,6 @@ jskey_points: "0"
             </b>
           </td>
 
-          <td class="w3-center" style="background:#2f2f37">
-            <b><%= current_page.data.jskey_matches %></b>
-          </td>
           <td class="w3-center" style="background:#ff1a1a">
             <b><%= current_page.data.jskey_points %></b>
           </td>
@@ -421,13 +437,18 @@ jskey_points: "0"
       <tr style="background:#0e0e10">
         <td class="w3-center" style="width:80px">
           <%= data.players.cupatru.rank %></td>
+
+        <td class="w3-center" style="width:80px">
+          <%= data.players.cupatru.rank_display %>
+          </td>
+
         <td>
           <img src="../../images/flags/1x1/sk.svg" class="w3-circle mobile-margin-10" width="25" height="25" alt="Slovakia" title="Slovakia">
           <a style="border:none" href="/player/cupatru" target="_blank">
             Cupatru</a>
         </td>
         <td class="mobile-margin-10">
-          -</td>
+            <%= data.players.cupatru.clan %></td>
 
           <td class="w3-center">
             <i class="fas fa-trophy trophy-gold"></i>
@@ -450,9 +471,6 @@ jskey_points: "0"
             </b>
           </td>
 
-          <td class="w3-center" style="background:#2f2f37">
-            <b><%= current_page.data.cupatru_matches %></b>
-          </td>
           <td class="w3-center" style="background:#ff1a1a">
             <b><%= current_page.data.cupatru_points %></b>
           </td>
@@ -462,13 +480,18 @@ jskey_points: "0"
       <tr style="background:#0e0e10">
         <td class="w3-center" style="width:80px">
           <%= data.players.draena.rank %></td>
+
+        <td class="w3-center" style="width:80px">
+          <%= data.players.draena.rank_display %>
+          </td>
+
         <td>
           <img src="../../images/flags/1x1/es.svg" class="w3-circle mobile-margin-10" width="25" height="25" alt="Spain" title="Spain">
           <a style="border:none" href="/player/draena" target="_blank">
             Draena</a>
         </td>
         <td class="mobile-margin-10">
-          [XGame]</td>
+            <%= data.players.draena.clan %></td>
 
           <td class="w3-center">
             <i class="fas fa-trophy trophy-gold"></i>
@@ -491,9 +514,6 @@ jskey_points: "0"
             </b>
           </td>
 
-          <td class="w3-center" style="background:#2f2f37">
-            <b><%= current_page.data.draena_matches %></b>
-          </td>
           <td class="w3-center" style="background:#ff1a1a">
             <b><%= current_page.data.draena_points %></b>
           </td>
@@ -507,7 +527,7 @@ jskey_points: "0"
 <hr>
 
 ## Format
-In every tournament players earn points, that is determined by tournament standings:
+Players earn points in every tournament:
 
 - 1st place = 10 points
 - 2nd place = 5 points
@@ -515,16 +535,19 @@ In every tournament players earn points, that is determined by tournament standi
 - 4th place = 1 point
 - 5 - 6th place = 0.50 points
 - 7 - 8th place = 0.25 points
-- 9+ 0 points
+- 9+ place = 0 points
 
 
-Top 8 players with most points earned by the end of the year will be invited for the major Xonotic Tournament.
+Top 8 players with most points earned by **the end of the year** will be invited for the Xonotic Legends Tournament 2022.
+
 
 
 <hr>
 ## Prize money
+TBD
 
-Every tournament will be once a month with a prize money of $1000 and the major one for "?".
+## Tournament profile
+TBA
 
 <hr>
 ## Sponsors
