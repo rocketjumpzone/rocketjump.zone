@@ -20,7 +20,7 @@ dodger:
   full_name: "Jaad Alaka"
   rank: "1"
   rank_display: "GM"
-  rank_id: ""
+  rank_id: "15gbCjUAGDHIAZbafQzR+xRufsCCGMAFzuohdOjhgWI="
   country: |
     <img src="../../images/flags/1x1/nl.svg" width="20" height="20" alt="nl" /> Netherlands
   clan: ".WA"
@@ -39,7 +39,7 @@ jskey:
   full_name: "Unknown"
   rank: "8"
   rank_display: "CM"
-  rank_id: ""
+  rank_id: "vhXHNl3lolbdCKYMJKXHU7vSrvTysiqF6xMg30CPKUY="
   country: |
     <img src="../../images/flags/1x1/fr.svg" width="20" height="20" alt="fr" /> France
   clan: "Karma Clan"
@@ -66,7 +66,7 @@ wolfsnipe:
   full_name: "Unknown"
   rank: "7"
   rank_display: "CM"
-  rank_id: ""
+  rank_id: "F6rSaZ+L3IxeWZ8aluFY6CzDP3wpECav7qSjZtN9wyE="
   clan: "-"
   trophies:
     gold: 0
@@ -77,7 +77,7 @@ zeroql:
   full_name: "Djordje Simonovic"
   rank: "4"
   rank_display: "GM"
-  rank_id: ""
+  rank_id: "huvhc5WUkJ//W8mwk1WRbBYSMXLC4mZ3MOU3eJ/DMkE="
   clan: "Metsu"
   trophies:
     gold: 0
@@ -100,7 +100,7 @@ rainbowshadow:
   full_name: "Branislav Stojadinovic"
   rank: "2"
   rank_display: "GM"
-  rank_id: ""
+  rank_id: "KhssegEtJUWoMUG7zRua/54lRKFwSv/lEI832oUOuF4="
   clan: "-"
   trophies:
     gold: 0
