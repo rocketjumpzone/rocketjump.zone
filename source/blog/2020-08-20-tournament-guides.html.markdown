@@ -22,7 +22,7 @@ disqus_url: https://rocketjump.zone/blog/tournament-guides
 
 <h2 class="w3-center">A player profile at rocketjump.zone</h2>
 
-<p class="w3-center">Make sure to register for a <a href="https://rocketjump.zone/new-player" target="_blank">player profile</a> before attending your first tournament.<br>It's to track your achievements, winnings and you will also get a new discord role - Verified.</p>
+<p class="w3-center">Make sure to register for a <a href="https://rocketjump.zone/new-player" target="_blank">player profile</a> before attending your first tournament.<br>It's to track your achievements, winnings and you will also get a new discord role - Competitor.</p>
 
 <hr>
 

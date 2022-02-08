@@ -504,7 +504,7 @@ img a {
   font-weight: normal !important;
 
   &:hover {
-    color: $main-red-color !important;
+    color: none !important;
     border: none !important;
   }
 }
@@ -612,6 +612,14 @@ img a {
     0 0 5px red,
     -2px -5px 5px red,
     4px -10px 10px red; }
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
 }
 
 
