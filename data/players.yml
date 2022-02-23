@@ -6,7 +6,7 @@ ch4mp:
   rank_display: "GM"
   rank_id: "HbWHkQB/f7G4PtqVlZgGXxS7VJKFk1Pw05G3RakRV8E="
   country: |
-    <img src="../../images/flags/1x1/sk.svg" width="20" height="20" alt="sk" /> Slovakia
+    <img src="../../images/flags/4x3/sk.svg" width="25" height="25" alt="sk" /> Slovakia
   clan: "Big Biceps"
   trophies:
     gold: 0
@@ -22,7 +22,7 @@ dodger:
   rank_display: "GM"
   rank_id: "15gbCjUAGDHIAZbafQzR+xRufsCCGMAFzuohdOjhgWI="
   country: |
-    <img src="../../images/flags/1x1/nl.svg" width="20" height="20" alt="nl" /> Netherlands
+    <img src="../../images/flags/4x3/nl.svg" width="25" height="25" alt="nl" /> Netherlands
   clan: ".WA"
   trophies:
     gold: 17
@@ -41,7 +41,7 @@ jskey:
   rank_display: "CM"
   rank_id: "Yu+WZzQzL6RgsZUct9r7sQa0ERDS4nSd9IIupUoTQiM="
   country: |
-    <img src="../../images/flags/1x1/fr.svg" width="20" height="20" alt="fr" /> France
+    <img src="../../images/flags/4x3/fr.svg" width="25" height="25" alt="fr" /> France
   clan: "Karma Clan"
   trophies:
     gold: 0
