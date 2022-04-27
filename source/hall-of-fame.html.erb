@@ -7,6 +7,7 @@ xonotic_money: $8K 250, €20
 qc_total: 51
 dbt_total: 12
 xonotic_total: 18
+db_total: 1
 ---
 
 <div class="w3-stretch" style="margin:30px auto 30px auto">
@@ -35,15 +36,22 @@ xonotic_total: 18
           Diabotical
         </span>
       </a>
+
+      <a style="border:none" href="#db-jump">
+        <span class="w3-tag w3-hover-white w3-red" style="margin-left:5px">
+          <b><%= current_page.data.db_total %></b>
+          Doombringer
+        </span>
+      </a>
     </p>
   </div>
   <hr>
+
 
   <p class="w3-margin-left" id="xonotic-jump"><%= image_tag '/images/xon-icon-crop.png', alt: 'Xonotic Icon', title: 'Xonotic' %>
     &nbsp;
       Prize money:
       <b><%= current_page.data.xonotic_money %></b>
-
   </p>
   <div class="flex-container w3-animate-opacity w3-center" id="afps" style="justify-content:center">
 
@@ -56,13 +64,8 @@ xonotic_total: 18
 
   <p class="w3-margin-left" id="qc-jump"><%= image_tag '/images/qc-icon-crop.png', alt: 'QC Icon', title: 'Quake Champions' %>
     &nbsp;
-    Beast: 1825 +
-    <span style="padding-left:15px">
-      Rookie: 1824 –</span>
-    <span style="padding-left:20px" class="mobile-reset">
       Prize money:
       <b>&euro;<%= current_page.data.qc_money %></b>
-    </span>
   </p>
 
   <div class="flex-container w3-animate-opacity w3-center" id="afps" style="justify-content:center">
@@ -76,18 +79,27 @@ xonotic_total: 18
 
   <p class="w3-margin-left" id="diabotical-jump"><%= image_tag '/images/diabotical-icon.png', alt: 'Diabotical Icon', title: 'Diabotical'%>
     &nbsp;
-    Beast: 1810 +
-    <span style="padding-left:15px">
-      Rookie: 1809 –</span>
-    <span style="padding-left:20px" class="mobile-reset">
       Prize money:
       <b>&euro;<%= current_page.data.dbt_money %></b>
-    </span>
   </p>
 
   <div class="flex-container w3-animate-opacity w3-center" id="afps" style="justify-content:center">
 
     <%= partial "partials/hof-dbt" %>
+
+  </div>
+  <!-- end of afps-->
+
+  <hr>
+
+  <p class="w3-margin-left" id="db-jump"><%= image_tag '/images/db-icon.png', alt: 'Doombrinder Icon', title: 'Doombrinder'%>
+    &nbsp;
+      Official Doombringer Tournaments
+  </p>
+
+  <div class="flex-container w3-animate-opacity w3-center" id="afps" style="justify-content:center">
+
+    <%= partial "partials/hof-db" %>
 
   </div>
   <!-- end of afps-->

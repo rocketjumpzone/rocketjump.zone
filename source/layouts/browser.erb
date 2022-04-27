@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title><%= current_page.data.title %> | Rocket Jump Zone</title>
-    <meta name="description" content="<%= current_page.data.description %>">
+    <title><%= current_page.data.title || "Rocket Jump Zone" %></title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
@@ -17,15 +16,19 @@
     <meta name="msapplication-config" content="/images/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-
     <%= stylesheet_link_tag "w3" %>
     <%= stylesheet_link_tag "general" %>
 
     <script src="https://kit.fontawesome.com/b51aab93f2.js" crossorigin="anonymous"></script>
+
+
   </head>
   <body>
     <%= partial "partials/nav" %>
     <%= yield %>
+
+    <script src='https://platform-api.sharethis.com/js/sharethis.js#property=5e3d49fcc42462001276008a' async='async'></script>
+
 
     <% if build? %>
     <script>
