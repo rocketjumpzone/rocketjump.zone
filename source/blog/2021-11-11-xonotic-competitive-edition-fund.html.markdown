@@ -12,8 +12,7 @@ disqus_url: https://rocketjump.zone/xonotic-competitive-edition-fund
 
 <h1 class="w3-center">Xonotic Competitive Edition Fund</h1>
 <p class="w3-center">
-Our mission is to create a competitive version for already running <a href="/hall-of-fame">Esports scene</a> partnered with <a href="https://zensports.com">ZenSports</a> and <a href="https://www.youtube.com/c/flukkzmedia/">Flukkz media.</a><br>
-We truly believe we can build an epic Arena FPS Esport.
+We're building our own version of Xonotic which is more suitable for competitive players and esports.
 </p>
 
 <hr>
@@ -24,16 +23,7 @@ We truly believe we can build an epic Arena FPS Esport.
 
 <hr>
 
-## What's this Esport?
-Since May 2021 we started hosting Xonotic tournaments partnered with ZenSports.  
-We've hosted so far 10 Duel and 3 2v2 TDM cups with a prize money over 7K plus various giveaways.  
-
-It's a perfect opportunity for new players to get into our Esport and earn nice money.  
-*(don't let <a href="/player/dodger">Dodger</a> win everything, KAPPA)*
-
-<hr>
-
-## What's already done for XCE and our Esport
+## What's already done for XCE and in General
 
 + In game Medals
 + New Duel scoreboard
@@ -41,16 +31,14 @@ It's a perfect opportunity for new players to get into our Esport and earn nice 
 + New teamplay score panel
 + Flagger (displays the player's country flag)
 + New sound pack
-+ Player profiles
-+ Stats system
-+ 8 running servers
++ Player profiles (integrated with rocketjump.zone)
 + Discord bot (game integration - chat and match results)
-
++ A web server browser (rocketjump.zone/browser)
++ Premade configs
 
 <hr>
 
 ## What we need - New Assets
-The current Xonotic game is pretty outdated (released 4 years ago), we want to update it and make it more appealing for new players.
 
 + **Weapon Models:**
 &nbsp;<kbd>Blaster,  Shotgun, Electro, Vortex, Devastator, LG (ARC)</kbd>  
@@ -60,34 +48,16 @@ The current Xonotic game is pretty outdated (released 4 years ago), we want to u
 
 + **Player Model**
 
-+ New main menu theme (lower priority)
-
-### We've already started - New Devastator Model
-this is a very early, work in progress devastator model
-
-<img src="../../images/rl-1.png" alt="Devastator Model">
-<img src="../../images/rl-2.png" alt="Devastator Model">
-
-
-
-## What we also want
-+ a web server browser (join a server directly from the web)
-+ a ranking system + matchmaking
-
-<hr>
-
 
 ## Q&A
 
 + **How much money do you need?**  
-Our goal is 2K eur, the more we get the more we can invest in for the game.
+Once we get a donation we use it.. the more we get the more we can invest in for the game.
 
-+ **How long is it gonna take to make a release?**  
-Within a few weeks we will release a stable release and continue adding new assets.
 
 + **Why not make it for Xonotic itself?**  
 Last release was 4 years ago and we have no control over it. We also wouldn't be able to add features suitable for Esports.  
-We can ensure you all new assets will be back-ported to official Xonotic.
+We can ensure you all new assets will be back-ported to the official Xonotic game.
 
 <hr>
 
