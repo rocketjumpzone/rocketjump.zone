@@ -55,7 +55,7 @@ jskey:
 
 defense:
   full_name: "Unknown"
-  rank: "N/A"
+  rank: "-"
   clan: "-"
   trophies:
     gold: 0

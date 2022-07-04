@@ -11,9 +11,6 @@ disqus_url: https://rocketjump.zone/xonotic-competitive-edition-fund
 ---
 
 <h1 class="w3-center">Xonotic Competitive Edition Fund</h1>
-<p class="w3-center">
-We're building our own version of Xonotic which is more suitable for competitive players and esports.
-</p>
 
 <hr>
 
