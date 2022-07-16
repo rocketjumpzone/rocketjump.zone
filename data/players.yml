@@ -161,3 +161,14 @@ jooton:
     gold: 0
     silver: 0
     bronze: 0
+
+special1:
+  full_name: "Unknown"
+  rank: "-"
+  rank_display: "GM"
+  rank_id: "YZbIVr5m1ZH5Z2/3b7jZ4SXh0o9U3DYsPnIwcCfWKcQ="
+  clan: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
