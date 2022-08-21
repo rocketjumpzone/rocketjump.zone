@@ -10,17 +10,17 @@ layout: tourney
 <div class="w3-row" tourney-menu="">
   <a href="javascript:void(0)" onclick="openCity(event, 'London');">
     <div class="w3-third tablink w3-bottombar w3-center w3-border-red w3-padding">
-      <b>OVERVIEW</b>
+      <b class="w3-large">OVERVIEW</b>
     </div>
   </a>
   <a href="javascript:void(0)" onclick="openCity(event, 'Paris');">
     <div class="w3-third tablink w3-bottombar w3-center w3-padding">
-      <b>PARTICIPANTS &amp; BRACKETS</b>
+      <b class="w3-large">PARTICIPANTS &amp; BRACKETS</b>
     </div>
   </a>
   <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
     <div class="w3-third tablink w3-bottombar w3-center w3-padding">
-      <b>MEDIA</b>
+      <b class="w3-large">STREAM</b>
     </div>
   </a>
 </div>
@@ -42,7 +42,7 @@ layout: tourney
             <b>Tournament Start:</b>
           </td>
           <td style="font-weight:bold">
-            Sun, Jun 26, 2022&nbsp; – &nbsp;8 <sup style="font-weight:normal">pm</sup> CEST
+            Sun, Jun 26, 2022&nbsp; – &nbsp;20 CEST
             <div class="w3-tooltip mobile-tooltip" style="display:inline">
               &nbsp;
               <span style="border-bottom:1px groove"><i class="far fa-clock"></i></span>
@@ -145,8 +145,7 @@ layout: tourney
 
       <a href="/contribute" target="_blank" class="w3-btn w3-round w3-centerw w3-margin-top w3-padding-large w3-hover-white w3-large mobile-margin-10 w3-red w3-mobile">
         <b>
-          <i class="far fa-credit-card"></i>
-          <i class="fab fa-paypal"></i>
+          <i class="fa-solid fa-gift"></i>
           DONATE
         </b>
       </a>
@@ -326,6 +325,10 @@ layout: tourney
       autoplay: false
     });
   </script>
+
+  <%= partial "partials/ads" %>
+
+  <hr>
 
   <div class="w3-row w3-hide-small">
     <div class="w3-half">
