@@ -1,5 +1,5 @@
 ---
-title: &title "Xonotic Competitive Edition Fund"
+title: &title "Xonotic Competitive Edition (XCE) Fund"
 date: 2021-11-11 UTC
 date_update: Nov 11, 20 CET
 tags: Xonotic
@@ -10,13 +10,14 @@ disqus_title: *title
 disqus_url: https://rocketjump.zone/xonotic-competitive-edition-fund
 ---
 
-<h1 class="w3-center">Xonotic Competitive Edition Fund</h1>
-
+<h1 class="w3-center">Xonotic Competitive Edition (XCE) Fund</h1>
 <hr>
 
 <h2 class="w3-center">For What Game?</h2>
 
 <iframe class="w3-mobile w3-margin-top w3-animate-opacity" style="height:533px;width:100%" src="https://www.youtube.com/embed/x07zlZ8yVng" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p class="w3-center">We're building our own fork of the game which is NOT a new game and is used for Esports and competitive players.</p>
 
 <hr>
 
@@ -53,7 +54,6 @@ Once we get a donation we use it.. the more we get the more we can invest in for
 
 
 + **Why not make it for Xonotic itself?**  
-Last release was 4 years ago and we have no control over it. We also wouldn't be able to add features suitable for Esports.  
 We can ensure you all new assets will be back-ported to the official Xonotic game.
 
 <hr>
@@ -63,7 +63,6 @@ We can ensure you all new assets will be back-ported to the official Xonotic gam
 
 <a href="/contribute" target="_blank" class="w3-btn w3-round w3-center w3-margin-top w3-hover-white w3-large mobile-margin-10 w3-red w3-mobile">
 <b>
-<i class="fab fa-paypal"></i>
 Visit Contribute Page
 </b>
 </a>
@@ -74,8 +73,8 @@ Visit Contribute Page
 All our contributors get:
 
 + private discord group access to lead the development with us
-+ vote power for new features
-+ credits in the game and on the website
++ perks
++ your name in the game and on the website  
 
 
 ## Donations list:

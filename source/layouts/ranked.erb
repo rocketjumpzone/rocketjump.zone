@@ -18,7 +18,7 @@
     <meta name="msapplication-config" content="/images/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
     <%= stylesheet_link_tag "w3" %>
     <%= stylesheet_link_tag "general" %>
@@ -27,6 +27,7 @@
   <body>
     <%= partial "partials/nav" %>
     <%= yield %>
+    <%= partial "partials/nav-bottom" %>
 
     <script src='https://platform-api.sharethis.com/js/sharethis.js#property=5e3d49fcc42462001276008a' async='async'></script>
 

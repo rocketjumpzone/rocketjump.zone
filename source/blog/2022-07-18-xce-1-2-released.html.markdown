@@ -14,8 +14,8 @@ disqus_url: https://rocketjump.zone/blog/xce-1-2-released
 
 <hr>
 
-<p class="w3-center">XCE is a Competitive
-  <a href="https://xonotic.org/">Xonotic</a> Edition Created by Rocket Jump Zone for Xonotic Esports.</p>
+<p class="w3-center">XCE is a
+  <a href="https://xonotic.org/">Xonotic</a> fork created for competitive players and Esports.</p>
 
 <hr>
 

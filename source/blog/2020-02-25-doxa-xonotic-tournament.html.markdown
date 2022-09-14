@@ -23,7 +23,7 @@ The tourney had **24 players** and **275 eur** as the prize pool.
 
 <iframe src="https://challonge.com/doxa2020/module" width="100%" height="500" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
 
-## Vod's
+## Vods
 
 ### Rocket Jump Zone
 

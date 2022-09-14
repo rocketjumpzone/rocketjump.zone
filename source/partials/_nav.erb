@@ -1,42 +1,8 @@
-<i onclick="toogle('nav')" class="fas fa-2x fa-bars w3-hide-large" style="margin:24px;cursor:pointer"></i>
-
-<div class="w3-bar-container w3-center w3-hide-small w3-hide-medium">
-  <div class="w3-bar">
-
-    <a href="/" class="w3-bar-item w3-button <%= active_nav_item("/") %>">
-      <%= image_tag 'rjz-logo-trans.png', class:'w3-image', alt: 'RJZ Logo' %>
-    </a>
-    <a class="w3-bar-item w3-button <%= active_nav_item("/browser/") %>" href="/browser">
-      <span class="w3-bottombar w3-hover-border-red">Browser</span>
-    </a>
-    <a class="w3-bar-item w3-button <%= active_nav_item("/players/") %>" href="/players">
-      <span class="w3-bottombar w3-hover-border-red">Players</span>
-    </a>
-    <a class="w3-bar-item w3-button <%= active_nav_item("/hall-of-fame/") %>" href="/hall-of-fame">
-      <span class="w3-bottombar w3-hover-border-red">Hall of Fame</span>
-    </a>
-
-    <div class="w3-dropdown-hover">
-      <button class="w3-button" style="color:#DEDEDE;padding:21px 16px 12px 16px">
-        <i class="fas fa-bars" style="font-size:18px"></i>
-      </button>
-      <div class="w3-dropdown-content w3-bar-block">
-        <a href="/xce" class="w3-bar-item w3-button">XCE</a>
-        <hr style="margin:5px">
-        <a href="/blog" class="w3-bar-item w3-button">Blog</a>
-        <a href="/pickup" class="w3-bar-item w3-button">Pickup Games</a>
-        <hr style="margin:5px">
-        <a href="/contribute" class="w3-bar-item w3-button">Contribute</a>
-        <a href="/policy" class="w3-bar-item w3-button">Policy</a>
-        <a href="/about" class="w3-bar-item w3-button">About</a>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- MOBILE NAVIGATION -->
 
-<div id="nav" class="w3-hide w3-hide-large w3-center w3-animate-bottom">
+<i onclick="toogle('nav')" class="fas fa-2x fa-bars w3-hide-large w3-hide-medium" style="margin:24px;cursor:pointer"></i>
+
+<div id="nav" class="w3-hide w3-hide-large w3-hide-medium w3-center w3-animate-bottom">
 
   <div class="w3-bar-block w3-black">
     <a href="/" class="w3-bar-item w3-button w3-mobile">
@@ -51,20 +17,9 @@
     <a class="w3-bar-item w3-button w3-mobile" href="/hall-of-fame">
       Hall of Fame
     </a>
-
-    <div class="w3-dropdown-hover w3-mobile">
-      <button class="w3-button w3-bar-item">
-        <i class="fas fa-ellipsis-h"></i>
-      </button>
-      <div class="w3-dropdown-content w3-bar-block">
-        <a href="/xce" class="w3-bar-item w3-button">XCE</a>
-        <a href="/blog" class="w3-bar-item w3-button">Blog</a>
-        <a href="/pickup" class="w3-bar-item w3-button">Pickup Games</a>
-        <a href="/contribute" class="w3-bar-item w3-button">Contribute</a>
-        <a href="/policy" class="w3-bar-item w3-button">Policy</a>
-        <a href="/about" class="w3-bar-item w3-button">About</a>
-      </div>
-    </div>
+    <a class="w3-bar-item w3-button w3-mobile" href="/about">
+      About
+    </a>
 
   </div>
 

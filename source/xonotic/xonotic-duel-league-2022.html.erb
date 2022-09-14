@@ -1,7 +1,7 @@
 ---
 title: Xonotic Duel League 2022
-date: "?"
-prize_money: "?"
+date: "Oct 2"
+prize_money: "TBD"
 layout: tourney
 ---
 
@@ -10,17 +10,17 @@ layout: tourney
 <div class="w3-row" tourney-menu="">
   <a href="javascript:void(0)" onclick="openCity(event, 'London');">
     <div class="w3-third tablink w3-bottombar w3-center w3-border-red w3-padding">
-      <b>OVERVIEW</b>
+      <b class="w3-large">OVERVIEW</b>
     </div>
   </a>
   <a href="javascript:void(0)" onclick="openCity(event, 'Paris');">
     <div class="w3-third tablink w3-bottombar w3-center w3-padding">
-      <b>PARTICIPANTS &amp; BRACKETS</b>
+      <b class="w3-large">PARTICIPANTS &amp; BRACKETS</b>
     </div>
   </a>
   <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
     <div class="w3-third tablink w3-bottombar w3-center w3-padding">
-      <b>MEDIA</b>
+      <b class="w3-large">MEDIA</b>
     </div>
   </a>
 </div>
@@ -39,22 +39,14 @@ layout: tourney
         </tr>
         <tr>
           <td>
-            <b>League Begins:</b>
+            <b>League Start:</b>
           </td>
           <td style="font-weight:bold">
-            ?, 2022&nbsp; – &nbsp;8
-            <sup style="font-weight:normal">pm</sup>
-            CET
+            Sun, Oct 2, 2022&nbsp; – &nbsp;19 CEST
             <div class="w3-tooltip mobile-tooltip" style="display:inline">
               &nbsp;
-              <span style="border-bottom:1px groove">
-                <i class="far fa-clock"></i>
-              </span>
-              <span style="position:absolute;left:0;bottom:-50px;width:350px" class="w3-text w3-tag w3-padding w3-animate-opacity-faster w3-round">10 EET, 8 WET, 10 MSK, 12
-                <sup style="font-weight:normal">am</sup>
-                PDT, 3
-                <sup style="font-weight:normal">pm</sup>
-                EDT
+              <span style="border-bottom:1px groove"><i class="far fa-clock"></i></span>
+              <span style="position:absolute;left:0;bottom:-50px;width:380px" class="w3-text w3-tag w3-padding w3-animate-opacity-faster w3-round">20 EET, 18 WET, 20 MSK, 10 <sup style="font-weight:normal">am</sup> PDT, 1 <sup style="font-weight:normal">pm</sup> EDT
                 <br><hr style="margin:6px 0 2px 0">
                 <a href="https://www.worldtimebuddy.com/" target="_blank">worldtimebuddy.com</a>&nbsp;&nbsp;<a href="https://timee.io/" target="_blank">timee.io</a>
               </span>
@@ -86,15 +78,7 @@ layout: tourney
               Registration:</b>
           </td>
           <td>
-            <span class="w3-tag w3-hover-white w3-green">
-              <b>open</b>
-            </span><br>
-            <p>
-              Register to the league via
-              <a href="https://rocketjump.zone/discord" target="_blank">
-                <b>Discord</b>
-              </a>
-            </p>
+<a href="https://rocketjump.zone/discord" class="w3-tag w3-hover-white w3-red mobile-margin-20-full" style="color:#dedede;border:none;padding-bottom:2px" target="_blank"><b><i class="fa-brands fa-discord"></i> Discord</b></a>
           </td>
         </tr>
 
@@ -193,8 +177,7 @@ layout: tourney
 
       <a href="/contribute" target="_blank" class="w3-btn w3-round w3-centerw w3-margin-top w3-padding-large w3-hover-white w3-large mobile-margin-10 w3-red w3-mobile">
         <b>
-          <i class="far fa-credit-card"></i>
-          <i class="fab fa-paypal"></i>
+          <i class="fa-solid fa-gift"></i>
           DONATE
         </b>
       </a>
@@ -205,10 +188,9 @@ layout: tourney
   <hr style="margin:0">
 
   <div class="w3-row w3-auto">
-<!--
-    <%= image_tag 'promo/x4.jpg', class: 'w3-image', alt: 'promo banner' %>
+    <%= image_tag 'quake/Comic.jpg', class: 'w3-image', alt: 'promo banner' %>
+    <p class="w3-center">The biggest Xonotic event.</p>
       <hr>
-      -->
 
     <div class="w3-half">
       <h2 class="w3-center" id="rules">Rules &amp; FAQ</h2>
@@ -241,7 +223,7 @@ layout: tourney
       <%= partial "partials/servers" %>
 
       <h3>
-        <u>LEAGUE RULES:</u>
+        <u>LEAGUE DETAILS:</u>
       </h3>
 
       <p>
@@ -497,6 +479,10 @@ layout: tourney
       autoplay: false
     });
   </script>
+
+  <%= partial "partials/ads" %>
+
+  <hr>
 
   <div class="w3-row w3-hide-small">
     <div class="w3-half">

@@ -1,0 +1,21 @@
+<div class="w3-bar-container w3-center w3-bottom w3-hide-small">
+  <div class="w3-bar">
+
+    <a href="/" class="w3-bar-item w3-button <%= active_nav_item("/") %>">
+      <%= image_tag 'rjz-logo-trans.png', class:'w3-image', alt: 'RJZ Logo' %>
+    </a>
+    <a class="w3-bar-item w3-button <%= active_nav_item("/browser/") %>" href="/browser">
+      <span class="w3-bottombar w3-hover-border-red">Browser</span>
+    </a>
+    <a class="w3-bar-item w3-button <%= active_nav_item("/players/") %>" href="/players">
+      <span class="w3-bottombar w3-hover-border-red">Players</span>
+    </a>
+    <a class="w3-bar-item w3-button <%= active_nav_item("/hall-of-fame/") %>" href="/hall-of-fame">
+      <span class="w3-bottombar w3-hover-border-red">Hall of Fame</span>
+    </a>
+    <a class="w3-bar-item w3-button <%= active_nav_item("/about/") %>" href="/about">
+      <span class="w3-bottombar w3-hover-border-red">About</span>
+    </a>
+
+  </div>
+</div>

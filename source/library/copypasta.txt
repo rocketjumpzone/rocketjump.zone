@@ -58,3 +58,12 @@
     <a href="/contribute" target="_blank">Donate to Project</a>
   </p>
 </div>
+
+
+## Tournament Winners
+
+<img src="../../images/qc-icon.png" alt="Quake Champions">  2v2 TDM Cup 12 - **MMMKAY** (PASITA + St0n3)
+<img src="../../images/qc-icon.png" alt="Quake Champions">  2v2 TDM Cup 13 - **PORKSWORDS** (KillaloT + PULZ)
+<img src="../../images/qc-icon.png" alt="Quake Champions">  2v2 TDM Cup 14 - **drobop** (DROBOVIK + opium)
+
+prize money in total: **€0**  
