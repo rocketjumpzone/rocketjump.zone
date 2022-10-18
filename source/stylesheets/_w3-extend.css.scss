@@ -4,7 +4,7 @@
 }
 
 .w3-tag {
-  color: #DEDEDE !important;
+  color: #DEDEDE;
   border-radius: 4px !important;
 }
 
@@ -21,7 +21,7 @@
 .w3-auto,
 .w3-content {
   margin-top: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .w3-darker-gray,
@@ -87,7 +87,6 @@ a.w3-btn:hover {
 .w3-bar-container {
   background: #0E0E10;
   height: 60px;
-
 }
 
 .w3-bar .w3-bottombar {
@@ -105,7 +104,6 @@ a.w3-btn:hover {
 .w3-button:hover {
   color: $main-red-color !important;
 }
-
 
 .w3-bar .w3-bar-item {
   color: #DEDEDE;
@@ -126,17 +124,18 @@ a.w3-btn:hover {
     color: #fff;
 
     &:hover {
-      border-bottom:none !important;
+      border-bottom: none !important;
     }
   }
 }
 
-
 .w3-dropdown-content > .w3-bar-item {
   font-weight: normal !important;
   padding: 5px 16px !important;
-  a, &:hover {
-    border-bottom:none !important;
+
+  &:hover,
+  a {
+    border-bottom: none !important;
   }
 }
 

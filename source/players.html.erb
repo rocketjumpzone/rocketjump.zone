@@ -1,71 +1,71 @@
 ---
-title: Xonotic Players and Ranks
-description: A list of Competitive Xonotic Players with Ranks who compete in tournaments.
+title: Xonotic Players
+description: Xonotic competitive players, ranks and a leaderboard.
 
 dodger_gold: 14
 dodger_silver: 0
 dodger_bronze: 0
-dodger_ranked: "13/0 (100%)"
-dodger_points: "140"
+dodger_ranked: "-"
+dodger_points: "TBD"
 
 
 kojak_gold: 1
 kojak_silver: 2
 kojak_bronze: 1
-kojak_ranked: ""
-kojak_points: "23.50"
+kojak_ranked: "-"
+kojak_points: "TBD"
 
 rainbowshadow_gold: 0
 rainbowshadow_silver: 5
 rainbowshadow_bronze: 3
-rainbowshadow_ranked: "20/21 (48%)"
-rainbowshadow_points: "34.25"
+rainbowshadow_ranked: "-"
+rainbowshadow_points: "TBD"
 
 zeroql_gold: 0
 zeroql_silver: 4
 zeroql_bronze: 2
-zeroql_ranked: "2/1 (66%)"
-zeroql_points: "27.50"
+zeroql_ranked: "-"
+zeroql_points: "TBD"
 
 ch4mp_gold: 0
 ch4mp_silver: 2
 ch4mp_bronze: 4
-ch4mp_ranked: "	28/21 (57%)"
-ch4mp_points: "24.75"
+ch4mp_ranked: "-"
+ch4mp_points: "TBD"
 
 klaspes_gold: 0
 klaspes_silver: 0
 klaspes_bronze: 3
-klaspes_ranked: ""
-klaspes_points: "10"
+klaspes_ranked: "-"
+klaspes_points: "TBD"
 
 wolfsnipe_gold: 0
 wolfsnipe_silver: 0
 wolfsnipe_bronze: 1
-wolfsnipe_ranked: "0/1 (0%)"
-wolfsnipe_points: "4.75"
+wolfsnipe_ranked: "-"
+wolfsnipe_points: "TBD"
 
 draena_gold: 0
 draena_silver: 0
 draena_bronze: 0
-draena_ranked: ""
-draena_points: "1.50"
+draena_ranked: "-"
+draena_points: "TBD"
 
 cupatru_gold: 0
 cupatru_silver: 0
 cupatru_bronze: 0
-cupatru_ranked: "0/1 (0%)"
-cupatru_points: "2"
+cupatru_ranked: "-"
+cupatru_points: "TBD"
 
 jskey_gold: 0
 jskey_silver: 0
 jskey_bronze: 0
-jskey_ranked: ""
-jskey_points: "4.50"
+jskey_ranked: "-"
+jskey_points: "TBD"
 
 ---
 
-<div class="w3-stretch w3-center w3-container" style="margin:30px auto 100px auto">
+<div class="w3-stretch w3-center w3-container" style="margin:30px auto 150px auto">
 
   <p class="w3-margin-bottom">
     <a href="#" class="mobile-margin-20" style="border:none" onclick="w3.show('div.flex-item');w3.hide('#rank');return false;">
@@ -76,8 +76,8 @@ jskey_points: "4.50"
     </a>
     <a href="#" style="border:none"  onclick="w3.show('#rank');return false;">
       <span class="w3-tag mobile-margin-20-full w3-hover-white w3-red" style="margin-left:10px">
-        <i class="fas fa-crown"></i>
-        RANKS
+        <i class="fa-regular fa-star"></i>
+        LEADERBOARD
       </span>
     </a>
   </p>
@@ -208,10 +208,11 @@ jskey_points: "4.50"
 
   <div class="w3-content w3-container w3-animate-opacity" id="rank" style="display:none;margin-top:20px"">
 
-    <h1 class="w3-center" style="display:inline">Xonotic Ranks - Duel</h1>
+    <h1 class="w3-center" style="display:inline">Xonotic Leaderboard [Duel]</h1>
     <div class="w3-tooltip mobile-tooltip w3-hide-small" style="display:inline;margin-left:5px">
       <i class="fa-solid fa-circle-question"></i>
-      <span style="width:200px;position:absolute;left:0;bottom:-50px" class="w3-text w3-large w3-tag w3-padding w3-animate-opacity w3-round">TBD<hr style="margin:2px">Ranks are determined by Xonotic Duel League 2022. Here's a video Explaning ranks.. bla bla TBA</span>
+      <span style="width:300px;position:absolute;left:0;bottom:-50px" class="w3-text w3-large w3-tag w3-padding w3-animate-opacity w3-round"><b>Titles</b><hr style="margin:2px">GM - Grandmaster<br>SM - Senior Master<br>CM - Candidate Master<br>
+      <hr style="margin:2px">Ranks are determined by Xonotic Duel League 2022</span>
       </div>
 
 
@@ -692,11 +693,12 @@ jskey_points: "4.50"
 
   </div>
 
-  <div class="flex-container w3-animate-opacity" style="justify-content:center">
+  <div class="flex-container w3-animate-opacity" id="players" style="justify-content:center">
 
     <div class="flex-item w3-mobile" id="Netherlands">
       <h4 class="w3-center"><%= data.players.dodger.url %></h4>
       <div class="w3-center">
+        <%= partial "partials/player/dodger/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
           <sup><%= data.players.dodger.trophies.gold %></sup>
@@ -710,14 +712,15 @@ jskey_points: "4.50"
           <sup><%= data.players.dodger.trophies.bronze %></sup>
         </b>
       </div>
-      <hr style="display:none" id="rank">
-      <p id="rank" style="margin:0;display:none;font-weight:bold"> <%= data.players.dodger.rank %></p>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.dodger.rank %></p>
     </div>
 
 
     <div class="flex-item w3-mobile" id="GB">
-      <h4 class="w3-center"><a href="/player/kojak" class="gold">Kojak</a></h4>
+      <h4 class="w3-center"><a href="/player/kojak">Kojak</a></h4>
       <div class="w3-center">
+        <%= partial "partials/player/kojak/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
           <sup><%= data.players.kojak.trophies.gold %></sup>
@@ -731,14 +734,15 @@ jskey_points: "4.50"
           <sup><%= data.players.kojak.trophies.bronze %></sup>
         </b>
       </div>
-      <hr style="display:none" id="rank">
-      <p id="rank" style="margin:0;display:none;font-weight:bold"><%= data.players.kojak.rank %></p>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.kojak.rank %></p>
     </div>
 
 
     <div class="flex-item w3-mobile" id="Serbia">
-      <h4 class="w3-center"><a href="/player/rainbow-shadow" class="rainbowshadow">Rainbow Sha..</a></h4>
+      <h4 class="w3-center"><a href="/player/rainbow-shadow">Rainbow Sha..</a></h4>
       <div class="w3-center">
+        <%= partial "partials/player/rainbowshadow/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
           <sup><%= data.players.rainbowshadow.trophies.gold %></sup>
@@ -752,8 +756,8 @@ jskey_points: "4.50"
           <sup><%= data.players.rainbowshadow.trophies.bronze %></sup>
         </b>
       </div>
-      <hr style="display:none" id="rank">
-      <p id="rank" style="margin:0;display:none;font-weight:bold"> <%= data.players.rainbowshadow.rank %></p>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.rainbowshadow.rank %></p>
     </div>
 
 
@@ -761,6 +765,8 @@ jskey_points: "4.50"
     <div class="flex-item w3-mobile" id="Slovakia">
       <h4 class="w3-center"><%= data.players.ch4mp.url %></h4>
       <div class="w3-center">
+        <%= partial "partials/player/ch4mp/avatar" %>
+
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
           <sup><%= data.players.ch4mp.trophies.gold %></sup>
@@ -774,14 +780,15 @@ jskey_points: "4.50"
           <sup><%= data.players.ch4mp.trophies.bronze %></sup>
         </b>
       </div>
-      <hr style="display:none" id="rank">
-      <p id="rank" style="margin:0;display:none;font-weight:bold"> <%= data.players.ch4mp.rank %></p>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.ch4mp.rank %></p>
     </div>
 
 
     <div class="flex-item w3-mobile" id="Serbia">
-      <h4 class="w3-center"><a href="/player/zeroql" class="zeroql">ZeRoQL</a></h4>
+      <h4 class="w3-center"><a href="/player/zeroql">ZeRoQL</a></h4>
       <div class="w3-center">
+        <%= partial "partials/player/zeroql/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
           <sup><%= data.players.zeroql.trophies.gold %></sup>
@@ -795,14 +802,15 @@ jskey_points: "4.50"
           <sup><%= data.players.zeroql.trophies.bronze %></sup>
         </b>
       </div>
-      <hr style="display:none" id="rank">
-      <p id="rank" style="margin:0;display:none;font-weight:bold"> <%= data.players.zeroql.rank %></p>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.zeroql.rank %></p>
     </div>
 
 
     <div class="flex-item w3-mobile" id="Germany">
-      <h4 class="w3-center"><a href="/player/klaspes" class="klaspes">Klaspes</a></h4>
+      <h4 class="w3-center"><a href="/player/klaspes">Klaspes</a></h4>
       <div class="w3-center">
+        <%= partial "partials/player/klaspes/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
           <sup><%= data.players.klaspes.trophies.gold %></sup>
@@ -816,14 +824,15 @@ jskey_points: "4.50"
           <sup><%= data.players.klaspes.trophies.bronze %></sup>
         </b>
       </div>
-      <hr style="display:none" id="rank">
-      <p id="rank" style="margin:0;display:none;font-weight:bold"><%= data.players.klaspes.rank %></p>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.klaspes.rank %></p>
     </div>
 
 
     <div class="flex-item w3-mobile" id="Poland">
-      <h4 class="w3-center"><a href="/player/wolf-snipe" class="wolf-snipe"">Wolf-Snipe</a></h4>
+      <h4 class="w3-center"><a href="/player/wolf-snipe">Wolf-Snipe</a></h4>
       <div class="w3-center">
+        <%= partial "partials/player/wolfsnipe/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
           <sup><%= data.players.wolfsnipe.trophies.gold %></sup>
@@ -837,14 +846,15 @@ jskey_points: "4.50"
           <sup><%= data.players.wolfsnipe.trophies.bronze %></sup>
         </b>
       </div>
-      <hr style="display:none" id="rank">
-      <p id="rank" style="margin:0;display:none;font-weight:bold"> <%= data.players.wolfsnipe.rank %></p>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.wolfsnipe.rank %></p>
     </div>
 
 
     <div class="flex-item w3-mobile" id="France">
       <h4 class="w3-center"><%= data.players.jskey.url %></h4>
       <div class="w3-center">
+        <%= partial "partials/player/jskey/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
           <sup><%= data.players.jskey.trophies.gold %></sup>
@@ -858,35 +868,15 @@ jskey_points: "4.50"
           <sup><%= data.players.jskey.trophies.bronze %></sup>
         </b>
       </div>
-      <hr style="display:none" id="rank">
-      <p id="rank" style="margin:0;display:none;font-weight:bold"> <%= data.players.jskey.rank %></p>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.jskey.rank %></p>
     </div>
 
-
-
-    <div class="flex-item w3-mobile" id="Sweden">
-      <h4 class="w3-center"><a href="/player/defense">DEFENSE</a></h4>
-      <div class="w3-center">
-        <i class="fas fa-trophy trophy-gold"></i>
-        <b>
-          <sup><%= data.players.defense.trophies.gold %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-silver"></i>
-        <b>
-          <sup><%= data.players.defense.trophies.silver %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-bronze"></i>
-        <b>
-          <sup><%= data.players.defense.trophies.bronze %></sup>
-        </b>
-      </div>
-      <hr style="display:none" id="rank">
-      <p id="rank" style="margin:0;display:none;font-weight:bold"> <%= data.players.defense.rank %></p>
-    </div>
 
     <div class="flex-item w3-mobile" id="Slovakia">
       <h4 class="w3-center"><a href="/player/cupatru">Cupatru</a></h4>
       <div class="w3-center">
+        <%= partial "partials/player/cupatru/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
           <sup><%= data.players.cupatru.trophies.gold %></sup>
@@ -900,13 +890,14 @@ jskey_points: "4.50"
           <sup><%= data.players.cupatru.trophies.bronze %></sup>
         </b>
       </div>
-      <hr style="display:none" id="rank">
-      <p id="rank" style="margin:0;display:none;font-weight:bold"> <%= data.players.cupatru.rank %></p>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.cupatru.rank %></p>
     </div>
 
     <div class="flex-item w3-mobile" id="Spain">
       <h4 class="w3-center"><a href="/player/draena">Draena</a></h4>
       <div class="w3-center">
+        <%= partial "partials/player/draena/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
           <sup><%= data.players.draena.trophies.gold %></sup>
@@ -920,8 +911,8 @@ jskey_points: "4.50"
           <sup><%= data.players.draena.trophies.bronze %></sup>
         </b>
       </div>
-      <hr style="display:none" id="rank">
-      <p id="rank" style="margin:0;display:none;font-weight:bold"><%= data.players.draena.rank %></p>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.draena.rank %></p>
     </div>
 
   </div>

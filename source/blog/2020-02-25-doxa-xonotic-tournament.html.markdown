@@ -2,7 +2,7 @@
 title: Doxa Xonotic Tournament
 date: 2020-02-25 UTC
 date_update:
-tags: Xonotic, Event
+tags: Xonotic
 layout: blog
 author: Ch4mp
 disqus_identifier: /doxa-xonotic-tournament

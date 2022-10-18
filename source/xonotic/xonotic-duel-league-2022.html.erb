@@ -1,7 +1,7 @@
 ---
 title: Xonotic Duel League 2022
-date: "Oct 2"
-prize_money: "TBD"
+date: "TBD"
+prize_money: "100"
 layout: tourney
 ---
 
@@ -20,7 +20,7 @@ layout: tourney
   </a>
   <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
     <div class="w3-third tablink w3-bottombar w3-center w3-padding">
-      <b class="w3-large">MEDIA</b>
+      <b class="w3-large">STREAM</b>
     </div>
   </a>
 </div>
@@ -42,7 +42,7 @@ layout: tourney
             <b>League Start:</b>
           </td>
           <td style="font-weight:bold">
-            Sun, Oct 2, 2022&nbsp; – &nbsp;19 CEST
+            TBD, 2022&nbsp; – &nbsp;19 CEST
             <div class="w3-tooltip mobile-tooltip" style="display:inline">
               &nbsp;
               <span style="border-bottom:1px groove"><i class="far fa-clock"></i></span>
@@ -78,7 +78,7 @@ layout: tourney
               Registration:</b>
           </td>
           <td>
-<a href="https://rocketjump.zone/discord" class="w3-tag w3-hover-white w3-red mobile-margin-20-full" style="color:#dedede;border:none;padding-bottom:2px" target="_blank"><b><i class="fa-brands fa-discord"></i> Discord</b></a>
+            <a href="https://rocketjump.zone/discord" class="w3-tag w3-hover-white w3-red mobile-margin-20-full" style="color:#dedede;border:none;padding-bottom:2px" target="_blank"><b><i class="fa-brands fa-discord"></i> Discord</b></a>
           </td>
         </tr>
 
@@ -110,7 +110,7 @@ layout: tourney
 
     <div class="w3-third w3-container">
       <h3 style="margin-bottom:0">Prize Money League:
-        <b>$
+        <b>&euro;
           <%= current_page.data.prize_money %>
         </b>
       </h3>
@@ -119,13 +119,13 @@ layout: tourney
         <div class="w3-half">
           <p class="w3-mobile-10" style="margin:3px 0 3px 0">
             <b>1st place:</b>
-            $?
+            &euro;?
           </p>
         </div>
         <div class="w3-half">
           <p class="w3-mobile-10" style="margin:3px 0 3px 0">
             <b>2nd place:</b>
-            $?
+            &euro;?
           </p>
         </div>
       </div>
@@ -134,13 +134,13 @@ layout: tourney
         <div class="w3-half">
           <p class="w3-mobile-10" style="margin:3px 0 3px 0">
             <b>3rd place:</b>
-            $?
+            &euro;?
           </p>
         </div>
         <div class="w3-half">
           <p class="w3-mobile-10" style="margin:3px 0 3px 0">
             <b>4th place:</b>
-            $?
+            &euro;?
           </p>
         </div>
       </div>
@@ -149,28 +149,13 @@ layout: tourney
         <div class="w3-half">
           <p class="w3-mobile-10" style="margin:3px 0 3px 0">
             <b>5th place:</b>
-            $?
+            &euro;?
           </p>
         </div>
         <div class="w3-half">
           <p class="w3-mobile-10" style="margin:3px 0 3px 0">
             <b>6th place:</b>
-            $?
-          </p>
-        </div>
-      </div>
-
-      <div class="w3-row">
-        <div class="w3-half">
-          <p class="w3-mobile-10" style="margin:3px 0 3px 0">
-            <b>7th place:</b>
-            $?
-          </p>
-        </div>
-        <div class="w3-half">
-          <p class="w3-mobile-10" style="margin:3px 0 3px 0">
-            <b>8th place:</b>
-            $?
+            &euro;?
           </p>
         </div>
       </div>
@@ -188,16 +173,11 @@ layout: tourney
   <hr style="margin:0">
 
   <div class="w3-row w3-auto">
-    <%= image_tag 'quake/Comic.jpg', class: 'w3-image', alt: 'promo banner' %>
-    <p class="w3-center">The biggest Xonotic event.</p>
+    <p class="w3-center">There can be only one Champion, is that you? Welcome to Xonotic Duel League 2022!</p>
       <hr>
 
     <div class="w3-half">
       <h2 class="w3-center" id="rules">Rules &amp; FAQ</h2>
-
-      <h3>
-        <u>GAME RULES:</u>
-      </h3>
 
       <p>
         <b>Mode:</b>
@@ -218,22 +198,12 @@ layout: tourney
         <span style="border-bottom:1px groove" data-preview-image="../../images/maps/fuse.jpg">Fuse</span>
       </p>
 
-      <h4>SERVERS:</h4>
-
-      <%= partial "partials/servers" %>
-
-      <h3>
-        <u>LEAGUE DETAILS:</u>
-      </h3>
-
-      <p>
-        <b>Structure:</b>
-        Round Robin<br>
-        top 4 qualify to the Bo5 Gauntlet Bracket Playoffs (4 vs. 3, winner vs. 2,<br>
-        winner vs. 1 (Bo7 grand final no advantage))<br>
-        <b>Admins:</b>
-        Ch4mp
-      </p>
+      <h4>FORMAT:</h4>
+      <ol style="padding-left:30px">
+        <li><b>QUALIFICATION - </b> 2 players to qualify, single elimination bracket</li>
+        <li><b>ROUND ROBIN - </b> 2 qualified players and 8 invite only players</li>
+        <li><b>THE FINALS - </b> 4 top scored players, single elimination bracket</li>
+      </ol>
 
       <p>
         <b>Best of 3:</b>
@@ -244,35 +214,27 @@ layout: tourney
         Pick, Pick, Pick, Pick, Pick, Pick, Tiebreaker<br>
       </p>
 
-      <hr>
+      <h4>SERVERS:</h4>
 
-      <h3>NA players?</h3>
-      <p>NA players are welcome to join this league but the server will be EU WEST.
-      </p>
+      <%= partial "partials/servers" %>
+
+      <hr>
 
       <h3>How to support tournaments?</h3>
       <p>Visit our
-        <a href="/contribute" target="_blank">contribute page.</a>
+        <a href="/contribute" target="_blank">contribute page</a>
       </p>
 
     </div>
 
-    <div class="w3-half w3-center">
+    <div class="w3-half w3-border w3-round w3-center w3-hover-shadow" style="border:1px solid #242429 !important">
       <h2>Sponsors &amp; Donators</h2>
-
-      <p style="font-weight:bold">$<%= current_page.data.prize_money %>
+      <p style="font-weight:bold;margin-bottom:50px">
+         Ch4mp - &euro; 100
       </p>
 
-      <h2>Contact</h2>
-      <a href="https://rocketjump.zone/discord" target="_blank">
-        <div class="join-us grow">
-          <i class="fab fa-3x fa-discord"></i>
-          <p>Join Discord</p>
-        </div>
-      </a>
-
       <h2>Share League</h2>
-      <div class="sharethis-inline-share-buttons"></div>
+      <div class="sharethis-inline-share-buttons" style="margin-bottom:20px"></div>
     </div>
   </div>
 
@@ -288,11 +250,12 @@ layout: tourney
 
   </div>
 
-  <div class="flex-container w3-animate-opacity" id="participants" style="justify-content:center">
+  <div class="flex-container w3-center w3-animate-opacity" id="players" style="justify-content:center">
 
-    <div class="flex-item w3-mobile xon dbt" id="Netherlands">
+    <div class="flex-item w3-mobile" id="Netherlands">
       <h4 class="w3-center"><%= data.players.dodger.url %></h4>
       <div class="w3-center">
+        <%= partial "partials/player/dodger/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
           <sup><%= data.players.dodger.trophies.gold %></sup>
@@ -306,15 +269,15 @@ layout: tourney
           <sup><%= data.players.dodger.trophies.bronze %></sup>
         </b>
       </div>
-      <hr class="w3-center" id="rank">
-      <p class="w3-center" id="rank" style="margin:0;font-weight:bold"><%= data.players.dodger.rank %></p>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.dodger.rank %></p>
     </div>
 
-    <div class="flex-item w3-mobile xon" id="GB">
-      <h4 class="w3-center">
-        <a href="/player/kojak" class="gold">Kojak</a>
-      </h4>
+
+    <div class="flex-item w3-mobile" id="GB">
+      <h4 class="w3-center"><a href="/player/kojak">Kojak</a></h4>
       <div class="w3-center">
+        <%= partial "partials/player/kojak/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
           <sup><%= data.players.kojak.trophies.gold %></sup>
@@ -328,15 +291,15 @@ layout: tourney
           <sup><%= data.players.kojak.trophies.bronze %></sup>
         </b>
       </div>
-      <hr class="w3-center" id="rank">
-      <p class="w3-center" id="rank" style="margin:0;font-weight:bold"><%= data.players.kojak.rank %></p>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.kojak.rank %></p>
     </div>
 
-    <div class="flex-item w3-mobile xon" id="Serbia">
-      <h4 class="w3-center">
-        <a href="/player/rainbow-shadow" class="rainbowshadow">Rainbow Sha..</a>
-      </h4>
+
+    <div class="flex-item w3-mobile" id="Serbia">
+      <h4 class="w3-center"><a href="/player/rainbow-shadow">Rainbow Sha..</a></h4>
       <div class="w3-center">
+        <%= partial "partials/player/rainbowshadow/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
           <sup><%= data.players.rainbowshadow.trophies.gold %></sup>
@@ -350,13 +313,17 @@ layout: tourney
           <sup><%= data.players.rainbowshadow.trophies.bronze %></sup>
         </b>
       </div>
-      <hr class="w3-center" id="rank">
-      <p class="w3-center" id="rank" style="margin:0;font-weight:bold"><%= data.players.rainbowshadow.rank %></p>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.rainbowshadow.rank %></p>
     </div>
 
-    <div class="flex-item w3-mobile qc dbt xon" id="Slovakia">
+
+
+    <div class="flex-item w3-mobile" id="Slovakia">
       <h4 class="w3-center"><%= data.players.ch4mp.url %></h4>
       <div class="w3-center">
+        <%= partial "partials/player/ch4mp/avatar" %>
+
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
           <sup><%= data.players.ch4mp.trophies.gold %></sup>
@@ -370,15 +337,15 @@ layout: tourney
           <sup><%= data.players.ch4mp.trophies.bronze %></sup>
         </b>
       </div>
-      <hr class="w3-center" id="rank">
-      <p class="w3-center" id="rank" style="margin:0;font-weight:bold"><%= data.players.ch4mp.rank %></p>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.ch4mp.rank %></p>
     </div>
 
-    <div class="flex-item w3-mobile xon qc dbt" id="Serbia">
-      <h4 class="w3-center">
-        <a href="/player/zeroql" class="zeroql">ZeRoQL</a>
-      </h4>
+
+    <div class="flex-item w3-mobile" id="Serbia">
+      <h4 class="w3-center"><a href="/player/zeroql">ZeRoQL</a></h4>
       <div class="w3-center">
+        <%= partial "partials/player/zeroql/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
           <sup><%= data.players.zeroql.trophies.gold %></sup>
@@ -392,15 +359,37 @@ layout: tourney
           <sup><%= data.players.zeroql.trophies.bronze %></sup>
         </b>
       </div>
-      <hr class="w3-center" id="rank">
-      <p class="w3-center" id="rank" style="margin:0;font-weight:bold"><%= data.players.zeroql.rank %></p>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.zeroql.rank %></p>
     </div>
 
-    <div class="flex-item w3-mobile xon qc dbt" id="Poland">
-      <h4 class="w3-center">
-        <a href="/player/wolf-snipe" class="wolf-snipe" ">Wolf-Snipe</a>
-      </h4>
+
+    <div class="flex-item w3-mobile" id="Germany">
+      <h4 class="w3-center"><a href="/player/klaspes">Klaspes</a></h4>
       <div class="w3-center">
+        <%= partial "partials/player/klaspes/avatar" %>
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.klaspes.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.klaspes.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.klaspes.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.klaspes.rank %></p>
+    </div>
+
+
+    <div class="flex-item w3-mobile" id="Poland">
+      <h4 class="w3-center"><a href="/player/wolf-snipe">Wolf-Snipe</a></h4>
+      <div class="w3-center">
+        <%= partial "partials/player/wolfsnipe/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
           <sup><%= data.players.wolfsnipe.trophies.gold %></sup>
@@ -414,13 +403,15 @@ layout: tourney
           <sup><%= data.players.wolfsnipe.trophies.bronze %></sup>
         </b>
       </div>
-      <hr class="w3-center" id="rank">
-      <p class="w3-center" id="rank" style="margin:0;font-weight:bold"><%= data.players.wolfsnipe.rank %></p>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.wolfsnipe.rank %></p>
     </div>
 
-    <div class="flex-item w3-mobile qc" id="France">
+
+    <div class="flex-item w3-mobile" id="France">
       <h4 class="w3-center"><%= data.players.jskey.url %></h4>
       <div class="w3-center">
+        <%= partial "partials/player/jskey/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
           <sup><%= data.players.jskey.trophies.gold %></sup>
@@ -434,15 +425,15 @@ layout: tourney
           <sup><%= data.players.jskey.trophies.bronze %></sup>
         </b>
       </div>
-      <hr class="w3-center" id="rank">
-      <p class="w3-center" id="rank" style="margin:0;font-weight:bold"><%= data.players.jskey.rank %></p>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.jskey.rank %></p>
     </div>
 
-    <div class="flex-item w3-mobile xon" id="Slovakia">
-      <h4 class="w3-center">
-        <a href="/player/cupatru">Cupatru</a>
-      </h4>
+
+    <div class="flex-item w3-mobile" id="Slovakia">
+      <h4 class="w3-center"><a href="/player/cupatru">Cupatru</a></h4>
       <div class="w3-center">
+        <%= partial "partials/player/cupatru/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
           <sup><%= data.players.cupatru.trophies.gold %></sup>
@@ -456,13 +447,42 @@ layout: tourney
           <sup><%= data.players.cupatru.trophies.bronze %></sup>
         </b>
       </div>
-      <hr class="w3-center" id="rank">
-      <p class="w3-center" id="rank" style="margin:0;font-weight:bold"><%= data.players.cupatru.rank %></p>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.cupatru.rank %></p>
+    </div>
+
+    <div class="flex-item w3-mobile" id="Spain">
+      <h4 class="w3-center"><a href="/player/draena">Draena</a></h4>
+      <div class="w3-center">
+        <%= partial "partials/player/draena/avatar" %>
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.draena.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.draena.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.draena.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.draena.rank %></p>
     </div>
 
   </div>
 
-  <iframe src="https://rocketjumpzone.challonge.com/22c3frvc/module?theme=7847&multiplier=1.3&show_standings=1&show_voting=1" style="width:100%;height:1600px;margin-top:50px" scrolling="auto"></iframe>
+
+  <h4>QUALIFICATION</h4>
+  <iframe src="https://brackethq.com/b/e665/embed/" width="100%" height="550" frameborder="0"></iframe>
+
+  <h4>ROUND ROBIN</h4>
+
+  <iframe src="https://brackethq.com/b/k665/embed/" width="100%" height="550" frameborder="0"></iframe>
+
+  <h4>THE FINALS</h4>
 
 </div>
 

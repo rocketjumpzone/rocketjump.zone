@@ -1,7 +1,7 @@
 ---
 title: Our goal is 500 a month
 date: 2022-09-06 UTC
-date_update: Sep 2022
+date_update: Oct 13 2022
 tags: News
 layout: blog
 author: Ch4mp
@@ -24,7 +24,6 @@ author: Ch4mp
 
 ## Our current Supporters Patreon
 + Jooton (£10 per month)
-+ Jacob Shrader ($5 per month)  
 
 
 <br>Visit our

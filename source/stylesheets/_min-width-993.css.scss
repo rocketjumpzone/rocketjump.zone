@@ -5,8 +5,12 @@
     display: block;
   }
 
-  .w3-responsive {
-    overflow:hidden !important;
+  #players .player-avatar,
+  #players img.player-avatar {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 5px auto;
   }
 
   img.ranked-avatar {
@@ -19,6 +23,10 @@
     width: 300px;
     height: 300px;
     display: block;
+  }
+
+  .w3-responsive {
+    overflow: hidden !important;
   }
 
   .social-icons a {
