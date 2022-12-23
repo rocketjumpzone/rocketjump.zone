@@ -1,8 +1,8 @@
 ---
 title: Our goal is 500 a month
 date: 2022-09-06 UTC
-date_update: Oct 13 2022
-tags: News
+date_update: Dec 10 2022
+tags: RJZ
 layout: blog
 author: Ch4mp
 ---
@@ -11,8 +11,9 @@ author: Ch4mp
 
 <hr>
 
-<p class="w3-center">Let's build the greatest Esport together! We set a production goal to cover this up.</p>
+<p class="w3-center">All we need is just 500 patrons (1$/mo) subs via Patreon to cover up production.</p>
 <hr>
+
 
 ## What is it gonna be used for and what to expect
 + Production work + pizza + beers (a lot of it)  
@@ -21,11 +22,7 @@ author: Ch4mp
 + Much more tournaments (pretty much every week)  
 
 
-
-## Our current Supporters Patreon
-+ Jooton (£10 per month)
-
-
+**All our patrons get a VIP role and access to our private discord group**
 <br>Visit our
 <a href="/contribute" target="_blank">contribute</a> page and start supporting the greatest esport ever! <i class="fa-solid fa-face-party"></i>
 

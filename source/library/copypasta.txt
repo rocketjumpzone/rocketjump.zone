@@ -187,3 +187,11 @@ prize money in total: **€0**
 
   </div>
   <!-- end of flex-container -->
+
+
+
+  <div class="w3-panel w3-margin-top w3-round" style="background:#131316;width:100%;border:1px solid #242429">
+    <p class="w3-center" style="text-transform:uppercase">We mention supporters in
+      <a href="/blog/our-goal-is-500-a-month/">Our goal is 500 a month</a>
+      blog post</p>
+  </div>

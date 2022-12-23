@@ -2,7 +2,7 @@
 title: Are we gonna see a new Aerowalk?
 date: 2022-08-22 UTC
 date_update: Aug 2022
-tags: News, Xonotic
+tags: Xonotic
 layout: blog
 author: Ch4mp
 ---

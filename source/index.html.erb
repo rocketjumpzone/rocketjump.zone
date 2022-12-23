@@ -1,28 +1,30 @@
 ---
 title: Rocket Jump Zone
-description: We run Esports for Arena Shooters such as Xonotic, Quake, Diabotical for Europe and North America.
+description: We run Esports for Competitive Shooters such as Xonotic, Quake, Prodeus.
 priority: 1.0
 change_frequency: weekly
 layout: index
 ---
 
 
-<a href="/xonotic/xonotic-duel-league-2022">
+<div class="w3-center">
+<a href="/xonotic/xonotic-duel-league-2023">
   <%= image_tag 'current-event.png', class: 'w3-image w3-hover-shadow w3-hide-small', style: 'width:100%;border-bottom:1px solid #242429' %>
 </a>
+</div>
 
 <div class="w3-container" style="margin:100px 0 70px 0">
 
   <div class="w3-row">
     <div class="w3-half w3-container">
-      <h2 class="w3-center w3-margin-bottom">Upcoming Tournaments</h2>
+      <h2 class="w3-center w3-margin-bottom">Upcoming Competitions</h2>
       <hr>
       <div class="w3-responsive mobile-reset w3-animate-zoom">
       <table class="w3-table w3-bordered tourneys-index">
         <thead>
           <tr>
             <th>&nbsp;</th>
-            <th>tournament</th>
+            <th>event</th>
             <th>date</th>
             <th>time</th>
             <th>prize pool</th>
@@ -34,17 +36,34 @@ layout: index
           <tr style="background:#131316">
             <td><%= image_tag '/images/xon-icon-crop.png', alt: 'Xonotic Icon', title: 'Xonotic' %></td>
             <td>
-              <a href="/xonotic/xonotic-duel-league-2022" class="w3-mobile">Xonotic Duel League 2022</a>
+              <a href="/xonotic/xonotic-duel-league-2023" class="w3-mobile">RJZ Xonotic Duel League 2023</a>
             </td>
             <td>
-              <i class="far fa-calendar-alt"></i>&nbsp; TBD
+              <i class="far fa-calendar-alt"></i>&nbsp; Jan 8, 2023
             </td>
-            <td><i class="far fa-clock"></i>&nbsp; 20
-            CET / 2
+            <td><i class="far fa-clock"></i>&nbsp; 19
+            CET / 1
             <sup>pm</sup>
             EDT</td>
-            <td>$TBD</td>
-            <td><span class="w3-tag w3-hover-white w3-red w3-round mobile-margin-10" style="border:none;padding-bottom:2px;font-weight:bold">TBA</span></td>
+            <td>TBD</td>
+            <td><span class="w3-tag w3-hover-white w3-red w3-round mobile-margin-10" style="border:none;padding-bottom:2px;font-weight:bold">OPEN</span></td>
+          </tr>
+
+
+          <tr style="background:#131316">
+            <td><%= image_tag '/images/prodeus-icon.jpg', alt: 'Prodeus Icon', title: 'Prodeus' %></td>
+            <td>
+              <a href="/prodeus/2v2-tdm-cup-1" class="w3-mobile">RJZ Prodeus 2v2 TDM Cup 1</a>
+            </td>
+            <td>
+              <i class="far fa-calendar-alt"></i>&nbsp; TBD, 2023
+            </td>
+            <td><i class="far fa-clock"></i>&nbsp; 19
+            CET / 1
+            <sup>pm</sup>
+            EDT</td>
+            <td>&euro;50</td>
+            <td><span class="w3-tag w3-hover-white w3-red w3-round mobile-margin-10" style="border:none;padding-bottom:2px;font-weight:bold">POSTPONED</span></td>
           </tr>
 
         </tbody>
@@ -53,14 +72,14 @@ layout: index
     </div>
 
     <div class="w3-half w3-container">
-      <h2 class="w3-center w3-margin-bottom">Finished Tournaments</h2>
+      <h2 class="w3-center w3-margin-bottom">Past Competitions</h2>
       <hr>
       <div class="w3-responsive mobile-reset w3-animate-zoom">
       <table class="w3-table w3-bordered tourneys-index">
         <thead>
           <tr>
             <th>&nbsp;</th>
-            <th>tournament</th>
+            <th>event</th>
             <th>date</th>
             <th>time</th>
             <th>prize pool</th>
@@ -69,9 +88,24 @@ layout: index
         </thead>
         <tbody>
           <tr style="background:#131316">
+            <td><%= image_tag '/images/prodeus-icon.jpg', alt: 'Prodeus Icon', title: 'Prodeus' %></td>
+            <td>
+              <a href="/prodeus/duel-cup-1" class="w3-mobile">RJZ Prodeus Duel Cup 1</a>
+            </td>
+            <td>
+              <i class="far fa-calendar-alt"></i>&nbsp; Nov 6, 2022
+            </td>
+            <td><i class="far fa-clock"></i>&nbsp; 19
+            CET / 1
+            <sup>pm</sup>
+            EDT</td>
+            <td>TBD</td>
+            <td><span class="w3-tag w3-hover-white w3-red w3-round mobile-margin-10" style="border:none;padding-bottom:2px;font-weight:bold">FINISHED</span></td>
+          </tr>
+          <tr style="background:#131316">
             <td><%= image_tag '/images/qc-icon-crop.png', alt: 'QC Icon', title: 'Quake Champions' %></td>
             <td>
-              <a href="/quake/2v2-tdm-cup-17" class="w3-mobile">2v2 TDM Cup 17</a>
+              <a href="/quake/2v2-tdm-cup-17" class="w3-mobile">RJZ Quake 2v2 TDM Cup 17</a>
             </td>
             <td>
                 <i class="far fa-calendar-alt"></i>&nbsp; Sep 18, 2022
@@ -88,7 +122,7 @@ layout: index
           <tr style="background:#131316">
             <td><%= image_tag '/images/qc-icon-crop.png', alt: 'QC Icon', title: 'Quake Champions' %></td>
             <td>
-              <a href="/quake/rookie-2v2-tdm-cup-5" class="w3-mobile">Rookie 2v2 TDM Cup 5</a>
+              <a href="/quake/rookie-2v2-tdm-cup-5" class="w3-mobile">RJZ Quake Rookie 2v2 TDM Cup 5</a>
             </td>
             <td>
               <i class="far fa-calendar-alt"></i>&nbsp; Sep 4, 2022
@@ -104,7 +138,7 @@ layout: index
           <tr style="background:#131316">
             <td><%= image_tag '/images/qc-icon-crop.png', alt: 'QC Icon', title: 'Quake Champions' %></td>
             <td>
-              <a href="/quake/rookie-2v2-tdm-cup-4" class="w3-mobile">Rookie 2v2 TDM Cup 4</a>
+              <a href="/quake/rookie-2v2-tdm-cup-4" class="w3-mobile">RJZ Quake Rookie 2v2 TDM Cup 4</a>
             </td>
             <td>
               <i class="far fa-calendar-alt"></i>&nbsp; Jul 31, 2022
@@ -120,7 +154,7 @@ layout: index
           <tr style="background:#131316">
             <td><%= image_tag '/images/qc-icon-crop.png', alt: 'QC Icon', title: 'Quake Champions' %></td>
             <td>
-              <a href="/quake/rookie-2v2-tdm-cup-3" class="w3-mobile">Rookie 2v2 TDM Cup 3</a>
+              <a href="/quake/rookie-2v2-tdm-cup-3" class="w3-mobile">RJZ Quake Rookie 2v2 TDM Cup 3</a>
             </td>
             <td>
               <i class="far fa-calendar-alt"></i>&nbsp; Jun 26, 2022
@@ -139,7 +173,7 @@ layout: index
               <a href="/xonotic/zs-x-rjz-xonotic-duel-cup-12" class="w3-mobile">ZS x RJZ Xonotic Duel Cup 12</a>
             </td>
             <td>
-              <i class="far fa-calendar-alt"></i>&nbsp; Dec 4, 2022
+              <i class="far fa-calendar-alt"></i>&nbsp; Dec 4, 2021
             </td>
             <td><i class="far fa-clock"></i>&nbsp; 20
             CET / 2
@@ -190,10 +224,10 @@ layout: index
 
   <a href="https://www.youtube.com/c/flukkzmedia" target="_blank" style="border:none">
     <%= image_tag 'logos/flukkz-media.png', class:'w3-opacity grow w3-hover-opacity-off mobile-margin-20 w3-image', style: 'margin:0 0 5px 0', alt: 'Flukkz media', title: 'Flukkz media' %>
-  </a>
+  </a><!--
   <a href="https://zensports.com" target="_blank" style="border:none">
     <%= image_tag 'logos/zensports-white-2.png', class:'w3-opacity grow w3-hover-opacity-off mobile-margin-20 w3-image', style: 'margin:0 20px 5px 20px', alt: 'ZenSports', title: 'ZenSports' %></a>
-  <!-- <a href="https://www.linode.com/?r=fec37364d873ec194adf24d73c7ac1f21c125f03" target="_blank" style="border:none"> <%= image_tag 'linode-logo.png', class:'w3-opacity w3-hover-opacity-off mobile-margin-10 w3-image', style: 'margin:0 20px 5px
+  <a href="https://www.linode.com/?r=fec37364d873ec194adf24d73c7ac1f21c125f03" target="_blank" style="border:none"> <%= image_tag 'linode-logo.png', class:'w3-opacity w3-hover-opacity-off mobile-margin-10 w3-image', style: 'margin:0 20px 5px
   20px', alt: 'Linode', title: 'linode' %></a>-->
 </div>
 

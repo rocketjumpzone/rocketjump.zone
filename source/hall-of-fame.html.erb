@@ -1,14 +1,12 @@
 ---
 title: Hall of Fame
-description: All finished tournaments for Xonotic, Quake, Diabotical, Doombringer hosted by Rocket Jump Zone and Arena FPS Communities.
+description: All finished tournaments for Xonotic, Quake, Diabotical, Doombringer, Prodeus hosted by Rocket Jump Zone and Arena FPS Communities.
 priority: 1.0
-qc_money: 949.81
-dbt_money: 151.50
-xonotic_money: $8K 250, €20
 qc_total: 55
 dbt_total: 12
 xonotic_total: 18
 db_total: 1
+prodeus_total: 1
 ---
 
 <div class="w3-stretch" style="margin:30px auto 150px auto">
@@ -42,6 +40,12 @@ db_total: 1
         <span class="w3-tag mobile-margin-20-full w3-hover-white w3-red" style="margin-left:5px">
           <b><%= current_page.data.db_total %></b>
           Doombringer
+        </span>
+      </a>
+      <a style="border:none" href="#prodeus-jump">
+        <span class="w3-tag mobile-margin-20-full w3-hover-white w3-red" style="margin-left:5px">
+          <b><%= current_page.data.prodeus_total %></b>
+          Prodeus
         </span>
       </a>
     </p>
@@ -84,6 +88,20 @@ db_total: 1
   <div class="flex-container w3-animate-opacity w3-center" id="afps" style="justify-content:center">
 
     <%= partial "partials/hof-dbt" %>
+
+  </div>
+  <!-- end of afps-->
+
+  <hr>
+
+  <p class="w3-margin-left" id="prodeus-jump"><%= image_tag '/images/prodeus-icon.jpg', alt: 'Prodeus Icon', title: 'Prodeus'%>
+    &nbsp;
+      <b>Prodeus</b>
+  </p>
+
+  <div class="flex-container w3-animate-opacity w3-center" id="afps" style="justify-content:center">
+
+    <%= partial "partials/hof-prodeus" %>
 
   </div>
   <!-- end of afps-->
