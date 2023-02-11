@@ -23,7 +23,7 @@ dodger:
   rank_id: "15gbCjUAGDHIAZbafQzR+xRufsCCGMAFzuohdOjhgWI="
   country: |
     <img src="../../images/flags/4x3/nl.svg" width="25" height="25" alt="nl" /> Netherlands
-  clan: ".WA"
+  clan: "-"
   trophies:
     gold: 17
     silver: 0
@@ -167,6 +167,28 @@ special1:
   rank: "-"
   rank_display: "GM"
   rank_id: "YZbIVr5m1ZH5Z2/3b7jZ4SXh0o9U3DYsPnIwcCfWKcQ="
+  clan: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+
+arch:
+  full_name: "John"
+  rank: "-"
+  rank_display: ""
+  rank_id: ""
+  clan: "-"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 0
+
+kyle:
+  full_name: "Unknown"
+  rank: "-"
+  rank_display: ""
+  rank_id: ""
   clan: "-"
   trophies:
     gold: 0

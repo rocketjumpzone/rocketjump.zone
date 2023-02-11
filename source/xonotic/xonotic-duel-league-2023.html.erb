@@ -1,7 +1,7 @@
 ---
 title: RJZ Xonotic Duel League 2023
 date: "Jan 8"
-prize_money: "TBD"
+prize_money: "20"
 layout: tourney
 ---
 
@@ -43,6 +43,15 @@ layout: tourney
           </td>
           <td style="font-weight:bold">
             Jan 8, 2023&nbsp; – &nbsp;19 CET
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <b>Next Event (Round 5):</b>
+          </td>
+          <td style="font-weight:bold">
+            Feb 12, 2023&nbsp; – &nbsp;19 CET
             <div class="w3-tooltip mobile-tooltip" style="display:inline">
               &nbsp;
               <span style="border-bottom:1px groove"><i class="far fa-clock"></i></span>
@@ -78,7 +87,7 @@ layout: tourney
               Registration:</b>
           </td>
           <td>
-            <a href="https://rocketjump.zone/discord" class="w3-tag w3-hover-white w3-red mobile-margin-20-full" style="color:#dedede;border:none;padding-bottom:2px" target="_blank"><b><i class="fa-brands fa-discord"></i> Discord</b></a>
+            <strong>CLOSED</strong>
           </td>
         </tr>
 
@@ -173,7 +182,7 @@ layout: tourney
   <hr style="margin:0">
 
   <div class="w3-row w3-auto">
-    <p class="w3-center">This duel league is gonna determine ranks for the players and is expected to take around 2-3 months.<br>Any new competitive players may join the qualification bracket.</p>
+    <p class="w3-center">This duel league is gonna determine <span style="border-bottom:1px groove" data-preview-image="../../images/xonotic/rjz-ranks.png">Ranks</span> for the players and is expected to take around 2-3 months.<br>Any new competitive players may join the qualification bracket.</p>
       <hr>
 
     <div class="w3-half">
@@ -192,7 +201,7 @@ layout: tourney
         <span style="border-bottom:1px groove" data-preview-image="../../images/maps/aerowalk.jpg">Aerowalk</span>,
         <span style="border-bottom:1px groove" data-preview-image="../../images/maps/finalrage.jpg">Finalrage</span>,
         <span style="border-bottom:1px groove" data-preview-image="../../images/maps/silentsiege.jpg">Silentsiege</span>,
-        <span style="border-bottom:1px groove" data-preview-image="../../images/maps/bloodrun.jpg">Bloodrun</span>,
+        <span style="border-bottom:1px groove" data-preview-image="../../images/maps/bloodyrun.jpg">Bloodyrun</span>,
         <span style="border-bottom:1px groove" data-preview-image="../../images/maps/stormkeep.jpg">Stormkeep</span>,
         <span style="border-bottom:1px groove" data-preview-image="../../images/maps/darkzone.jpg">Darkzone</span>,
         <span style="border-bottom:1px groove" data-preview-image="../../images/maps/fuse.jpg">Fuse</span>
@@ -200,12 +209,9 @@ layout: tourney
 
       <h4>FORMAT:</h4>
 
-      <p>Matches usually happen every sunday at 7 CET (keep track on twitter or discord),<br>
-        not played matches will be rescheduled or a forfeit will be given.</p>
-
       <ol style="padding-left:30px">
         <li><b>QUALIFICATION - </b> 2 players to qualify, single elimination bracket</li>
-        <li><b>ROUND ROBIN - </b> 2 qualified players and 8 invite only players</li>
+        <li><b>ROUND ROBIN - </b> 2 qualified players and 6 invite only players</li>
         <li><b>THE FINALS - </b> 4 top scored players, gauntlet bracket playoffs:<br> (4 vs. 3, winner  vs. 2, winner vs. 1)</li>
       </ol>
 
@@ -234,7 +240,8 @@ layout: tourney
     <div class="w3-half w3-border w3-round w3-center w3-hover-shadow" style="border:1px solid #242429 !important">
       <h2>Sponsors &amp; Donators</h2>
       <p style="font-weight:bold;margin-bottom:50px">
-        -
+        Ch4mp - €10<br>
+        DiMiaN - €10
       </p>
 
       <h2>Share League</h2>
@@ -278,30 +285,8 @@ layout: tourney
     </div>
 
 
-    <div class="flex-item w3-mobile" id="GB">
-      <h4 class="w3-center"><a href="/player/kojak">Kojak</a></h4>
-      <div class="w3-center">
-        <%= partial "partials/player/kojak/avatar" %>
-        <i class="fas fa-trophy trophy-gold"></i>
-        <b>
-          <sup><%= data.players.kojak.trophies.gold %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-silver"></i>
-        <b>
-          <sup><%= data.players.kojak.trophies.silver %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-bronze"></i>
-        <b>
-          <sup><%= data.players.kojak.trophies.bronze %></sup>
-        </b>
-      </div>
-      <hr>
-      <p style="margin:0;font-weight:bold"> <%= data.players.kojak.rank %></p>
-    </div>
-
-
     <div class="flex-item w3-mobile" id="Serbia">
-      <h4 class="w3-center"><a href="/player/rainbow-shadow">Rainbow Sha..</a></h4>
+      <h4 class="w3-center"><a href="/player/rainbow-shadow">Rainbow Shadow</a></h4>
       <div class="w3-center">
         <%= partial "partials/player/rainbowshadow/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
@@ -346,27 +331,6 @@ layout: tourney
     </div>
 
 
-    <div class="flex-item w3-mobile" id="Serbia">
-      <h4 class="w3-center"><a href="/player/zeroql">ZeRoQL</a></h4>
-      <div class="w3-center">
-        <%= partial "partials/player/zeroql/avatar" %>
-        <i class="fas fa-trophy trophy-gold"></i>
-        <b>
-          <sup><%= data.players.zeroql.trophies.gold %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-silver"></i>
-        <b>
-          <sup><%= data.players.zeroql.trophies.silver %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-bronze"></i>
-        <b>
-          <sup><%= data.players.zeroql.trophies.bronze %></sup>
-        </b>
-      </div>
-      <hr>
-      <p style="margin:0;font-weight:bold"> <%= data.players.zeroql.rank %></p>
-    </div>
-
 
     <div class="flex-item w3-mobile" id="Germany">
       <h4 class="w3-center"><a href="/player/klaspes">Klaspes</a></h4>
@@ -387,28 +351,6 @@ layout: tourney
       </div>
       <hr>
       <p style="margin:0;font-weight:bold"> <%= data.players.klaspes.rank %></p>
-    </div>
-
-
-    <div class="flex-item w3-mobile" id="Poland">
-      <h4 class="w3-center"><a href="/player/wolf-snipe">Wolf-Snipe</a></h4>
-      <div class="w3-center">
-        <%= partial "partials/player/wolfsnipe/avatar" %>
-        <i class="fas fa-trophy trophy-gold"></i>
-        <b>
-          <sup><%= data.players.wolfsnipe.trophies.gold %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-silver"></i>
-        <b>
-          <sup><%= data.players.wolfsnipe.trophies.silver %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-bronze"></i>
-        <b>
-          <sup><%= data.players.wolfsnipe.trophies.bronze %></sup>
-        </b>
-      </div>
-      <hr>
-      <p style="margin:0;font-weight:bold"> <%= data.players.wolfsnipe.rank %></p>
     </div>
 
 
@@ -455,25 +397,46 @@ layout: tourney
       <p style="margin:0;font-weight:bold"> <%= data.players.cupatru.rank %></p>
     </div>
 
-    <div class="flex-item w3-mobile" id="Spain">
-      <h4 class="w3-center"><a href="/player/draena">Draena</a></h4>
+    <div class="flex-item w3-mobile" id="Kyle">
+      <h4 class="w3-center"><a href="/player/kyle">Kyle</a></h4>
       <div class="w3-center">
-        <%= partial "partials/player/draena/avatar" %>
+        <%= partial "partials/player/kyle/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
-          <sup><%= data.players.draena.trophies.gold %></sup>
+          <sup><%= data.players.kyle.trophies.gold %></sup>
         </b>
         <i class="fas fa-trophy trophy-silver"></i>
         <b>
-          <sup><%= data.players.draena.trophies.silver %></sup>
+          <sup><%= data.players.kyle.trophies.silver %></sup>
         </b>
         <i class="fas fa-trophy trophy-bronze"></i>
         <b>
-          <sup><%= data.players.draena.trophies.bronze %></sup>
+          <sup><%= data.players.kyle.trophies.bronze %></sup>
         </b>
       </div>
       <hr>
-      <p style="margin:0;font-weight:bold"> <%= data.players.draena.rank %></p>
+      <p style="margin:0;font-weight:bold"> <%= data.players.kyle.rank %></p>
+    </div>
+
+    <div class="flex-item w3-mobile" id="USA">
+      <h4 class="w3-center"><a href="/player/arch">Arch</a></h4>
+      <div class="w3-center">
+        <%= partial "partials/player/arch/avatar" %>
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.arch.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.arch.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.arch.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr>
+      <p style="margin:0;font-weight:bold"> <%= data.players.arch.rank %></p>
     </div>
 
   </div>
@@ -512,15 +475,24 @@ TBD
 
   <hr>
 
-  <div class="w3-row w3-hide-small">
+  <div class="w3-row-padding w3-hide-small">
     <div class="w3-half">
-      <h2 class="w3-center">Full VOD</h2>
-
+      <h2 class="w3-center">TOP</h2>
+      <iframe src="https://www.youtube.com/embed/-A4cUfrq4ZE" style="width:100%;height:640px" allowfullscreen></iframe>
     </div>
 
     <div class="w3-half w3-center" ">
-      <h2 class="w3-center">Highlights & Others</h2>
-
+      <h2 class="w3-center">FULL VODS & Highlights</h2>
+      <p><a href="https://www.youtube.com/watch?v=TeTQfkRIKBY" target="_blank">Qualification - RJZ Xonotic Duel League 2023</a></p>
+      <p><a href="https://www.youtube.com/watch?v=JrRIqq-tsWU" target="_blank">Round 1 - RJZ Xonotic Duel League 2023</a></p>
+      <p><a href="https://www.youtube.com/watch?v=tsVVbbOLQR8" target="_blank">Round 2 - RJZ Xonotic Duel League 2023</a></p>
+      <p><a href="https://www.youtube.com/watch?v=43qLh7PS5Ew" target="_blank">Round 3 - RJZ Xonotic Duel League 2023</a></p>
+      <p><a href="https://youtu.be/TB-eiTjtgdo" target="_blank">Round 4 - RJZ Xonotic Duel League 2023</a></p>
+      <hr>
+      <p><a href="https://www.youtube.com/watch?v=NH8XXSaD3NA" target="_blank">Dodger on his back foot for the first time in his career!</a></p>
+      <p><a href="https://www.youtube.com/watch?v=J_AqJrNPYQ4" target="_blank">Wind disappointed not be best NA Xonotic Player</a></p>
+      <p><a href="https://www.youtube.com/watch?v=p9AaxBN6BNQ" target="_blank">Crazy shot by Arch</a></p>
+      <p><a href="https://www.youtube.com/watch?v=3XzMYFjhOxg" target="_blank">Kyle and Ch4mp exchange Nex Shots Big Time!</a></p>
     </div>
   </div>
 </div>
