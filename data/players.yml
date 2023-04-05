@@ -2,12 +2,12 @@
 ch4mp:
   name: Ch4mp
   full_name: "Peter"
-  rank: "-"
-  rank_display: "GM"
+  rank: "4"
+  rank_display: "SM"
   rank_id: "HbWHkQB/f7G4PtqVlZgGXxS7VJKFk1Pw05G3RakRV8E="
   country: |
     <img src="../../images/flags/4x3/sk.svg" width="25" height="25" alt="sk" /> Slovakia
-  clan: "Big Biceps"
+  clan: "Extreme Voltage"
   trophies:
     gold: 0
     silver: 2
@@ -18,14 +18,14 @@ ch4mp:
 dodger:
   name: Dodger
   full_name: "Jaad Alaka"
-  rank: "-"
+  rank: "1"
   rank_display: "GM"
   rank_id: "15gbCjUAGDHIAZbafQzR+xRufsCCGMAFzuohdOjhgWI="
   country: |
     <img src="../../images/flags/4x3/nl.svg" width="25" height="25" alt="nl" /> Netherlands
   clan: "-"
   trophies:
-    gold: 17
+    gold: 18
     silver: 0
     bronze: 0
   avatar: |
@@ -37,7 +37,7 @@ dodger:
 jskey:
   name: JSkey
   full_name: "Unknown"
-  rank: "-"
+  rank: "8"
   rank_display: "CM"
   rank_id: "Yu+WZzQzL6RgsZUct9r7sQa0ERDS4nSd9IIupUoTQiM="
   country: |
@@ -65,7 +65,7 @@ defense:
 wolfsnipe:
   full_name: "Unknown"
   rank: "-"
-  rank_display: "CM"
+  rank_display: "N/A"
   rank_id: "F6rSaZ+L3IxeWZ8aluFY6CzDP3wpECav7qSjZtN9wyE="
   clan: "[XGame]"
   trophies:
@@ -76,7 +76,7 @@ wolfsnipe:
 zeroql:
   full_name: "Djordje Simonovic"
   rank: "-"
-  rank_display: "GM"
+  rank_display: "N/A"
   rank_id: "huvhc5WUkJ//W8mwk1WRbBYSMXLC4mZ3MOU3eJ/DMkE="
   clan: "Metsu"
   trophies:
@@ -86,8 +86,8 @@ zeroql:
 
 klaspes:
   full_name: "Unknown"
-  rank: "-"
-  rank_display: "SM"
+  rank: "6"
+  rank_display: "CM"
   rank_id: "hngmn2QhouwooXQt2tksFh0QwCLn5PfP+VYXxT7FlrY="
   clan: "[Bot]"
   trophies:
@@ -98,19 +98,19 @@ klaspes:
 
 rainbowshadow:
   full_name: "Branislav Stojadinovic"
-  rank: "-"
-  rank_display: "GM"
+  rank: "3"
+  rank_display: "SM"
   rank_id: "KhssegEtJUWoMUG7zRua/54lRKFwSv/lEI832oUOuF4="
   clan: "Lover"
   trophies:
     gold: 0
     silver: 5
-    bronze: 4
+    bronze: 5
 
 kojak:
   full_name: "Craig Clayton"
   rank: "-"
-  rank_display: "GM"
+  rank_display: "N/A"
   rank_id: "Xnh0Ebr5/3u8fUiDcqA7vpdPWUn1eaoa9WdJbfrUCag="
   clan: "Metsu"
   trophies:
@@ -120,7 +120,7 @@ kojak:
 
 cupatru:
   full_name: "Unknown"
-  rank: "-"
+  rank: "5"
   rank_display: "CM"
   rank_id: "zAucl03HYYpyZ+ub99das1fma8AFmUOjmea6GES/thk="
   clan: "-"
@@ -132,7 +132,7 @@ cupatru:
 draena:
   full_name: "Unknown"
   rank: "-"
-  rank_display: "CM"
+  rank_display: "N/A"
   rank_id: "q3b6CAn62IPU2pJ0uoGcl0VfCM/rBaKQutGf+QXAEq8="
   clan: "[XGame]"
   trophies:
@@ -165,7 +165,7 @@ jooton:
 special1:
   full_name: "Unknown"
   rank: "-"
-  rank_display: "GM"
+  rank_display: "N/A"
   rank_id: "YZbIVr5m1ZH5Z2/3b7jZ4SXh0o9U3DYsPnIwcCfWKcQ="
   clan: "-"
   trophies:
@@ -175,9 +175,9 @@ special1:
 
 arch:
   full_name: "John"
-  rank: "-"
-  rank_display: ""
-  rank_id: ""
+  rank: "7"
+  rank_display: "CM"
+  rank_id: "J3IEYnBi3fgHIDXJg1Jv/w2QKiEnw/5XCmEuq77+50o="
   clan: "-"
   trophies:
     gold: 0
@@ -186,11 +186,11 @@ arch:
 
 kyle:
   full_name: "Unknown"
-  rank: "-"
-  rank_display: ""
+  rank: "2"
+  rank_display: "GM"
   rank_id: ""
   clan: "-"
   trophies:
     gold: 0
-    silver: 0
+    silver: 1
     bronze: 0
