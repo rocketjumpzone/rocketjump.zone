@@ -21,12 +21,7 @@ disqus_url: https://rocketjump.zone/blog/xce-1-0-released
 
 <iframe class="w3-mobile w3-animate-opacity" style="height:533px;width:100%" src="https://www.youtube.com/embed/qbfwZOOJ84k" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<hr>
 
-## Assets
-The future of Xonotic is here :> XCE 1.0 is a kickoff version but we already started working on new game assets:
-
-<img src="../../images/shotgun-model.jpg" class="w3-mobile w3-margin-top w3-image" alt="Shotgun Model">
 
 
 <hr>

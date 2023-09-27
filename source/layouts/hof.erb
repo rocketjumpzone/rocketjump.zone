@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Rocket Jump Zone</title>
+    <title><%= current_page.data.title %> | Rocket Jump Zone</title>
     <meta name="description" content="<%= current_page.data.description %>">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
@@ -22,11 +22,9 @@
     <%= stylesheet_link_tag "w3" %>
     <%= stylesheet_link_tag "general" %>
 
-
-
   </head>
   <body>
-    <%= partial "partials/nav-top-index" %>
+    <%= partial "partials/nav-top-hof" %>
     <%= partial "partials/nav" %>
     <%= yield %>
   </body>

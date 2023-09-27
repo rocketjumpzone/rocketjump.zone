@@ -11,8 +11,11 @@ layout: xce-jquery
   <div class="w3-display-container w3-margin-top w3-hide-small" style="margin-bottom:5px">
     <img src="../../images/xce/1.jpg" class="w3-mobile mySlides w3-image w3-animate-opacity" alt="1">
     <img src="../../images/xce/2.jpg" class="w3-mobile mySlides w3-image w3-animate-opacity" alt="2">
+    <img src="../../images/xce/3.jpg" class="w3-mobile mySlides w3-image w3-animate-opacity" alt="3">
+    <img src="../../images/xce/4.png" class="w3-mobile mySlides w3-image w3-animate-opacity" alt="4">
+    <!--
     <iframe class="w3-mobile mySlides w3-animate-opacity" style="height:533px;width:100%" src="https://www.youtube.com/embed/qbfwZOOJ84k" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+    -->
     <button class="w3-button w3-display-left w3-hide-small" onclick="plusDivs(-1)">
       <i class="fas fa-3x fa-arrow-left"></i>
     </button>
@@ -25,7 +28,7 @@ layout: xce-jquery
   <a class="w3-hide-small" style="border:none" href="#">
     <span class="w3-tag w3-hover-white w3-red" style="margin-left:2.5px">
       <i class="fas fa-download"></i>
-      XCE 1.2 INVITE ONLY &nbsp;&nbsp;
+      XCE 1.3 INVITE ONLY &nbsp;&nbsp;
     </span>
   </a>
 
@@ -53,9 +56,9 @@ layout: xce-jquery
     </span>
   </a>
 
-  <a class="mobile-margin-10" style="border:none" href="/blog/xonotic-competitive-edition-fund/" target="_blank">
+  <a class="mobile-margin-10" style="border:none" href="/contribute/" target="_blank">
     <span class="w3-tag w3-hover-white w3-red" style="margin-left:16px">
-      XCE FUND
+      DONATE
     </span>
   </a>
 </div>
@@ -66,9 +69,9 @@ layout: xce-jquery
     <li>XCE (Xonotic Competitive Edition) is a Xonotic fork Created by Rocket Jump Zone for Competitive Players and Esports.
     </li>
     <li>
-      Based on Xonotic git (July 2022) and the <a href="https://omaera.org/~z411/xonotic/">BaI mod</a>
+      Based on Xonotic 0.8.6 and the <a href="https://omaera.org/~z411/xonotic/">BaI mod</a>
     </li>
-    <li>Featuring new assets such as new announcers, player &amp; weapon sounds, pre-made configs and Esports integrations.
+    <li>Featuring new assets such as new announcers, player &amp; weapon sounds, crosshairs and pre-made configs.
     </li>
   </ul>
 
@@ -79,17 +82,17 @@ layout: xce-jquery
   <ul>
     <li><h3>pre-made configs</h3>
       <small>done via console or main menu (under effects)</small><br>
-      <span style="border-bottom:1px groove" data-preview-image="../../images/xce/1-preview.jpg"><kbd>default</kbd></span>&nbsp;
-      best eye candy config with textures on<br>
-      <span style="border-bottom:1px groove" data-preview-image="../../images/xce/2-preview.jpg"><kbd>competitive</kbd></span>&nbsp;
-      best config for more serious players with textures off and max fps</li>
-    <li><h3>HUD's</h3>
-      <small>done via console or main menu (under hud editor)</small><br>
-      <kbd>hud-xonotic</kbd> <kbd>hud-ch4mp</kbd> <kbd>hud-caster</kbd></li>
+      <span style="border-bottom:1px groove" data-preview-image="../../images/xce/1-preview.jpg"><kbd>pro</kbd></span>&nbsp;
+      default - best for competitive players with textures off and max fps <b>(exec xce-pro.cfg)</b><br>
+      <span style="border-bottom:1px groove" data-preview-image="../../images/xce/2-preview.jpg"><kbd>casual</kbd></span>&nbsp;
+      best eye candy config with textures on <b>(exec xce-casual.cfg)</b></li>
     <li><h3>announcers available:</h3>
-      <small>done via console, for example: cl_announcer quake</small><br>
+      <small>console - for example: cl_announcer quake</small><br>
       <kbd>xonotic</kbd> <kbd>quake</kbd> <kbd>shobon (spanish)</kbd> <kbd>default</kbd>
       <kbd>female</kbd>
+
+      <li><h3>crosshairs available:</h3>
+        <small>console - for example  dra (1-15)</small><br>
 
     <li><h3>Commands &amp; Shortcuts</h3>
       <u>In game vote / call commands:</u><br>
@@ -97,7 +100,7 @@ layout: xce-jquery
       (vote for a diff map)<br>
       <b>vcall gg</b> or <b>vcall endmatch</b>
       (call a gg, end match)<br>
-      <b>vcall restart</b>
+      <b>vcall resetmap</b>
       (restart current map)
     </li>
     <li>
@@ -114,7 +117,7 @@ layout: xce-jquery
 
     <li>
       <h3>Tuning</h3>
-      (restarting the game (vid_restart) might be needed to take effect<br>
+      <small>restarting the game (vid_restart) might be needed to take effect</small><br>
       <kbd>gl_picmip_world 0</kbd>&nbsp; (turn textures on)<br>
       <kbd>cl_particles_alpha 0.2</kbd><br>
       <kbd>cl_particles_sparks 0</kbd><br>
@@ -128,8 +131,6 @@ layout: xce-jquery
       <kbd>hud_panel_spect_playername</kbd>&nbsp; (0 or 1)<br>
       <kbd>hud_panel_centerprint_medals</kbd>&nbsp; (0 or 1 - now you can simply turn off medal popups)<br>
       <kbd>hud_panel_centerprint_medals_max</kbd>&nbsp; (max number of medals to show before it starts showing the number instead)
-
-
 
     </li>
   </ul>
@@ -152,35 +153,35 @@ layout: xce-jquery
 
   <h2 id="servers">Servers</h2>
 
-    <%= partial "partials/servers" %>
+    <%= partial "partials/servers-all" %>
 
   <hr>
 
-  <h2 id="assets">Assets</h2>
+  <h2 id="assets">Third Party Assets</h2>
 
   <ul>
     <li>
-      <a href="http://xonrepo2.xyz/zzz-player-sounds-female.pk3" target="_blank">Female player sound pack</a>
+      <a href="http://xonrepo.monster/zzz-player-sounds-female.pk3" target="_blank">Female player sound pack</a>
     </li>
 
     <li>
-      <a href="http://xonrepo2.xyz/zzz-player-sounds-tommy.pk3" target="_blank">Tommy player sound pack</a>
+      <a href="http://xonrepo.monster/zzz-player-sounds-tommy.pk3" target="_blank">Tommy player sound pack</a>
     </li>
 
     <li>
-      <a href="http://xonrepo2.xyz/zzz-mg-new.pk3" target="_blank">New machinegun weapon model</a>
+      <a href="http://xonrepo.monster/zzz-mg-new.pk3" target="_blank">New machinegun weapon model</a>
     </li>
 
     <li>
-      <a href="http://xonrepo2.xyz/zzz-shotgun-new.pk3" target="_blank">New shotgun weapon model</a>
+      <a href="http://xonrepo.monster/zzz-shotgun-new.pk3" target="_blank">New shotgun weapon model</a>
     </li>
 
     <li>
-      <a href="http://xonrepo2.xyz/zzz-rl-old.pk3" target="_blank">Old "Quakish" RL weapon model</a>
+      <a href="http://xonrepo.monster/zzz-rl-old.pk3" target="_blank">Old "Quakish" RL weapon model</a>
     </li>
 
     <li>
-      <a href="http://xonrepo2.xyz/crosshairs_dra.pk3" target="_blank">New crosshairs by Draena</a>
+      <a href="http://xonrepo.monster/crosshairs_dra.pk3" target="_blank">New crosshairs by Draena</a>
     </li>
   </ul>
 
@@ -204,18 +205,18 @@ layout: xce-jquery
   <hr>
   <div class="w3-center social-icons">
     <a style="text-decoration:none" href="https://twitter.com/rocketjumpzone" target="_blank">
-      <i class="fab fa-2x fa-twitter"></i>
+      <i class="fab fa-2x fa-x-twitter"></i>
     </a>
-    <a style="text-decoration:none" href="https://www.youtube.com/channel/UCYZbIYOuM8S1wq85GoWE4qA" target="_blank">
+    <a style="text-decoration:none" href="https://www.youtube.com/@rocketjumpzone" target="_blank">
       <i class="fab fa-2x fa-youtube"></i>
     </a>
-    <a style="text-decoration:none" href="https://rocketjump.zone/discord" target="_blank">
+    <a style="text-decoration:none" href="https://discord.com/invite/H3MxKRu" target="_blank">
       <i class="fab fa-2x fa-discord"></i>
     </a>
     <a style="text-decoration:none" href="https://www.twitch.tv/rocketjumpzone" target="_blank">
       <i class="fab fa-2x fa-twitch"></i>
     </a>
-    <a style="text-decoration:none" href="https://rocketjump.zone/github" target="_blank">
+    <a style="text-decoration:none" href="https://github.com/rocketjumpzone" target="_blank">
       <i class="fab fa-2x fa-github"></i>
     </a>
   </div>

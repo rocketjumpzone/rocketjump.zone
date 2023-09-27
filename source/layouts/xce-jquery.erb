@@ -17,7 +17,7 @@
     <meta name="msapplication-config" content="/images/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <%= stylesheet_link_tag "w3" %>
 
@@ -28,9 +28,9 @@
 
   </head>
   <body>
+    <%= partial "partials/nav-top" %>
     <%= partial "partials/nav" %>
     <%= yield %>
-    <%= partial "partials/nav-bottom" %>
 
     <script>
       $.previewImage({
@@ -43,10 +43,5 @@
       });
     </script>
 
-    <% if build? %>
-    <script>
-      <%= google_analytics_tag %>
-    </script>
-    <% end %>
   </body>
 </html>

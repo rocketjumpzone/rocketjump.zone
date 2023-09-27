@@ -18,13 +18,14 @@
     <meta name="msapplication-config" content="/images/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <%= stylesheet_link_tag "w3" %>
     <%= stylesheet_link_tag "general" %>
 
   </head>
   <body>
+    <%= partial "partials/nav-top" %>
     <%= partial "partials/nav" %>
     <div class="w3-content w3-container">
         <%= yield %>
@@ -83,13 +84,6 @@
     </div>
     <!-- end of w3-content-->
 
-    <%= partial "partials/nav-bottom" %>
-
-    <% if build? %>
-    <script>
-      <%= google_analytics_tag %>
-    </script>
-    <% end %>
     <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e3d44a0db353452"></script>
   </body>
 </html>

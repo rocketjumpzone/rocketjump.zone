@@ -95,25 +95,19 @@ a.w3-btn:hover {
 }
 
 .w3-bar .active-item {
-  color: $main-red-color !important;
-  border-bottom: 3px solid $main-red-color !important;
+  font-weight:bold !important;
 }
 
 .w3-bar a:hover,
 .w3-button:hover {
-  color: $main-red-color !important;
+  color:#dedede !important;
 }
 
 .w3-bar .w3-bar-item {
+  background:#2f2f37 !important;
   color: #DEDEDE;
-  font-size: 20px;
-  font-weight: 600;
-  padding: 15px 0 9px 0 !important;
-  margin: 0 16px;
-
-  &:hover {
-    border-bottom: 3px solid $main-red-color !important;
-  }
+  padding: 8px 16px !important;
+  min-width:150px;
 }
 
 .w3-dropdown-content {

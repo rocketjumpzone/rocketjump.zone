@@ -64,10 +64,10 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
 
-  activate :google_analytics do |ga|
-    ga.tracking_id = 'UA-131738676-1'
-    ga.output = :js
-  end
+#  activate :google_analytics do |ga|
+#    ga.tracking_id = 'UA-131738676-1'
+#    ga.output = :js
+#  end
 end
 
 

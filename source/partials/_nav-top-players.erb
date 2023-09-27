@@ -1,0 +1,22 @@
+
+<div class="w3-bar-container w3-center w3-hide-small w3-animate-opacity">
+  <div class="w3-bar">
+    <a href="/" style="border:none">
+      <%= image_tag 'rjz-logo-trans.png', class:'w3-image grow w3-left w3-margin', alt: 'RJZ Logo' %>
+    </a>
+    <a class="w3-bar-item w3-button w3-round w3-margin <%= active_nav_item("/players/") %>" href="/players">
+      Players / Ranks
+    </a>
+    <a class="w3-bar-item w3-button w3-round w3-margin" href="/hall-of-fame">
+      Hall of Fame
+    </a>
+    <a class="w3-bar-item w3-button w3-round w3-margin" href="#" onclick="toggleRank();">
+      <i class="fa-regular fa-star"></i> Ranked
+    </a>
+    <a class="w3-bar-item w3-button w3-round w3-margin" target="_blank" href="/xonotic/xonotic-duel-league-2023">
+      <i class="fa-solid fa-arrow-up-right-from-square"></i> Duel League 2023
+    </a>
+
+
+  </div>
+</div>

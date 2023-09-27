@@ -2,55 +2,14 @@
 title: Hall of Fame
 description: All finished tournaments for Xonotic, Quake, Diabotical, Doombringer, Prodeus hosted by Rocket Jump Zone and Arena FPS Communities.
 priority: 1.0
-qc_total: 55
-dbt_total: 12
-xonotic_total: 19
-db_total: 1
-prodeus_total: 1
+layout: hof
 ---
 
 <div class="w3-stretch" style="margin:30px auto 150px auto">
 
   <div class="w3-center w3-container">
     <input class="hof-search" placeholder="search for players, tournaments.." oninput="w3.filterHTML('#afps', '.flex-item-hof', this.value)">
-    <p style="color:#787887;font-size:13px;margin-top:16px">
-
-      <a style="border:none" href="#xonotic-jump">
-        <span class="w3-tag mobile-margin-20-full w3-hover-white w3-red">
-          <b><%= current_page.data.xonotic_total %></b>
-          Xonotic
-        </span>
-      </a>
-
-      <a style="border:none" href="#qc-jump">
-        <span class="w3-tag mobile-margin-20-full w3-hover-white w3-red" style="margin-left:5px">
-          <b><%= current_page.data.qc_total %></b>
-          Quake Champions
-        </span>
-      </a>
-
-      <a style="border:none" href="#diabotical-jump">
-        <span class="w3-tag mobile-margin-20-full w3-hover-white w3-red" style="margin-left:5px">
-          <b><%= current_page.data.dbt_total %></b>
-          Diabotical
-        </span>
-      </a>
-
-      <a style="border:none" href="#db-jump">
-        <span class="w3-tag mobile-margin-20-full w3-hover-white w3-red" style="margin-left:5px">
-          <b><%= current_page.data.db_total %></b>
-          Doombringer
-        </span>
-      </a>
-      <a style="border:none" href="#prodeus-jump">
-        <span class="w3-tag mobile-margin-20-full w3-hover-white w3-red" style="margin-left:5px">
-          <b><%= current_page.data.prodeus_total %></b>
-          Prodeus
-        </span>
-      </a>
-    </p>
   </div>
-  <hr>
 
 
   <p class="w3-margin-left" id="xonotic-jump"><%= image_tag '/images/xon-icon-crop.png', alt: 'Xonotic Icon', title: 'Xonotic' %>
@@ -105,21 +64,6 @@ prodeus_total: 1
 
   </div>
   <!-- end of afps-->
-
-  <hr>
-
-  <p class="w3-margin-left" id="db-jump">
-    &nbsp;
-      <b>Not hosted by RJZ</b>
-  </p>
-
-  <div class="flex-container w3-animate-opacity w3-center" id="afps" style="justify-content:center">
-
-    <%= partial "partials/hof-db" %>
-
-  </div>
-  <!-- end of afps-->
-
 
 </div>
 <!-- end of w3-container-->

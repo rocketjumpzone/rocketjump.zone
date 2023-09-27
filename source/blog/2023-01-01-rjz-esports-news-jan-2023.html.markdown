@@ -53,12 +53,4 @@ Thanks everybody who supports this project. Special thanks to:
 
 **HUECTRUM** - Donated €50 for the Prodeus 2v2 TDM Tournament
 
-
-### Our Patrons
-
-**ballerburg9005** - €1 per month  
-**jooton** - £10 per month (used for the Xonotic server)
-
-[https://rocketjump.zone/blog/our-goal-is-500-a-month/](https://rocketjump.zone/blog/our-goal-is-500-a-month/)
-
 <hr>
