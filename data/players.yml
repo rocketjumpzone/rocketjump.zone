@@ -67,7 +67,7 @@ wolfsnipe:
   rank: "-"
   rank_display: "N/A"
   rank_id: "F6rSaZ+L3IxeWZ8aluFY6CzDP3wpECav7qSjZtN9wyE="
-  clan: "[XGame]"
+  clan: "[BS]"
   trophies:
     gold: 0
     silver: 0
@@ -192,5 +192,16 @@ kyle:
   clan: "-"
   trophies:
     gold: 0
+    silver: 1
+    bronze: 0
+
+tommy:
+  full_name: "Unknown"
+  rank: "-"
+  rank_display: "N/A"
+  rank_id: ""
+  clan: "-"
+  trophies:
+    gold: 1
     silver: 1
     bronze: 0

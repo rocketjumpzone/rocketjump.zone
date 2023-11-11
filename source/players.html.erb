@@ -79,12 +79,12 @@ layout: players
     <img src="../../images/flags/4x3/pt.svg" width="50" height="50" alt="pt">
     <span style="position:absolute;left:0;bottom:-50px" class="w3-text w3-tag w3-hide-small w3-padding w3-round">Portugal</span>
   </div>
-
+-->
   <div class="w3-tooltip mobile-tooltip w3-opacity w3-hover-opacity-off" style="display:inline;cursor:pointer" onclick="w3.hide('div.flex-item');w3.show('div#Russia');">
     <img src="../../images/flags/4x3/ru.svg" width="50" height="50" alt="ru">
     <span style="position:absolute;left:0;bottom:-50px" class="w3-text w3-hide-small w3-tag w3-padding w3-round">Russia</span>
   </div>
--->
+
   <div class="w3-tooltip mobile-tooltip w3-opacity w3-hover-opacity-off" style="display:inline;cursor:pointer" onclick="w3.hide('div.flex-item');w3.show('div#Slovakia');">
     <img src="../../images/flags/4x3/sk.svg" width="50" height="50" alt="sk">
     <span style="position:absolute;left:0;bottom:-50px" class="w3-text w3-hide-small w3-tag w3-padding w3-round">Slovakia</span>
@@ -744,6 +744,27 @@ layout: players
       </div>
       <hr>
       <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.draena.rank %></p>
+    </div>
+
+    <div class="flex-item w3-mobile" id="Russia">
+      <h4 class="w3-center"><a href="/player/tommy">Tommy</a></h4>
+      <div class="w3-center">
+        <%= partial "partials/player/tommy/avatar" %>
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.tommy.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.tommy.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.tommy.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr>
+      <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.tommy.rank %></p>
     </div>
 
 

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title><%= current_article.title %> | Rocket Jump Zone</title>
+    <title><%= current_article.title %></title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
     <meta name="description" content="<%= current_page.data.description %>">
 
@@ -84,6 +84,5 @@
     </div>
     <!-- end of w3-content-->
 
-    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e3d44a0db353452"></script>
   </body>
 </html>
