@@ -7,7 +7,7 @@ ch4mp:
   rank_id: "HbWHkQB/f7G4PtqVlZgGXxS7VJKFk1Pw05G3RakRV8E="
   country: |
     <img src="../../images/flags/4x3/sk.svg" width="25" height="25" alt="sk" /> Slovakia
-  clan: "Extreme Voltage"
+  clan: "⚡⚡ Extreme Voltage ⚡⚡"
   trophies:
     gold: 0
     silver: 2
@@ -189,7 +189,7 @@ kyle:
   rank: "2"
   rank_display: "GM"
   rank_id: "UvfFG3+gezRwg/8lEs/6tXg6J6JsSe7VUD0QVov1z9M="
-  clan: "-"
+  clan: "Relax"
   trophies:
     gold: 0
     silver: 1
@@ -204,4 +204,27 @@ tommy:
   trophies:
     gold: 1
     silver: 1
+    bronze: 0
+
+smilecythe:
+  full_name: "Unknown"
+  rank: "-"
+  rank_display: "N/A"
+  rank_id: ""
+  clan: "Lover"
+  trophies:
+    gold: 0
+    silver: 0
+    bronze: 1
+
+
+pcl:
+  full_name: "Unknown"
+  rank: "-"
+  rank_display: "N/A"
+  rank_id: ""
+  clan: "Men in Tux"
+  trophies:
+    gold: 0
+    silver: 0
     bronze: 0

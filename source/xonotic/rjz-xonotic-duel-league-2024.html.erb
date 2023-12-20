@@ -52,7 +52,7 @@ layout: tourney
               </span>
             </div>
             <br>
-            <small style="font-weight:normal">Qualification round 1</small>
+            <small style="font-weight:normal">Qualification</small>
           </td>
         </tr>
 
@@ -247,11 +247,11 @@ layout: tourney
         <li>
           <b>QUALIFICATION -
           </b>
-          2 tournaments, each tournament 2 players to qualify, single elimination bracket</li>
+          2 players to qualify, double elimination bracket</li>
         <li>
           <b>ROUND ROBIN -
           </b>
-          4 qualified players and 6 invite only players</li>
+          2 qualified players and 8 invite only players</li>
         <li>
           <b>THE FINALS -
           </b>
@@ -395,27 +395,48 @@ layout: tourney
       <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.klaspes.rank %></p>
     </div>
 
-    <div class="flex-item w3-mobile" id="Slovakia">
+    <div class="flex-item w3-mobile" id="Russia">
       <h4 class="w3-center">
-        <a href="/player/cupatru">Cupatru</a>
+        <a href="/player/tommy">Tommy</a>
       </h4>
       <div class="w3-center">
-        <%= partial "partials/player/cupatru/avatar" %>
+        <%= partial "partials/player/tommy/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
-          <sup><%= data.players.cupatru.trophies.gold %></sup>
+          <sup><%= data.players.tommy.trophies.gold %></sup>
         </b>
         <i class="fas fa-trophy trophy-silver"></i>
         <b>
-          <sup><%= data.players.cupatru.trophies.silver %></sup>
+          <sup><%= data.players.tommy.trophies.silver %></sup>
         </b>
         <i class="fas fa-trophy trophy-bronze"></i>
         <b>
-          <sup><%= data.players.cupatru.trophies.bronze %></sup>
+          <sup><%= data.players.tommy.trophies.bronze %></sup>
         </b>
       </div>
       <hr>
-      <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.cupatru.rank %></p>
+      <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.tommy.rank %></p>
+    </div>
+
+    <div class="flex-item w3-mobile" id="Finland">
+      <h4 class="w3-center"><a href="/player/smilecythe">Smilecythe</a></h4>
+      <div class="w3-center">
+        <%= partial "partials/player/smilecythe/avatar" %>
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.smilecythe.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.smilecythe.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.smilecythe.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr>
+      <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.smilecythe.rank %></p>
     </div>
 
     <div class="flex-item w3-mobile" id="Kyle">
@@ -441,14 +462,37 @@ layout: tourney
       <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.kyle.rank %></p>
     </div>
 
+    <div class="flex-item w3-mobile" id="pcl">
+      <h4 class="w3-center">
+        <a href="/player/pcl">pcl</a>
+      </h4>
+      <div class="w3-center">
+        <%= partial "partials/player/pcl/avatar" %>
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.pcl.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.pcl.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.pcl.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr>
+      <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.pcl.rank %></p>
+    </div>
+
 
   </div>
 
-  <h4 style="margin-top:50px">QUALIFICATION (1/4) - Bo3 all rounds</h4>
-  <iframe src="https://brackethq.com/b/e665/embed/" width="100%" height="550" frameborder="0"></iframe>
+  <h4 style="margin-top:50px">QUALIFICATION - Bo3 all rounds</h4>
+  <iframe src="https://rocketjumpzone.challonge.com/2slbtn4h/module?theme=7847&multiplier=1.3" style="width:100%;height:700px" scrolling="auto"></iframe>
 
   <h4 style="margin-top:50px">ROUND ROBIN - Bo3 all rounds</h4>
-  <iframe src="https://rocketjumpzone.challonge.com/95owtziq/module?theme=7847&multiplier=1.3" style="width:100%;height:1100px" scrolling="auto"></iframe>
+  <iframe src="https://rocketjumpzone.challonge.com/95owtziq/module?theme=7847&multiplier=1.3" style="width:100%;height:1700px" scrolling="auto"></iframe>
 
   <div class="w3-center">
     <h4>Final Results</h4>

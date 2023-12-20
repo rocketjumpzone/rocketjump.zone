@@ -24,7 +24,7 @@ We're in a testing phase and a proper map is needed but take a look below, it's 
 
 <div class="w3-panel w3-round" style="background:#131316;width:100%;border-left:6px solid #2F2F37">
 <h3>Server</h3>
-<p>Battle Royale | RJZ Esports & ⚡⚡ Extreme Voltage ⚡⚡ -&nbsp;
+<p>Battle Royale | RJZ &nbsp;&&nbsp; ⚡⚡ Extreme Voltage ⚡⚡ -&nbsp;
   <kbd>193.122.48.73</kbd>
 </p>
 </div>
@@ -49,7 +49,7 @@ It's suitable more for competitive players to test their skill and take a little
 
 <div class="w3-panel w3-round" style="background:#131316;width:100%;border-left:6px solid #2F2F37">
 <h3>Server</h3>
-<p>Mayhem | RJZ Esports -&nbsp;
+<p>Votable | RJZ &nbsp;&&nbsp; ⚡⚡ Extreme Voltage ⚡⚡ -&nbsp;
   <kbd>130.61.220.89</kbd>
 </p>
 </div>

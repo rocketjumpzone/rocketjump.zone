@@ -94,12 +94,9 @@ a.w3-btn:hover {
   &:hover {}
 }
 
-.w3-bar .active-item {
-  font-weight:bold !important;
-}
-
 .w3-bar a:hover,
 .w3-button:hover {
+  background: #3c3c44 !important;
   color:#dedede !important;
 }
 
@@ -108,6 +105,11 @@ a.w3-btn:hover {
   color: #DEDEDE;
   padding: 8px 16px !important;
   min-width:150px;
+}
+
+.w3-bar .active-item {
+  font-weight:bold !important;
+  background: #3c3c44 !important;
 }
 
 .w3-dropdown-content {

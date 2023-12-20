@@ -38,12 +38,12 @@ layout: players
     <img src="../../images/flags/4x3/hu.svg" width="50" height="50" alt="hu">
     <span style="position:absolute;left:0;bottom:-50px" class="w3-text w3-tag w3-hide-small w3-padding w3-round">Hungary</span>
   </div>
-
+-->
   <div class="w3-tooltip mobile-tooltip w3-opacity w3-hover-opacity-off" style="display:inline;cursor:pointer" onclick="w3.hide('div.flex-item');w3.show('div#Finland');">
     <img src="../../images/flags/4x3/fi.svg" width="50" height="50" alt="fi">
     <span style="position:absolute;left:0;bottom:-50px" class="w3-text w3-tag w3-hide-small w3-padding w3-round">Finland</span>
   </div>
--->
+
 
   <div class="w3-tooltip mobile-tooltip w3-opacity w3-hover-opacity-off" style="display:inline;cursor:pointer" onclick="w3.hide('div.flex-item');w3.show('div#France');">
     <img src="../../images/flags/4x3/fr.svg" width="50" height="50" alt="fr">
@@ -681,6 +681,27 @@ layout: players
       <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.zeroql.rank %></p>
     </div>
 
+    <div class="flex-item w3-mobile" id="Finland">
+      <h4 class="w3-center"><a href="/player/smilecythe">Smilecythe</a></h4>
+      <div class="w3-center">
+        <%= partial "partials/player/smilecythe/avatar" %>
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.smilecythe.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.smilecythe.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.smilecythe.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr>
+      <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.smilecythe.rank %></p>
+    </div>
+
     <div class="flex-item w3-mobile" id="GB">
       <h4 class="w3-center"><a href="/player/kojak">Kojak</a></h4>
       <div class="w3-center">
@@ -766,6 +787,28 @@ layout: players
       <hr>
       <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.tommy.rank %></p>
     </div>
+
+    <div class="flex-item w3-mobile" id="USA">
+      <h4 class="w3-center"><a href="/player/pcl">pcl</a></h4>
+      <div class="w3-center">
+        <%= partial "partials/player/pcl/avatar" %>
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.pcl.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.pcl.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.pcl.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr>
+      <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.pcl.rank %></p>
+    </div>
+
 
 
 
