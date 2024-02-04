@@ -49,7 +49,7 @@ It's suitable more for competitive players to test their skill and take a little
 
 <div class="w3-panel w3-round" style="background:#131316;width:100%;border-left:6px solid #2F2F37">
 <h3>Server</h3>
-<p>Votable | RJZ &nbsp;&&nbsp; ⚡⚡ Extreme Voltage ⚡⚡ -&nbsp;
+<p>Hell | RJZ &nbsp;&&nbsp; ⚡⚡ Extreme Voltage ⚡⚡ -&nbsp;
   <kbd>130.61.220.89</kbd>
 </p>
 </div>

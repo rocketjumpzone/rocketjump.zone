@@ -1,0 +1,159 @@
+---
+layout: player
+name: &name "Xord86_64"
+desc: "Xonotic is the first afps I started to play online"
+title: *name
+discord_id: "xord86_64"
+country_tag: ru
+country_name: Russia
+xon_name: "Xord86_64*'''"
+qc_name: "-"
+dbt_name: "-"
+mouse: "CoolerMaster MM711"
+dpi: "800"
+sens: "13cm/360"
+accel: "0"
+---
+
+<div class="w3-auto w3-container">
+  <div class="w3-row">
+    <div class="w3-col l2 m2">
+      <h1><%= current_page.data.name %></h1>
+      <%= partial "partials/player/xord/avatar" %>
+      <div class="player-social">
+        <div class="w3-tooltip mobile-tooltip w3-hide-small" style="display:inline;margin-left:2px">
+          <i class="fab fa-lg fa-discord"></i>
+          <span style="position:absolute;left:-50px;bottom:0;width:200px" class="w3-text w3-tag w3-padding w3-animate-opacity w3-round"><%= current_page.data.discord_id %></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col l6 m6" style="margin-top:60px">
+      <p><%= current_page.data.desc %></p>
+      <div class="w3-panel" style="background:#131316">
+        <p>
+          <b><%= current_page.data.mouse %></b>
+          &nbsp;&nbsp;
+          <b>DPI:</b>
+          <%= current_page.data.dpi %>&nbsp;&nbsp;
+          <b>SENS:</b>
+          <%= current_page.data.sens %>
+          &nbsp;&nbsp;
+          <b>ACCEL:</b>
+          <%= current_page.data.accel %></p>
+      </div>
+    </div>
+
+    <div class="w3-col l4 m4">
+      <table class="w3-table">
+        <tr>
+          <td style="border-top:0 !important">
+            <b>
+              full name:</b>
+          </td>
+          <td style="border-top:0 !important">
+            <b><%= data.players.xord.full_name %></b>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <b>
+              rank:</b>
+          </td>
+          <td>
+            <i class="fa-regular fa-star"></i> <b><%= data.players.xord.rank %></b>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <b>
+              country:</b>
+          </td>
+          <td><img src="../../images/flags/4x3/<%= current_page.data.country_tag %>.svg" width="25" height="25" alt="<%= current_page.data.country_tag %>">&nbsp;
+            <%= current_page.data.country_name %></td>
+        </tr>
+
+        <tr>
+          <td>
+            <b>
+              profiles:</b>
+          </td>
+          <td>
+            <a style="border:none" href="http://stats.xonotic.org/player/308532" target="_blank"><%= image_tag '/images/xon-icon.png', alt: 'xord profile xonotic', title: 'Xonotic' %></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <b>
+              clan:</b>
+          </td>
+          <td><%= data.players.xord.clan %></td>
+        </tr>
+
+        <tr>
+          <td>
+            <b>
+              trophies:
+            </b>
+          </td>
+          <td>
+            <i class="fas fa-trophy trophy-gold"></i>
+            <b>
+              <sup><%= data.players.xord.trophies.gold %></sup>
+            </b>
+            <i class="fas fa-trophy trophy-silver"></i>
+            <b>
+              <sup><%= data.players.xord.trophies.silver %></sup>
+            </b>
+            <i class="fas fa-trophy trophy-bronze"></i>
+            <b>
+              <sup><%= data.players.xord.trophies.bronze %></sup>
+            </b>
+          </td>
+        </tr>
+
+      </table>
+
+    </div>
+    <!-- end of w3-col l4-->
+  </div>
+  <!-- end of w3-row-->
+  <hr>
+
+  <div class="w3-row">
+    <a href="javascript:void(0)" onclick="openCity(event, 'London');">
+      <div class="w3-third tablink w3-bottombar w3-center w3-margin-bottom w3-border-red w3-padding">
+        <b>HIGHLIGHT</b>
+      </div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Paris');">
+      <div class="w3-third tablink w3-bottombar w3-center w3-margin-bottom w3-padding">
+        <b>COMPETITIONS</b>
+      </div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
+      <div class="w3-third tablink w3-bottombar w3-center w3-margin-bottom w3-padding">
+        <b>DETAILS</b>
+      </div>
+    </a>
+  </div>
+
+  <div id="London" class="city w3-animate-opacity" style="display:block">
+    -
+    <div class="sharethis-inline-reaction-buttons" style="margin-top:50px"></div>
+  </div>
+
+  <div id="Paris" class="city w3-animate-opacity" style="display:none">
+-
+  </div>
+
+  <div id="Tokyo" class="city w3-animate-opacity" style="display:none">
+
+-
+  </div>
+
+</div>
+<!-- end of w3-auto-->
