@@ -2,8 +2,8 @@
 ch4mp:
   name: Ch4mp
   full_name: "Peter"
-  rank: "4"
-  rank_display: "SM"
+  rank: "?"
+  rank_display: "S"
   rank_id: "HbWHkQB/f7G4PtqVlZgGXxS7VJKFk1Pw05G3RakRV8E="
   country: |
     <img src="../../images/flags/4x3/sk.svg" width="25" height="25" alt="sk" /> Slovakia
@@ -18,8 +18,8 @@ ch4mp:
 dodger:
   name: Dodger
   full_name: "Jaad Alaka"
-  rank: "1"
-  rank_display: "GM"
+  rank: "?"
+  rank_display: "S"
   rank_id: "15gbCjUAGDHIAZbafQzR+xRufsCCGMAFzuohdOjhgWI="
   country: |
     <img src="../../images/flags/4x3/nl.svg" width="25" height="25" alt="nl" /> Netherlands
@@ -37,8 +37,8 @@ dodger:
 jskey:
   name: JSkey
   full_name: "Unknown"
-  rank: "8"
-  rank_display: "CM"
+  rank: "-"
+  rank_display: "N/A"
   rank_id: "Yu+WZzQzL6RgsZUct9r7sQa0ERDS4nSd9IIupUoTQiM="
   country: |
     <img src="../../images/flags/4x3/fr.svg" width="25" height="25" alt="fr" /> France
@@ -64,8 +64,8 @@ defense:
 
 wolfsnipe:
   full_name: "Unknown"
-  rank: "-"
-  rank_display: "N/A"
+  rank: "10"
+  rank_display: "A"
   rank_id: "F6rSaZ+L3IxeWZ8aluFY6CzDP3wpECav7qSjZtN9wyE="
   clan: "[BS]"
   trophies:
@@ -86,8 +86,8 @@ zeroql:
 
 klaspes:
   full_name: "Unknown"
-  rank: "6"
-  rank_display: "CM"
+  rank: "-"
+  rank_display: "N/A"
   rank_id: "hngmn2QhouwooXQt2tksFh0QwCLn5PfP+VYXxT7FlrY="
   clan: "[Bot]"
   trophies:
@@ -98,8 +98,8 @@ klaspes:
 
 rainbowshadow:
   full_name: "Branislav Stojadinovic"
-  rank: "3"
-  rank_display: "SM"
+  rank: "?"
+  rank_display: "S"
   rank_id: "KhssegEtJUWoMUG7zRua/54lRKFwSv/lEI832oUOuF4="
   clan: "Lover"
   trophies:
@@ -120,8 +120,8 @@ kojak:
 
 cupatru:
   full_name: "Unknown"
-  rank: "5"
-  rank_display: "CM"
+  rank: "-"
+  rank_display: "N/A"
   rank_id: "zAucl03HYYpyZ+ub99das1fma8AFmUOjmea6GES/thk="
   clan: "-"
   trophies:
@@ -153,8 +153,8 @@ z411:
 
 jooton:
   full_name: "James"
-  rank: "-"
-  rank_display: "-"
+  rank: "9"
+  rank_display: "A"
   rank_id: "Z+dzsjhTt7AVpalNmbqI09cpwHk2+H7HkXs8CBm6e3w="
   clan: "⚡⚡ Extreme Voltage ⚡⚡"
   trophies:
@@ -175,8 +175,8 @@ special1:
 
 arch:
   full_name: "John"
-  rank: "7"
-  rank_display: "CM"
+  rank: "-"
+  rank_display: "N/A"
   rank_id: "J3IEYnBi3fgHIDXJg1Jv/w2QKiEnw/5XCmEuq77+50o="
   clan: "-"
   trophies:
@@ -186,8 +186,8 @@ arch:
 
 kyle:
   full_name: "Unknown"
-  rank: "2"
-  rank_display: "GM"
+  rank: "?"
+  rank_display: "S"
   rank_id: "UvfFG3+gezRwg/8lEs/6tXg6J6JsSe7VUD0QVov1z9M="
   clan: "[rel☠x]"
   trophies:
@@ -197,8 +197,8 @@ kyle:
 
 tommy:
   full_name: "Unknown"
-  rank: "-"
-  rank_display: "N/A"
+  rank: "7"
+  rank_display: "A"
   rank_id: ""
   clan: "-"
   trophies:
@@ -208,8 +208,8 @@ tommy:
 
 smilecythe:
   full_name: "Unknown"
-  rank: "-"
-  rank_display: "N/A"
+  rank: "6"
+  rank_display: "A"
   rank_id: ""
   clan: "Lover"
   trophies:
@@ -220,8 +220,8 @@ smilecythe:
 
 pcl:
   full_name: "Unknown"
-  rank: "-"
-  rank_display: "N/A"
+  rank: "5"
+  rank_display: "A"
   rank_id: ""
   clan: "Men in Tux"
   trophies:
@@ -231,8 +231,8 @@ pcl:
 
 xord:
   full_name: "Dmitry"
-  rank: "-"
-  rank_display: "N/A"
+  rank: "8"
+  rank_display: "A"
   rank_id: ""
   clan: "[rel☠x]"
   trophies:
