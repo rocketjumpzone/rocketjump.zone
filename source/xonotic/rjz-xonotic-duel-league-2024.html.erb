@@ -100,18 +100,18 @@ layout: tourney
           <h2>Final Results</h2>
 
           <div class="w3-mobile trophy-silver">
-            <%= image_tag '/images/silver.png', alt: 'trophy silver', title: 'TBD' %><br>
-            <abbr title="TBD">TBD</abbr>
+            <%= image_tag '/images/silver.png', alt: 'trophy silver' %><br>
+            <abbr title="Kyle">Kyle</abbr>
           </div>
 
           <div class="w3-mobile trophy-gold trophy-gold-mobile" style="position:relative;bottom:10px">
-            <%= image_tag '/images/gold.png', alt: 'trophy gold', title: 'TBD' %><br>
-            <abbr title="TBD">TBD</abbr>
+            <%= image_tag '/images/gold.png', alt: 'trophy gold' %><br>
+            <abbr title="Dodger">Dodger</abbr>
           </div>
 
           <div class="w3-mobile trophy-bronze">
-            <%= image_tag '/images/bronze.png', alt: 'trophy bronze', title: 'TBD' %><br>
-            <abbr title="TBD">TBD</abbr>
+            <%= image_tag '/images/bronze.png', alt: 'trophy bronze' %><br>
+            <abbr title="Rainbow Shadow">Rainbow Shadow</abbr>
           </div>
         </div>
       </div>
@@ -128,13 +128,13 @@ layout: tourney
         <div class="w3-half">
           <p class="w3-mobile-10" style="margin:3px 0 3px 0">
             <b>1st place:</b>
-            &euro;?
+            &euro;62,5
           </p>
         </div>
         <div class="w3-half">
           <p class="w3-mobile-10" style="margin:3px 0 3px 0">
             <b>2nd place:</b>
-            &euro;?
+            &euro;43,75
           </p>
         </div>
       </div>
@@ -143,13 +143,13 @@ layout: tourney
         <div class="w3-half">
           <p class="w3-mobile-10" style="margin:3px 0 3px 0">
             <b>3rd place:</b>
-            &euro;?
+            &euro;18,75
           </p>
         </div>
         <div class="w3-half">
           <p class="w3-mobile-10" style="margin:3px 0 3px 0">
             <b>4th place:</b>
-            &euro;?
+            -
           </p>
         </div>
       </div>
@@ -158,13 +158,13 @@ layout: tourney
         <div class="w3-half">
           <p class="w3-mobile-10" style="margin:3px 0 3px 0">
             <b>5th place:</b>
-            &euro;?
+            -
           </p>
         </div>
         <div class="w3-half">
           <p class="w3-mobile-10" style="margin:3px 0 3px 0">
             <b>6th place:</b>
-            &euro;?
+            -
           </p>
         </div>
       </div>
@@ -173,13 +173,13 @@ layout: tourney
         <div class="w3-half">
           <p class="w3-mobile-10" style="margin:3px 0 3px 0">
             <b>7th place:</b>
-            &euro;?
+            -
           </p>
         </div>
         <div class="w3-half">
           <p class="w3-mobile-10" style="margin:3px 0 3px 0">
             <b>8th place:</b>
-            &euro;?
+            -
           </p>
         </div>
       </div>
@@ -188,13 +188,13 @@ layout: tourney
         <div class="w3-half">
           <p class="w3-mobile-10" style="margin:3px 0 3px 0">
             <b>9th place:</b>
-            &euro;?
+            -
           </p>
         </div>
         <div class="w3-half">
           <p class="w3-mobile-10" style="margin:3px 0 3px 0">
             <b>10th place:</b>
-            &euro;?
+            -
           </p>
         </div>
       </div>
@@ -324,13 +324,32 @@ layout: tourney
         </b>
       </div>
       <hr>
-      <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.dodger.rank %></p>
+      <p style="margin:0;font-weight:bold"><i class="fa-solid fa-medal"></i> <%= data.players.dodger.rank_display %> <sup><%= data.players.dodger.rank %></sup></p>
+    </div>
+
+    <div class="flex-item w3-mobile" id="Bulgaria">
+      <h4 class="w3-center"><a href="/player/kyle">Kyle</a></h4>
+      <div class="w3-center">
+        <%= partial "partials/player/kyle/avatar" %>
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.kyle.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.kyle.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.kyle.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr>
+      <p style="margin:0;font-weight:bold"><i class="fa-solid fa-medal"></i> <%= data.players.kyle.rank_display %> <sup><%= data.players.kyle.rank %></sup></p>
     </div>
 
     <div class="flex-item w3-mobile" id="Serbia">
-      <h4 class="w3-center">
-        <a href="/player/rainbow-shadow">Rainbow Shadow</a>
-      </h4>
+      <h4 class="w3-center"><a href="/player/rainbow-shadow">Rainbow Shadow</a></h4>
       <div class="w3-center">
         <%= partial "partials/player/rainbowshadow/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
@@ -347,7 +366,7 @@ layout: tourney
         </b>
       </div>
       <hr>
-      <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.rainbowshadow.rank %></p>
+      <p style="margin:0;font-weight:bold"><i class="fa-solid fa-medal"></i> <%= data.players.rainbowshadow.rank_display %> <sup><%= data.players.rainbowshadow.rank %></sup></p>
     </div>
 
     <div class="flex-item w3-mobile" id="Slovakia">
@@ -369,53 +388,7 @@ layout: tourney
         </b>
       </div>
       <hr>
-      <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.ch4mp.rank %></p>
-    </div>
-
-    <div class="flex-item w3-mobile" id="Germany">
-      <h4 class="w3-center">
-        <a href="/player/klaspes">Klaspes</a>
-      </h4>
-      <div class="w3-center">
-        <%= partial "partials/player/klaspes/avatar" %>
-        <i class="fas fa-trophy trophy-gold"></i>
-        <b>
-          <sup><%= data.players.klaspes.trophies.gold %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-silver"></i>
-        <b>
-          <sup><%= data.players.klaspes.trophies.silver %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-bronze"></i>
-        <b>
-          <sup><%= data.players.klaspes.trophies.bronze %></sup>
-        </b>
-      </div>
-      <hr>
-      <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.klaspes.rank %></p>
-    </div>
-
-    <div class="flex-item w3-mobile" id="Russia">
-      <h4 class="w3-center">
-        <a href="/player/tommy">Tommy</a>
-      </h4>
-      <div class="w3-center">
-        <%= partial "partials/player/tommy/avatar" %>
-        <i class="fas fa-trophy trophy-gold"></i>
-        <b>
-          <sup><%= data.players.tommy.trophies.gold %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-silver"></i>
-        <b>
-          <sup><%= data.players.tommy.trophies.silver %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-bronze"></i>
-        <b>
-          <sup><%= data.players.tommy.trophies.bronze %></sup>
-        </b>
-      </div>
-      <hr>
-      <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.tommy.rank %></p>
+      <p style="margin:0;font-weight:bold"><i class="fa-solid fa-medal"></i> <%= data.players.ch4mp.rank_display %> <sup><%= data.players.ch4mp.rank %></sup></p>
     </div>
 
     <div class="flex-item w3-mobile" id="Finland">
@@ -436,66 +409,20 @@ layout: tourney
         </b>
       </div>
       <hr>
-      <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.smilecythe.rank %></p>
+      <p style="margin:0;font-weight:bold"><i class="fa-solid fa-medal"></i> <%= data.players.smilecythe.rank_display %> <sup><%= data.players.smilecythe.rank %></sup></p>
     </div>
 
-    <div class="flex-item w3-mobile" id="Kyle">
-      <h4 class="w3-center">
-        <a href="/player/kyle">Kyle</a>
-      </h4>
-      <div class="w3-center">
-        <%= partial "partials/player/kyle/avatar" %>
-        <i class="fas fa-trophy trophy-gold"></i>
-        <b>
-          <sup><%= data.players.kyle.trophies.gold %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-silver"></i>
-        <b>
-          <sup><%= data.players.kyle.trophies.silver %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-bronze"></i>
-        <b>
-          <sup><%= data.players.kyle.trophies.bronze %></sup>
-        </b>
-      </div>
-      <hr>
-      <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.kyle.rank %></p>
-    </div>
 
-    <div class="flex-item w3-mobile" id="pcl">
-      <h4 class="w3-center">
-        <a href="/player/pcl">pcl</a>
-      </h4>
-      <div class="w3-center">
-        <%= partial "partials/player/pcl/avatar" %>
-        <i class="fas fa-trophy trophy-gold"></i>
-        <b>
-          <sup><%= data.players.pcl.trophies.gold %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-silver"></i>
-        <b>
-          <sup><%= data.players.pcl.trophies.silver %></sup>
-        </b>
-        <i class="fas fa-trophy trophy-bronze"></i>
-        <b>
-          <sup><%= data.players.pcl.trophies.bronze %></sup>
-        </b>
-      </div>
-      <hr>
-      <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.pcl.rank %></p>
-    </div>
 
-    <div class="flex-item w3-mobile" id="wolfsnipe">
-      <h4 class="w3-center">
-        <a href="/player/wolfsnipe">Wolf-Snipe</a>
-      </h4>
+    <div class="flex-item w3-mobile" id="Poland">
+      <h4 class="w3-center"><a href="/player/wolf-snipe">Wolf-Snipe</a></h4>
       <div class="w3-center">
         <%= partial "partials/player/wolfsnipe/avatar" %>
         <i class="fas fa-trophy trophy-gold"></i>
         <b>
           <sup><%= data.players.wolfsnipe.trophies.gold %></sup>
         </b>
-        <i class="fas fa-trophy trophysilver"></i>
+        <i class="fas fa-trophy trophy-silver"></i>
         <b>
           <sup><%= data.players.wolfsnipe.trophies.silver %></sup>
         </b>
@@ -505,7 +432,29 @@ layout: tourney
         </b>
       </div>
       <hr>
-      <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.wolfsnipe.rank %></p>
+      <p style="margin:0;font-weight:bold"><i class="fa-solid fa-medal"></i> <%= data.players.wolfsnipe.rank_display %> <sup><%= data.players.wolfsnipe.rank %></sup></p>
+    </div>
+
+
+    <div class="flex-item w3-mobile" id="Russia">
+      <h4 class="w3-center"><a href="/player/tommy">Tommy</a></h4>
+      <div class="w3-center">
+        <%= partial "partials/player/tommy/avatar" %>
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.tommy.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.tommy.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.tommy.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr>
+      <p style="margin:0;font-weight:bold"><i class="fa-solid fa-medal"></i> <%= data.players.tommy.rank_display %> <sup><%= data.players.tommy.rank %></sup></p>
     </div>
 
     <div class="flex-item w3-mobile" id="Russia">
@@ -526,7 +475,28 @@ layout: tourney
         </b>
       </div>
       <hr>
-      <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.xord.rank %></p>
+      <p style="margin:0;font-weight:bold"><i class="fa-solid fa-medal"></i> <%= data.players.xord.rank_display %> <sup><%= data.players.xord.rank %></sup></p>
+    </div>
+
+    <div class="flex-item w3-mobile" id="USA">
+      <h4 class="w3-center"><a href="/player/pcl">pcl</a></h4>
+      <div class="w3-center">
+        <%= partial "partials/player/pcl/avatar" %>
+        <i class="fas fa-trophy trophy-gold"></i>
+        <b>
+          <sup><%= data.players.pcl.trophies.gold %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-silver"></i>
+        <b>
+          <sup><%= data.players.pcl.trophies.silver %></sup>
+        </b>
+        <i class="fas fa-trophy trophy-bronze"></i>
+        <b>
+          <sup><%= data.players.pcl.trophies.bronze %></sup>
+        </b>
+      </div>
+      <hr>
+      <p style="margin:0;font-weight:bold"><i class="fa-solid fa-medal"></i> <%= data.players.pcl.rank_display %> <sup><%= data.players.pcl.rank %></sup></p>
     </div>
 
     <div class="flex-item w3-mobile" id="GB">
@@ -547,7 +517,7 @@ layout: tourney
         </b>
       </div>
       <hr>
-      <p style="margin:0;font-weight:bold"><i class="fa-regular fa-star"></i> <%= data.players.jooton.rank %></p>
+      <p style="margin:0;font-weight:bold"><i class="fa-solid fa-medal"></i> <%= data.players.jooton.rank_display %> <sup><%= data.players.jooton.rank %></sup></p>
     </div>
 
 
@@ -578,13 +548,13 @@ layout: tourney
             <div class="w3-twothird">
               <h4>Dodger</h4>
               <hr style="margin-top:0">
-              <h4>?</h4>
+              <h4>Kyle</h4>
             </div>
 
             <div class="w3-third" style="background:#2f2f37;border-radius:0 4px 4px 0">
-              <h4>-</h4>
+              <h4>4</h4>
               <hr style="margin-top:0">
-              <h4>-</h4>
+              <h4>1</h4>
             </div>
           </div>
         </div>
@@ -599,15 +569,15 @@ layout: tourney
         <h5 class="w3-center">Round 2 - 3rd vs 2nd</h5>
         <div class="w3-row">
           <div class="w3-twothird">
-            <h4>?</h4>
+            <h4>Rainbow Shadow</h4>
             <hr style="margin-top:0">
             <h4>Kyle</h4>
           </div>
 
           <div class="w3-third" style="background:#2f2f37;border-radius:0 4px 4px 0">
-            <h4>-</h4>
+            <h4>1</h4>
             <hr style="margin-top:0">
-            <h4>-</h4>
+            <h4>3</h4>
           </div>
         </div>
       </div>
@@ -622,9 +592,9 @@ layout: tourney
           </div>
 
           <div class="w3-third" style="background:#2f2f37;border-radius:0 4px 4px 0">
-            <h4>-</h4>
+            <h4>3</h4>
             <hr style="margin-top:0">
-            <h4>-</h4>
+            <h4>0</h4>
           </div>
         </div>
       </div>
@@ -655,7 +625,7 @@ layout: tourney
     <div class="w3-half">
       <h2 class="w3-center">TOP</h2>
       <p>
-        TBA
+        <iframe src="https://www.youtube.com/embed/pe5y-Kj6Ab4?si=Q1D7efQe6WBaV2NV" style="width:100%;height:640px" allowfullscreen="allowfullscreen"></iframe>
       </p>
     </div>
 
@@ -665,9 +635,9 @@ layout: tourney
         <a href="https://www.youtube.com/watch?v=S8NpuiCQqZA" target="_blank">Qualification - RJZ Xonotic Duel League 2024</a>
       </p>
       <hr>
-      <p>
+      <h3>
         <a href="https://www.youtube.com/watch?v=71RcqLImlCA&list=PL7S3xzYPMhgR5OFzjbhc8Rv1D0xl5-yDs" target="_blank">Playlist</a>
-      </p>
+      </h3>
     </div>
   </div>
 </div>

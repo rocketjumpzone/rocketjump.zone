@@ -2,7 +2,7 @@
 ch4mp:
   name: Ch4mp
   full_name: "Peter"
-  rank: "?"
+  rank: "4"
   rank_display: "S"
   rank_id: "HbWHkQB/f7G4PtqVlZgGXxS7VJKFk1Pw05G3RakRV8E="
   country: |
@@ -18,14 +18,14 @@ ch4mp:
 dodger:
   name: Dodger
   full_name: "Jaad Alaka"
-  rank: "?"
+  rank: "1"
   rank_display: "S"
   rank_id: "15gbCjUAGDHIAZbafQzR+xRufsCCGMAFzuohdOjhgWI="
   country: |
     <img src="../../images/flags/4x3/nl.svg" width="25" height="25" alt="nl" /> Netherlands
   clan: "-"
   trophies:
-    gold: 18
+    gold: 19
     silver: 0
     bronze: 0
   avatar: |
@@ -37,7 +37,7 @@ dodger:
 jskey:
   name: JSkey
   full_name: "Unknown"
-  rank: "-"
+  rank: "N/A"
   rank_display: "N/A"
   rank_id: "Yu+WZzQzL6RgsZUct9r7sQa0ERDS4nSd9IIupUoTQiM="
   country: |
@@ -64,7 +64,7 @@ defense:
 
 wolfsnipe:
   full_name: "Unknown"
-  rank: "10"
+  rank: "6"
   rank_display: "A"
   rank_id: "F6rSaZ+L3IxeWZ8aluFY6CzDP3wpECav7qSjZtN9wyE="
   clan: "[BS]"
@@ -75,7 +75,7 @@ wolfsnipe:
 
 zeroql:
   full_name: "Djordje Simonovic"
-  rank: "-"
+  rank: "N/A"
   rank_display: "N/A"
   rank_id: "huvhc5WUkJ//W8mwk1WRbBYSMXLC4mZ3MOU3eJ/DMkE="
   clan: "Metsu"
@@ -86,7 +86,7 @@ zeroql:
 
 klaspes:
   full_name: "Unknown"
-  rank: "-"
+  rank: "N/A"
   rank_display: "N/A"
   rank_id: "hngmn2QhouwooXQt2tksFh0QwCLn5PfP+VYXxT7FlrY="
   clan: "[Bot]"
@@ -98,18 +98,18 @@ klaspes:
 
 rainbowshadow:
   full_name: "Branislav Stojadinovic"
-  rank: "?"
+  rank: "3"
   rank_display: "S"
   rank_id: "KhssegEtJUWoMUG7zRua/54lRKFwSv/lEI832oUOuF4="
   clan: "Lover"
   trophies:
     gold: 0
     silver: 5
-    bronze: 5
+    bronze: 6
 
 kojak:
   full_name: "Craig Clayton"
-  rank: "-"
+  rank: "N/A"
   rank_display: "N/A"
   rank_id: "Xnh0Ebr5/3u8fUiDcqA7vpdPWUn1eaoa9WdJbfrUCag="
   clan: "Metsu"
@@ -120,7 +120,7 @@ kojak:
 
 cupatru:
   full_name: "Unknown"
-  rank: "-"
+  rank: "N/A"
   rank_display: "N/A"
   rank_id: "zAucl03HYYpyZ+ub99das1fma8AFmUOjmea6GES/thk="
   clan: "-"
@@ -131,7 +131,7 @@ cupatru:
 
 draena:
   full_name: "Unknown"
-  rank: "-"
+  rank: "N/A"
   rank_display: "N/A"
   rank_id: "q3b6CAn62IPU2pJ0uoGcl0VfCM/rBaKQutGf+QXAEq8="
   clan: "[XGame]"
@@ -142,7 +142,7 @@ draena:
 
 z411:
   full_name: "Unknown"
-  rank: "-"
+  rank: "N/A"
   rank_display: "DEV"
   rank_id: "jIfaHoYhaNlZFJMPy3GISsL/6cug6PYfhQZvO4D3kDQ="
   clan: "-"
@@ -153,7 +153,7 @@ z411:
 
 jooton:
   full_name: "James"
-  rank: "9"
+  rank: "5"
   rank_display: "A"
   rank_id: "Z+dzsjhTt7AVpalNmbqI09cpwHk2+H7HkXs8CBm6e3w="
   clan: "⚡⚡ Extreme Voltage ⚡⚡"
@@ -164,7 +164,7 @@ jooton:
 
 special1:
   full_name: "Unknown"
-  rank: "-"
+  rank: "N/A"
   rank_display: "N/A"
   rank_id: "YZbIVr5m1ZH5Z2/3b7jZ4SXh0o9U3DYsPnIwcCfWKcQ="
   clan: "-"
@@ -175,7 +175,7 @@ special1:
 
 arch:
   full_name: "John"
-  rank: "-"
+  rank: "N/A"
   rank_display: "N/A"
   rank_id: "J3IEYnBi3fgHIDXJg1Jv/w2QKiEnw/5XCmEuq77+50o="
   clan: "-"
@@ -186,18 +186,18 @@ arch:
 
 kyle:
   full_name: "Unknown"
-  rank: "?"
+  rank: "2"
   rank_display: "S"
   rank_id: "UvfFG3+gezRwg/8lEs/6tXg6J6JsSe7VUD0QVov1z9M="
   clan: "[rel☠x]"
   trophies:
     gold: 0
-    silver: 1
+    silver: 2
     bronze: 0
 
 tommy:
   full_name: "Unknown"
-  rank: "7"
+  rank: "3"
   rank_display: "A"
   rank_id: ""
   clan: "-"
@@ -208,7 +208,7 @@ tommy:
 
 smilecythe:
   full_name: "Unknown"
-  rank: "6"
+  rank: "2"
   rank_display: "A"
   rank_id: ""
   clan: "Lover"
@@ -220,7 +220,7 @@ smilecythe:
 
 pcl:
   full_name: "Unknown"
-  rank: "5"
+  rank: "1"
   rank_display: "A"
   rank_id: ""
   clan: "Men in Tux"
@@ -231,7 +231,7 @@ pcl:
 
 xord:
   full_name: "Dmitry"
-  rank: "8"
+  rank: "4"
   rank_display: "A"
   rank_id: ""
   clan: "[rel☠x]"
