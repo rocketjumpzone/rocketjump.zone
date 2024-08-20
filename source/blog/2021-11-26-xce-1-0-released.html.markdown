@@ -1,12 +1,12 @@
 ---
-title: &title "XCE 1.0 Released"
+title: "XCE 1.0 Released"
 date: 2021-11-26 UTC
 date_update: Nov 26 2021
 tags: Xonotic
 layout: blog
 author: Ch4mp
 disqus_identifier: /xce-1-0-released
-disqus_title: *title
+disqus_title: "XCE 1.0 Released"
 disqus_url: https://rocketjump.zone/blog/xce-1-0-released
 ---
 

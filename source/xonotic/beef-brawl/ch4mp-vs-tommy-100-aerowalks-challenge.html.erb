@@ -1,0 +1,94 @@
+---
+title: &title "Beef Brawl - Ch4mp vs Tommy - 100 Aerowalks Challenge"
+layout: ranked
+---
+
+<div class="w3-row ranked-container" style="background-image: url('/images/backgrounds/aerowalk.jpg')">
+
+  <div class="w3-col w3-center" style="margin-bottom:50px">
+
+    <h1 class="w3-center blazing w3-jumbo">Beef Brawl<br>Ch4mp vs Tommy - 100 Aerowalks Challenge</h1>
+
+  </div>
+
+  <div class="w3-row-padding">
+
+    <div class="w3-third">
+      <%= image_tag 'avatar/tommy.png', class:'w3-mobile w3-circle ranked-avatar', style:'margin-right:20px', alt: 'Tommy' %>
+
+      <h2 class="w3-jumbo" style="margin-right:40px">
+        <a href="/player/tommy">Tommy</a>
+      </h2>
+      <p class="w3-xlarge" style="margin-right:40px">Big Nex</p>
+
+      <p class="w3-xlarge" style="margin-right:40px">
+        <span>challenger</span><br>
+        duel rank 2024: A <sup>3</sup></p>
+
+    </div>
+
+
+
+    <div class="w3-third">
+      <p class="w3-center mobile-margin-5" style="font-size:256px;margin-top:200px;padding:0">vs</p>
+    </div>
+
+    <div class="w3-third" style="direction: rtl">
+      <%= image_tag 'avatar/ch4mp2.jpg', class:'w3-mobile w3-circle ranked-avatar', style:'margin-left:20px', alt: 'Ch4mp' %>
+      <h2 class="w3-jumbo" style="margin-left:40px">
+        <a href="/player/ch4mp">Ch4mp</a>
+      </h2>
+      <p class="w3-xlarge" style="margin-left:40px">The rocket god</p>
+
+      <p class="w3-xlarge" style="margin-left:40px">
+        <span>defender</span><br>
+        duel rank 2024: S <sup>4</sup></p>
+
+    </div>
+
+
+  </div>
+
+</div>
+
+<div class="w3-row-padding" style="margin-bottom:150px">
+  <div class="w3-third">
+    <h2>About This Event</h2>
+    <p>Tommy out of the blue challenged Ch4mp for a 100 aerowalks... probably motivated since his recent wins.<br> Ch4mp however feels no threat since he beat Tommy
+      in duel league 2024 and and Tommy is going to be for him just a good breakfast.
+      </p>
+
+      <p><b>Format:</b> Whoever wins 51 matches wins this battle. We play whenever we feel like it, usually every evening 5-10 aerowalks straight.</p>
+
+    <a href="https://youtu.be/kMFzwNQ9I0U" target="_blank" class="w3-btn w3-round w3-center w3-padding-large w3-hover-white w3-large mobile-margin-10 w3-red w3-mobile">
+      <b>
+        <i class="fab fa-youtube"></i>
+        Trash Talk
+      </b>
+    </a>
+  </div>
+
+  <div class="w3-third">
+    <div class="sharethis-inline-reaction-buttons" style="margin-top:50px"></div>
+  </div>
+
+  <div class="w3-third">
+    <h2 class="w3-center">Share it</h2>
+    <div class="sharethis-inline-share-buttons"></div>
+    <h2 class="w3-center">Song</h2>
+    <audio controls="controls" autoplay="autoplay" style="display:block;width:70%;margin:0 auto">
+      <source src="https://rocketjump.zone/files/audio/3.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+</div>
+
+<hr>
+
+<% if build? %>
+  <div class="w3-content w3-container">
+    <%= disqus %>
+    <%= disqus_count %>
+  </div>
+<% end %>
