@@ -1,0 +1,122 @@
+---
+title: &title "Beef Brawl - Ch4mp vs Jooton - 10 Aerowalks Challenge"
+layout: ranked
+---
+
+<div class="w3-row ranked-container" style="background-image: url('/images/xonotic/backgrounds/aerowalk.jpg')">
+
+  <div class="w3-col w3-center">
+
+    <h1 class="w3-center blazing w3-jumbo">Beef Brawl<br>Ch4mp vs Jooton - 10 Aerowalks Challenge</h1>
+
+    <div class="flex-container" style="justify-content:space-around">
+
+      <div class="flex-item-tourney w3-animate-zoom w3-round w3-mobile" style="padding:0">
+        <h5 class="w3-center">FINAL SCORE</h5>
+        <div class="w3-row" style="border-top:1px solid #242429;">
+          <div class="w3-twothird">
+            <h4>Ch4mp</h4>
+            <hr style="margin-top:0">
+            <h4>Jooton</h4>
+          </div>
+
+          <div class="w3-third" style="background:#2f2f37;border-radius:0 0 4px 0">
+            <h4>10</h4>
+            <hr style="margin-top:0">
+            <h4>0</h4>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <div class="w3-row-padding">
+
+    <div class="w3-third">
+      <%= image_tag 'avatar/gb.png', class:'w3-mobile w3-circle ranked-avatar', style:'margin-right:20px', alt: 'Jooton' %>
+
+      <h2 class="w3-jumbo" style="margin-right:40px">
+        <a href="/player/jooton">Jooton</a>
+      </h2>
+      <p class="w3-xlarge" style="margin-right:40px">The Extremist</p>
+
+      <p class="w3-xlarge" style="margin-right:40px">
+        <span>challenger</span><br>
+        duel rank 2024: A <sup>5</sup></p>
+
+    </div>
+
+
+
+    <div class="w3-third">
+      <p class="w3-center mobile-margin-5" style="font-size:256px;margin-top:150px;padding:0">vs</p>
+    </div>
+
+    <div class="w3-third" style="direction: rtl">
+      <%= image_tag 'avatar/ch4mp2.jpg', class:'w3-mobile w3-circle ranked-avatar', style:'margin-left:20px', alt: 'Ch4mp' %>
+      <h2 class="w3-jumbo" style="margin-left:40px">
+        <a href="/player/ch4mp">Ch4mp</a>
+      </h2>
+      <p class="w3-xlarge" style="margin-left:40px">The Rocket God</p>
+
+      <p class="w3-xlarge" style="margin-left:40px">
+        <span>defender</span><br>
+        duel rank 2024: S <sup>4</sup></p>
+
+    </div>
+
+
+
+
+  </div>
+
+</div>
+
+<div class="w3-row-padding" style="margin-bottom:150px">
+  <div class="w3-third">
+    <h2>About This Event</h2>
+    <p>once upon a time... well, in short:<br>
+
+        <%= image_tag 'trash/2.png', class:'w3-mobile'%>
+        </p>
+
+    <p>
+    It's said that Jooton is being used as a "skill measurement unit" to compare players.<br> He plays with an extreme setup - 8 in game sensitivity (recently redused from 18)
+    and a 60hz screen. He wants to earn his respect by beating an S-Rank player after years of practice and hard drill.
+      </p>
+
+      <p><b>Format:</b> If Jooton wins 1 game he wins this challenge.</p>
+
+      <p><b>The Bet:</b><br> If Jooton loses he must play <strong>10 boils vs Allotropy</strong><br>
+        If Ch4mp loses ?</p>
+        <p><b>We play 30th of October at 21 CET</b> 10 Aerowalks straight.</p>
+
+  </div>
+
+  <div class="w3-third">
+    <div class="sharethis-inline-reaction-buttons" style="margin-top:50px"></div>
+  </div>
+
+  <div class="w3-third">
+    <h2 class="w3-center">Share it</h2>
+    <div class="sharethis-inline-share-buttons"></div>
+    <h2 class="w3-center">Song</h2>
+    <audio controls="controls" autoplay="autoplay" style="display:block;width:70%;margin:0 auto">
+      <source src="https://rocketjump.zone/files/audio/1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+</div>
+
+<hr>
+
+<% if build? %>
+  <div class="w3-content w3-container">
+    <%= disqus %>
+    <%= disqus_count %>
+  </div>
+<% end %>
